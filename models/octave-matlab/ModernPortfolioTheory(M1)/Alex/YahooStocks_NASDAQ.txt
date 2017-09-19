@@ -1,0 +1,2608 @@
+AAAP	Advanced Accelerator Applications S.A.	28.00 Jan 8	Down 1.65 (5.56%)	122,121
+AAL	American Airlines Group Inc.	40.37 Jan 8	Down 0.08 (0.20%)	8,853,096
+AAME	Atlantic American Corp.	4.46 Jan 8	Down 0.12 (2.62%)	6,356
+AAOI	Applied Optoelectronics, Inc.	14.79 Jan 8	Down 0.50 (3.27%)	222,783
+AAON	AAON Inc.	20.52 Jan 8	Down 0.69 (3.25%)	191,386
+AAPC	Atlantic Alliance Partnership Corp.	10.24 Jan 8	Up 0.10 (0.98%)	6,300
+AAPL	Apple Inc.	96.96 Jan 8	Up 0.51 (0.53%)	70,798,016
+AAVL	Avalanche Biotechnologies, Inc.	7.28 Jan 8	Down 0.23 (3.06%)	385,484
+AAWW	Atlas Air Worldwide Holdings, Inc.	35.21 Jan 8	Down 0.71 (1.98%)	297,300
+ABAC	Aoxin Tianli Group, Inc.	0.90 Jan 8	Up 0.03 (3.23%)	1,605
+ABAX	Abaxis, Inc.	51.54 Jan 8	Down 1.54 (2.90%)	165,001
+ABCB	Ameris Bancorp	31.23 Jan 8	Down 0.31 (0.98%)	397,131
+ABCD	Cambium Learning Group, Inc.	4.69 Jan 8	Down 0.09 (1.88%)	30,727
+ABCO	The Advisory Board Company	45.38 Jan 8	Down 1.00 (2.16%)	152,338
+ABCW	Anchor BanCorp Wisconsin Inc.	42.83 Jan 8	Down 0.31 (0.72%)	70,152
+ABEO	Abeona Therapeutics Inc.	2.92 Jan 8	Down 0.01 (0.34%)	114,552
+ABGB	Abengoa SA	1.22 Jan 8	Up 0.12 (10.91%)	47,610
+ABIL	Ability Inc.	9.63 Jan 8	Up 0.03 (0.31%)	136,322
+ABIO	ARCA biopharma, Inc.	4.45 Jan 8	Up 0.03 (0.68%)	44,169
+ABMD	ABIOMED, Inc.	84.58 Jan 8	Up 2.66 (3.25%)	643,855
+ABTL	Autobytel Inc.	18.68 Jan 8	Down 0.13 (0.69%)	136,998
+ABTX	Allegiance Bancshares, Inc.	22.26 Jan 8	Down 0.14 (0.62%)	22,197
+ABUS	Arbutus Biopharma Corporation	4.02 Jan 8	Down 0.08 (1.95%)	346,215
+ABY	Abengoa Yield plc	17.65 Jan 8	Up 0.15 (0.86%)	477,412
+ACAD	ACADIA Pharmaceuticals Inc.	28.04 Jan 8	Down 0.69 (2.40%)	1,738,466
+ACAT	Arctic Cat Inc.	14.34 Jan 8	Down 0.63 (4.21%)	228,042
+ACBI	Atlantic Capital Bancshares, Inc.	14.16 Jan 8	Down 0.25 (1.73%)	42,839
+ACET	Aceto Corp.	22.11 Jan 8	Down 0.64 (2.81%)	272,204
+ACFC	Atlantic Coast Financial Corporation	6.03 Jan 8	Down 0.01 (0.17%)	15,146
+ACGL	Arch Capital Group Ltd.	68.42 Jan 8	Down 0.72 (1.04%)	441,231
+ACHC	Acadia Healthcare Company, Inc.	62.45 Jan 8	Up 0.93 (1.51%)	1,432,614
+ACHN	Achillion Pharmaceuticals, Inc.	8.89 Jan 8	Down 0.11 (1.22%)	1,932,642
+ACIW	ACI Worldwide, Inc.	19.18 Jan 8	Down 0.42 (2.14%)	647,801
+ACLS	Axcelis Technologies Inc.	2.33 Jan 8	Down 0.14 (5.67%)	473,968
+ACNB	ACNB Corp.	21.43 Jan 8	Down 0.05 (0.25%)	1,894
+ACOR	Acorda Therapeutics, Inc.	40.22 Jan 8	Down 0.79 (1.93%)	806,173
+ACPW	Active Power Inc.	1.25 Jan 8	Down 0.04 (2.94%)	44,860
+ACRS	Aclaris Therapeutics, Inc.	23.50 Jan 8	Down 0.48 (2.00%)	19,834
+ACRX	AcelRx Pharmaceuticals, Inc.	3.44 Jan 8	Up 0.04 (1.18%)	613,236
+ACSF	American Capital Senior Floating, Ltd.	9.64 Jan 8	Up 0.05 (0.52%)	16,075
+ACST	Acasti Pharma Inc.	1.87 Jan 8	Down 0.18 (8.78%)	39,367
+ACTA	Actua Corporation	9.84 Jan 8	Down 0.11 (1.11%)	94,849
+ACTG	Acacia Research Corporation	3.80 Jan 8	Up 0.03 (0.66%)	611,944
+ACTS	Actions Semiconductor Co., Ltd.	1.71 Jan 8	0.00 (0.00%)	1,300
+ACUR	Acura Pharmaceuticals, Inc.	2.06 Jan 8	Down 0.07 (3.29%)	18,112
+ACXM	Acxiom Corporation	18.89 Jan 8	Down 0.10 (0.53%)	894,103
+ADAP	Adaptimmune Therapeutics plc	10.53 Jan 8	Down 0.12 (1.13%)	544,652
+ADAT	Authentidate Holding Corp.	0.59 Jan 8	Up 0.05 (10.26%)	159,134
+ADBE	Adobe Systems Incorporated	87.85 Jan 8	Down 1.26 (1.41%)	2,263,449
+ADHD	Alcobra Ltd.	5.47 Jan 8	Down 0.10 (1.80%)	183,878
+ADI	Analog Devices, Inc.	49.98 Jan 8	Down 0.44 (0.87%)	3,805,221
+ADMA	ADMA Biologics, Inc.	7.15 Jan 8	Down 0.47 (6.17%)	42,948
+ADMP	Adamis Pharmaceuticals Corporation	4.82 Jan 8	Down 0.13 (2.63%)	50,634
+ADMS	Adamas Pharmaceuticals, Inc.	24.48 Jan 8	Up 0.17 (0.70%)	489,888
+ADP	Automatic Data Processing, Inc.	78.13 Jan 8	Down 0.65 (0.83%)	2,486,959
+ADRO	Aduro BioTech, Inc.	23.59 Jan 8	Down 0.24 (1.01%)	346,985
+ADSK	Autodesk, Inc.	55.06 Jan 8	Down 0.92 (1.64%)	2,376,784
+ADTN	ADTRAN Inc.	17.18 Jan 8	Up 0.47 (2.81%)	1,192,528
+ADUS	Addus HomeCare Corporation	22.27 Jan 8	Down 0.27 (1.20%)	129,755
+ADXS	Advaxis, Inc.	7.94 Jan 8	Down 0.15 (1.85%)	1,044,802
+AEGN	Aegion Corporation	16.85 Jan 8	Down 1.27 (7.01%)	356,874
+AEGR	Aegerion Pharmaceuticals, Inc.	8.31 Jan 8	Down 0.34 (3.93%)	450,364
+AEHR	Aehr Test Systems	1.85 Jan 8	0.00 (0.00%)	689
+AEIS	Advanced Energy Industries, Inc.	25.45 Jan 8	Down 0.99 (3.74%)	435,055
+AEMD	Aethlon Medical, Inc.	6.62 Jan 8	Down 0.12 (1.78%)	21,514
+AEPI	AEP Industries Inc.	74.82 Jan 8	Up 0.32 (0.43%)	47,478
+AERI	Aerie Pharmaceuticals, Inc.	19.89 Jan 8	Down 0.39 (1.92%)	243,127
+AETI	American Electric Technologies, Inc	3.40 Jan 8	Up 0.23 (7.26%)	36,803
+AEY	ADDvantage Technologies Group Inc.	1.71 Jan 8	0.00 (0.00%)	15,689
+AEZS	Aeterna Zentaris Inc.	3.29 Jan 8	0.00 (0.00%)	426,085
+AFAM	Almost Family Inc.	40.70 Jan 8	Up 0.76 (1.90%)	204,470
+AFFX	Affymetrix Inc.	9.21 Jan 8	Down 0.13 (1.39%)	596,397
+AFH	Atlas Financial Holdings, Inc.	17.91 Jan 8	Down 1.02 (5.39%)	78,137
+AFMD	Affimed N.V.	5.05 Jan 8	Down 0.42 (7.68%)	229,642
+AFOP	Alliance Fiber Optic Products Inc.	13.77 Jan 8	Down 0.11 (0.79%)	107,865
+AFSI	AmTrust Financial Services, Inc.	56.02 Jan 8	Down 1.58 (2.74%)	611,401
+AGEN	Agenus Inc.	3.78 Jan 8	Down 0.11 (2.83%)	935,246
+AGFS	AgroFresh Solutions, Inc.	6.06 Jan 8	Up 0.14 (2.36%)	32,492
+AGII	Argo Group International Holdings, Ltd.	57.01 Jan 8	Down 1.01 (1.74%)	136,312
+AGIO	Agios Pharmaceuticals, Inc.	51.69 Jan 8	Down 3.06 (5.59%)	681,437
+AGNC	American Capital Agency Corp.	17.63 Jan 8	Down 0.09 (0.51%)	3,398,976
+AGRX	Agile Therapeutics, Inc.	8.15 Jan 8	Up 0.20 (2.52%)	48,067
+AGTC	Applied Genetic Technologies Corporation	17.01 Jan 8	Down 0.41 (2.35%)	240,532
+AGYS	Agilysys Inc.	8.79 Jan 8	Down 0.40 (4.35%)	247,498
+AHGP	Alliance Holdings GP, L.P.	19.66 Jan 8	Up 0.26 (1.34%)	69,779
+AHPI	Allied Healthcare Products Inc.	1.04 Jan 8	Down 0.02 (1.52%)	2,024
+AIMC	Altra Industrial Motion Corp.	22.85 Jan 8	Down 0.90 (3.79%)	223,236
+AIMT	Aimmune Therapeutics, Inc.	16.67 Jan 8	Down 0.57 (3.31%)	113,956
+AIQ	Alliance Healthcare Services, Inc.	8.02 Jan 8	Up 0.13 (1.65%)	23,260
+AIRM	Air Methods Corp.	37.89 Jan 8	Down 0.17 (0.45%)	466,165
+AIRT	Air T Inc.	23.02 Jan 7	0.00 (0.00%)	34
+AIXG	Aixtron SE	3.65 Jan 8	Down 0.31 (7.83%)	88,594
+AKAM	Akamai Technologies, Inc.	48.10 Jan 8	Down 0.09 (0.19%)	4,122,741
+AKAO	Achaogen, Inc.	5.39 Jan 8	Down 0.09 (1.64%)	45,010
+AKBA	Akebia Therapeutics, Inc.	8.51 Jan 8	Down 0.15 (1.73%)	1,857,524
+AKER	Akers Biosciences Inc.	1.61 Jan 8	Down 0.01 (0.62%)	23,083
+AKRX	Akorn, Inc.	37.47 Jan 8	Down 0.57 (1.50%)	1,578,432
+AKTX	Akari Therapeutics, Plc	17.09 Jan 8	Up 0.10 (0.59%)	21,037
+ALCO	Alico Inc.	35.26 Jan 8	Down 0.74 (2.06%)	19,234
+ALDR	Alder Biopharmaceuticals Inc.	30.26 Jan 8	Up 0.16 (0.53%)	723,437
+ALDX	Aldeyra Therapeutics, Inc.	6.75 Jan 8	Up 0.12 (1.78%)	27,852
+ALGN	Align Technology Inc.	64.53 Jan 8	Up 1.03 (1.62%)	916,004
+ALGT	Allegiant Travel Company	147.66 Jan 8	Down 2.87 (1.91%)	384,573
+ALIM	Alimera Sciences, Inc.	2.39 Jan 8	Up 0.07 (3.02%)	73,005
+ALKS	Alkermes plc	71.24 Jan 8	Down 0.80 (1.11%)	715,463
+ALLT	Allot Communications Ltd.	5.43 Jan 8	Up 0.10 (1.88%)	197,346
+ALNY	Alnylam Pharmaceuticals, Inc.	84.61 Jan 8	Down 3.03 (3.46%)	1,241,648
+ALOG	Analogic Corporation	75.88 Jan 8	Down 0.91 (1.19%)	87,857
+ALOT	Astro-Med, Inc.	14.23 Jan 8	Up 0.09 (0.64%)	2,088
+ALQA	Alliqua BioMedical, Inc.	2.09 Jan 8	Down 0.01 (0.48%)	56,712
+ALRM	Alarm.Com Holdings, Inc.	16.01 Jan 8	Up 0.01 (0.06%)	139,066
+ALSK	Alaska Communications Systems Group Inc.	1.78 Jan 8	0.00 (0.00%)	59,818
+ALXA	Alexza Pharmaceuticals Inc.	0.54 Jan 8	Up 0.04 (8.00%)	231,269
+ALXN	Alexion Pharmaceuticals, Inc.	168.13 Jan 8	Down 6.24 (3.58%)	1,754,809
+AMAG	AMAG Pharmaceuticals, Inc.	23.13 Jan 8	Down 1.50 (6.09%)	1,422,868
+AMAT	Applied Materials, Inc.	16.79 Jan 8	Down 0.42 (2.44%)	30,972,785
+AMBA	Ambarella, Inc.	45.00 Jan 8	Down 5.34 (10.61%)	4,216,474
+AMBC	Ambac Financial Group, Inc.	12.61 Jan 8	Down 0.22 (1.71%)	557,001
+AMCC	Applied Micro Circuits Corporation	5.57 Jan 8	Down 0.33 (5.52%)	1,001,717
+AMCN	AirMedia Group Inc.	5.52 Jan 8	0.00 (0.00%)	561,283
+AMCX	AMC Networks Inc.	75.90 Jan 8	Up 1.49 (2.00%)	1,075,290
+AMD	Advanced Micro Devices, Inc.	2.14 Jan 8	Down 0.14 (5.93%)	31,822,424
+AMDA	Amedica Corporation	0.12 Jan 8	Up 0.01 (5.22%)	2,873,009
+AMED	Amedisys Inc.	38.08 Jan 8	Down 0.67 (1.73%)	342,595
+AMGN	Amgen Inc.	150.71 Jan 8	Down 2.27 (1.49%)	4,179,560
+AMIC	American Independence Corp.	14.50 Jan 8	Down 0.10 (0.68%)	59,739
+AMKR	Amkor Technology, Inc.	5.62 Jan 8	Down 0.02 (0.35%)	1,137,360
+AMNB	American National Bankshares Inc.	24.10 Jan 8	Down 0.69 (2.78%)	11,324
+AMOT	Allied Motion Technologies Inc.	21.15 Jan 8	Down 0.80 (3.64%)	103,345
+AMOV	America Movil S.A.B. de C.V.	12.07 Jan 8	Down 0.59 (4.66%)	14,123
+AMPH	Amphastar Pharmaceuticals, Inc.	12.93 Jan 8	Down 0.27 (2.05%)	221,470
+AMRB	American River Bankshares	10.65 Jan 8	Up 0.05 (0.47%)	1,236
+AMRI	Albany Molecular Research Inc.	17.81 Jan 8	0.00 (0.00%)	450,335
+AMRK	A-Mark Precious Metals, Inc.	17.36 Jan 8	Up 0.02 (0.12%)	33,551
+AMRN	Amarin Corporation plc	1.63 Jan 8	Down 0.06 (3.55%)	1,029,746
+AMRS	Amyris, Inc.	1.53 Jan 8	Down 0.03 (1.92%)	203,012
+AMSC	American Superconductor Corporation	5.97 Jan 8	Down 0.22 (3.55%)	101,274
+AMSF	Amerisafe, Inc.	47.28 Jan 8	Down 1.47 (3.02%)	109,201
+AMSG	AmSurg Corp.	72.57 Jan 8	Down 1.02 (1.39%)	712,759
+AMSWA	American Software, Inc.	9.81 Jan 8	Down 0.16 (1.60%)	54,918
+AMTD	TD Ameritrade Holding Corporation	31.02 Jan 8	Down 0.01 (0.03%)	3,516,348
+AMTX	Aemetis, Inc.	2.35 Jan 8	Up 0.10 (4.44%)	5,098
+AMWD	American Woodmark Corp.	69.39 Jan 8	Down 1.55 (2.18%)	277,759
+AMZN	Amazon.com, Inc.	607.05 Jan 8	Down 0.89 (0.15%)	5,512,915
+ANAC	Anacor Pharmaceuticals, Inc.	95.80 Jan 8	Down 5.90 (5.80%)	1,024,750
+ANAD	Anadigics, Inc.	0.65 Jan 8	Down 0.00 (0.09%)	403,970
+ANAT	American National Insurance Co.	95.40 Jan 8	Down 1.36 (1.41%)	22,827
+ANCB	Anchor Bancorp	24.97 Jan 8	Up 0.41 (1.67%)	5,897
+ANCX	Access National Corporation	19.58 Jan 8	Down 0.11 (0.56%)	17,345
+ANDE	The Andersons, Inc.	29.50 Jan 8	Down 0.09 (0.30%)	182,745
+ANGI	Angie's List, Inc.	9.07 Jan 8	Down 0.32 (3.41%)	680,037
+ANGO	AngioDynamics Inc.	10.86 Jan 8	Down 0.69 (5.97%)	233,073
+ANIK	Anika Therapeutics Inc.	36.83 Jan 8	Up 0.05 (0.14%)	186,536
+ANIP	ANI Pharmaceuticals, Inc.	39.07 Jan 8	Down 1.02 (2.54%)	263,969
+ANSS	Ansys, Inc.	85.40 Jan 8	Down 1.83 (2.10%)	420,804
+ANTH	Anthera Pharmaceuticals, Inc.	3.75 Jan 8	Up 0.05 (1.35%)	641,052
+ANY	Sphere 3D Corp.	1.16 Jan 8	Down 0.07 (5.77%)	380,550
+AOSL	Alpha & Omega Semiconductor, Ltd.	8.23 Jan 8	Down 0.25 (2.95%)	34,424
+APDN	Applied DNA Sciences Inc.	2.98 Jan 8	Down 0.01 (0.33%)	183,053
+APEI	American Public Education, Inc.	16.66 Jan 8	Down 0.33 (1.94%)	193,331
+APIC	Apigee Corporation	8.48 Jan 8	Down 0.12 (1.40%)	188,058
+APLP	Archrock Partners, L.P.	10.19 Jan 8	Down 0.43 (4.05%)	346,057
+APOG	Apogee Enterprises, Inc.	38.91 Jan 8	Down 1.62 (4.00%)	244,164
+APOL	Apollo Education Group, Inc.	6.59 Jan 8	Down 0.11 (1.64%)	2,804,107
+APPF	AppFolio, Inc.	13.70 Jan 8	Up 0.09 (0.66%)	99,137
+APPS	Digital Turbine, Inc.	1.20 Jan 8	0.00 (0.00%)	194,672
+APPY	Venaxis, Inc.	0.29 Jan 8	Up 0.00 (1.58%)	107,886
+APRI	Apricus Biosciences, Inc.	0.88 Jan 8	Down 0.04 (4.08%)	88,471
+APTO	Aptose Biosciences Inc.	2.32 Jan 8	Up 0.02 (0.87%)	11,445
+APWC	Asia Pacific Wire & Cable Corp. Ltd.	1.36 Jan 7	0.00 (0.00%)	0
+AQMS	Aqua Metals, Inc.	5.20 Jan 8	Up 0.04 (0.78%)	24,766
+AQXP	Aquinox Pharmaceuticals Inc.	10.09 Jan 8	Down 0.53 (4.99%)	182,626
+ARAY	Accuray Incorporated	6.02 Jan 8	Down 0.01 (0.17%)	732,654
+ARCB	ArcBest Corporation	18.67 Jan 8	Down 0.61 (3.16%)	567,005
+ARCI	Appliance Recycling Centers of America Inc.	0.99 Jan 8	Up 0.06 (6.43%)	7,809
+ARCW	ARC Group Worldwide, Inc.	1.63 Jan 8	Up 0.02 (1.24%)	9,314
+ARDM	Aradigm Corporation	3.61 Jan 8	Up 0.03 (0.84%)	16,219
+ARDX	Ardelyx, Inc.	10.72 Jan 8	Up 0.63 (6.24%)	3,255,841
+AREX	Approach Resources, Inc.	1.27 Jan 8	Down 0.07 (4.87%)	1,969,104
+ARGS	Argos Therapeutics, Inc.	2.24 Jan 8	Down 0.02 (0.88%)	46,510
+ARIA	Ariad Pharmaceuticals Inc.	5.32 Jan 8	Up 0.06 (1.14%)	4,397,376
+ARII	American Railcar Industries, Inc.	41.03 Jan 8	Down 0.04 (0.10%)	129,226
+ARIS	ARI Network Services Inc.	4.26 Jan 8	Down 0.10 (2.29%)	11,840
+ARKR	Ark Restaurants Corp.	22.60 Jan 8	Down 0.01 (0.04%)	1,598
+ARLP	Alliance Resource Partners LP	13.27 Jan 8	Up 0.26 (2.00%)	284,074
+ARMH	ARM Holdings plc	41.08 Jan 8	Down 0.52 (1.25%)	1,759,486
+ARNA	Arena Pharmaceuticals, Inc.	1.65 Jan 8	Up 0.02 (1.23%)	2,269,475
+AROW	Arrow Financial Corporation	26.47 Jan 8	Down 0.20 (0.75%)	22,358
+ARQL	ArQule Inc.	2.00 Jan 8	Up 0.01 (0.50%)	155,294
+ARRS	ARRIS International plc	27.32 Jan 8	Down 0.89 (3.15%)	5,251,592
+ARRY	Array BioPharma Inc.	3.64 Jan 8	Down 0.12 (3.19%)	2,077,336
+ARTNA	Artesian Resources Corp.	27.44 Jan 8	Up 0.30 (1.11%)	35,979
+ARTW	Art's-Way Manufacturing Co. Inc.	2.93 Jan 8	Down 0.14 (4.56%)	5,518
+ARTX	Arotech Corporation	2.37 Jan 8	Down 0.02 (0.84%)	234,891
+ARWA	Arowana Inc.	9.84 Jan 8	Up 0.02 (0.20%)	4,677
+ARWR	Arrowhead Research Corp.	5.36 Jan 8	Up 0.06 (1.13%)	1,052,164
+ASBB	ASB Bancorp, Inc.	25.60 Jan 8	0.00 (0.00%)	2,604
+ASCMA	Ascent Capital Group, Inc.	15.68 Jan 8	Up 0.16 (1.03%)	166,698
+ASEI	American Science & Engineering Inc.	37.10 Jan 8	Down 1.59 (4.11%)	51,945
+ASFI	Asta Funding Inc.	7.99 Jan 8	Up 0.38 (4.92%)	7,638
+ASMB	Assembly Biosciences, Inc.	6.61 Jan 8	Down 0.31 (4.48%)	39,983
+ASML	ASML Holding NV	80.28 Jan 8	Down 2.21 (2.68%)	899,388
+ASNA	Ascena Retail Group Inc.	10.49 Jan 8	Down 0.49 (4.46%)	6,407,042
+ASND	Ascendis Pharma A/S	14.49 Jan 8	Down 2.16 (12.97%)	53,073
+ASPS	Altisource Portfolio Solutions S.A.	28.54 Jan 8	Down 0.36 (1.25%)	437,749
+ASRV	AmeriServ Financial, Inc.	3.30 Jan 8	Up 0.01 (0.30%)	38,046
+ASTC	Astrotech Corp.	1.47 Jan 8	Down 0.09 (5.77%)	298,791
+ASTE	Astec Industries, Inc.	35.92 Jan 8	Down 0.85 (2.31%)	128,419
+ASTI	Ascent Solar Technologies, Inc.	0.11 Jan 8	Down 0.01 (4.34%)	8,346,287
+ASUR	Asure Software, Inc.	4.45 Jan 8	Up 0.09 (2.06%)	15,315
+ASYS	Amtech Systems Inc.	5.75 Jan 8	Up 0.09 (1.59%)	15,845
+ATAI	ATA, Inc.	5.90 Jan 8	Down 0.45 (7.09%)	67,917
+ATAX	America First Multifamily Investors, L.P.	5.01 Jan 8	Up 0.01 (0.20%)	83,578
+ATEC	Alphatec Holdings, Inc.	0.31 Jan 8	Down 0.01 (3.12%)	420,946
+ATHN	athenahealth, Inc.	159.93 Jan 8	Up 0.63 (0.40%)	441,094
+ATHX	Athersys, Inc.	1.25 Jan 8	Up 0.22 (21.36%)	6,540,038
+ATLC	Atlanticus Holdings Corporation	3.27 Jan 8	Down 0.11 (3.25%)	193
+ATLO	Ames National Corporation	23.08 Jan 8	Down 0.10 (0.43%)	9,630
+ATML	Atmel Corporation	7.81 Jan 8	Down 0.11 (1.39%)	4,514,763
+ATNI	Atlantic Tele-Network, Inc.	80.08 Jan 8	Up 1.14 (1.44%)	161,977
+ATNY	API Technologies Corp.	1.20 Jan 8	Up 0.03 (2.56%)	7,222
+ATOS	Atossa Genetics, Inc.	0.32 Jan 8	Up 0.03 (10.34%)	137,293
+ATRA	Atara Biotherapeutics, Inc.	21.86 Jan 8	Down 0.25 (1.13%)	412,014
+ATRC	AtriCure, Inc.	19.41 Jan 8	Down 0.91 (4.48%)	289,041
+ATRI	ATRION Corp.	360.50 Jan 8	Down 10.50 (2.83%)	6,908
+ATRO	Astronics Corporation	36.36 Jan 8	Down 0.87 (2.34%)	239,557
+ATRS	Antares Pharma Inc.	1.05 Jan 8	Down 0.06 (5.41%)	847,601
+ATSG	Air Transport Services Group, Inc.	9.50 Jan 8	Down 0.12 (1.25%)	205,909
+ATTU	Attunity, Ltd.	10.98 Jan 8	Down 0.61 (5.26%)	27,509
+ATVI	Activision Blizzard, Inc.	35.71 Jan 8	Down 0.56 (1.54%)	8,412,722
+AUBN	Auburn National Bancorporation, Inc.	28.70 Jan 8	Down 0.30 (1.03%)	370
+AUDC	AudioCodes Ltd.	4.02 Jan 8	Down 0.05 (1.23%)	41,006
+AUMA	AR Capital Acquisition Corp.	9.72 Jan 8	Down 0.01 (0.10%)	966
+AUPH	Aurinia Pharmaceuticals Inc.	2.42 Jan 8	Down 0.03 (1.22%)	35,915
+AVAV	AeroVironment, Inc.	26.73 Jan 8	Down 0.63 (2.30%)	211,708
+AVEO	AVEO Pharmaceuticals, Inc.	1.06 Jan 8	Down 0.02 (1.85%)	342,468
+AVGO	Avago Technologies Limited	128.20 Jan 8	Down 0.85 (0.66%)	6,464,148
+AVGR	Avinger, Inc.	18.48 Jan 8	Down 0.45 (2.38%)	139,259
+AVHI	AV Homes, Inc.	12.12 Jan 8	Up 0.14 (1.17%)	43,074
+AVID	Avid Technology, Inc.	7.40 Jan 8	Down 0.08 (1.07%)	316,956
+AVNU	Avenue Financial Holdings, Inc.	13.75 Jan 8	Up 0.16 (1.18%)	12,931
+AVNW	Aviat Networks, Inc.	0.67 Jan 8	Down 0.05 (6.93%)	119,117
+AVXL	Anavex Life Sciences Corp.	4.60 Jan 8	Up 0.07 (1.55%)	3,365,984
+AWRE	Aware, Inc.	3.11 Jan 8	0.00 (0.00%)	12,854
+AXAS	Abraxas Petroleum Corp.	0.95 Jan 8	Up 0.03 (3.64%)	616,055
+AXDX	Accelerate Diagnostics, Inc.	19.95 Jan 8	Down 0.02 (0.10%)	346,767
+AXGN	AxoGen, Inc.	5.01 Jan 8	Up 0.01 (0.20%)	99,384
+AXPW	Axion Power International Inc.	0.80 Jan 8	Down 0.09 (10.11%)	77,063
+AXSM	Axsome Therapeutics, Inc.	11.86 Jan 8	Down 0.59 (4.74%)	18,138
+AXTI	AXT Inc.	2.47 Jan 8	0.00 (0.00%)	62,966
+AYA	Amaya, Inc.	11.76 Jan 8	Down 0.21 (1.75%)	62,356
+AZPN	Aspen Technology, Inc.	35.78 Jan 8	Down 0.42 (1.16%)	556,838
+BABY	Natus Medical Inc.	43.20 Jan 8	Down 1.82 (4.04%)	288,013
+BANF	BancFirst Corporation	56.13 Jan 8	Down 0.53 (0.94%)	24,651
+BANR	Banner Corporation	43.11 Jan 8	Down 0.58 (1.33%)	285,398
+BASI	Bioanalytical Systems Inc.	1.45 Jan 8	Up 0.01 (0.49%)	2,700
+BBBY	Bed Bath & Beyond Inc.	46.64 Jan 8	Up 0.13 (0.28%)	6,420,694
+BBCN	BBCN Bancorp, Inc.	15.67 Jan 8	Down 0.47 (2.91%)	1,137,386
+BBEP	Breitburn Energy Partners LP	0.67 Jan 8	Up 0.02 (3.87%)	1,465,444
+BBGI	Beasley Broadcast Group Inc.	3.36 Jan 8	Down 0.23 (6.41%)	5,176
+BBLU	Blue Earth Inc.	0.36 Jan 8	Down 0.02 (6.30%)	70,921
+BBOX	Black Box Corporation	7.45 Jan 8	Down 0.58 (7.22%)	413,938
+BBRG	Bravo Brio Restaurant Group, Inc.	7.77 Jan 8	Down 0.39 (4.78%)	161,051
+BBRY	BlackBerry Limited	7.71 Jan 8	Down 0.29 (3.63%)	10,399,282
+BBSI	Barrett Business Services Inc.	38.22 Jan 8	Down 2.21 (5.47%)	214,073
+BCBP	BCB Bancorp Inc.	10.66 Jan 8	Up 0.16 (1.52%)	17,318
+BCLI	Brainstorm Cell Therapeutics Inc.	3.08 Jan 8	Up 0.17 (5.84%)	520,943
+BCOM	B Communications Ltd	25.75 Jan 8	Up 0.05 (0.19%)	425
+BCOR	Blucora, Inc.	8.68 Jan 8	Down 0.68 (7.26%)	561,364
+BCOV	Brightcove Inc.	5.81 Jan 8	Down 0.12 (2.02%)	235,200
+BCPC	Balchem Corp.	58.92 Jan 8	Down 0.01 (0.02%)	231,891
+BCRX	BioCryst Pharmaceuticals, Inc.	8.50 Jan 8	Down 0.57 (6.28%)	873,908
+BDBD	Boulder Brands, Inc.	10.98 Jan 8	0.00 (0.00%)	2,281,259
+BDE	Black Diamond, Inc.	4.17 Jan 8	Down 0.01 (0.24%)	205,478
+BDGE	Bridge Bancorp, Inc.	29.01 Jan 8	Down 0.58 (1.96%)	27,672
+BDMS	Birner Dental Management Services Inc.	10.46 Jan 8	Up 0.42 (4.21%)	100
+BDSI	BioDelivery Sciences International, Inc.	4.23 Jan 8	Down 0.18 (4.08%)	1,394,562
+BEAT	BioTelemetry, Inc.	10.46 Jan 8	Down 0.24 (2.24%)	278,591
+BEAV	B/E Aerospace Inc.	39.87 Jan 8	Down 0.24 (0.60%)	1,252,637
+BEBE	Bebe Stores, Inc.	0.46 Jan 8	Down 0.02 (4.17%)	306,380
+BECN	Beacon Roofing Supply, Inc.	38.48 Jan 8	Down 0.49 (1.26%)	549,035
+BELFA	Bel Fuse Inc.	14.17 Jan 8	Up 0.05 (0.35%)	2,220
+BELFB	Bel Fuse Inc.	16.08 Jan 8	Down 0.30 (1.83%)	109,611
+BFIN	BankFinancial Corp.	12.19 Jan 8	Down 0.31 (2.48%)	23,600
+BGCP	BGC Partners, Inc.	8.82 Jan 8	Down 0.21 (2.33%)	2,746,162
+BGFV	Big 5 Sporting Goods Corp.	9.54 Jan 8	Up 0.05 (0.53%)	211,567
+BHAC	Barington/Hilco Acquisition Corp.	9.80 Jan 8	Down 0.03 (0.31%)	1,700
+BHBK	Blue Hills Bancorp, Inc.	14.56 Jan 8	Down 0.12 (0.82%)	93,456
+BIDU	Baidu, Inc.	171.34 Jan 8	Down 3.03 (1.74%)	4,682,790
+BIIB	Biogen Inc.	280.59 Jan 8	Down 3.42 (1.20%)	1,808,881
+BIND	BIND Therapeutics, Inc.	2.24 Jan 8	Up 0.21 (10.34%)	149,372
+BIOC	Biocept, Inc.	1.45 Jan 8	Down 0.17 (10.49%)	513,421
+BIOD	Biodel Inc.	0.26 Jan 8	Up 0.02 (9.17%)	1,140,243
+BIOL	BIOLASE, Inc.	0.88 Jan 8	Up 0.04 (4.80%)	30,979
+BIOS	BioScrip, Inc.	1.42 Jan 8	Down 0.13 (8.12%)	974,675
+BITI	Biotie Therapies Corp.	14.23 Jan 8	Up 0.12 (0.85%)	7,313
+BJRI	BJ's Restaurants, Inc.	41.01 Jan 8	Up 1.49 (3.77%)	532,432
+BKEP	Blueknight Energy Partners, L.P.	5.43 Jan 8	Up 0.32 (6.26%)	480,303
+BKMU	Bank Mutual Corporation	7.37 Jan 8	Down 0.13 (1.73%)	263,312
+BKSC	The Bank of South Carolina Corporation	16.02 Jan 7	0.00 (0.00%)	143
+BLBD	Blue Bird Corporation	9.68 Jan 8	Up 0.01 (0.10%)	55,226
+BLCM	Bellicum Pharmaceuticals, Inc.	15.93 Jan 8	Down 0.42 (2.57%)	374,127
+BLDP	Ballard Power Systems Inc.	1.33 Jan 8	Up 0.02 (1.53%)	743,616
+BLDR	Builders FirstSource, Inc.	9.47 Jan 8	Down 0.18 (1.87%)	1,665,901
+BLFS	BioLife Solutions, Inc.	2.09 Jan 8	Down 0.01 (0.48%)	35,844
+BLIN	Bridgeline Digital, Inc.	0.95 Jan 8	Down 0.02 (2.45%)	1,574
+BLKB	Blackbaud Inc.	60.30 Jan 8	Down 1.12 (1.82%)	256,415
+BLMN	Bloomin' Brands, Inc.	15.71 Jan 8	Down 0.03 (0.19%)	1,181,054
+BLMT	BSB Bancorp, Inc. (Maryland)	22.40 Jan 8	Down 0.27 (1.19%)	12,528
+BLPH	Bellerophon Therapeutics LLC	2.46 Jan 8	Down 0.10 (3.91%)	28,391
+BLRX	BioLineRx, Ltd.	1.12 Jan 8	Up 0.02 (1.82%)	289,847
+BLUE	bluebird bio, Inc.	55.44 Jan 8	Up 1.34 (2.48%)	995,515
+BLVD	Boulevard Acquisition Corp. II	9.60 Jan 6	0.00 (0.00%)	0
+BMRC	Bank of Marin Bancorp	52.33 Jan 8	Down 0.19 (0.36%)	12,216
+BMRN	BioMarin Pharmaceutical Inc.	95.75 Jan 8	Down 1.34 (1.38%)	1,333,818
+BMTC	Bryn Mawr Bank Corp.	28.48 Jan 8	Down 0.16 (0.56%)	106,524
+BNCL	Beneficial Bancorp, Inc.	12.72 Jan 8	Down 0.31 (2.38%)	308,876
+BNCN	BNC Bancorp	23.87 Jan 8	Down 0.44 (1.81%)	250,833
+BNFT	Benefitfocus, Inc.	31.24 Jan 8	Down 1.27 (3.91%)	269,813
+BNSO	Bonso Electronics International Inc.	1.41 Jan 8	Up 0.01 (0.71%)	3,425
+BNTC	Benitec Biopharma Limited	4.05 Jan 8	Up 0.21 (5.47%)	2,471
+BOBE	Bob Evans Farms, Inc.	37.79 Jan 8	Down 0.36 (0.94%)	262,959
+BOCH	Bank of Commerce Holdings	6.69 Jan 8	Up 0.14 (2.14%)	6,543
+BOFI	BofI Holding, Inc.	18.22 Jan 8	Down 0.57 (3.03%)	1,162,556
+BOJA	Bojangles', Inc.	16.11 Jan 8	Up 0.25 (1.58%)	239,622
+BOKF	BOK Financial Corporation	55.35 Jan 8	Down 0.86 (1.53%)	273,854
+BONA	Bona Film Group Limited	13.20 Jan 8	Up 0.04 (0.30%)	192,004
+BONT	Bon-Ton Stores Inc.	1.75 Jan 8	Down 0.20 (10.26%)	505,962
+BOOM	Dynamic Materials Corp.	6.17 Jan 8	Down 0.22 (3.44%)	59,786
+BOSC	B.O.S. Better Online Solutions Ltd.	1.93 Jan 8	Up 0.10 (5.46%)	1,540
+BOTA	Biota Pharmaceuticals, Inc.	2.04 Jan 8	Up 0.04 (2.00%)	35,096
+BOTJ	Bank of the James Financial Group Inc.	12.85 Jan 8	Down 0.00 (0.01%)	171
+BPFH	Boston Private Financial Holdings, Inc.	10.76 Jan 8	Down 0.09 (0.83%)	745,159
+BPMC	Blueprint Medicines Corporation	19.95 Jan 8	Down 0.78 (3.76%)	381,319
+BPOP	Popular, Inc.	25.84 Jan 8	Down 0.47 (1.79%)	685,528
+BPTH	Bio-Path Holdings, Inc.	1.38 Jan 8	Up 0.01 (0.73%)	52,497
+BRCD	Brocade Communications Systems, Inc.	8.38 Jan 8	Down 0.27 (3.12%)	3,003,521
+BRCM	Broadcom Corp.	54.17 Jan 8	Down 0.30 (0.55%)	7,320,252
+BREW	Craft Brew Alliance, Inc.	7.14 Jan 8	Down 0.40 (5.31%)	63,585
+BRID	Bridgford Foods Corp.	9.55 Jan 8	Down 0.01 (0.09%)	1,198
+BRKL	Brookline Bancorp, Inc.	10.83 Jan 8	Down 0.12 (1.10%)	295,520
+BRKR	Bruker Corporation	22.51 Jan 8	Down 0.12 (0.53%)	1,848,839
+BRKS	Brooks Automation, Inc.	9.36 Jan 8	Down 0.62 (6.21%)	383,081
+BSET	Bassett Furniture Industries, Incorporated	25.00 Jan 8	Down 0.11 (0.44%)	115,355
+BSF	Bear State Financial, Inc.	10.20 Jan 8	Down 0.11 (1.07%)	24,109
+BSFT	BroadSoft, Inc.	32.25 Jan 8	Down 0.30 (0.92%)	252,044
+BSPM	Biostar Pharmaceuticals, Inc.	0.39 Jan 8	Up 0.01 (3.33%)	56,401
+BSQR	BSQUARE Corp.	5.61 Jan 8	Down 0.20 (3.44%)	106,916
+BSRR	Sierra Bancorp	16.82 Jan 8	Down 0.33 (1.92%)	15,300
+BSTC	BioSpecifics Technologies Corp.	37.56 Jan 8	Up 0.84 (2.29%)	90,714
+BUFF	Blue Buffalo Pet Products, Inc.	16.81 Jan 8	Down 0.63 (3.61%)	1,502,567
+BUR	Burcon Nutrascience Corporation	3.10 Jan 8	Up 1.72 (123.86%)	470
+BUSE	First Busey Corporation	20.21 Jan 8	Down 0.17 (0.83%)	298,099
+BV	Bazaarvoice, Inc.	3.82 Jan 8	Down 0.19 (4.74%)	817,898
+BVA	Cordia Bancorp Inc.	3.94 Jan 8	Up 0.09 (2.34%)	13,248
+BVSN	BroadVision, Inc.	6.03 Jan 8	Up 0.07 (1.17%)	4,161
+BVXV	BiondVax Pharmaceuticals Ltd.	3.78 Jan 8	Up 0.16 (4.42%)	3,590
+BWEN	Broadwind Energy, Inc.	2.00 Jan 8	Up 0.05 (2.56%)	17,827
+BWFG	Bankwell Financial Group, Inc.	19.80 Jan 8	Up 0.04 (0.20%)	7,530
+BWINA	Baldwin & Lyons Inc.	23.35 Jan 7	0.00 (0.00%)	73
+BWINB	Baldwin & Lyons Inc.	23.19 Jan 8	Down 0.26 (1.11%)	19,492
+BWLD	Buffalo Wild Wings Inc.	155.63 Jan 8	Up 1.40 (0.91%)	509,049
+BYBK	Bay Bancorp, Inc.	5.09 Jan 8	Up 0.03 (0.59%)	1,400
+BYFC	Broadway Financial Corporation	1.46 Jan 7	0.00 (0.00%)	0
+BYLK	Baylake Corp.	14.48 Jan 8	Down 0.02 (0.14%)	61,035
+BZUN	Baozun Inc.	6.75 Jan 8	Down 0.02 (0.30%)	378,126
+CA	CA, Inc.	26.35 Jan 8	Down 0.03 (0.11%)	3,200,229
+CAAS	China Automotive Systems Inc.	5.24 Jan 8	Up 0.50 (10.55%)	163,184
+CAC	Camden National Corp.	42.30 Jan 8	0.00 (0.00%)	47,171
+CACB	Cascade Bancorp	5.71 Jan 8	Down 0.07 (1.21%)	77,367
+CACC	Credit Acceptance Corp.	206.80 Jan 8	Up 0.20 (0.10%)	70,386
+CACQ	Caesars Acquisition Company	5.00 Jan 8	Down 0.14 (2.72%)	137,368
+CADC	China Advanced Construction Materials Group, Inc.	1.80 Jan 8	Up 0.05 (2.86%)	1,346
+CADT	DT Asia Investments Limited	10.02 Jan 8	Down 0.06 (0.60%)	100
+CAFD	8point3 Energy Partners LP	16.53 Jan 8	Up 0.14 (0.85%)	376,733
+CAKE	The Cheesecake Factory Incorporated	45.71 Jan 8	Up 0.15 (0.33%)	1,291,355
+CALA	Calithera Biosciences, Inc.	5.98 Jan 8	Down 0.43 (6.71%)	249,136
+CALD	Callidus Software Inc.	16.99 Jan 8	Up 0.23 (1.37%)	553,065
+CALI	China Auto Logistic Inc.	1.23 Jan 8	Up 0.05 (4.23%)	7,289
+CALL	magicJack VocalTec Ltd.	8.82 Jan 8	Down 0.08 (0.90%)	117,133
+CALM	Cal-Maine Foods, Inc.	46.10 Jan 8	Down 0.88 (1.87%)	951,645
+CAMP	CalAmp Corp.	18.40 Jan 8	Down 0.50 (2.65%)	478,287
+CAMT	Camtek Ltd.	1.98 Jan 8	Down 0.02 (1.00%)	71,309
+CAPN	Capnia, Inc.	1.61 Jan 8	Down 0.08 (4.73%)	26,724
+CAPR	Capricor Therapeutics, Inc.	2.42 Jan 8	Up 0.02 (0.83%)	20,351
+CAR	Avis Budget Group, Inc.	30.69 Jan 8	Down 0.84 (2.66%)	2,974,757
+CARA	Cara Therapeutics Inc.	14.92 Jan 8	Down 0.12 (0.80%)	471,769
+CARB	Carbonite, Inc.	9.32 Jan 8	Down 0.43 (4.41%)	137,649
+CARO	Carolina Financial Corporation	17.38 Jan 8	Down 0.21 (1.19%)	12,151
+CART	Carolina Trust Bank	6.15 Jan 8	Down 0.24 (3.80%)	117
+CARV	Carver Bancorp, Inc.	3.79 Jan 8	Down 0.02 (0.52%)	5,058
+CASH	Meta Financial Group, Inc.	40.28 Jan 8	Down 1.38 (3.31%)	33,902
+CASI	CASI Pharmaceuticals, Inc.	0.90 Jan 8	0.00 (0.00%)	23,052
+CASM	CAS Medical Systems Inc.	1.66 Jan 8	Up 0.02 (1.22%)	11,900
+CASS	Cass Information Systems, Inc.	50.74 Jan 8	Up 0.07 (0.14%)	25,505
+CASY	Casey's General Stores, Inc.	116.20 Jan 8	Down 0.76 (0.65%)	326,336
+CATB	Catabasis Pharmaceuticals, Inc.	7.29 Jan 8	Up 0.04 (0.55%)	31,726
+CATM	Cardtronics Inc.	32.80 Jan 8	Down 0.45 (1.35%)	544,635
+CATY	Cathay General Bancorp	27.78 Jan 8	Down 0.85 (2.97%)	784,196
+CAVM	Cavium, Inc.	57.77 Jan 8	Down 1.59 (2.68%)	969,840
+CBAK	China BAK Battery, Inc.	2.34 Jan 8	Down 0.01 (0.43%)	10,127
+CBAN	Colony Bankcorp Inc.	9.80 Jan 8	Up 0.11 (1.13%)	9,422
+CBAY	Cymabay Therapeutics, Inc.	1.61 Jan 8	Down 0.08 (4.73%)	73,906
+CBF	Capital Bank Financial Corp.	30.18 Jan 8	Down 0.64 (2.08%)	113,286
+CBFV	CB Financial Services, Inc.	22.90 Jan 8	Up 0.04 (0.17%)	1,538
+CBIO	Catalyst Biosciences, Inc.	2.92 Jan 8	Down 0.23 (7.30%)	12,439
+CBLI	Cleveland BioLabs, Inc.	3.61 Jan 8	Up 0.24 (7.12%)	38,642
+CBMG	Cellular Biomedicine Group Inc.	16.44 Jan 8	Down 3.86 (19.01%)	125,498
+CBMX	CombiMatrix Corporation	0.66 Jan 8	Up 0.01 (1.54%)	10,028
+CBNJ	Cape Bancorp, Inc.	13.82 Jan 8	Down 0.14 (1.00%)	126,399
+CBNK	Chicopee Bancorp, Inc.	18.25 Jan 8	Up 0.29 (1.61%)	652
+CBOE	CBOE Holdings, Inc.	62.55 Jan 8	Down 0.31 (0.49%)	835,211
+CBPO	China Biologic Products, Inc.	129.91 Jan 8	Up 1.04 (0.81%)	261,899
+CBRL	Cracker Barrel Old Country Store, Inc.	120.14 Jan 8	Down 0.38 (0.32%)	437,363
+CBSH	Commerce Bancshares, Inc.	39.62 Jan 8	Down 0.75 (1.86%)	451,002
+CBYL	Carbylan Therapeutics, Inc.	2.94 Jan 8	Down 0.15 (4.85%)	85,919
+CCBG	Capital City Bank Group Inc.	14.97 Jan 8	Down 0.25 (1.64%)	30,215
+CCCL	China Ceramics Co., Ltd.	1.00 Jan 8	Up 0.04 (4.42%)	14,423
+CCCR	China Commercial Credit, Inc.	0.33 Jan 8	Up 0.04 (12.43%)	140,116
+CCIH	ChinaCache International Holdings Ltd.	7.24 Jan 8	Up 0.25 (3.58%)	95,619
+CCLP	CSI Compressco LP	9.43 Jan 8	Down 0.05 (0.53%)	315,460
+CCMP	Cabot Microelectronics Corporation	41.21 Jan 8	Down 1.97 (4.56%)	277,866
+CCNE	CNB Financial Corp.	17.46 Jan 8	Down 0.17 (0.96%)	20,455
+CCOI	Cogent Communications Holdings, Inc.	33.06 Jan 8	Down 0.45 (1.34%)	332,013
+CCRC	China Customer Relations Centers, Inc.	7.46 Jan 8	Up 0.32 (4.48%)	71,488
+CCRN	Cross Country Healthcare, Inc.	14.47 Jan 8	Down 0.13 (0.89%)	292,495
+CCUR	Concurrent Computer Corporation	5.56 Jan 8	Down 0.08 (1.42%)	42,280
+CCXI	ChemoCentryx, Inc.	4.77 Jan 8	Down 0.38 (7.38%)	192,160
+CDK	CDK Global, Inc.	44.52 Jan 8	Down 0.73 (1.61%)	498,077
+CDNA	CareDx, Inc	6.04 Jan 8	Down 0.29 (4.58%)	8,788
+CDNS	Cadence Design Systems Inc.	19.24 Jan 8	Down 0.51 (2.58%)	4,222,787
+CDOR	Condor Hospitality Trust Inc.	1.15 Jan 8	0.00 (0.00%)	2,371
+CDRB	Code Rebel Corp	2.44 Jan 8	Down 0.05 (2.01%)	18,422
+CDTI	Clean Diesel Technologies Inc.	0.74 Jan 8	Down 0.08 (9.42%)	259,956
+CDTX	Cidara Therapeutics, Inc.	15.50 Jan 8	Down 0.08 (0.51%)	57,880
+CDW	CDW Corporation	39.65 Jan 8	Down 0.04 (0.10%)	1,193,314
+CDXS	Codexis, Inc.	4.17 Jan 8	Up 0.04 (0.97%)	75,252
+CDZI	Cadiz Inc.	5.31 Jan 8	Up 0.03 (0.57%)	119,054
+CECE	CECO Environmental Corp.	6.97 Jan 8	Down 0.13 (1.83%)	187,448
+CECO	Career Education Corp.	2.98 Jan 8	0.00 (0.00%)	655,968
+CELG	Celgene Corporation	108.98 Jan 8	Down 2.91 (2.60%)	7,410,949
+CEMI	Chembio Diagnostics, Inc.	5.09 Jan 8	Down 0.04 (0.78%)	33,413
+CEMP	Cempra, Inc.	21.87 Jan 8	Down 0.28 (1.26%)	940,491
+CENT	Central Garden & Pet Company	13.09 Jan 8	Down 0.01 (0.08%)	266,258
+CENTA	Central Garden & Pet Company	12.95 Jan 8	Down 0.26 (1.97%)	460,115
+CENX	Century Aluminum Co.	3.55 Jan 8	Down 0.42 (10.58%)	3,632,167
+CERC	Cerecor Inc.	3.70 Jan 8	Down 0.54 (12.74%)	32,337
+CERE	Ceres, Inc.	0.32 Jan 8	Up 0.01 (3.06%)	112,624
+CERN	Cerner Corporation	58.74 Jan 8	Up 1.07 (1.86%)	2,971,616
+CERS	Cerus Corporation	5.84 Jan 8	Down 0.10 (1.68%)	867,162
+CERU	Cerulean Pharma Inc.	2.87 Jan 8	Up 0.02 (0.70%)	54,403
+CETC	Hongli Clean Energy Technologies Corp.	0.56 Jan 8	Down 0.07 (11.10%)	126,469
+CETV	Central European Media Enterprises Ltd.	2.49 Jan 8	Down 0.07 (2.73%)	118,596
+CETX	Cemtrex Inc.	2.50 Jan 8	Up 0.02 (0.81%)	25,230
+CEVA	CEVA Inc.	21.44 Jan 8	Down 0.08 (0.37%)	222,153
+CFBK	Central Federal Corp.	1.32 Jan 7	0.00 (0.00%)	7
+CFCB	Centrue Financial Corporation	16.66 Jan 8	Up 0.04 (0.24%)	8,318
+CFFI	C&F Financial Corp.	38.14 Jan 8	Up 0.38 (1.01%)	2,927
+CFFN	Capitol Federal Financial, Inc.	11.89 Jan 8	Down 0.21 (1.69%)	866,977
+CFMS	ConforMIS, Inc.	14.29 Jan 8	Down 0.68 (4.54%)	619,624
+CFNB	California First National Bancorp	13.13 Jan 7	0.00 (0.00%)	1
+CFNL	Cardinal Financial Corp.	20.89 Jan 8	Down 0.47 (2.20%)	216,745
+CFRX	ContraFect Corporation	4.20 Jan 8	Down 0.02 (0.47%)	105,381
+CG	The Carlyle Group LP	13.88 Jan 8	Down 0.53 (3.68%)	967,313
+CGEN	Compugen Ltd.	5.96 Jan 8	Down 0.14 (2.30%)	90,172
+CGIX	Cancer Genetics, Inc.	2.75 Jan 8	Down 0.07 (2.48%)	151,260
+CGNT	Cogentix Medical, Inc.	1.16 Jan 8	Down 0.02 (1.69%)	2,291
+CGNX	Cognex Corporation	28.45 Jan 8	Down 0.87 (2.97%)	864,804
+CHCI	Comstock Holding Companies, Inc.	1.92 Jan 8	Up 0.21 (12.28%)	30,081
+CHCO	City Holding Co.	43.27 Jan 8	Down 0.90 (2.04%)	62,593
+CHDN	Churchill Downs Inc.	138.61 Jan 8	Down 0.05 (0.04%)	85,667
+CHEF	The Chefs' Warehouse, Inc.	14.88 Jan 8	Down 0.18 (1.20%)	98,271
+CHEK	Check-Cap Ltd.	2.00 Jan 8	Up 0.02 (1.01%)	2,501
+CHEV	Cheviot Financial Corp.	14.48 Jan 8	Down 0.07 (0.48%)	3,783
+CHFC	Chemical Financial Corporation	31.91 Jan 8	Down 0.77 (2.36%)	95,644
+CHFN	Charter Financial Corporation	13.10 Jan 8	Down 0.18 (1.36%)	42,617
+CHKE	Cherokee Inc.	15.38 Jan 8	Up 0.54 (3.64%)	118,492
+CHKP	Check Point Software Technologies Ltd.	76.71 Jan 8	Down 0.80 (1.03%)	1,442,457
+CHLN	China Housing and Land Development, Inc.	2.95 Jan 8	Up 0.15 (5.45%)	19,871
+CHMA	Chiasma, Inc.	15.45 Jan 8	Down 1.93 (11.10%)	214,489
+CHMG	Chemung Financial Corporation	27.68 Jan 8	Down 0.14 (0.50%)	1,063
+CHNR	China Natural Resources Inc.	1.24 Jan 8	Down 0.04 (3.12%)	4,145
+CHRS	Coherus Biosciences, Inc.	18.27 Jan 8	Down 0.01 (0.05%)	181,873
+CHRW	CH Robinson Worldwide Inc.	63.12 Jan 8	Up 0.03 (0.05%)	2,448,836
+CHTR	Charter Communications, Inc.	174.89 Jan 8	Up 1.26 (0.73%)	1,690,227
+CHUY	Chuy's Holdings, Inc.	34.04 Jan 8	Up 0.07 (0.21%)	419,689
+CIDM	Cinedigm Corp.	0.27 Jan 8	Down 0.01 (2.77%)	98,299
+CIFC	CIFC Corp.	5.36 Jan 8	Down 0.15 (2.72%)	20,553
+CIGI	Colliers International Group Inc.	41.66 Jan 8	Down 0.77 (1.81%)	219,799
+CINF	Cincinnati Financial Corp.	55.53 Jan 8	Down 0.29 (0.52%)	978,268
+CISG	CNinsure Inc.	8.22 Jan 8	Down 0.02 (0.24%)	146,933
+CIVB	Civista Bancshares, Inc.	11.39 Jan 8	Down 0.14 (1.21%)	15,694
+CIZN	Citizens Holding Company	23.25 Jan 7	0.00 (0.00%)	17
+CJJD	China Jo-Jo Drugstores, Inc.	1.76 Jan 8	Down 0.04 (2.22%)	12,950
+CKEC	Carmike Cinemas Inc.	21.85 Jan 8	Down 0.55 (2.46%)	250,855
+CLAC	Capitol Acquisition Corp. III	9.54 Jan 7	0.00 (0.00%)	0
+CLBH	Carolina Bank Holdings Inc.	18.00 Jan 8	Up 0.24 (1.35%)	6,886
+CLBS	Caladrius Biosciences, Inc.	0.52 Jan 8	Down 0.18 (25.71%)	2,193,351
+CLCD	CoLucid Pharmaceuticals, Inc.	8.18 Jan 8	Down 0.02 (0.24%)	81,328
+CLCT	Collectors Universe Inc.	15.16 Jan 8	Down 0.34 (2.19%)	30,887
+CLDN	Celladon Corporation	1.28 Jan 8	Down 0.09 (6.57%)	220,411
+CLDX	Celldex Therapeutics, Inc.	12.73 Jan 8	Down 0.44 (3.34%)	1,578,636
+CLFD	Clearfield, Inc.	12.56 Jan 8	Up 0.16 (1.29%)	45,527
+CLIR	Clearsign Combustion Corp.	4.40 Jan 8	Down 0.12 (2.65%)	36,141
+CLLS	Cellectis S.A.	26.55 Jan 8	Down 0.28 (1.04%)	101,997
+CLMS	Calamos Asset Management Inc.	9.28 Jan 8	Down 0.08 (0.85%)	237,148
+CLMT	Calumet Specialty Products Partners LP	18.84 Jan 8	Down 0.07 (0.37%)	594,299
+CLNE	Clean Energy Fuels Corp.	3.38 Jan 8	Up 0.04 (1.05%)	1,369,161
+CLNT	Cleantech Solutions International, Inc.	1.41 Jan 8	Down 0.05 (3.42%)	5,520
+CLRB	Cellectar Biosciences, Inc.	0.64 Jan 8	Up 0.08 (14.25%)	98,142
+CLRO	ClearOne, Inc.	11.96 Jan 8	Down 0.04 (0.33%)	39,287
+CLSN	Celsion Corp.	1.81 Jan 8	Up 0.04 (2.26%)	46,132
+CLUB	Town Sports International Holdings Inc.	1.11 Jan 8	0.00 (0.00%)	66,138
+CLVS	Clovis Oncology, Inc.	29.17 Jan 8	Down 0.66 (2.21%)	749,421
+CLWT	Euro Tech Holdings Company Limited	2.78 Jan 8	Up 0.02 (0.74%)	7,553
+CMCO	Columbus McKinnon Corporation	16.57 Jan 8	Down 0.61 (3.55%)	69,015
+CMCSA	Comcast Corporation	54.67 Jan 8	Up 0.06 (0.10%)	14,092,345
+CMCT	CIM Commercial Trust Corporation	15.83 Jan 8	Down 0.37 (2.28%)	1,807
+CME	CME Group Inc.	86.23 Jan 8	Down 1.30 (1.49%)	1,507,090
+CMFN	CM Finance Inc.	10.44 Jan 8	Up 0.06 (0.58%)	35,387
+CMLS	Cumulus Media Inc.	0.28 Jan 8	Down 0.02 (7.37%)	990,773
+CMPR	Cimpress N.V.	79.61 Jan 8	Up 1.54 (1.97%)	371,682
+CMRX	Chimerix, Inc.	8.06 Jan 8	Down 0.24 (2.89%)	4,620,848
+CMTL	Comtech Telecommunications Corp.	19.14 Jan 8	Up 0.26 (1.38%)	158,029
+CNAT	Conatus Pharmaceuticals Inc.	2.29 Jan 8	Down 0.17 (6.91%)	869,967
+CNBKA	Century Bancorp Inc.	42.90 Jan 8	Down 0.10 (0.23%)	5,538
+CNCE	Concert Pharmaceuticals, Inc.	16.02 Jan 8	Down 0.83 (4.93%)	411,912
+CNET	ChinaNet Online Holdings, Inc.	0.82 Jan 8	Down 0.00 (0.16%)	60,757
+CNFR	Conifer Holdings, Inc.	8.60 Jan 8	Down 0.16 (1.83%)	15,566
+CNIT	China Information Technology, Inc.	1.36 Jan 8	Down 0.03 (2.16%)	261,195
+CNLM	CB Pharma Acquisition Corp.	9.94 Jan 7	0.00 (0.00%)	0
+CNMD	CONMED Corporation	40.84 Jan 8	Down 0.66 (1.59%)	303,647
+CNOB	ConnectOne Bancorp, Inc.	17.72 Jan 8	Down 0.28 (1.56%)	206,778
+CNSL	Consolidated Communications Holdings Inc.	19.40 Jan 8	Down 0.65 (3.24%)	331,975
+CNTF	China Techfaith Wireless Communication Technology Limited	0.71 Jan 8	Up 0.03 (3.96%)	10,703
+CNTY	Century Casinos Inc.	7.40 Jan 8	Down 0.12 (1.60%)	86,005
+CNV	Cnova N.V.	2.41 Jan 8	Up 0.10 (4.33%)	56,469
+CNXR	Connecture, Inc.	3.52 Jan 8	Up 0.05 (1.44%)	49,935
+CNYD	China Yida Holding, Co.	2.26 Jan 8	Down 0.04 (1.74%)	20,435
+COB	CommunityOne Bancorp	13.10 Jan 8	Down 0.10 (0.76%)	21,698
+COBZ	CoBiz Financial Inc.	11.96 Jan 8	Down 0.61 (4.85%)	127,161
+COHR	Coherent Inc.	60.17 Jan 8	Down 0.64 (1.05%)	153,893
+COHU	Cohu, Inc.	11.19 Jan 8	Down 0.11 (0.97%)	146,921
+COKE	Coca-Cola Bottling Co. Consolidated	177.90 Jan 8	Up 0.47 (0.26%)	48,410
+COLB	Columbia Banking System Inc.	29.69 Jan 8	Down 0.88 (2.88%)	410,458
+COLL	Collegium Pharmaceutical, Inc.	19.72 Jan 8	Down 1.41 (6.67%)	1,795,738
+COLM	Columbia Sportswear Company	46.29 Jan 8	Down 3.39 (6.82%)	962,115
+COMM	CommScope Holding Company, Inc.	23.36 Jan 8	Down 0.06 (0.26%)	1,779,934
+CONE	Cyrusone Inc.	36.55 Jan 8	Down 0.35 (0.95%)	457,674
+CONN	Conns Inc.	16.20 Jan 8	Down 2.90 (15.18%)	1,774,578
+COOL	Majesco Entertainment Co.	1.34 Jan 8	Up 0.04 (3.08%)	396,913
+CORE	Core-Mark Holding Company, Inc.	74.75 Jan 8	Down 2.33 (3.02%)	199,589
+CORI	Corium International, Inc.	6.91 Jan 8	Down 0.22 (3.09%)	50,668
+CORT	Corcept Therapeutics Incorporated	3.78 Jan 8	Down 0.19 (4.79%)	374,448
+COSI	Cosi Inc.	0.44 Jan 8	Down 0.03 (5.68%)	154,508
+COST	Costco Wholesale Corporation	152.11 Jan 8	Down 2.71 (1.75%)	3,156,190
+COVS	Covisint Corporation	2.16 Jan 8	Down 0.12 (5.26%)	80,115
+COWN	Cowen Group, Inc.	3.44 Jan 8	Down 0.11 (3.10%)	1,549,234
+COYN	COPsync, Inc.	1.80 Jan 8	Down 0.29 (13.88%)	25,290
+CPAH	CounterPath Corporation	2.55 Jan 8	Up 0.14 (5.91%)	1,592
+CPHC	Canterbury Park Holding Corporation	10.00 Jan 8	Up 0.01 (0.10%)	3,176
+CPHD	Cepheid	33.05 Jan 8	Down 2.15 (6.11%)	1,169,139
+CPHR	Cipher Pharmaceuticals Inc.	4.46 Jan 8	Down 0.05 (1.02%)	13,858
+CPIX	Cumberland Pharmaceuticals, Inc.	4.82 Jan 8	Down 0.29 (5.68%)	13,703
+CPLA	Capella Education Co.	41.30 Jan 8	Up 0.68 (1.67%)	226,545
+CPLP	Capital Product Partners L.P.	4.74 Jan 8	Up 0.05 (1.07%)	668,791
+CPRT	Copart, Inc.	35.09 Jan 8	Down 0.57 (1.60%)	1,246,073
+CPRX	Catalyst Pharmaceuticals, Inc.	1.90 Jan 8	Down 0.10 (5.00%)	711,200
+CPSH	CPS Technologies Corp.	2.55 Jan 8	Down 0.02 (0.78%)	115
+CPSI	Computer Programs & Systems Inc.	48.45 Jan 8	Down 0.47 (0.96%)	143,965
+CPSS	Consumer Portfolio Services, Inc.	4.72 Jan 8	Down 0.15 (3.08%)	38,509
+CPST	Capstone Turbine Corp.	1.35 Jan 8	Up 0.09 (7.14%)	272,978
+CPTA	Capitala Finance Corp.	12.53 Jan 8	Down 0.05 (0.40%)	71,104
+CPXX	Celator Pharmaceuticals, Inc.	1.69 Jan 8	Down 0.01 (0.59%)	161,192
+CRAI	CRA International Inc.	18.90 Jan 8	Up 0.07 (0.37%)	72,673
+CRAY	Cray Inc.	28.78 Jan 8	Up 0.36 (1.27%)	223,956
+CRBP	Corbus Pharmaceuticals Holdings, Inc.	1.44 Jan 8	Up 0.04 (2.86%)	56,562
+CRDC	Cardica Inc.	0.19 Jan 8	Up 0.03 (16.35%)	2,331,764
+CRDS	Crossroads Systems, Inc.	1.01 Jan 8	Down 0.01 (0.98%)	157,324
+CREE	Cree, Inc.	24.66 Jan 8	Down 0.48 (1.91%)	1,033,287
+CREG	China Recycling Energy Corporation	0.37 Jan 8	Up 0.01 (2.56%)	26,317
+CRESY	Cresud Sociedad Anónima Comercial, Inmobiliaria, Financiera y Agropecuaria	10.90 Jan 8	Down 0.34 (3.02%)	103,950
+CRIS	Curis, Inc.	2.21 Jan 8	Down 0.15 (6.36%)	361,870
+CRME	Cardiome Pharma Corp.	7.16 Jan 8	Down 0.03 (0.42%)	41,543
+CRMT	America's Car-Mart Inc.	25.02 Jan 8	Down 0.52 (2.04%)	174,459
+CRNT	Ceragon Networks Ltd.	1.15 Jan 8	Up 0.02 (1.77%)	64,941
+CROX	Crocs, Inc.	9.13 Jan 8	Down 0.43 (4.50%)	755,960
+CRTN	Cartesian, Inc.	2.23 Jan 8	Up 0.08 (3.72%)	1,500
+CRTO	Criteo SA	34.14 Jan 8	Down 0.79 (2.26%)	850,491
+CRUS	Cirrus Logic Inc.	27.80 Jan 8	Up 1.00 (3.73%)	7,873,216
+CRVL	CorVel Corporation	42.64 Jan 8	Down 1.71 (3.86%)	117,625
+CRWN	Crown Media Holdings Inc.	4.77 Jan 8	Down 0.14 (2.85%)	157,341
+CRWS	Crown Crafts, Inc.	8.52 Jan 8	Up 0.18 (2.16%)	7,117
+CRZO	Carrizo Oil & Gas Inc.	23.69 Jan 8	Up 1.54 (6.95%)	3,583,765
+CSAL	Communications Sales & Leasing, Inc.	19.05 Jan 8	Down 1.69 (8.15%)	2,844,969
+CSBK	Clifton Bancorp Inc.	13.93 Jan 8	Down 0.21 (1.49%)	102,973
+CSBR	Champions Oncology, Inc.	3.80 Jan 8	Down 0.03 (0.78%)	101
+CSCD	Cascade Microtech Inc.	14.06 Jan 8	Down 0.20 (1.40%)	35,297
+CSCO	Cisco Systems, Inc.	24.78 Jan 8	Down 0.63 (2.48%)	28,609,697
+CSFL	CenterState Banks, Inc.	14.57 Jan 8	Down 0.82 (5.33%)	352,520
+CSGP	CoStar Group Inc.	182.12 Jan 8	Down 2.17 (1.18%)	262,765
+CSGS	CSG Systems International Inc.	34.21 Jan 8	Down 0.81 (2.31%)	343,551
+CSII	Cardiovascular Systems Inc.	13.85 Jan 8	Down 0.06 (0.43%)	317,412
+CSIQ	Canadian Solar Inc.	23.50 Jan 8	Up 0.51 (2.22%)	1,885,879
+CSOD	Cornerstone OnDemand, Inc.	30.11 Jan 8	Down 0.90 (2.90%)	612,193
+CSPI	CSP Inc.	6.20 Jan 8	Down 0.01 (0.16%)	4,808
+CSTE	CaesarStone Sdot-Yam Ltd.	36.33 Jan 8	Down 0.81 (2.18%)	331,285
+CSUN	China Sunergy Co. Ltd.	0.96 Jan 8	Down 0.01 (0.93%)	36,928
+CSWC	Capital Southwest Corporation	14.31 Jan 8	Up 0.07 (0.49%)	66,891
+CSWI	CSW Industrials, Inc.	36.06 Jan 8	Up 0.54 (1.52%)	41,015
+CSX	CSX Corp.	23.48 Jan 8	Down 0.14 (0.59%)	9,672,105
+CTAS	Cintas Corporation	84.63 Jan 8	Down 2.25 (2.59%)	807,830
+CTBI	Community Trust Bancorp Inc.	33.81 Jan 8	Down 0.04 (0.12%)	62,381
+CTCM	CTC Media, Inc	1.86 Jan 8	0.00 (0.00%)	251,869
+CTCT	Constant Contact, Inc.	28.64 Jan 8	Down 0.36 (1.24%)	851,909
+CTG	Computer Task Group Inc.	6.23 Jan 8	Down 0.05 (0.80%)	50,946
+CTHR	Charles & Colvard Ltd.	1.14 Jan 8	Up 0.03 (2.70%)	76,631
+CTIB	CTI Industries Corp.	4.89 Jan 8	Down 0.06 (1.24%)	1,298
+CTIC	CTI BioPharma Corp.	1.20 Jan 8	0.00 (0.00%)	1,547,265
+CTMX	CytomX Therapeutics, Inc.	14.21 Jan 8	Down 1.31 (8.44%)	90,906
+CTRE	CareTrust REIT, Inc.	10.66 Jan 8	Down 0.13 (1.20%)	204,568
+CTRL	Control4 Corporation	6.29 Jan 8	Down 0.25 (3.82%)	113,610
+CTRN	Citi Trends, Inc.	19.11 Jan 8	Down 1.43 (6.96%)	109,093
+CTRP	Ctrip.com International Ltd.	45.03 Jan 8	Down 0.22 (0.49%)	3,789,010
+CTRV	ContraVir Pharmaceuticals, Inc.	1.16 Jan 8	Down 0.14 (10.77%)	164,021
+CTSH	Cognizant Technology Solutions Corporation	55.76 Jan 8	Down 0.88 (1.55%)	4,959,708
+CTSO	Cytosorbents Corporation	4.75 Jan 8	Down 0.06 (1.15%)	78,399
+CTWS	Connecticut Water Service Inc.	38.81 Jan 8	Up 0.17 (0.44%)	41,212
+CTXS	Citrix Systems, Inc.	69.68 Jan 8	Down 1.25 (1.76%)	1,602,237
+CUBN	Commerce Union Bancshares, Inc. (Springfield TN) Prior To Reverse Merger With Reliant Bank	13.90 Jan 8	Up 0.15 (1.08%)	19,904
+CUI	CUI Global, Inc.	7.06 Jan 8	Up 0.05 (0.71%)	39,560
+CUNB	CU Bancorp	23.97 Jan 8	Down 0.19 (0.79%)	31,231
+CUR	Neuralstem, Inc.	1.03 Jan 8	0.00 (0.00%)	192,606
+CUTR	Cutera, Inc.	11.70 Jan 8	Down 0.17 (1.43%)	90,836
+CVBF	CVB Financial Corp.	15.45 Jan 8	Down 0.28 (1.78%)	722,741
+CVCO	Cavco Industries, Inc.	77.48 Jan 8	Down 0.52 (0.67%)	91,364
+CVCY	Central Valley Community Bancorp	11.79 Jan 8	Down 0.20 (1.67%)	3,069
+CVGI	Commercial Vehicle Group Inc.	2.42 Jan 8	Down 0.06 (2.42%)	186,670
+CVGW	Calavo Growers Inc.	48.68 Jan 8	Up 0.56 (1.16%)	337,380
+CVLT	CommVault Systems, Inc.	35.04 Jan 8	Down 0.51 (1.43%)	535,411
+CVLY	Codorus Valley Bancorp Inc.	20.42 Jan 8	Down 0.34 (1.64%)	6,728
+CVTI	Covenant Transportation Group, Inc.	16.39 Jan 8	Down 1.01 (5.80%)	298,418
+CVV	CVD Equipment Corporation	9.84 Jan 8	Up 0.32 (3.36%)	30,599
+CWAY	Coastway Bancorp, Inc.	13.26 Jan 8	Up 0.06 (0.45%)	1,878
+CWBC	Community West Bancshares	7.20 Jan 8	Up 0.03 (0.42%)	2,400
+CWCO	Consolidated Water Co. Ltd.	11.38 Jan 8	Down 0.12 (1.04%)	67,151
+CWST	Casella Waste Systems Inc.	5.60 Jan 8	Down 0.14 (2.44%)	126,850
+CXDC	China XD Plastics Company Ltd.	3.78 Jan 8	Down 0.03 (0.66%)	8,214
+CXRX	Concordia Healthcare Corp.	35.11 Jan 8	Down 1.94 (5.24%)	303,882
+CY	Cypress Semiconductor Corporation	8.50 Jan 8	Down 0.27 (3.08%)	12,202,349
+CYAD	Celyad SA	47.37 Jan 8	Down 0.88 (1.82%)	6,828
+CYAN	Cyanotech Corp.	5.09 Jan 8	Down 0.01 (0.28%)	7,299
+CYBE	CyberOptics Corp.	8.47 Jan 8	Up 0.75 (9.65%)	59,345
+CYBR	CyberArk Software, Ltd.	38.29 Jan 8	Down 1.40 (3.53%)	1,143,407
+CYCC	Cyclacel Pharmaceuticals, Inc.	0.42 Jan 8	Down 0.01 (2.28%)	104,365
+CYNA	Cynapsus Therapeutics Inc.	14.87 Jan 8	Up 0.05 (0.34%)	16,932
+CYNO	Cynosure, Inc.	39.28 Jan 8	Down 1.80 (4.38%)	208,891
+CYOU	Changyou.com Limited	21.47 Jan 8	Down 0.03 (0.14%)	360,949
+CYRN	CYREN Ltd.	1.45 Jan 8	Down 0.09 (5.84%)	301,478
+CYRX	Cryoport, Inc.	2.10 Jan 8	Up 0.04 (2.01%)	26,434
+CYTK	Cytokinetics, Incorporated	9.47 Jan 8	Down 0.35 (3.56%)	351,900
+CYTR	CytRx Corporation	2.05 Jan 8	Down 0.30 (12.77%)	1,171,598
+CYTX	Cytori Therapeutics, Inc.	0.17 Jan 8	Up 0.01 (6.18%)	1,916,071
+CZFC	Citizens First Corporation	13.85 Jan 7	0.00 (0.00%)	8
+CZNC	Citizens & Northern Corp.	20.21 Jan 8	Down 0.17 (0.83%)	15,906
+CZR	Caesars Entertainment Corporation	6.71 Jan 8	Up 0.16 (2.44%)	679,561
+CZWI	Citizens Community Bancorp, Inc.	9.42 Jan 8	Down 0.13 (1.36%)	2,211
+DAIO	Data I/O Corp.	2.51 Jan 7	0.00 (0.00%)	0
+DAKT	Daktronics Inc.	7.43 Jan 8	Down 0.24 (3.13%)	321,799
+DATE	Jiayuan.com International Ltd.	7.36 Jan 8	Down 0.02 (0.27%)	125,326
+DAVE	Famous Dave's of America Inc.	6.37 Jan 8	Down 0.21 (3.19%)	119,147
+DBVT	DBV Technologies S.A.	33.08 Jan 8	Down 0.44 (1.31%)	150,596
+DCIX	Diana Containerships Inc.	0.66 Jan 8	Down 0.05 (7.25%)	75,753
+DCOM	Dime Community Bancshares Inc.	16.41 Jan 8	Down 0.31 (1.85%)	207,482
+DCTH	Delcath Systems, Inc.	0.52 Jan 8	Up 0.04 (8.51%)	184,129
+DELT	Delta Galil Industries Ltd.	1.30 Jan 8	Down 0.15 (10.34%)	7,665
+DENN	Denny's Corporation	9.02 Jan 8	Down 0.15 (1.64%)	474,923
+DEPO	DepoMed Inc.	15.44 Jan 8	Down 0.60 (3.74%)	2,120,266
+DERM	Dermira, Inc.	30.72 Jan 8	Down 0.57 (1.82%)	165,644
+DEST	Destination Maternity Corporation	7.19 Jan 8	Down 0.39 (5.15%)	115,208
+DFRG	Del Frisco's Restaurant Group, Inc.	14.54 Jan 8	Down 0.52 (3.45%)	737,837
+DGAS	Delta Natural Gas Company, Inc.	21.15 Jan 8	Up 0.05 (0.24%)	5,161
+DGICA	Donegal Group Inc.	13.78 Jan 8	Down 0.06 (0.43%)	19,267
+DGICB	Donegal Group Inc.	15.63 Jan 5	0.00 (0.00%)	0
+DGII	Digi International Inc.	10.74 Jan 8	Down 0.11 (1.01%)	312,564
+DGLY	Digital Ally Inc.	5.79 Jan 8	Up 0.10 (1.76%)	83,227
+DHIL	Diamond Hill Investment Group Inc.	182.36 Jan 8	Down 0.41 (0.22%)	14,813
+DHRM	Dehaier Medical Systems Limited	1.89 Jan 8	Up 0.01 (0.53%)	4,400
+DHXM	DHX Media Ltd.	5.85 Jan 8	Up 0.00 (0.03%)	1,180
+DIOD	Diodes Incorporated	20.16 Jan 8	Down 0.55 (2.66%)	269,256
+DISCA	Discovery Communications, Inc.	26.01 Jan 8	Up 0.53 (2.08%)	2,886,474
+DISCB	Discovery Communications, Inc.	25.56 Jan 8	Down 0.74 (2.81%)	640
+DISCK	Discovery Communications, Inc.	25.00 Jan 8	Up 0.68 (2.80%)	3,264,593
+DISH	Dish Network Corp.	53.81 Jan 8	Down 1.05 (1.91%)	1,724,724
+DJCO	Daily Journal Corp.	191.03 Jan 8	Down 2.52 (1.30%)	921
+DLHC	DLH Holdings Corp.	3.51 Jan 8	0.00 (0.00%)	9,153
+DLTH	Duluth Holdings Inc.	13.99 Jan 8	Down 0.92 (6.17%)	130,774
+DLTR	Dollar Tree, Inc.	77.79 Jan 8	Down 0.66 (0.84%)	3,362,910
+DMLP	Dorchester Minerals LP	9.70 Jan 8	Up 0.04 (0.41%)	20,637
+DMND	Diamond Foods, Inc.	39.12 Jan 8	Down 0.19 (0.48%)	261,526
+DMRC	Digimarc Corporation	34.05 Jan 8	Down 1.16 (3.29%)	86,493
+DMTX	Dimension Therapeutics, Inc.	9.76 Jan 8	Down 0.35 (3.46%)	54,350
+DNAI	ProNAi Therapeutics, Inc.	12.09 Jan 8	Down 0.46 (3.67%)	108,807
+DNBF	DNB Financial Corp.	27.95 Jan 7	0.00 (0.00%)	0
+DNKN	Dunkin' Brands Group, Inc.	38.27 Jan 8	0.00 (0.00%)	2,413,224
+DORM	Dorman Products, Inc.	43.40 Jan 8	Down 1.28 (2.86%)	305,769
+DOX	Amdocs Limited	52.17 Jan 8	Down 0.25 (0.48%)	681,536
+DPRX	Dipexium Pharmaceuticals, Inc.	9.10 Jan 8	Up 0.12 (1.34%)	39,283
+DRAD	Digirad Corporation	5.50 Jan 8	0.00 (0.00%)	55,815
+DRAM	Dataram Corporation	0.69 Jan 8	Up 0.03 (4.53%)	7,992
+DRNA	Dicerna Pharmaceuticals, Inc.	9.09 Jan 8	Down 0.47 (4.92%)	156,391
+DRRX	DURECT Corporation	1.60 Jan 8	Down 0.16 (9.09%)	702,215
+DRWI	DragonWave Inc.	0.10 Jan 8	Up 0.01 (8.34%)	337,828
+DRYS	DryShips, Inc.	0.12 Jan 8	Down 0.01 (11.07%)	5,666,500
+DSCI	Derma Sciences Inc.	3.70 Jan 8	Down 0.02 (0.54%)	291,683
+DSCO	Discovery Laboratories Inc.	0.19 Jan 8	Down 0.00 (0.11%)	500,243
+DSGX	The Descartes Systems Group Inc	19.00 Jan 8	Up 0.02 (0.11%)	128,494
+DSKX	DS Healthcare Group, Inc.	2.50 Jan 8	Down 0.02 (0.79%)	80,003
+DSKY	iDreamSky Technology Limited	13.35 Jan 8	Down 0.04 (0.30%)	151,703
+DSPG	DSP Group Inc.	8.74 Jan 8	Up 0.17 (1.98%)	182,228
+DSWL	Deswell Industries, Inc.	1.43 Jan 8	Up 0.03 (2.00%)	1,360
+DTEA	DAVIDsTEA Inc.	11.17 Jan 8	Down 0.26 (2.27%)	55,905
+DTLK	Datalink Corporation	6.60 Jan 8	Down 0.04 (0.60%)	97,491
+DTRM	Determine, Inc.	2.05 Jan 8	Down 0.01 (0.49%)	30,735
+DTSI	DTS Inc.	21.96 Jan 8	Up 0.11 (0.50%)	143,703
+DVAX	Dynavax Technologies Corporation	26.79 Jan 8	Down 2.91 (9.80%)	2,217,868
+DVCR	Diversicare Healthcare Services Inc.	8.94 Jan 8	Down 0.26 (2.83%)	7,514
+DWA	DreamWorks Animation SKG Inc.	24.49 Jan 8	Up 0.02 (0.08%)	883,094
+DWCH	Datawatch Corporation	5.47 Jan 8	Up 0.03 (0.55%)	22,457
+DWSN	Dawson Geophysical Company	3.10 Jan 8	Down 0.01 (0.32%)	50,673
+DXCM	DexCom, Inc.	79.60 Jan 8	Down 2.19 (2.68%)	766,519
+DXLG	Destination XL Group, Inc.	4.67 Jan 8	Down 0.34 (6.79%)	155,254
+DXPE	DXP Enterprises, Inc.	18.92 Jan 8	Down 0.68 (3.47%)	91,565
+DXYN	The Dixie Group, Inc.	4.82 Jan 8	Up 0.09 (1.90%)	9,931
+DYAX	Dyax Corp.	37.74 Jan 8	Up 0.08 (0.21%)	1,962,381
+DYNT	Dynatronics Corp.	2.75 Jan 8	Down 0.05 (1.79%)	26,728
+DYSL	Dynasil Corporation of America	1.67 Jan 8	Down 0.08 (4.57%)	17,011
+EA	Electronic Arts Inc.	63.13 Jan 8	Up 0.67 (1.07%)	3,909,748
+EAC	Erickson Incorporated	1.99 Jan 8	Down 0.00 (0.01%)	20,069
+EACQ	Easterly Acquisition Corp.	9.69 Jan 8	0.00 (0.00%)	599
+EAGL	Double Eagle Acquisition Corp.	9.60 Jan 8	Down 0.01 (0.10%)	1,100
+EARS	Auris Medical Holding AG	5.69 Jan 8	Down 1.39 (19.63%)	2,043,153
+EBAY	eBay Inc.	25.75 Jan 8	Up 0.06 (0.23%)	11,233,795
+EBIO	Eleven Biotherapeutics, Inc.	2.48 Jan 8	Down 0.07 (2.75%)	23,851
+EBIX	Ebix Inc.	29.35 Jan 8	Up 0.25 (0.86%)	502,378
+EBMT	Eagle Bancorp Montana, Inc.	11.99 Jan 8	Down 0.05 (0.41%)	914
+EBSB	Meridian Bancorp, Inc.	13.17 Jan 8	Down 0.30 (2.23%)	134,183
+EBTC	Enterprise Bancorp Inc.	21.06 Jan 8	Down 1.10 (4.96%)	36,145
+ECHO	Echo Global Logistics, Inc.	20.65 Jan 8	Up 0.65 (3.25%)	401,134
+ECOL	US Ecology, Inc.	32.39 Jan 8	Down 0.57 (1.73%)	160,689
+ECPG	Encore Capital Group, Inc.	24.07 Jan 8	Down 1.37 (5.39%)	403,061
+ECTE	Echo Therapeutics, Inc.	1.32 Jan 8	Down 0.04 (2.94%)	10,090
+ECYT	Endocyte, Inc.	3.51 Jan 8	Down 0.06 (1.68%)	297,127
+EDAP	EDAP TMS SA	3.80 Jan 8	Down 0.02 (0.52%)	69,364
+EDGE	Edge Therapeutics, Inc.	12.85 Jan 8	Up 0.24 (1.90%)	29,741
+EDGW	Edgewater Technology Inc.	7.93 Jan 8	Down 0.02 (0.25%)	11,121
+EDUC	Educational Development Corporation	9.63 Jan 8	Up 0.37 (4.00%)	22,142
+EEFT	Euronet Worldwide, Inc.	73.09 Jan 8	Up 1.43 (2.00%)	671,156
+EEI	Ecology & Environment, Inc.	9.92 Jan 8	Down 0.18 (1.78%)	4,310
+EFII	Electronics for Imaging, Inc.	41.71 Jan 8	Down 0.97 (2.27%)	346,547
+EFOI	Energy Focus, Inc.	12.85 Jan 8	Up 0.75 (6.20%)	207,831
+EFSC	Enterprise Financial Services Corp.	27.14 Jan 8	Down 0.36 (1.31%)	80,147
+EFUT	e-Future Information Technology Inc.	8.40 Jan 8	Down 0.39 (4.44%)	75,075
+EGAN	eGain Corporation	3.83 Jan 8	Up 0.01 (0.26%)	11,722
+EGBN	Eagle Bancorp, Inc.	48.04 Jan 8	Down 0.79 (1.62%)	146,837
+EGHT	8x8 Inc.	10.43 Jan 8	Down 0.11 (1.04%)	441,249
+EGLE	Eagle Bulk Shipping Inc.	2.66 Jan 8	Down 0.12 (4.32%)	32,971
+EGLT	Egalet Corporation	9.87 Jan 8	Up 0.21 (2.17%)	117,850
+EGOV	NIC Inc.	18.13 Jan 8	Down 0.27 (1.47%)	194,310
+EGRX	Eagle Pharmaceuticals Inc.	81.92 Jan 8	Down 3.20 (3.76%)	283,356
+EGT	Entertainment Gaming Asia Inc.	2.09 Jan 7	0.00 (0.00%)	0
+EHTH	eHealth, Inc.	10.10 Jan 8	Up 0.18 (1.81%)	237,972
+EIGI	Endurance International Group Holdings, Inc.	9.86 Jan 8	Down 0.09 (0.90%)	430,738
+ELEC	Electrum Special Acquisition Corporation	9.59 Jan 5	0.00 (0.00%)	0
+ELGX	Endologix Inc.	9.38 Jan 8	Down 0.14 (1.47%)	430,641
+ELNK	EarthLink Holdings Corp.	6.39 Jan 8	Down 0.16 (2.37%)	1,341,416
+ELON	Echelon Corporation	5.40 Jan 8	Up 0.02 (0.37%)	6,765
+ELOS	Syneron Medical Ltd.	6.91 Jan 8	Down 0.23 (3.22%)	84,259
+ELRC	Electro Rent Corporation	8.76 Jan 8	Down 0.19 (2.12%)	47,956
+ELSE	Electro-Sensors Inc.	3.74 Jan 6	0.00 (0.00%)	20
+ELTK	Eltek Ltd.	1.24 Jan 8	Up 0.03 (2.48%)	24,000
+EMCF	Emclaire Financial Corp.	24.30 Jan 6	0.00 (0.00%)	0
+EMCI	EMC Insurance Group Inc.	23.30 Jan 8	Down 1.30 (5.28%)	22,434
+EMITF	Elbit Imaging Ltd.	0.70 Jan 8	Down 0.02 (2.97%)	9,129
+EMKR	EMCORE Corporation	5.58 Jan 8	Down 0.20 (3.46%)	239,368
+EML	The Eastern Company	18.24 Jan 8	Up 0.09 (0.50%)	6,837
+EMMS	Emmis Communications Corp.	0.63 Jan 8	Down 0.03 (4.38%)	34,016
+ENDP	Endo International plc	53.78 Jan 8	Down 2.58 (4.58%)	4,032,094
+ENFC	Entegra Financial Corp.	18.51 Jan 8	Down 0.04 (0.22%)	10,010
+ENG	ENGlobal Corp.	0.97 Jan 8	Up 0.05 (5.07%)	22,991
+ENOC	EnerNOC, Inc.	3.32 Jan 8	Down 0.11 (3.21%)	591,007
+ENPH	Enphase Energy, Inc.	2.99 Jan 8	Down 0.01 (0.33%)	997,386
+ENSG	The Ensign Group, Inc.	20.94 Jan 8	Down 0.18 (0.85%)	310,511
+ENT	Global Eagle Entertainment Inc.	9.61 Jan 8	Up 0.02 (0.21%)	395,995
+ENTA	Enanta Pharmaceuticals, Inc.	29.57 Jan 8	Down 1.01 (3.30%)	258,065
+ENTG	Entegris, Inc.	11.46 Jan 8	Down 0.34 (2.88%)	1,061,293
+ENTL	Entellus Medical, Inc.	15.50 Jan 8	Down 0.47 (2.94%)	47,461
+ENZN	Enzon Pharmaceuticals Inc.	0.68 Jan 8	0.00 (0.00%)	143,145
+ENZY	Enzymotec Ltd.	9.15 Jan 8	Down 0.47 (4.83%)	126,052
+EPAY	Bottomline Technologies (de), Inc.	28.73 Jan 8	Up 0.46 (1.63%)	357,385
+EPIQ	Epiq Systems, Inc.	11.60 Jan 8	0.00 (0.00%)	247,717
+EPIX	ESSA Pharma Inc.	4.00 Jan 8	Down 0.75 (15.79%)	1,000
+EPRS	EPIRUS Biopharmaceuticals, Inc.	2.72 Jan 8	Down 0.14 (4.90%)	89,258
+EPZM	Epizyme, Inc.	10.71 Jan 8	Down 0.36 (3.25%)	1,030,880
+EQBK	Equity Bancshares, Inc.	23.84 Jan 8	Down 0.06 (0.25%)	28,938
+EQFN	Equitable Financial Corp.	8.97 Jan 8	Down 0.12 (1.34%)	15,414
+EQIX	Equinix, Inc.	309.79 Jan 8	Up 6.50 (2.14%)	1,463,330
+ERI	Eldorado Resorts, Inc.	10.66 Jan 8	Up 0.01 (0.09%)	277,659
+ERIC	Ericsson	9.10 Jan 8	Up 0.04 (0.44%)	4,302,622
+ERIE	Erie Indemnity Company	91.94 Jan 8	Down 0.98 (1.05%)	49,242
+ERII	Energy Recovery, Inc.	6.84 Jan 8	Up 0.05 (0.74%)	440,789
+ERS	Empire Resources Inc.	3.59 Jan 8	Down 0.00 (0.00%)	1,202
+ESBK	Elmira Savings Bank	19.97 Jan 8	Up 0.01 (0.05%)	2,762
+ESCA	Escalade Inc.	11.51 Jan 8	Down 0.64 (5.27%)	40,852
+ESEA	Euroseas, Ltd.	2.45 Jan 8	Down 0.07 (2.78%)	3,721
+ESES	Eco-Stim Energy Solutions, Inc.	2.71 Jan 7	0.00 (0.00%)	0
+ESGR	Enstar Group Limited	150.07 Jan 8	Up 0.17 (0.11%)	55,003
+ESIO	Electro Scientific Industries Inc.	5.42 Jan 8	Down 0.06 (1.09%)	93,604
+ESLT	Elbit Systems Ltd.	85.90 Jan 8	Down 0.35 (0.41%)	10,521
+ESMC	Escalon Medical Corp.	1.06 Jan 8	0.00 (0.00%)	2,100
+ESND	Essendant Inc.	29.53 Jan 8	Down 0.38 (1.27%)	154,297
+ESPR	Esperion Therapeutics, Inc.	18.04 Jan 8	Down 0.11 (0.61%)	501,957
+ESRX	Express Scripts Holding Company	85.74 Jan 8	Down 0.10 (0.12%)	4,012,560
+ESSA	ESSA Bancorp, Inc.	13.44 Jan 8	Down 0.02 (0.15%)	17,825
+ESXB	Community Bankers Trust Corporation	5.44 Jan 8	Up 0.04 (0.74%)	10,054
+ETFC	E*TRADE Financial Corporation	26.71 Jan 8	Down 0.18 (0.67%)	4,959,622
+ETRM	EnteroMedics Inc.	1.52 Jan 8	Up 0.12 (8.57%)	183,737
+ETSY	Etsy, Inc.	8.38 Jan 8	Down 0.29 (3.34%)	786,274
+EVAR	Lombard Medical, Inc.	1.01 Jan 8	Down 0.13 (11.40%)	79,070
+EVBS	Eastern Virginia Bankshares Inc.	6.80 Jan 8	Down 0.05 (0.73%)	6,920
+EVEP	EV Energy Partners LP	2.65 Jan 8	Up 0.26 (10.88%)	397,431
+EVK	Ever-Glory International Group, Inc.	2.29 Jan 8	Down 0.11 (4.40%)	1,030
+EVLV	EVINE Live Inc.	1.43 Jan 8	Down 0.07 (4.67%)	223,629
+EVOK	Evoke Pharma, Inc.	2.96 Jan 8	Down 0.08 (2.63%)	42,957
+EVOL	Evolving Systems Inc.	5.42 Jan 8	Down 0.04 (0.73%)	28,131
+EWBC	East West Bancorp, Inc.	37.52 Jan 8	Down 0.75 (1.96%)	871,004
+EXA	Exa Corporation	11.46 Jan 8	Up 0.08 (0.70%)	54,481
+EXAC	Exactech Inc.	18.33 Jan 8	Down 0.35 (1.87%)	102,397
+EXAS	Exact Sciences Corporation	7.98 Jan 8	Down 0.17 (2.09%)	2,468,721
+EXEL	Exelixis, Inc.	4.89 Jan 8	Down 0.04 (0.71%)	3,546,108
+EXFO	EXFO Inc	3.14 Jan 8	Up 0.23 (7.90%)	33,402
+EXLS	Exlservice Holdings, Inc.	42.18 Jan 8	Down 0.34 (0.80%)	293,501
+EXPD	Expeditors International of Washington Inc.	42.78 Jan 8	Up 0.12 (0.28%)	2,526,286
+EXPE	Expedia Inc.	111.41 Jan 8	Down 3.40 (2.96%)	2,456,073
+EXPO	Exponent Inc.	47.40 Jan 8	Down 0.38 (0.80%)	119,468
+EXTR	Extreme Networks Inc.	3.46 Jan 8	Down 0.18 (4.95%)	1,135,521
+EXXI	Energy XXI Ltd.	1.02 Jan 8	Up 0.01 (0.99%)	978,533
+EYEG	Eyegate Pharmaceuticals, Inc.	2.37 Jan 8	Down 0.15 (5.95%)	72,260
+EYES	Second Sight Medical Products, Inc.	4.40 Jan 8	Down 0.44 (9.09%)	672,380
+EZCH	EZchip Semiconductor Ltd.	25.18 Jan 8	Down 0.02 (0.08%)	1,303,451
+EZPW	EZCORP, Inc.	4.04 Jan 8	Down 0.56 (12.17%)	1,822,721
+FALC	Falconstor Software Inc.	1.84 Jan 8	Down 0.01 (0.54%)	32,838
+FANG	Diamondback Energy, Inc.	60.76 Jan 8	Up 0.36 (0.60%)	1,259,318
+FARM	Farmer Brothers Co.	28.84 Jan 8	Down 0.65 (2.20%)	45,269
+FARO	FARO Technologies Inc.	24.53 Jan 8	Down 1.54 (5.91%)	190,501
+FAST	Fastenal Company	38.80 Jan 8	Down 0.25 (0.64%)	3,006,266
+FATE	Fate Therapeutics, Inc.	2.90 Jan 8	Up 0.05 (1.75%)	135,632
+FB	Facebook, Inc.	97.33 Jan 8	Down 0.59 (0.60%)	35,402,298
+FBIO	Fortress Biotech, Inc.	2.81 Jan 8	Up 0.05 (1.81%)	70,987
+FBIZ	First Business Financial Services, Inc.	24.00 Jan 8	Up 0.10 (0.42%)	27,522
+FBMS	First Bancshares Inc.	18.24 Jan 8	Up 0.24 (1.35%)	661
+FBNC	First Bancorp	18.36 Jan 8	Down 0.09 (0.49%)	64,293
+FBNK	First Connecticut Bancorp, Inc.	16.24 Jan 8	Down 0.64 (3.79%)	42,673
+FBRC	FBR & Co.	18.46 Jan 8	Down 0.24 (1.28%)	31,692
+FBSS	Fauquier Bankshares Inc.	15.50 Jan 7	0.00 (0.00%)	65
+FCAP	First Capital Inc.	25.86 Jan 8	Up 0.81 (3.23%)	563
+FCBC	First Community Bancshares, Inc.	17.73 Jan 8	Down 0.22 (1.23%)	36,678
+FCCO	First Community Corporation	14.07 Jan 8	Up 0.38 (2.78%)	4,620
+FCCY	1st Constitution Bancorp	12.71 Jan 8	Down 0.28 (2.16%)	1,513
+FCEL	FuelCell Energy Inc.	6.16 Jan 8	Up 0.84 (15.79%)	3,076,730
+FCFP	First Community Financial Partners, Inc.	7.23 Jan 8	Up 0.14 (1.97%)	3,777
+FCFS	First Cash Financial Services Inc.	38.60 Jan 8	Down 0.48 (1.23%)	266,295
+FCLF	First Clover Leaf Financial Corp.	9.40 Jan 8	Up 0.02 (0.21%)	9,633
+FCNCA	First Citizens Bancshares Inc.	243.44 Jan 8	Down 0.08 (0.03%)	27,872
+FCS	Fairchild Semiconductor International Inc.	21.05 Jan 8	Up 0.17 (0.81%)	3,511,966
+FCSC	Fibrocell Science, Inc.	3.57 Jan 8	Down 0.53 (12.93%)	424,877
+FCTY	1st Century Bancshares, Inc.	7.60 Jan 4	0.00 (0.00%)	0
+FDEF	First Defiance Financial Corp.	37.04 Jan 8	Down 0.92 (2.42%)	41,564
+FDML	Federal-Mogul Holdings Corporation	5.43 Jan 8	Down 0.16 (2.86%)	262,386
+FEIC	FEI Company	70.35 Jan 8	Down 1.01 (1.42%)	281,848
+FEIM	Frequency Electronics Inc.	10.16 Jan 8	Down 0.56 (5.20%)	4,500
+FELE	Franklin Electric Co., Inc.	24.37 Jan 8	Down 1.02 (4.02%)	329,315
+FENX	Fenix Parts, Inc.	5.68 Jan 8	Down 0.33 (5.49%)	65,744
+FES	Forbes Energy Services Ltd.	0.23 Jan 8	Down 0.02 (6.56%)	69,078
+FEYE	FireEye, Inc.	18.32 Jan 8	Down 0.69 (3.63%)	5,069,485
+FFBC	First Financial Bancorp.	16.58 Jan 8	Down 0.18 (1.07%)	300,005
+FFHL	Fuwei Films (Holdings) Co., Ltd.	0.75 Jan 8	Up 0.02 (2.74%)	406
+FFIC	Flushing Financial Corp.	20.40 Jan 8	Down 0.44 (2.11%)	110,870
+FFIN	First Financial Bankshares Inc.	27.55 Jan 8	Down 0.41 (1.47%)	348,135
+FFIV	F5 Networks, Inc.	92.13 Jan 8	Up 0.31 (0.34%)	1,291,304
+FFKT	Farmers Capital Bank Corporation	26.78 Jan 8	Up 0.11 (0.41%)	73,068
+FFNW	First Financial Northwest, Inc.	13.80 Jan 8	Up 0.12 (0.88%)	28,434
+FFWM	First Foundation Inc.	23.36 Jan 8	Up 0.02 (0.09%)	28,031
+FGBI	First Guaranty Bancshares, Inc.	18.80 Jan 8	0.00 (0.00%)	1,147
+FGEN	FibroGen, Inc.	26.00 Jan 8	Down 1.07 (3.95%)	432,348
+FHCO	The Female Health Company	1.24 Jan 8	Down 0.03 (2.52%)	93,922
+FIBK	First Interstate Bancsystem Inc.	27.32 Jan 8	Down 0.18 (0.65%)	181,270
+FINL	Finish Line Inc.	16.97 Jan 8	Up 0.34 (2.04%)	3,538,350
+FISI	Financial Institutions Inc.	26.90 Jan 8	Up 0.14 (0.52%)	43,627
+FISV	Fiserv, Inc.	87.53 Jan 8	Down 0.68 (0.77%)	1,508,745
+FITB	Fifth Third Bancorp	18.39 Jan 8	Down 0.32 (1.74%)	9,007,275
+FIVE	Five Below, Inc.	33.58 Jan 8	Down 0.14 (0.42%)	3,605,706
+FIVN	Five9, Inc.	8.02 Jan 8	Down 0.02 (0.25%)	343,824
+FIZZ	National Beverage Corp.	42.13 Jan 8	Up 1.11 (2.71%)	91,329
+FLDM	Fluidigm Corporation	9.24 Jan 8	Down 0.56 (5.71%)	331,178
+FLEX	Flextronics International Ltd.	10.18 Jan 8	Down 0.65 (5.96%)	8,756,846
+FLIC	The First of Long Island Corporation	28.63 Jan 8	Down 0.51 (1.75%)	56,060
+FLIR	FLIR Systems, Inc.	30.28 Jan 8	Up 0.26 (0.87%)	2,182,094
+FLKS	Flex Pharma, Inc.	10.75 Jan 8	Down 0.25 (2.27%)	78,978
+FLL	Full House Resorts Inc.	1.63 Jan 8	Down 0.01 (0.61%)	3,770
+FLML	Flamel Technologies SA	10.22 Jan 8	Down 1.79 (14.90%)	2,735,885
+FLWS	1-800-Flowers.com Inc.	6.83 Jan 8	Down 0.29 (4.07%)	303,445
+FLXN	Flexion Therapeutics, Inc.	15.41 Jan 8	Down 0.28 (1.78%)	126,514
+FLXS	Flexsteel Industries Inc.	42.21 Jan 8	Up 0.24 (0.57%)	34,960
+FMBH	First Mid-Illinois Bancshares, Inc.	26.27 Jan 8	Up 0.20 (0.77%)	520
+FMBI	First Midwest Bancorp Inc.	17.16 Jan 8	Down 0.45 (2.56%)	705,680
+FMER	FirstMerit Corporation	17.16 Jan 8	Down 0.43 (2.44%)	1,765,578
+FMI	Foundation Medicine, Inc.	16.67 Jan 8	Down 0.38 (2.23%)	203,143
+FMNB	Farmers National Banc Corp.	8.55 Jan 8	Down 0.14 (1.61%)	13,035
+FNBC	First NBC Bank Holding Company	33.50 Jan 8	Down 1.02 (2.95%)	162,685
+FNFG	First Niagara Financial Group Inc.	10.03 Jan 8	Down 0.15 (1.47%)	3,785,947
+FNGN	Financial Engines, Inc.	31.30 Jan 8	Down 0.39 (1.23%)	296,481
+FNHC	Federated National Holding Company	27.82 Jan 8	Down 0.67 (2.35%)	155,579
+FNJN	Finjan Holdings, Inc.	1.10 Jan 8	Down 0.03 (2.65%)	4,216
+FNLC	The First Bancorp, Inc.	19.02 Jan 8	Down 0.33 (1.71%)	12,326
+FNSR	Finisar Corp.	12.99 Jan 8	Down 0.48 (3.56%)	1,258,060
+FNTC	FinTech Acquisition Corp.	9.51 Jan 5	0.00 (0.00%)	1
+FNWB	First Northwest Bancorp	13.63 Jan 8	Down 0.01 (0.07%)	4,009
+FOGO	Fogo de Chao, Inc.	13.86 Jan 8	Down 0.15 (1.07%)	58,645
+FOLD	Amicus Therapeutics, Inc.	7.85 Jan 8	Down 0.20 (2.48%)	1,348,895
+FOMX	Foamix Pharmaceuticals Ltd.	7.94 Jan 8	Down 0.10 (1.24%)	122,364
+FONR	Fonar Corp.	17.29 Jan 8	Down 0.35 (1.98%)	30,520
+FORD	Forward Industries Inc.	1.35 Jan 8	0.00 (0.00%)	23,816
+FORK	Fuling Global Inc.	2.80 Jan 8	Up 0.43 (18.14%)	91,934
+FORM	FormFactor Inc.	7.76 Jan 8	Down 0.42 (5.13%)	200,493
+FORR	Forrester Research Inc.	27.91 Jan 8	Up 0.01 (0.04%)	48,435
+FORTY	Formula Systems (1985) Ltd.	26.52 Jan 7	0.00 (0.00%)	0
+FOSL	Fossil Group, Inc.	29.91 Jan 8	Down 2.16 (6.74%)	2,229,643
+FOX	Twenty-First Century Fox, Inc.	25.93 Jan 8	Up 0.01 (0.04%)	4,296,712
+FOXA	Twenty-First Century Fox, Inc.	25.89 Jan 8	0.00 (0.00%)	11,514,372
+FOXF	Fox Factory Holding Corp	14.98 Jan 8	Down 0.28 (1.83%)	127,972
+FPRX	Five Prime Therapeutics, Inc.	35.17 Jan 8	Down 0.90 (2.50%)	288,422
+FRAN	Francesca's Holdings Corporation	17.65 Jan 8	Down 0.13 (0.73%)	1,540,056
+FRBA	First Bank	6.79 Jan 8	Down 0.02 (0.29%)	3,961
+FRBK	Republic First Bancorp Inc.	4.36 Jan 8	Up 0.08 (1.87%)	29,391
+FRED	Fred's, Inc.	15.60 Jan 8	Down 0.27 (1.70%)	245,495
+FREE	FreeSeas Inc.	0.01 Jan 8	Down 0.00 (11.67%)	20,781,826
+FRGI	Fiesta Restaurant Group, Inc.	33.08 Jan 8	Down 0.64 (1.90%)	604,122
+FRME	First Merchants Corporation	23.13 Jan 8	Down 0.51 (2.16%)	244,607
+FRP	Fairpoint Communications, Inc.	15.84 Jan 8	Up 0.01 (0.06%)	128,718
+FRPH	FRP Holdings, Inc.	30.97 Jan 8	Down 1.03 (3.22%)	20,518
+FRPT	Freshpet, Inc.	7.96 Jan 8	Down 0.19 (2.33%)	197,423
+FRSH	Papa Murphy's Holdings, Inc.	10.26 Jan 8	Down 0.45 (4.20%)	298,992
+FSAM	Fifth Street Asset Management Inc.	3.19 Jan 8	Down 0.25 (7.27%)	43,322
+FSBK	First South Bancorp Inc.	8.45 Jan 8	Down 0.04 (0.47%)	3,471
+FSBW	FS Bancorp, Inc.	25.62 Jan 8	Up 0.05 (0.20%)	5,817
+FSFG	First Savings Financial Group, Inc.	35.11 Jan 8	Up 0.11 (0.31%)	2,601
+FSLR	First Solar, Inc.	65.62 Jan 8	Down 0.60 (0.91%)	3,035,650
+FSNN	Fusion Telecommunications International, Inc.	2.73 Jan 8	Down 0.20 (6.83%)	30,087
+FSTR	LB Foster Co.	11.50 Jan 8	Up 0.05 (0.44%)	137,793
+FSV	FirstService Corporation	35.99 Jan 8	Up 0.81 (2.29%)	44,771
+FSYS	Fuel Systems Solutions, Inc.	3.56 Jan 8	Up 0.20 (5.95%)	83,600
+FTD	FTD Companies, Inc.	24.40 Jan 8	Down 0.34 (1.37%)	183,858
+FTEK	Fuel-Tech, Inc.	1.81 Jan 8	Down 0.03 (1.63%)	21,251
+FTNT	Fortinet Inc.	28.61 Jan 8	Down 0.56 (1.92%)	3,071,306
+FTR	Frontier Communications Corporation	4.67 Jan 8	Down 0.02 (0.43%)	13,846,781
+FUEL	Rocket Fuel Inc.	3.21 Jan 8	Up 0.19 (6.29%)	466,457
+FULT	Fulton Financial Corporation	12.19 Jan 8	Down 0.24 (1.93%)	1,373,593
+FUNC	First United Corporation	11.33 Jan 8	Down 0.03 (0.26%)	2,606
+FWM	Fairway Group Holdings Corp.	0.61 Jan 8	Up 0.00 (0.33%)	104,753
+FWP	Forward Pharma A/S	17.81 Jan 8	Down 0.26 (1.44%)	13,529
+FWRD	Forward Air Corp.	42.72 Jan 8	Down 0.03 (0.07%)	419,089
+FXCB	Fox Chase Bancorp, Inc.	19.86 Jan 8	Down 0.08 (0.40%)	28,540
+GABC	German American Bancorp Inc.	32.35 Jan 8	Up 0.49 (1.54%)	43,565
+GAI	Global-Tech Advanced Innovations Inc.	8.25 Jan 8	Down 0.05 (0.60%)	3,500
+GAIA	Gaiam Inc.	6.01 Jan 8	Down 0.05 (0.83%)	12,357
+GALE	Galena Biopharma, Inc.	0.79 Jan 8	Down 0.14 (15.03%)	6,655,584
+GALT	Galectin Therapeutics, Inc.	1.44 Jan 8	Down 0.13 (8.28%)	194,779
+GASS	StealthGas, Inc.	2.89 Jan 8	Down 0.14 (4.78%)	68,604
+GBCI	Glacier Bancorp, Inc.	23.95 Jan 8	Down 0.79 (3.19%)	403,305
+GBIM	GlobeImmune Inc.	3.31 Jan 8	Down 0.03 (0.90%)	19,083
+GBLI	Global Indemnity plc	28.35 Jan 8	Down 0.05 (0.18%)	18,585
+GBNK	Guaranty Bancorp	15.67 Jan 8	Down 0.33 (2.06%)	369,026
+GBSN	Great Basin Scientific, Inc.	0.46 Jan 8	Down 0.06 (10.64%)	2,705,197
+GBT	Global Blood Therapeutics, Inc.	23.40 Jan 8	Up 0.94 (4.19%)	303,845
+GCBC	Greene County Bancorp, Inc.	30.50 Jan 8	Down 0.50 (1.61%)	553
+GDEN	Golden Entertainment, Inc.	10.02 Jan 8	0.00 (0.00%)	8,473
+GENC	Gencor Industries Inc.	12.19 Jan 8	Down 0.10 (0.81%)	39,965
+GENE	Genetic Technologies Limited	2.30 Jan 8	Down 0.03 (1.29%)	291,928
+GEOS	Geospace Technologies Corporation	11.56 Jan 8	Down 0.25 (2.12%)	191,697
+GERN	Geron Corporation	3.88 Jan 8	Up 0.03 (0.78%)	3,219,299
+GEVO	Gevo, Inc.	0.53 Jan 8	Down 0.02 (3.64%)	675,557
+GFED	Guaranty Federal Bancshares Inc.	15.16 Jan 8	Down 0.28 (1.81%)	151
+GFN	General Finance Corporation	4.04 Jan 8	Down 0.12 (2.88%)	5,562
+GGAC	Garnero Group Acquisition Company	9.83 Jan 8	0.00 (0.00%)	1,001
+GGAL	Grupo Financiero Galicia S.A.	24.73 Jan 8	Down 0.59 (2.33%)	184,100
+GHDX	Genomic Health Inc.	31.66 Jan 8	Down 1.27 (3.86%)	852,767
+GIFI	Gulf Island Fabrication Inc.	8.85 Jan 8	Down 0.38 (4.12%)	218,905
+GIGA	Giga-tronics Inc.	1.28 Jan 8	Up 0.05 (4.07%)	233,696
+GIGM	GigaMedia Ltd.	3.05 Jan 8	Down 0.01 (0.33%)	22,239
+GIII	G-III Apparel Group, Ltd.	43.38 Jan 8	Down 2.22 (4.87%)	522,810
+GILD	Gilead Sciences Inc.	96.45 Jan 8	Up 0.20 (0.21%)	11,976,034
+GILT	Gilat Satellite Networks Ltd.	3.37 Jan 8	Up 0.07 (2.12%)	2,439
+GK	G&K Services Inc.	58.37 Jan 8	Down 0.51 (0.87%)	143,435
+GLBL	TerraForm Global, Inc.	4.54 Jan 8	Down 0.20 (4.22%)	630,826
+GLBS	Globus Maritime Limited	0.20 Jan 8	Down 0.01 (3.62%)	21,640
+GLBZ	Glen Burnie Bancorp	12.12 Jan 8	Down 0.18 (1.46%)	205
+GLDC	Golden Enterprises Inc.	4.81 Jan 8	Up 0.21 (4.57%)	1,593
+GLDD	Great Lakes Dredge & Dock Corporation	3.45 Jan 8	Down 0.03 (0.86%)	164,941
+GLMD	Galmed Pharmaceuticals Ltd.	7.16 Jan 8	Down 0.34 (4.47%)	34,858
+GLNG	Golar LNG Ltd.	15.91 Jan 8	Up 0.78 (5.16%)	1,490,615
+GLPG	Galapagos NV	57.23 Jan 8	Up 1.52 (2.73%)	100,882
+GLPI	Gaming and Leisure Properties, Inc	26.75 Jan 8	Down 0.41 (1.51%)	792,468
+GLRE	Greenlight Capital Re, Ltd.	18.38 Jan 8	0.00 (0.00%)	202,224
+GLRI	Glori Energy Inc.	0.42 Jan 8	Up 0.05 (13.51%)	91,562
+GLUU	Glu Mobile, Inc.	2.41 Jan 8	Up 0.22 (10.05%)	3,141,079
+GLYC	GlycoMimetics, Inc.	5.19 Jan 8	Down 0.03 (0.57%)	9,116
+GMAN	Gordmans Stores, Inc.	3.05 Jan 8	Down 0.10 (3.17%)	94,784
+GMCR	Keurig Green Mountain, Inc.	90.29 Jan 8	Up 0.14 (0.16%)	2,548,190
+GMLP	Golar LNG Partners LP	11.70 Jan 8	Up 0.10 (0.86%)	367,372
+GNBC	Green Bancorp, Inc.	9.03 Jan 8	Down 0.39 (4.14%)	60,433
+GNCA	Genocea Biosciences, Inc.	4.13 Jan 8	Down 0.23 (5.28%)	171,493
+GNCMA	General Communication Inc.	18.60 Jan 8	Down 0.60 (3.13%)	246,787
+GNMK	GenMark Diagnostics, Inc.	6.80 Jan 8	Down 0.35 (4.90%)	165,382
+GNOW	American Caresource Holdings, Inc.	0.35 Jan 8	Down 0.04 (10.23%)	34,440
+GNTX	Gentex Corp.	14.06 Jan 8	Down 0.08 (0.57%)	5,629,535
+GNVC	GenVec, Inc.	1.73 Jan 8	Up 0.06 (3.59%)	22,020
+GOGL	Golden Ocean Group Limited	0.73 Jan 8	Down 0.01 (1.48%)	184,847
+GOGO	Gogo Inc.	15.35 Jan 8	Down 0.52 (3.28%)	581,888
+GOLD	Randgold Resources Limited	63.78 Jan 8	Down 1.96 (2.98%)	662,246
+GOOD	Gladstone Commercial Corp.	14.21 Jan 8	Down 0.22 (1.52%)	74,571
+GOOG	Alphabet Inc.	714.47 Jan 8	Down 11.92 (1.64%)	2,450,857
+GOOGL	Alphabet Inc.	730.91 Jan 8	Down 10.09 (1.36%)	2,375,348
+GPAC	Global Partner Acquisition Corp.	9.66 Jan 4	0.00 (0.00%)	0
+GPIA	GP Investments Acquisition Corp.	9.65 Jan 8	Up 0.04 (0.42%)	3,367
+GPIC	Gaming Partners International Corporation	8.90 Jan 8	Up 0.12 (1.37%)	200
+GPOR	Gulfport Energy Corp.	23.96 Jan 8	Up 1.06 (4.63%)	2,336,576
+GPP	Green Plains Partners LP	15.00 Jan 8	Down 0.25 (1.64%)	52,790
+GPRE	Green Plains Inc.	18.53 Jan 8	Down 0.68 (3.54%)	817,901
+GPRO	GoPro, Inc.	16.19 Jan 8	Down 0.81 (4.76%)	7,661,875
+GRBK	Green Brick Partners, Inc.	5.99 Jan 8	Down 0.27 (4.31%)	220,569
+GRFS	Grifols, S.A.	15.41 Jan 8	Down 0.19 (1.22%)	682,375
+GRIF	Griffin Industrial Realty, Inc.	26.02 Dec 31	0.00 (0.00%)	0
+GRMN	Garmin Ltd.	33.55 Jan 8	Down 1.35 (3.87%)	2,429,414
+GROW	U.S. Global Investors, Inc.	1.22 Jan 8	Up 0.02 (1.67%)	9,751
+GRPN	Groupon, Inc.	2.78 Jan 8	Down 0.08 (2.80%)	4,617,067
+GRSH	Gores Holdings, Inc.	10.00 Dec 23	0.00 (0.00%)	0
+GRVY	Gravity Co., Ltd	3.20 Jan 7	0.00 (0.00%)	0
+GSBC	Great Southern Bancorp Inc.	42.07 Jan 8	Down 1.42 (3.27%)	35,749
+GSIG	GSI Group Inc.	12.30 Jan 8	Down 0.30 (2.38%)	60,896
+GSIT	GSI Technology Inc.	3.60 Jan 8	Down 0.06 (1.64%)	36,610
+GSM	Ferroglobe PLC	9.10 Jan 8	Down 0.67 (6.86%)	1,550,783
+GSOL	Global Sources Ltd.	7.28 Jan 8	Down 0.01 (0.14%)	12,627
+GT	The Goodyear Tire & Rubber Company	28.14 Jan 8	Down 0.57 (1.99%)	4,578,411
+GTIM	Good Times Restaurants Inc.	4.71 Jan 8	Down 0.02 (0.42%)	62,291
+GTLS	Chart Industries Inc.	15.35 Jan 8	Down 0.53 (3.34%)	493,052
+GTWN	Georgetown Bancorp Inc.	18.93 Jan 8	Down 0.03 (0.14%)	100
+GTXI	GTX Inc.	0.62 Jan 8	Down 0.05 (7.46%)	309,200
+GUID	Guidance Software, Inc.	5.38 Jan 8	Down 0.02 (0.37%)	100,196
+GURE	Gulf Resources, Inc.	1.58 Jan 8	Up 0.00 (0.16%)	62,648
+GWGH	GWG Holdings, Inc.	5.50 Jan 8	0.00 (0.00%)	8,011
+GWPH	GW Pharmaceuticals plc	59.86 Jan 8	Down 1.95 (3.15%)	254,736
+GYRO	Gyrodyne, LLC	26.75 Jan 8	Up 0.25 (0.94%)	1,013
+HA	Hawaiian Holdings Inc.	31.94 Jan 8	Down 0.34 (1.05%)	1,327,557
+HABT	The Habit Restaurants, Inc.	23.11 Jan 8	Down 0.08 (0.34%)	245,654
+HAFC	Hanmi Financial Corporation	21.38 Jan 8	Down 1.53 (6.68%)	350,686
+HAIN	The Hain Celestial Group, Inc.	36.58 Jan 8	Down 0.37 (1.00%)	1,396,180
+HALL	Hallmark Financial Services Inc.	11.51 Jan 8	Up 0.29 (2.58%)	151,403
+HALO	Halozyme Therapeutics, Inc.	14.85 Jan 8	Down 0.15 (1.00%)	1,107,359
+HART	Harvard Apparatus Regenerative Technology, Inc.	2.25 Jan 8	Up 0.25 (12.50%)	3,389,210
+HAS	Hasbro Inc.	68.04 Jan 8	Down 1.08 (1.56%)	1,231,000
+HAWK	Blackhawk Network Holdings, Inc.	41.16 Jan 8	Down 0.63 (1.51%)	450,879
+HAYN	Haynes International, Inc.	32.56 Jan 8	Down 1.08 (3.21%)	49,364
+HBAN	Huntington Bancshares Incorporated	10.05 Jan 8	Down 0.18 (1.76%)	12,049,203
+HBCP	Home Bancorp, Inc.	26.79 Jan 8	Up 0.02 (0.07%)	7,941
+HBHC	Hancock Holding Company	23.62 Jan 8	Down 0.51 (2.11%)	1,143,494
+HBIO	Harvard Bioscience Inc.	2.94 Jan 8	Down 0.08 (2.65%)	216,388
+HBK	Hamilton Bancorp, Inc. (Maryland)	14.31 Jan 8	Up 0.17 (1.20%)	3,337
+HBMD	Howard Bancorp Inc.	13.33 Jan 8	Up 0.02 (0.15%)	128
+HBNC	Horizon Bancorp	27.17 Jan 8	Up 0.05 (0.18%)	85,351
+HBP	Huttig Building Products Inc.	3.34 Jan 8	Down 0.01 (0.30%)	11,012
+HCAC	Hennessy Capital Acquisition Corp. II	9.67 Jan 8	Up 0.01 (0.10%)	200
+HCAP	Harvest Capital Credit Corporation	11.89 Jan 8	Up 0.15 (1.28%)	8,773
+HCCI	Heritage-Crystal Clean, Inc	9.88 Jan 8	Up 0.06 (0.61%)	66,181
+HCKT	The Hackett Group, Inc.	14.29 Jan 8	Down 0.58 (3.90%)	291,896
+HCOM	Hawaiian Telcom Holdco, Inc.	23.91 Jan 8	Down 0.83 (3.35%)	28,931
+HCSG	Healthcare Services Group Inc.	33.31 Jan 8	Down 0.09 (0.27%)	409,055
+HDNG	Hardinge Inc.	8.92 Jan 8	Down 0.16 (1.76%)	20,547
+HDP	Hortonworks, Inc.	18.57 Jan 8	Down 0.37 (1.95%)	478,111
+HDRA	Hydra Industries Acquisition Corp.	9.73 Jan 8	Up 0.01 (0.10%)	1,000
+HDS	HD Supply Holdings, Inc.	27.21 Jan 8	Down 0.41 (1.48%)	3,931,587
+HDSN	Hudson Technologies Inc.	2.90 Jan 8	Up 0.04 (1.40%)	29,218
+HEAR	Turtle Beach Corporation	1.88 Jan 8	Up 0.05 (2.73%)	99,528
+HEES	H&E Equipment Services Inc.	16.24 Jan 8	Down 0.30 (1.81%)	287,920
+HELE	Helen of Troy Limited	87.38 Jan 8	Up 0.35 (0.40%)	1,020,961
+HEOP	Heritage Oaks Bancorp	7.65 Jan 8	Down 0.03 (0.39%)	32,259
+HERO	Hercules Offshore, Inc.	1.81 Jan 8	Down 0.04 (2.16%)	87,324
+HFBC	HopFed Bancorp Inc.	11.94 Jan 8	Up 0.04 (0.34%)	3,705
+HFBL	Home Federal Bancorp, Inc. of Louisiana	22.59 Jan 7	0.00 (0.00%)	0
+HFFC	HF Financial Corp.	17.80 Jan 8	Down 0.03 (0.17%)	12,820
+HFWA	Heritage Financial Corporation	18.19 Jan 8	Down 0.31 (1.68%)	120,127
+HGSH	China HGS Real Estate Inc.	1.57 Jan 8	Up 0.01 (0.67%)	4,962
+HIBB	Hibbett Sports, Inc.	29.31 Jan 8	Down 1.08 (3.55%)	496,939
+HIFS	Hingham Institution for Savings	122.67 Jan 8	Up 2.47 (2.05%)	9,442
+HIHO	Highway Holdings Limited	4.60 Jan 8	Up 0.17 (3.84%)	16,601
+HIIQ	Health Insurance Innovations, Inc.	6.04 Jan 8	Down 0.09 (1.47%)	28,105
+HIMX	Himax Technologies, Inc.	7.29 Jan 8	Down 0.12 (1.62%)	2,067,425
+HLG	Hailiang Education Group Inc.	9.58 Jan 8	Up 0.18 (1.91%)	2,000
+HLIT	Harmonic Inc.	3.46 Jan 8	Down 0.07 (1.98%)	606,770
+HMHC	Houghton Mifflin Harcourt Company	18.36 Jan 8	Down 0.37 (1.98%)	1,134,573
+HMIN	Homeinns Hotel Group	33.92 Jan 8	Down 0.01 (0.03%)	194,670
+HMNF	HMN Financial Inc.	11.55 Jan 8	Up 0.06 (0.52%)	3,092
+HMNY	Helios and Matheson Analytics Inc.	1.73 Jan 8	Down 0.05 (2.92%)	500
+HMPR	Hampton Roads Bankshares Inc.	1.83 Jan 8	Up 0.02 (1.10%)	113,799
+HMST	HomeStreet, Inc.	20.45 Jan 8	Down 0.55 (2.62%)	152,912
+HMSY	HMS Holdings Corp.	12.03 Jan 8	Down 0.21 (1.72%)	564,121
+HMTV	Hemisphere Media Group, Inc.	14.00 Jan 8	Down 0.37 (2.57%)	22,632
+HNH	Handy & Harman Ltd.	19.41 Jan 8	Down 0.33 (1.67%)	15,081
+HNNA	Hennessy Advisors, Inc.	29.50 Jan 8	0.00 (0.00%)	9,531
+HNRG	Hallador Energy Company	4.56 Jan 8	Down 0.06 (1.30%)	84,832
+HNSN	Hansen Medical, Inc.	2.07 Jan 8	Down 0.03 (1.43%)	35,630
+HOFT	Hooker Furniture Corp.	29.34 Jan 8	Down 0.95 (3.14%)	116,224
+HOLI	HollySys Automation Technologies, Ltd.	17.64 Jan 8	Down 0.25 (1.40%)	695,590
+HOLX	Hologic Inc.	36.55 Jan 8	Down 0.82 (2.19%)	1,814,240
+HOMB	Home Bancshares, Inc. (Conway, AR)	39.00 Jan 8	Up 0.15 (0.39%)	633,164
+HOTR	Chanticleer Holdings, Inc.	0.92 Jan 8	Up 0.04 (4.70%)	52,454
+HPJ	Highpower International, Inc.	2.87 Jan 8	Down 0.01 (0.38%)	64,121
+HQCL	Hanwha Q CELLS Co., Ltd.	20.80 Jan 8	Up 0.14 (0.68%)	31,900
+HQY	HealthEquity, Inc.	22.54 Jan 8	Up 0.09 (0.40%)	759,012
+HRMN	Harmony Merger Corp.	9.82 Dec 24	0.00 (0.00%)	0
+HRTX	Heron Therapeutics, Inc.	23.62 Jan 8	Down 1.30 (5.22%)	655,933
+HRZN	Horizon Technology Finance Corporation	11.83 Jan 8	Up 0.05 (0.42%)	54,147
+HSGX	Histogenics Corporation	3.07 Jan 8	Down 0.23 (6.97%)	98,320
+HSIC	Henry Schein, Inc.	150.28 Jan 8	Down 1.39 (0.92%)	649,140
+HSII	Heidrick & Struggles International Inc.	25.76 Jan 8	Up 0.07 (0.27%)	168,249
+HSKA	Heska Corporation	35.78 Jan 8	Down 0.35 (0.97%)	73,881
+HSNI	HSN, Inc.	48.03 Jan 8	Down 2.33 (4.63%)	666,453
+HSON	Hudson Global, Inc	2.84 Jan 8	Up 0.05 (1.79%)	25,671
+HSTM	Healthstream Inc.	19.80 Jan 8	Down 0.80 (3.86%)	119,899
+HTBI	HomeTrust Bancshares, Inc.	19.35 Jan 8	Up 0.05 (0.26%)	44,372
+HTBK	Heritage Commerce Corp.	11.11 Jan 8	Down 0.36 (3.14%)	132,396
+HTBX	Heat Biologics, Inc.	2.89 Jan 8	Down 0.22 (7.07%)	153,124
+HTCH	Hutchinson Technology Inc.	3.52 Jan 8	Down 0.01 (0.28%)	113,701
+HTGM	HTG Molecular Diagnostics, Inc.	3.93 Jan 8	Down 0.05 (1.26%)	4,706
+HTHT	China Lodging Group, Limited	29.52 Jan 8	Down 0.33 (1.11%)	110,520
+HTLD	Heartland Express, Inc.	16.06 Jan 8	Up 0.07 (0.44%)	1,366,386
+HTLF	Heartland Financial USA, Inc.	27.95 Jan 8	Down 0.65 (2.27%)	138,463
+HTWR	Heartware International Inc.	43.01 Jan 8	Up 0.19 (0.44%)	184,794
+HUBG	Hub Group Inc.	30.22 Jan 8	Down 0.21 (0.69%)	264,984
+HURC	Hurco Companies Inc.	27.34 Jan 8	Up 1.90 (7.47%)	55,449
+HURN	Huron Consulting Group Inc.	55.40 Jan 8	Up 0.13 (0.24%)	153,439
+HWAY	Healthways Inc.	12.68 Jan 8	Down 0.34 (2.61%)	262,688
+HWBK	Hawthorn Bancshares, Inc.	15.38 Jan 8	Up 0.02 (0.13%)	308
+HWCC	Houston Wire & Cable Company	5.27 Jan 8	Up 0.29 (5.82%)	228,607
+HWKN	Hawkins Inc.	34.75 Jan 8	Up 0.88 (2.60%)	27,125
+HYGS	Hydrogenics Corporation	7.82 Jan 8	Up 0.10 (1.30%)	42,367
+HZNP	Horizon Pharma plc	18.99 Jan 8	Down 0.60 (3.06%)	3,605,755
+IACI	IAC/InterActiveCorp	55.81 Jan 8	Down 0.08 (0.14%)	830,455
+IART	Integra LifeSciences Holdings Corporation	65.67 Jan 8	Down 0.87 (1.31%)	317,625
+IBCP	Independent Bank Corporation	14.39 Jan 8	Down 0.21 (1.44%)	124,545
+IBKC	IberiaBank Corp.	50.22 Jan 8	Down 0.79 (1.55%)	324,903
+IBKR	Interactive Brokers Group, Inc.	37.25 Jan 8	Down 0.30 (0.80%)	859,766
+IBOC	International Bancshares Corporation	23.67 Jan 8	Down 0.49 (2.03%)	233,761
+IBTX	Independent Bank Group, Inc.	30.78 Jan 8	Down 0.32 (1.03%)	253,524
+ICAD	iCAD, Inc.	4.28 Jan 8	Up 0.19 (4.65%)	98,738
+ICBK	County Bancorp, Inc.	19.80 Jan 8	Up 0.79 (4.16%)	202
+ICCC	ImmuCell Corp.	7.89 Jan 8	Up 0.06 (0.76%)	9,648
+ICFI	ICF International Inc.	34.28 Jan 8	Down 0.84 (2.39%)	91,616
+ICLD	InterCloud Systems, Inc.	0.90 Jan 8	Up 0.01 (1.04%)	190,500
+ICLR	ICON Public Limited Company	72.40 Jan 8	Up 0.31 (0.43%)	422,743
+ICON	Iconix Brand Group, Inc.	5.37 Jan 8	Down 0.53 (8.98%)	4,791,796
+ICPT	Intercept Pharmaceuticals, Inc.	134.43 Jan 8	Down 1.31 (0.97%)	333,472
+ICUI	ICU Medical, Inc.	103.76 Jan 8	Down 2.91 (2.73%)	99,062
+IDCC	InterDigital, Inc.	45.94 Jan 8	Down 0.47 (1.01%)	433,925
+IDRA	Idera Pharmaceuticals, Inc.	2.52 Jan 8	Down 0.11 (4.18%)	1,687,033
+IDSA	Industrial Services of America, Inc.	1.38 Jan 8	Up 0.01 (0.80%)	2,300
+IDSY	ID Systems Inc.	4.36 Jan 8	Up 0.23 (5.57%)	47,027
+IDTI	Integrated Device Technology, Inc.	24.65 Jan 8	Down 0.30 (1.20%)	2,482,862
+IDXG	Interpace Diagnostics Group, Inc.	0.32 Jan 8	Down 0.02 (5.29%)	13,964
+IDXX	IDEXX Laboratories, Inc.	69.10 Jan 8	Down 0.71 (1.02%)	639,967
+IEP	Icahn Enterprises, L.P.	59.81 Jan 8	Up 0.12 (0.20%)	73,778
+IESC	Integrated Electrical Services, Inc.	11.15 Jan 8	Up 0.08 (0.72%)	50,802
+IFON	Infosonics Corp.	1.42 Jan 8	Up 0.05 (3.66%)	14,834
+IGLD	Internet Gold Golden Lines Ltd.	10.62 Jan 8	Down 0.12 (1.12%)	2,529
+III	Information Services Group, Inc.	3.13 Jan 8	0.00 (0.00%)	52,577
+IIIN	Insteel Industries Inc.	20.79 Jan 8	Up 0.43 (2.11%)	107,730
+IIJI	Internet Initiative Japan Inc.	9.99 Jan 8	Down 0.03 (0.26%)	903
+IILG	Interval Leisure Group, Inc.	13.79 Jan 8	Down 0.19 (1.36%)	597,571
+IIN	Intricon Corp.	6.99 Jan 7	0.00 (0.00%)	0
+IIVI	II-VI Incorporated	16.42 Jan 8	Down 0.57 (3.35%)	461,769
+IKGH	Iao Kun Group Holding Company Limited	1.13 Jan 8	Down 0.04 (3.21%)	12,052
+IKNX	Ikonics Corp.	10.69 Jan 8	Down 0.49 (4.41%)	5,408
+ILMN	Illumina Inc.	165.17 Jan 8	Down 2.55 (1.52%)	1,640,290
+IMDZ	Immune Design Corp.	14.92 Jan 8	Down 0.61 (3.93%)	264,292
+IMGN	ImmunoGen, Inc.	10.78 Jan 8	Down 0.19 (1.73%)	816,095
+IMI	Intermolecular, Inc.	2.26 Jan 8	Down 0.02 (0.88%)	32,740
+IMKTA	Ingles Markets, Incorporated	37.71 Jan 8	Up 0.48 (1.29%)	222,367
+IMMR	Immersion Corporation	8.31 Jan 8	Down 0.26 (3.03%)	336,790
+IMMU	Immunomedics Inc.	2.29 Jan 8	Down 0.24 (9.49%)	1,011,414
+IMMY	Imprimis Pharmaceuticals, Inc.	6.30 Jan 8	Down 0.22 (3.37%)	13,791
+IMNP	Immune Pharmaceuticals, Inc.	0.67 Jan 8	Down 0.10 (12.89%)	671,650
+IMOS	ChipMOS TECHNOLOGIES (Bermuda) LTD.	17.79 Jan 8	Down 0.22 (1.22%)	241,359
+INAP	Internap Corporation	5.39 Jan 8	Down 0.35 (6.10%)	317,904
+INBK	First Internet Bancorp	26.63 Jan 8	Down 1.07 (3.86%)	11,447
+INCR	INC Research Holdings, Inc.	45.03 Jan 8	Down 0.58 (1.27%)	629,776
+INCY	Incyte Corporation	94.78 Jan 8	Down 0.98 (1.02%)	1,678,043
+INDB	Independent Bank Corp.	44.08 Jan 8	Down 0.34 (0.77%)	179,324
+INFI	Infinity Pharmaceuticals, Inc.	6.68 Jan 8	0.00 (0.00%)	1,017,188
+INFN	Infinera Corporation	16.02 Jan 8	Down 0.69 (4.13%)	2,933,085
+INGN	Inogen, Inc.	38.04 Jan 8	Down 0.96 (2.46%)	247,483
+ININ	Interactive Intelligence Group Inc.	27.30 Jan 8	Down 0.75 (2.67%)	107,446
+INNL	Innocoll AG	7.71 Jan 8	Down 0.29 (3.66%)	10,125
+INO	Inovio Pharmaceuticals, Inc.	5.76 Jan 8	Up 0.01 (0.17%)	1,077,341
+INOD	Innodata Inc.	2.52 Jan 8	Up 0.01 (0.20%)	18,025
+INOV	Inovalon Holdings, Inc.	16.19 Jan 8	Up 0.43 (2.73%)	423,388
+INSM	Insmed Incorporated	16.08 Jan 8	Down 0.08 (0.50%)	631,902
+INSY	INSYS Therapeutics, Inc.	25.89 Jan 8	Down 1.82 (6.57%)	462,428
+INTC	Intel Corporation	31.51 Jan 8	Down 0.33 (1.04%)	29,953,840
+INTG	The InterGroup Corporation	25.84 Jan 7	0.00 (0.00%)	160
+INTL	INTL FCStone Inc.	31.37 Jan 8	Up 0.19 (0.61%)	212,073
+INTU	Intuit Inc.	93.14 Jan 8	Down 1.30 (1.38%)	2,004,696
+INTX	Intersections Inc.	2.72 Jan 8	Down 0.02 (0.73%)	9,454
+INVE	Identiv, Inc.	1.86 Jan 8	Down 0.04 (1.85%)	38,676
+INVT	Inventergy Global, Inc.	1.75 Jan 8	Down 0.35 (16.67%)	837,984
+INWK	InnerWorkings Inc.	6.81 Jan 8	Down 0.12 (1.73%)	133,835
+IONS	Ionis Pharmaceuticals, Inc.	56.88 Jan 8	Up 1.45 (2.62%)	1,580,203
+IOSP	Innospec Inc.	50.38 Jan 8	Down 1.13 (2.19%)	299,204
+IOTS	Adesto Technologies Corporation	6.59 Jan 8	Down 0.08 (1.20%)	106,566
+IPAR	Inter Parfums Inc.	21.13 Jan 8	Down 0.15 (0.70%)	120,861
+IPAS	iPass Inc.	0.96 Jan 8	Up 0.01 (1.05%)	78,534
+IPCC	Infinity Property and Casualty Corp.	79.11 Jan 8	Down 0.75 (0.94%)	53,294
+IPCI	IntelliPharmaCeutics International Inc.	2.15 Jan 8	Up 0.32 (17.49%)	246,477
+IPDN	Professional Diversity Network, Inc.	0.41 Jan 8	Down 0.07 (14.58%)	34,774
+IPGP	IPG Photonics Corporation	79.80 Jan 8	Up 1.70 (2.18%)	769,818
+IPHS	Innophos Holdings Inc	26.07 Jan 8	Down 0.21 (0.80%)	187,797
+IPWR	Ideal Power, Inc.	7.58 Jan 8	Down 0.09 (1.17%)	4,828
+IPXL	Impax Laboratories Inc.	38.29 Jan 8	Down 2.20 (5.43%)	728,063
+IQNT	Inteliquent, Inc.	16.10 Jan 8	Down 0.81 (4.79%)	427,514
+IRBT	iRobot Corporation	31.94 Jan 8	Down 0.46 (1.42%)	359,583
+IRCP	IRSA Propiedades Comerciales S.A.	34.40 Jan 6	0.00 (0.00%)	24
+IRDM	Iridium Communications Inc.	7.49 Jan 8	Up 0.10 (1.35%)	1,133,821
+IRG	Ignite Restaurant Group, Inc.	3.56 Jan 8	Down 0.26 (6.81%)	27,994
+IRIX	IRIDEX Corporation	8.93 Jan 8	Down 0.49 (5.20%)	11,157
+IRMD	IRadimed Corporation	24.56 Jan 8	Down 0.68 (2.69%)	98,921
+IROQ	IF Bancorp, Inc.	18.96 Jan 8	Up 0.01 (0.05%)	279
+IRWD	Ironwood Pharmaceuticals, Inc.	10.80 Jan 8	Up 0.21 (1.98%)	1,440,228
+ISBC	Investors Bancorp Inc.	11.55 Jan 8	Down 0.20 (1.70%)	3,895,688
+ISCA	International Speedway Corp.	31.38 Jan 8	Down 0.12 (0.38%)	120,556
+ISIG	Insignia Systems Inc.	2.90 Jan 8	Down 0.04 (1.36%)	13,048
+ISIL	Intersil Corporation	11.36 Jan 8	Down 0.18 (1.56%)	950,384
+ISLE	Isle of Capri Casinos, Inc.	13.28 Jan 8	Up 0.07 (0.53%)	345,174
+ISNS	Image Sensing Systems, Inc.	2.97 Jan 8	Down 0.06 (1.87%)	27,051
+ISRG	Intuitive Surgical, Inc.	536.54 Jan 8	Down 0.36 (0.07%)	337,476
+ISRL	Isramco Inc.	81.75 Jan 8	Down 0.14 (0.17%)	807
+ISSC	Innovative Solutions & Support Inc.	2.72 Jan 8	Down 0.03 (1.09%)	39,245
+ISTR	Investar Holding Corporation	17.20 Jan 8	Down 0.05 (0.29%)	501
+ITCI	Intra-Cellular Therapies, Inc.	45.35 Jan 8	Down 2.07 (4.37%)	497,118
+ITEK	Inotek Pharmaceuticals Corporation	9.25 Jan 8	Down 0.56 (5.71%)	390,978
+ITIC	Investors Title Co.	89.15 Jan 8	Down 0.35 (0.39%)	9,020
+ITRI	Itron, Inc.	31.98 Jan 8	Down 0.58 (1.78%)	189,853
+ITRN	Ituran Location & Control Ltd.	18.20 Jan 8	Down 0.30 (1.62%)	6,747
+ITUS	ITUS Corporation	2.95 Jan 8	Down 0.02 (0.81%)	3,700
+IVAC	Intevac Inc.	4.89 Jan 8	Down 0.19 (3.74%)	56,265
+IVTY	Invuity, Inc.	7.92 Jan 8	Down 0.51 (6.05%)	44,591
+IXYS	IXYS Corp.	10.81 Jan 8	Down 0.39 (3.48%)	143,010
+JACK	Jack in the Box Inc.	71.27 Jan 8	Up 0.21 (0.30%)	1,003,258
+JAGX	Jaguar Animal Health, Inc.	2.58 Jan 8	Up 0.10 (4.03%)	12,353
+JAKK	JAKKS Pacific, Inc.	7.36 Jan 8	Down 0.33 (4.29%)	283,381
+JASN	Jason Industries, Inc.	3.45 Jan 8	Up 0.05 (1.47%)	24,823
+JASO	JA Solar Holdings Co., Ltd.	8.70 Jan 8	Up 0.20 (2.35%)	886,230
+JAXB	Jacksonville Bancorp, Inc.	17.75 Jan 7	0.00 (0.00%)	19
+JAZZ	Jazz Pharmaceuticals Public Limited Company	128.00 Jan 8	Down 1.09 (0.84%)	818,573
+JBHT	JB Hunt Transport Services Inc.	68.19 Jan 8	Down 0.73 (1.06%)	810,752
+JBLU	JetBlue Airways Corporation	20.28 Jan 8	Down 0.50 (2.41%)	6,982,972
+JBSS	John B Sanfilippo & Son Inc.	52.66 Jan 8	Down 1.05 (1.95%)	93,371
+JCOM	j2 Global, Inc.	76.52 Jan 8	Down 0.44 (0.57%)	744,374
+JCS	Communications Systems Inc.	7.62 Jan 8	Down 0.19 (2.37%)	4,260
+JCTCF	Jewett-Cameron Trading Company Ltd.	9.85 Jan 8	Down 0.10 (1.01%)	4,000
+JD	JD.com, Inc.	27.62 Jan 8	Down 0.33 (1.18%)	15,164,071
+JIVE	Jive Software, Inc.	3.63 Jan 8	Down 0.06 (1.63%)	193,011
+JJSF	J&J Snack Foods Corp.	110.59 Jan 8	Down 0.23 (0.21%)	86,617
+JKHY	Jack Henry & Associates Inc.	76.45 Jan 8	Down 0.43 (0.56%)	702,156
+JMBA	Jamba, Inc.	12.75 Jan 8	Up 0.16 (1.27%)	189,847
+JNP	Juniper Pharmaceuticals, Inc.	6.19 Jan 8	Down 1.76 (22.14%)	155,029
+JOBS	51job Inc.	27.41 Jan 8	Up 0.04 (0.15%)	187,153
+JOEZ	Joe's Jeans Inc.	0.17 Jan 8	0.00 (0.00%)	427,410
+JOUT	Johnson Outdoors Inc.	22.53 Jan 8	Down 0.16 (0.71%)	20,515
+JRJC	China Finance Online Co., Ltd.	5.42 Jan 8	Down 0.29 (5.08%)	399,567
+JRVR	James River Group Holdings, Ltd.	32.97 Jan 8	Down 0.64 (1.90%)	354,509
+JST	Jinpan International Limited	3.87 Jan 8	Up 0.03 (0.76%)	59,926
+JTPY	JetPay Corporation	2.66 Jan 8	Down 0.00 (0.03%)	104
+JUNO	Juno Therapeutics Inc.	36.39 Jan 8	Up 0.70 (1.96%)	1,312,770
+JVA	Coffee Holding Company, Inc.	3.44 Jan 8	Up 0.08 (2.38%)	14,960
+JXSB	Jacksonville Bancorp Inc.	26.00 Jan 8	Down 0.28 (1.07%)	102
+JYNT	The Joint Corp.	5.75 Jan 8	Up 0.50 (9.52%)	77,463
+KALU	Kaiser Aluminum Corporation	78.75 Jan 8	Down 1.59 (1.98%)	192,571
+KANG	iKang Healthcare Group, Inc.	22.04 Jan 8	Up 0.05 (0.23%)	636,062
+KBAL	Kimball International, Inc.	9.53 Jan 8	Down 0.17 (1.75%)	83,854
+KBIO	KaloBios Pharmaceuticals, Inc.	23.59 Dec 16	0.00 (0.00%)	0
+KBSF	KBS Fashion Group Limited	2.01 Jan 8	Down 0.01 (0.58%)	485
+KE	Kimball Electronics, Inc.	9.57 Jan 8	Down 0.46 (4.59%)	95,314
+KELYA	Kelly Services, Inc.	14.78 Jan 8	Down 0.43 (2.83%)	148,226
+KELYB	Kelly Services, Inc.	16.00 Jan 4	0.00 (0.00%)	0
+KEQU	Kewaunee Scientific Corp.	16.64 Jan 8	Down 0.06 (0.36%)	1,004
+KERX	Keryx Biopharmaceuticals Inc.	3.88 Jan 8	Down 0.16 (3.96%)	1,297,797
+KEYW	The KEYW Holding Corporation	5.02 Jan 8	Down 0.07 (1.38%)	277,071
+KFFB	Kentucky First Federal Bancorp	9.19 Jan 7	0.00 (0.00%)	10
+KFRC	Kforce Inc.	22.49 Jan 8	Down 0.77 (3.31%)	182,564
+KGJI	Kingold Jewelry, Inc.	0.67 Jan 8	Down 0.03 (4.29%)	59,020
+KHC	The Kraft Heinz Company	71.18 Jan 8	Down 0.72 (1.00%)	3,092,105
+KIN	Kindred Biosciences, Inc.	3.45 Jan 8	Down 0.14 (3.90%)	75,388
+KINS	Kingstone Companies, Inc.	8.68 Jan 8	Up 0.01 (0.12%)	8,144
+KIRK	Kirkland's Inc.	12.68 Jan 8	Down 0.50 (3.79%)	394,770
+KITE	Kite Pharma, Inc.	54.15 Jan 8	Down 0.48 (0.88%)	743,786
+KLAC	KLA-Tencor Corporation	65.24 Jan 8	Down 0.70 (1.06%)	1,676,714
+KLIC	Kulicke and Soffa Industries, Inc.	10.50 Jan 8	Down 0.55 (4.98%)	562,568
+KLXI	KLX Inc.	27.66 Jan 8	Down 1.10 (3.82%)	513,712
+KMDA	Kamada Ltd.	4.14 Jan 8	Down 0.03 (0.72%)	1,000
+KMPH	KemPharm, Inc.	16.23 Jan 8	Down 0.13 (0.79%)	33,680
+KNDI	Kandi Technologies Group, Inc.	9.01 Jan 8	Up 0.14 (1.58%)	512,008
+KONA	Kona Grill Inc.	13.96 Jan 8	Down 0.55 (3.79%)	194,164
+KONE	Kingtone Wirelessinfo Solution Holding Ltd.	3.21 Jan 8	Down 0.00 (0.12%)	5,550
+KOOL	Cesca Therapeutics Inc.	0.15 Jan 8	Down 0.01 (3.51%)	179,513
+KOPN	Kopin Corporation	2.26 Jan 8	Down 0.21 (8.50%)	604,313
+KOSS	Koss Corporation	1.96 Jan 8	Up 0.00 (0.06%)	4,486
+KPTI	Karyopharm Therapeutics, Inc.	9.44 Jan 8	Down 0.51 (5.13%)	340,932
+KRNT	Kornit Digital, Ltd.	9.93 Jan 8	Up 0.03 (0.30%)	9,942
+KRNY	Kearny Financial Corp.	12.29 Jan 8	Down 0.05 (0.41%)	1,174,119
+KTCC	Key Tronic Corp.	6.92 Jan 8	Down 0.34 (4.68%)	44,074
+KTEC	Key Technology, Inc.	9.30 Jan 8	0.00 (0.00%)	8,883
+KTOS	Kratos Defense & Security Solutions, Inc.	3.51 Jan 8	Down 0.12 (3.18%)	426,352
+KTOV	Kitov Pharmaceuticals Holdings LTD	3.24 Jan 8	Up 0.14 (4.52%)	316,184
+KTWO	K2M Group Holdings, Inc.	18.31 Jan 8	Down 0.44 (2.35%)	178,421
+KURA	Kura Oncology, Inc.	6.98 Jan 8	Up 0.05 (0.72%)	29,935
+KUTV	Ku6 Media Co., Ltd.	0.79 Jan 8	0.00 (0.00%)	27,852
+KVHI	KVH Industries Inc.	8.49 Jan 8	Down 0.49 (5.46%)	55,442
+KZ	Kongzhong Corp.	7.30 Jan 8	Down 0.02 (0.27%)	243,215
+LABL	Multi-Color Corp.	58.38 Jan 8	Down 0.69 (1.17%)	179,975
+LAKE	Lakeland Industries Inc.	11.06 Jan 8	Down 0.53 (4.57%)	94,059
+LAMR	Lamar Advertising Co.	60.41 Jan 8	Up 0.28 (0.47%)	1,001,051
+LANC	Lancaster Colony Corporation	113.99 Jan 8	Down 2.20 (1.89%)	187,263
+LAND	Gladstone Land Corporation	8.32 Jan 8	Down 0.05 (0.60%)	27,526
+LARK	Landmark Bancorp Inc.	24.90 Jan 8	Up 0.61 (2.51%)	469
+LAWS	Lawson Products Inc.	21.62 Jan 8	Up 0.04 (0.19%)	42,055
+LAYN	Layne Christensen Company	4.86 Jan 8	Up 0.03 (0.62%)	140,487
+LBAI	Lakeland Bancorp Inc.	10.99 Jan 8	Down 0.24 (2.14%)	72,194
+LBIO	Lion Biotechnologies, Inc.	6.57 Jan 8	Down 0.17 (2.52%)	333,161
+LBIX	Leading Brands Inc.	2.60 Jan 8	Down 0.23 (8.13%)	5,155
+LBRDA	Liberty Broadband Corporation	49.30 Jan 8	Up 0.51 (1.05%)	125,671
+LBRDK	Liberty Broadband Corporation	49.57 Jan 8	Up 0.76 (1.56%)	262,576
+LBTYA	Liberty Global plc	38.20 Jan 8	Down 1.00 (2.55%)	2,583,326
+LBTYB	Liberty Global plc	38.81 Jan 8	Down 1.10 (2.77%)	600
+LBTYK	Liberty Global plc	36.91 Jan 8	Down 0.84 (2.23%)	3,789,218
+LCNB	LCNB Corp.	16.15 Jan 8	Down 0.09 (0.52%)	3,270
+LCUT	Lifetime Brands, Inc.	12.52 Jan 8	Down 0.18 (1.42%)	50,291
+LDRH	LDR Holding Corporation	23.46 Jan 8	Down 1.04 (4.24%)	227,270
+LE	Lands' End, Inc.	23.43 Jan 8	Down 0.73 (3.02%)	196,371
+LECO	Lincoln Electric Holdings Inc.	49.38 Jan 8	Down 0.65 (1.30%)	488,621
+LEDS	SemiLEDs Corporation	0.38 Jan 8	0.00 (0.00%)	1,160
+LENS	Presbia PLC	5.56 Jan 8	Up 0.34 (6.51%)	10,121
+LFUS	Littelfuse Inc.	98.85 Jan 8	Up 1.77 (1.82%)	192,225
+LFVN	Lifevantage Corporation	7.92 Jan 8	Down 2.01 (20.24%)	197,555
+LGCY	Legacy Reserves LP	1.47 Jan 8	Down 0.01 (0.68%)	362,104
+LGIH	LGI Homes, Inc.	23.28 Jan 8	Up 1.61 (7.43%)	1,111,131
+LGND	Ligand Pharmaceuticals Incorporated	97.92 Jan 8	Down 0.70 (0.71%)	437,851
+LHCG	LHC Group, Inc.	42.24 Jan 8	Down 1.26 (2.90%)	207,528
+LIFE	aTyr Pharma Inc.	7.43 Jan 8	Down 0.29 (3.76%)	59,079
+LILA	Liberty LiLAC Group	37.89 Jan 8	Up 0.14 (0.37%)	71,609
+LILAK	Liberty LiLAC Group	39.83 Jan 8	Up 0.05 (0.13%)	224,694
+LIME	Lime Energy Co.	2.80 Jan 8	Down 0.02 (0.71%)	9,455
+LINC	Lincoln Educational Services Corporation	2.11 Jan 8	Up 0.17 (8.76%)	88,815
+LIND	Lindblad Expeditions Holdings Inc.	10.82 Jan 8	Up 0.09 (0.84%)	46,281
+LINE	Linn Energy, LLC	1.25 Jan 8	Up 0.07 (5.93%)	2,515,440
+LION	Fidelity Southern Corporation	20.13 Jan 8	Down 0.54 (2.61%)	95,272
+LIOX	Lionbridge Technologies Inc.	4.13 Jan 8	Down 0.15 (3.50%)	212,618
+LITE	Lumentum Holdings Inc.	19.56 Jan 8	Down 0.99 (4.82%)	705,900
+LIVE	Live Ventures Incorporated	1.52 Jan 8	Down 0.03 (1.94%)	59,091
+LIVN	LivaNova PLC	52.74 Jan 8	Down 1.47 (2.71%)	184,503
+LJPC	La Jolla Pharmaceutical Co.	21.20 Jan 8	Down 0.26 (1.21%)	160,827
+LKFN	Lakeland Financial Corp.	44.14 Jan 8	Down 0.50 (1.12%)	166,185
+LKQ	LKQ Corp.	27.11 Jan 8	Down 1.08 (3.83%)	1,950,956
+LLEX	Lilis Energy, Inc.	0.20 Jan 8	Down 0.02 (7.83%)	137,610
+LLNW	Limelight Networks, Inc.	1.32 Jan 8	Down 0.06 (4.35%)	384,264
+LLTC	Linear Technology Corporation	38.71 Jan 8	Down 0.48 (1.22%)	2,952,087
+LMAT	LeMaitre Vascular, Inc.	15.09 Jan 8	Down 0.28 (1.82%)	169,810
+LMCA	Liberty Media Corporation	36.59 Jan 8	Down 0.51 (1.37%)	822,678
+LMCB	Liberty Media Corporation	38.66 Dec 21	0.00 (0.00%)	3
+LMCK	Liberty Media Corporation	35.42 Jan 8	Down 0.30 (0.84%)	681,827
+LMFA	LM Funding America, Inc.	8.51 Jan 8	Up 0.01 (0.15%)	2,150
+LMIA	LMI Aerospace Inc.	9.19 Jan 8	Down 0.24 (2.55%)	11,790
+LMNR	Limoneira Company	13.60 Jan 8	Down 0.29 (2.09%)	45,924
+LMNX	Luminex Corporation	19.18 Jan 8	Down 0.66 (3.33%)	361,766
+LMOS	Lumos Networks Corp.	10.42 Jan 8	Down 0.29 (2.71%)	109,967
+LMRK	Landmark Infrastructure Partners LP	14.01 Jan 8	Down 0.29 (2.03%)	24,864
+LNCE	Snyder's-Lance, Inc.	34.85 Jan 8	Down 0.24 (0.68%)	722,541
+LNCO	Linn Co, LLC	1.02 Jan 8	Up 0.02 (2.00%)	1,344,100
+LNDC	Landec Corp.	11.22 Jan 8	Down 0.17 (1.49%)	124,443
+LNTH	Lantheus Holdings, Inc.	2.93 Jan 8	Down 0.14 (4.56%)	72,662
+LOAN	Manhattan Bridge Capital, Inc.	4.26 Jan 8	Up 0.01 (0.24%)	34,814
+LOB	Live Oak Bancshares, Inc.	12.14 Jan 8	Down 0.83 (6.40%)	33,361
+LOCO	El Pollo Loco Holdings, Inc.	12.34 Jan 8	Up 0.02 (0.16%)	596,563
+LOGI	Logitech International SA	13.78 Jan 8	Down 0.31 (2.20%)	743,077
+LOGM	LogMeIn, Inc.	56.80 Jan 8	Down 1.26 (2.17%)	385,721
+LOJN	LoJack Corporation	4.85 Jan 8	Down 0.40 (7.62%)	90,458
+LONG	eLong Inc.	16.79 Jan 8	Up 0.04 (0.24%)	18,955
+LOPE	Grand Canyon Education, Inc.	36.01 Jan 8	Down 0.16 (0.44%)	327,882
+LORL	Loral Space & Communications, Inc.	35.99 Jan 8	Down 1.01 (2.73%)	89,658
+LOXO	Loxo Oncology, Inc.	23.79 Jan 8	Down 0.21 (0.87%)	132,958
+LPCN	Lipocine Inc.	11.37 Jan 8	Down 0.64 (5.33%)	266,792
+LPLA	LPL Financial Holdings Inc.	39.88 Jan 8	Up 0.25 (0.63%)	1,122,489
+LPNT	LifePoint Health, Inc.	70.44 Jan 8	Up 0.36 (0.51%)	585,511
+LPSB	Laporte Bancorp, Inc.	15.29 Jan 8	0.00 (0.00%)	1,573
+LPSN	LivePerson Inc.	6.19 Jan 8	Down 0.46 (6.92%)	385,758
+LPTH	LightPath Technologies, Inc.	2.81 Jan 8	Down 0.29 (9.35%)	723,751
+LPTN	Lpath Inc.	0.20 Jan 8	Down 0.01 (4.45%)	229,335
+LQDT	Liquidity Services, Inc.	5.90 Jan 8	Down 0.19 (3.12%)	323,045
+LRAD	LRAD Corporation	1.78 Jan 8	Down 0.05 (2.64%)	12,184
+LRCX	Lam Research Corporation	70.48 Jan 8	Down 1.23 (1.72%)	4,736,046
+LSBG	Lake Sunapee Bank Group	13.75 Jan 8	Down 0.14 (1.04%)	7,251
+LSBK	Lake Shore Bancorp Inc.	13.60 Jan 8	Up 0.06 (0.41%)	2,750
+LSCC	Lattice Semiconductor Corporation	5.45 Jan 8	Down 0.37 (6.36%)	5,408,138
+LSTR	Landstar System Inc.	56.79 Jan 8	Up 0.10 (0.18%)	664,011
+LTBR	Lightbridge Corp.	0.87 Jan 8	Down 0.05 (5.69%)	75,033
+LTRPA	Liberty TripAdvisor Holdings, Inc.	25.94 Jan 8	Down 0.71 (2.66%)	894,275
+LTRPB	Liberty TripAdvisor Holdings, Inc.	26.51 Jan 7	0.00 (0.00%)	0
+LTRX	Lantronix, Inc.	1.15 Jan 8	Up 0.02 (1.76%)	7,103
+LTXB	LegacyTexas Financial Group Inc.	22.63 Jan 8	Down 0.59 (2.54%)	442,140
+LULU	Lululemon Athletica Inc.	53.91 Jan 8	Down 0.88 (1.61%)	3,170,947
+LUNA	Luna Innovations Incorporated	1.00 Jan 8	Down 0.04 (3.37%)	52,246
+LVNTA	Liberty Ventures	40.80 Jan 8	Down 0.60 (1.45%)	877,249
+LVNTB	Liberty Ventures	45.31 Dec 31	0.00 (0.00%)	1
+LWAY	Lifeway Foods Inc.	11.30 Jan 8	Down 0.07 (0.62%)	18,569
+LXRX	Lexicon Pharmaceuticals, Inc.	11.24 Jan 8	Down 0.51 (4.34%)	600,893
+LYTS	LSI Industries Inc.	11.41 Jan 8	Down 0.24 (2.06%)	169,707
+MACK	Merrimack Pharmaceuticals, Inc.	6.58 Jan 8	Down 0.06 (0.90%)	1,338,573
+MAGS	Magal Security Systems Ltd.	4.21 Jan 8	Down 0.01 (0.24%)	19,707
+MAMS	MAM Software Group, Inc.	6.85 Jan 8	Down 0.03 (0.44%)	807
+MANH	Manhattan Associates, Inc.	56.37 Jan 8	Down 3.50 (5.85%)	1,512,495
+MANT	ManTech International Corporation	28.13 Jan 8	Down 0.55 (1.92%)	153,013
+MAR	Marriott International, Inc.	62.65 Jan 8	Up 0.83 (1.34%)	4,510,253
+MARA	Marathon Patent Group, Inc.	1.63 Jan 8	Down 0.04 (2.40%)	7,339
+MARK	Remark Media, Inc.	5.09 Jan 8	Down 0.09 (1.74%)	16,677
+MARPS	Marine Petroleum Trust	4.05 Jan 8	Down 0.11 (2.67%)	1,206
+MASI	Masimo Corporation	36.15 Jan 8	Down 1.77 (4.67%)	1,033,199
+MAT	Mattel, Inc.	26.93 Jan 8	Down 0.13 (0.48%)	6,302,124
+MATR	Mattersight Corporation	6.18 Jan 8	Up 0.19 (3.17%)	52,446
+MATW	Matthews International Corporation	49.82 Jan 8	Down 1.11 (2.18%)	126,803
+MAYS	JW Mays Inc.	57.45 Dec 29	0.00 (0.00%)	0
+MB	MINDBODY, Inc.	14.89 Jan 8	Down 0.53 (3.44%)	228,717
+MBCN	Middlefield Banc Corp.	34.00 Jan 8	Up 0.50 (1.49%)	301
+MBFI	MB Financial Inc.	29.51 Jan 8	Down 0.42 (1.40%)	622,370
+MBII	Marrone Bio Innovations, Inc.	0.85 Jan 8	Down 0.06 (6.59%)	70,056
+MBLX	Metabolix, Inc.	1.44 Jan 8	0.00 (0.00%)	1,001
+MBRG	Middleburg Financial Corporation	18.00 Jan 8	0.00 (0.00%)	6,781
+MBTF	MBT Financial Corp.	7.21 Jan 8	Up 0.07 (0.98%)	23,298
+MBUU	Malibu Boats, Inc.	15.08 Jan 8	Down 0.56 (3.58%)	158,384
+MBVT	Merchants Bancshares Inc.	29.56 Jan 8	Down 0.45 (1.50%)	10,286
+MBWM	Mercantile Bank Corp.	22.91 Jan 8	Down 0.45 (1.93%)	35,206
+MCBC	Macatawa Bank Corp.	6.05 Jan 8	Up 0.08 (1.34%)	51,120
+MCEP	Mid-Con Energy Partners, LP	1.13 Jan 8	Up 0.03 (2.73%)	110,772
+MCFT	MCBC Holdings Inc.	12.52 Jan 8	Down 0.30 (2.34%)	60,817
+MCHP	Microchip Technology Inc.	41.53 Jan 8	Down 1.13 (2.65%)	2,815,296
+MCHX	Marchex, Inc.	3.72 Jan 8	Up 0.01 (0.27%)	78,835
+MCOX	Mecox Lane Limited	3.79 Jan 8	Up 0.01 (0.26%)	3,292
+MCRB	Seres Therapeutics, Inc.	30.04 Jan 8	Down 0.51 (1.67%)	165,516
+MCRI	Monarch Casino & Resort Inc.	21.93 Jan 8	Down 0.05 (0.23%)	108,927
+MCUR	Macrocure Ltd.	1.19 Jan 8	Down 0.08 (6.30%)	61,732
+MDAS	MedAssets, Inc.	30.94 Jan 8	Up 0.01 (0.03%)	1,768,911
+MDCA	MDC Partners Inc.	19.71 Jan 8	Down 0.36 (1.79%)	337,892
+MDCO	The Medicines Company	33.28 Jan 8	Down 0.41 (1.22%)	833,672
+MDLZ	Mondelez International, Inc.	40.99 Jan 8	Down 0.60 (1.44%)	14,529,714
+MDM	Mountain Province Diamonds Inc.	2.75 Jan 8	Down 0.06 (2.14%)	72,933
+MDRX	Allscripts Healthcare Solutions, Inc.	14.00 Jan 8	Down 0.10 (0.71%)	3,439,313
+MDSO	Medidata Solutions, Inc.	45.47 Jan 8	Down 0.55 (1.20%)	318,092
+MDSY	ModSys International Ltd.	2.26 Jan 6	0.00 (0.00%)	0
+MDVN	Medivation, Inc.	40.73 Jan 8	Down 1.32 (3.14%)	1,741,604
+MDVX	Medovex Corp.	0.94 Jan 8	Down 0.01 (1.05%)	724
+MDWD	MediWound Ltd.	8.60 Jan 8	Down 0.37 (4.12%)	25,372
+MDXG	MiMedx Group, Inc.	8.55 Jan 8	Down 0.19 (2.17%)	877,604
+MEET	MeetMe, Inc.	4.34 Jan 8	Up 0.33 (8.23%)	6,484,109
+MEIP	MEI Pharma, Inc.	1.52 Jan 8	Down 0.05 (2.88%)	313,922
+MELI	Mercadolibre, Inc.	101.09 Jan 8	Down 1.84 (1.79%)	443,968
+MELR	Melrose Bancorp, Inc.	15.25 Jan 7	0.00 (0.00%)	0
+MEMP	Memorial Production Partners LP	2.41 Jan 8	Up 0.04 (1.69%)	543,371
+MENT	Mentor Graphics Corp.	17.18 Jan 8	Down 0.24 (1.38%)	1,712,432
+MEOH	Methanex Corporation	27.77 Jan 8	Down 0.03 (0.11%)	1,344,178
+MERC	Mercer International Inc.	8.37 Jan 8	Down 0.19 (2.22%)	85,735
+MESG	Xura, Inc.	23.62 Jan 8	Down 0.29 (1.21%)	138,421
+METR	Metro Bancorp, Inc.	28.80 Jan 8	Down 0.83 (2.80%)	67,676
+MFLX	Multi-Fineline Electronix, Inc.	17.30 Jan 8	Down 0.41 (2.32%)	140,287
+MFNC	Mackinac Financial Corporation	11.30 Jan 8	Up 0.02 (0.18%)	10,235
+MFRI	MFRI, Inc.	6.42 Jan 8	Down 0.06 (0.93%)	9,967
+MFRM	Mattress Firm Holding Corp.	41.00 Jan 8	Down 0.81 (1.94%)	576,535
+MFSF	Mutualfirst Financial Inc.	23.75 Jan 8	Down 0.25 (1.06%)	14,488
+MGCD	MGC Diagnostics Corporation	6.90 Jan 8	Up 0.09 (1.34%)	1,310
+MGEE	MGE Energy Inc.	45.72 Jan 8	Up 0.20 (0.44%)	88,184
+MGI	Moneygram International Inc.	5.78 Jan 8	Down 0.14 (2.36%)	331,703
+MGIC	Magic Software Enterprises Ltd.	5.57 Jan 8	Down 0.03 (0.54%)	23,869
+MGLN	Magellan Health, Inc.	58.37 Jan 8	Down 0.95 (1.60%)	256,169
+MGNX	MacroGenics, Inc.	24.82 Jan 8	Down 1.25 (4.79%)	216,419
+MGPI	MGP Ingredients Inc.	23.00 Jan 8	Down 0.67 (2.83%)	123,278
+MGRC	McGrath Rentcorp	23.83 Jan 8	Up 1.01 (4.43%)	266,574
+MGYR	Magyar Bancorp, Inc.	9.85 Jan 8	Down 0.45 (4.37%)	100
+MHGC	Morgans Hotel Group Co.	2.74 Jan 8	Up 0.03 (1.11%)	559,543
+MHLD	Maiden Holdings, Ltd.	13.52 Jan 8	Down 0.75 (5.26%)	431,572
+MICT	Micronet Enertec Technologies, Inc.	1.82 Jan 8	Up 0.00 (0.06%)	1,901
+MIDD	Middleby Corp.	94.39 Jan 8	Down 2.14 (2.22%)	662,481
+MIFI	Novatel Wireless Inc.	1.54 Jan 8	Down 0.08 (4.94%)	532,384
+MIK	The Michaels Companies, Inc.	20.90 Jan 8	Down 0.74 (3.42%)	640,685
+MIME	Mimecast Limited	8.60 Jan 8	Down 0.33 (3.70%)	52,858
+MIND	Mitcham Industries Inc.	2.94 Jan 8	Down 0.09 (2.97%)	18,548
+MINI	Mobile Mini, Inc.	26.43 Jan 8	Down 1.13 (4.10%)	198,178
+MIRN	Mirna Therapeutics, Inc.	5.60 Jan 8	Down 0.20 (3.45%)	25,134
+MITK	Mitek Systems, Inc.	4.74 Jan 8	Up 0.04 (0.85%)	1,378,734
+MITL	Mitel Networks Corporation	7.15 Jan 8	Up 0.03 (0.42%)	264,981
+MKSI	MKS Instruments, Inc.	33.47 Jan 8	Down 1.04 (3.01%)	338,318
+MKTO	Marketo, Inc.	24.86 Jan 8	Down 0.71 (2.78%)	290,634
+MKTX	MarketAxess Holdings Inc.	105.73 Jan 8	Down 1.33 (1.24%)	416,690
+MLAB	Mesa Laboratories Inc.	84.96 Jan 8	Down 2.79 (3.18%)	20,985
+MLHR	Herman Miller Inc.	25.68 Jan 8	Down 0.33 (1.27%)	540,906
+MLNK	ModusLink Global Solutions, Inc.	2.32 Jan 8	Down 0.06 (2.52%)	116,369
+MLNX	Mellanox Technologies, Ltd.	38.67 Jan 8	Down 0.81 (2.05%)	316,809
+MLVF	Malvern Bancorp, Inc.	17.19 Jan 8	Down 0.12 (0.69%)	100
+MMAC	MMA Capital Management, LLC	14.92 Jan 8	Up 0.16 (1.08%)	2,653
+MMLP	Martin Midstream Partners LP	19.89 Jan 8	Up 0.65 (3.38%)	140,054
+MMSI	Merit Medical Systems, Inc.	16.38 Jan 8	Down 0.57 (3.36%)	281,362
+MMYT	MakeMyTrip Limited	22.12 Jan 8	Up 1.83 (9.02%)	2,015,384
+MNDO	MIND C.T.I., Ltd.	2.52 Jan 8	Down 0.01 (0.27%)	15,921
+MNGA	MagneGas Corporation	1.52 Jan 8	Down 0.02 (1.30%)	516,637
+MNKD	MannKind Corp.	0.66 Jan 8	Down 0.03 (4.52%)	6,665,346
+MNOV	MediciNova Inc.	3.90 Jan 8	Down 0.01 (0.26%)	45,501
+MNRK	Monarch Financial Holdings, Inc.	17.10 Jan 8	Down 0.19 (1.10%)	28,012
+MNRO	Monro Muffler Brake Inc.	62.72 Jan 8	Down 2.13 (3.28%)	248,924
+MNST	Monster Beverage Corporation	144.25 Jan 8	Down 0.95 (0.65%)	838,066
+MNTA	Momenta Pharmaceuticals Inc.	14.48 Jan 8	Up 0.92 (6.78%)	1,793,412
+MNTX	Manitex International, Inc.	5.41 Jan 8	Down 0.05 (0.92%)	43,086
+MOBI	Sky-mobi Limited	2.07 Jan 8	Down 0.03 (1.43%)	34,269
+MOBL	MobileIron, Inc.	3.77 Jan 8	Down 0.06 (1.57%)	378,485
+MOCO	MOCON Inc.	14.66 Jan 8	Up 0.26 (1.81%)	3,896
+MOFG	MidWest One Financial Group, Inc.	28.31 Jan 8	Down 0.22 (0.77%)	9,644
+MOKO	Moko Social Media Limited	0.91 Jan 7	0.00 (0.00%)	106
+MOLG	MOL Global, Inc.	0.68 Jan 8	Up 0.00 (0.45%)	1,608
+MOMO	Momo Inc.	14.33 Jan 8	Down 0.08 (0.56%)	1,606,753
+MORN	Morningstar Inc.	77.35 Jan 8	Down 0.90 (1.15%)	108,954
+MOSY	MoSys, Inc.	1.00 Jan 8	0.00 (0.00%)	11,006
+MPAA	Motorcar Parts of America, Inc.	31.67 Jan 8	Down 0.56 (1.74%)	285,781
+MPB	Mid Penn Bancorp Inc.	16.50 Jan 8	Up 0.49 (3.06%)	10
+MPEL	Melco Crown Entertainment Limited	14.15 Jan 8	Down 0.22 (1.53%)	3,625,914
+MPET	Magellan Petroleum Corporation	0.46 Jan 8	Down 0.04 (7.74%)	30,104
+MPWR	Monolithic Power Systems, Inc.	57.35 Jan 8	Up 0.14 (0.24%)	416,064
+MRCY	Mercury Systems, Inc.	17.31 Jan 8	Down 0.30 (1.70%)	354,945
+MRD	Memorial Resource Development Corp.	15.58 Jan 8	Up 0.14 (0.91%)	2,270,623
+MRKT	Markit Ltd.	28.51 Jan 8	Down 0.39 (1.35%)	1,871,613
+MRLN	Marlin Business Services Corp.	15.32 Jan 8	Down 0.26 (1.67%)	19,727
+MRNS	Marinus Pharmaceuticals, Inc.	6.26 Jan 8	Down 0.36 (5.44%)	79,750
+MRTN	Marten Transport Ltd.	16.18 Jan 8	Up 0.01 (0.06%)	167,508
+MRTX	Mirati Therapeutics, Inc.	27.04 Jan 8	Down 0.31 (1.13%)	142,906
+MRVC	MRV Communications, Inc.	11.00 Jan 8	Down 0.64 (5.50%)	23,004
+MRVL	Marvell Technology Group Ltd.	8.22 Jan 8	Up 0.09 (1.11%)	5,879,773
+MSBF	MSB Financial Corp.	12.65 Jan 8	Down 0.04 (0.32%)	13,329
+MSCC	Microsemi Corporation	29.00 Jan 8	Down 0.69 (2.32%)	1,439,008
+MSEX	Middlesex Water Co.	25.90 Jan 8	Down 0.34 (1.30%)	34,308
+MSFG	MainSource Financial Group, Inc.	20.53 Jan 8	Down 0.57 (2.70%)	63,016
+MSFT	Microsoft Corporation	52.33 Jan 8	Up 0.16 (0.31%)	48,753,969
+MSLI	Merus Labs International Inc.	1.46 Jan 8	Up 0.05 (3.55%)	13,690
+MSON	Misonix, Inc.	9.15 Jan 8	Down 0.15 (1.61%)	2,646
+MSTR	MicroStrategy Inc.	148.15 Jan 8	Down 12.88 (8.00%)	789,196
+MTBC	Medical Transcription Billing, Corp.	1.20 Jan 8	Up 0.04 (3.45%)	4,254
+MTCH	Match Group, Inc.	13.59 Jan 8	Up 0.08 (0.59%)	512,197
+MTEX	Mannatech, Incorporated	17.89 Jan 8	Down 0.78 (4.18%)	12,075
+MTGE	American Capital Mortgage Investment Corp.	14.13 Jan 8	Down 0.16 (1.12%)	488,048
+MTLS	Materialise NV	7.02 Jan 8	Up 0.01 (0.14%)	20,762
+MTP	Midatech Pharma Plc	5.55 Jan 8	Down 0.05 (0.89%)	6,533
+MTRX	Matrix Service Company	18.11 Jan 8	Down 0.58 (3.10%)	287,462
+MTSC	MTS Systems Corporation	54.42 Jan 8	Down 1.97 (3.49%)	105,512
+MTSI	M/A-Com Technology Solutions Holdings, Inc.	34.77 Jan 8	Down 1.36 (3.76%)	1,046,616
+MTSL	MER Telemanagement Solutions Ltd.	0.90 Jan 8	Up 0.07 (7.90%)	6,450
+MTSN	Mattson Technology Inc.	3.40 Jan 8	Down 0.04 (1.16%)	548,172
+MU	Micron Technology, Inc.	13.33 Jan 8	Down 0.33 (2.42%)	29,064,233
+MVIS	Microvision Inc.	2.58 Jan 8	Down 0.18 (6.52%)	342,821
+MXIM	Maxim Integrated Products, Inc.	32.33 Jan 8	Down 1.93 (5.63%)	8,204,104
+MXWL	Maxwell Technologies, Inc.	6.13 Jan 8	Up 0.12 (2.00%)	218,499
+MYGN	Myriad Genetics, Inc.	42.32 Jan 8	Down 0.10 (0.24%)	700,819
+MYL	Mylan N.V.	49.42 Jan 8	Down 2.19 (4.24%)	7,232,526
+MYOK	MyoKardia, Inc.	13.27 Jan 8	Down 0.09 (0.67%)	46,806
+MYOS	MYOS Corporation	1.73 Jan 8	Up 0.11 (6.79%)	69,564
+MYRG	MYR Group, Inc.	19.16 Jan 8	Down 0.68 (3.43%)	214,479
+MZOR	Mazor Robotics Ltd.	10.89 Jan 8	Down 0.18 (1.63%)	35,500
+NAII	Natural Alternatives International Inc.	11.24 Jan 8	Up 0.60 (5.63%)	95,723
+NAKD	Naked Brand Group, Inc.	3.45 Jan 8	Down 0.29 (7.75%)	14,938
+NAME	Rightside Group, Ltd.	8.47 Jan 8	Down 0.18 (2.08%)	25,372
+NANO	Nanometrics Incorporated	14.30 Jan 8	Down 0.40 (2.72%)	185,883
+NATH	Nathan's Famous Inc.	51.40 Jan 8	Up 0.99 (1.96%)	35,523
+NATI	National Instruments Corporation	27.33 Jan 8	Down 0.01 (0.04%)	579,583
+NATL	National Interstate Corporation	25.62 Jan 8	Down 0.03 (0.12%)	20,423
+NATR	Nature's Sunshine Products Inc.	8.92 Jan 8	Down 0.04 (0.45%)	24,009
+NAUH	National American University Holdings, Inc.	2.07 Jan 8	Down 0.02 (0.96%)	2,803
+NAVG	Navigators Group Inc.	83.16 Jan 8	Down 2.37 (2.77%)	57,156
+NAVI	Navient Corporation	10.18 Jan 8	Down 0.09 (0.88%)	7,169,790
+NBBC	NewBridge Bancorp	11.78 Jan 8	Down 0.02 (0.17%)	59,527
+NBIX	Neurocrine Biosciences Inc.	46.41 Jan 8	Down 1.33 (2.79%)	756,702
+NBN	Northeast Bancorp	10.23 Jan 8	Down 0.23 (2.20%)	5,526
+NBRV	Nabriva Therapeutics AG	9.28 Jan 8	Up 0.27 (2.98%)	22,728
+NBTB	NBT Bancorp, Inc.	25.65 Jan 8	Down 0.59 (2.25%)	329,810
+NCIT	NCI, Inc.	14.12 Jan 8	Down 0.48 (3.29%)	27,372
+NCLH	Norwegian Cruise Line Holdings Ltd.	55.07 Jan 8	Down 0.65 (1.17%)	1,142,219
+NCMI	National CineMedia, Inc.	14.80 Jan 8	Down 0.11 (0.74%)	233,097
+NCOM	National Commerce Corporation	23.05 Jan 8	Down 0.49 (2.08%)	12,148
+NCTY	The9 Limited	2.65 Jan 8	Up 0.01 (0.38%)	58,200
+NDAQ	Nasdaq, Inc.	55.81 Jan 8	Down 1.29 (2.26%)	1,372,917
+NDLS	Noodles & Company	11.08 Jan 8	Up 0.23 (2.12%)	243,718
+NDRM	NeuroDerm Ltd.	16.07 Jan 8	Down 0.79 (4.69%)	131,036
+NDSN	Nordson Corporation	57.86 Jan 8	Down 1.27 (2.15%)	685,547
+NEO	Neogenomics Inc.	6.92 Jan 8	Up 0.07 (1.02%)	489,001
+NEOG	Neogen Corp.	53.21 Jan 8	Down 1.46 (2.67%)	143,588
+NEON	Neonode, Inc.	2.20 Jan 8	Down 0.12 (5.17%)	194,879
+NEOS	Neos Therapeutics, Inc.	12.04 Jan 8	Down 0.65 (5.12%)	87,157
+NEOT	Neothetics, Inc.	1.31 Jan 8	Up 0.04 (3.15%)	127,266
+NEPT	Neptune Technologies & Bioressources, Inc.	1.10 Jan 8	Up 0.15 (15.22%)	470,563
+NERV	Minerva Neurosciences, Inc.	5.44 Jan 8	Down 0.06 (1.09%)	7,230
+NETE	Net Element, Inc.	0.20 Jan 8	Down 0.00 (0.94%)	1,874,948
+NEWP	Newport Corp.	14.40 Jan 8	Down 0.20 (1.37%)	312,736
+NEWS	NewStar Financial, Inc.	8.41 Jan 8	Down 0.17 (1.98%)	52,345
+NEWT	Newtek Business Services Corp.	12.86 Jan 8	Down 0.39 (2.94%)	167,534
+NFBK	Northfield Bancorp, Inc. (Staten Island, NY)	15.41 Jan 8	Down 0.19 (1.22%)	143,068
+NFEC	NF Energy Saving Corp.	0.82 Jan 8	Down 0.08 (8.87%)	121
+NFLX	Netflix, Inc.	111.39 Jan 8	Down 3.17 (2.77%)	18,067,140
+NGHC	National General Holdings Corp.	19.75 Jan 8	Down 0.35 (1.74%)	246,911
+NHLD	National Holdings Corporation	2.79 Jan 8	Down 0.01 (0.36%)	42,712
+NHTC	Natural Health Trends Corp.	23.35 Jan 8	Down 2.57 (9.92%)	2,206,493
+NICE	NICE Systems Ltd.	55.54 Jan 8	Down 0.57 (1.02%)	124,333
+NICK	Nicholas Financial Inc.	10.99 Jan 8	Up 0.03 (0.27%)	13,119
+NIHD	NII Holdings Inc.	3.91 Jan 8	Down 0.07 (1.76%)	275,752
+NILE	Blue Nile Inc.	34.78 Jan 8	Down 0.46 (1.31%)	146,051
+NK	NantKwest, Inc.	13.78 Jan 8	Up 0.82 (6.33%)	612,031
+NKSH	National Bankshares Inc.	33.75 Jan 8	Down 0.01 (0.03%)	10,050
+NKTR	Nektar Therapeutics	14.72 Jan 8	Down 0.27 (1.80%)	1,697,592
+NLNK	NewLink Genetics Corporation	30.57 Jan 8	Up 0.85 (2.86%)	366,004
+NLST	Netlist Inc.	0.83 Jan 8	Down 0.00 (0.23%)	136,005
+NMIH	NMI Holdings, Inc.	6.67 Jan 8	Up 0.01 (0.15%)	329,538
+NMRX	Numerex Corp.	6.27 Jan 8	Up 0.19 (3.13%)	28,877
+NNBR	NN Inc.	14.25 Jan 8	0.00 (0.00%)	308,281
+NPBC	National Penn Bancshares Inc.	11.57 Jan 8	Down 0.16 (1.36%)	1,631,323
+NRCIA	National Research Corp.	13.61 Jan 8	Down 0.68 (4.76%)	41,929
+NRCIB	National Research Corp.	33.59 Jan 8	Down 0.41 (1.21%)	3,386
+NRIM	Northrim Bancorp Inc.	25.87 Jan 8	Down 0.03 (0.12%)	12,174
+NRX	NephroGenex, Inc.	1.46 Jan 8	0.00 (0.00%)	186,511
+NSEC	National Security Group Inc.	14.90 Jan 8	Up 0.10 (0.68%)	519
+NSIT	Insight Enterprises Inc.	23.05 Jan 8	Down 0.92 (3.84%)	165,208
+NSPH	Nanosphere, Inc.	0.69 Jan 8	Down 0.02 (3.09%)	173,926
+NSSC	Napco Security Technologies, Inc.	5.47 Jan 8	Down 0.19 (3.36%)	13,013
+NSTG	NanoString Technologies, Inc.	11.97 Jan 8	Down 0.82 (6.41%)	235,735
+NSYS	Nortech Systems Inc.	4.24 Jan 7	0.00 (0.00%)	100
+NTAP	NetApp, Inc.	23.00 Jan 8	Down 0.37 (1.58%)	4,284,534
+NTCT	NetScout Systems, Inc.	26.92 Jan 8	Down 0.43 (1.57%)	744,982
+NTEC	Intec Pharma Ltd.	4.83 Jan 8	Up 0.01 (0.21%)	6,299
+NTES	NetEase, Inc.	163.46 Jan 8	Down 1.91 (1.15%)	965,926
+NTGR	Netgear Inc.	37.08 Jan 8	Down 0.47 (1.25%)	424,703
+NTIC	Northern Technologies International Corp.	11.05 Jan 8	Down 0.26 (2.30%)	9,253
+NTK	Nortek Inc.	41.05 Jan 8	Down 0.32 (0.77%)	51,732
+NTLS	NTELOS Holdings Corp.	9.16 Jan 8	Down 0.01 (0.11%)	250,259
+NTRA	Natera, Inc.	9.78 Jan 8	Down 0.11 (1.11%)	569,612
+NTRI	Nutrisystem, Inc.	20.16 Jan 8	Down 1.14 (5.35%)	623,044
+NTRS	Northern Trust Corporation	65.93 Jan 8	Down 1.25 (1.86%)	1,275,322
+NTWK	NetSol Technologies, Inc.	7.04 Jan 8	Up 0.08 (1.15%)	78,202
+NUAN	Nuance Communications, Inc.	18.49 Jan 8	Down 0.28 (1.49%)	2,095,127
+NURO	NeuroMetrix Inc.	1.60 Jan 8	Down 0.01 (0.62%)	30,001
+NUTR	Nutraceutical International Corporation	24.35 Jan 8	Down 0.09 (0.37%)	16,840
+NUVA	NuVasive, Inc.	52.53 Jan 8	Down 0.56 (1.05%)	789,921
+NVAX	Novavax, Inc.	7.07 Jan 8	Up 0.15 (2.17%)	3,012,675
+NVCN	Neovasc Inc.	4.24 Jan 8	Up 0.18 (4.43%)	10,256
+NVCR	NovoCure Limited	20.15 Jan 8	Up 0.39 (1.97%)	468,528
+NVDA	NVIDIA Corporation	29.63 Jan 8	Down 0.65 (2.15%)	9,961,782
+NVDQ	Novadaq Technologies Inc.	13.63 Jan 8	Down 0.29 (2.08%)	483,941
+NVEC	NVE Corp.	51.68 Jan 8	Down 0.28 (0.54%)	19,420
+NVEE	NV5 Global, Inc.	17.55 Jan 8	Down 0.70 (3.84%)	50,035
+NVET	Nexvet Biopharma Public Limited Company	3.50 Jan 8	Up 0.15 (4.48%)	27,866
+NVFY	Nova Lifestyle, Inc.	1.71 Jan 8	Down 0.20 (10.47%)	11,883
+NVGN	Novogen Limited	2.22 Jan 8	Up 0.12 (5.71%)	36,632
+NVIV	InVivo Therapeutics Holdings Corp.	6.21 Jan 8	Down 0.34 (5.19%)	271,590
+NVLS	Nivalis Therapeutics, Inc.	6.65 Jan 8	Down 0.10 (1.48%)	90,262
+NVMI	Nova Measuring Instruments Ltd.	9.68 Jan 8	Down 0.15 (1.53%)	10,062
+NVSL	Naugatuck Valley Financial Corporation	10.97 Jan 8	Down 0.00 (0.02%)	8,667
+NWBI	Northwest Bancshares, Inc.	12.66 Jan 8	Down 0.24 (1.86%)	585,370
+NWBO	Northwest Biotherapeutics, Inc.	2.30 Jan 8	Down 0.01 (0.43%)	648,541
+NWFL	Norwood Financial Corp.	28.45 Jan 8	Up 0.24 (0.86%)	1,230
+NWLI	National Western Life Group, Inc.	227.43 Jan 8	Down 0.17 (0.07%)	6,607
+NWPX	Northwest Pipe Co.	9.23 Jan 8	Down 0.74 (7.42%)	151,319
+NWS	News Corporation	13.01 Jan 8	0.00 (0.00%)	1,434,618
+NWSA	News Corporation	12.58 Jan 8	Up 0.16 (1.29%)	4,501,992
+NXPI	NXP Semiconductors NV	75.18 Jan 8	Down 0.82 (1.08%)	6,958,497
+NXST	Nexstar Broadcasting Group, Inc.	50.87 Jan 8	Down 1.97 (3.73%)	1,119,669
+NXTD	Nxt-ID, Inc.	0.24 Jan 8	Up 0.01 (5.96%)	136,891
+NXTM	Nxstage Medical, Inc.	20.42 Jan 8	Down 0.18 (0.87%)	629,171
+NYMT	New York Mortgage Trust Inc.	5.27 Jan 8	Down 0.04 (0.75%)	630,898
+NYMX	Nymox Pharmaceutical Corporation	2.18 Jan 8	Down 0.65 (22.97%)	950,768
+NYNY	Empire Resorts Inc.	14.27 Jan 8	Down 0.35 (2.39%)	39,579
+OASM	Oasmia Pharmaceutical AB (publ)	3.59 Jan 8	Down 0.16 (4.26%)	2,608
+OBAS	Optibase Ltd.	7.20 Jan 8	Down 0.69 (8.75%)	200
+OBCI	Ocean Bio-Chem Inc.	2.24 Jan 8	Up 0.03 (1.56%)	502
+OCAT	Ocata Therapeutics, Inc.	8.43 Jan 8	Up 0.01 (0.12%)	430,780
+OCC	Optical Cable Corp.	2.78 Jan 8	Down 0.04 (1.42%)	1,427
+OCFC	OceanFirst Financial Corp.	18.69 Jan 8	Down 0.20 (1.06%)	583,201
+OCLR	Oclaro, Inc.	3.30 Jan 8	Down 0.14 (4.07%)	3,844,393
+OCLS	Oculus Innovative Sciences, Inc.	1.05 Jan 8	Down 0.08 (7.08%)	249,673
+OCRX	Ocera Therapeutics, Inc.	2.83 Jan 8	Down 0.05 (1.74%)	38,359
+OCUL	Ocular Therapeutix, Inc.	7.44 Jan 8	Down 0.25 (3.25%)	238,842
+ODFL	Old Dominion Freight Line Inc.	54.90 Jan 8	Down 0.41 (0.74%)	1,154,859
+ODP	Office Depot, Inc.	5.35 Jan 8	Down 0.30 (5.31%)	11,737,841
+OESX	Orion Energy Systems, Inc	2.00 Jan 8	Down 0.01 (0.47%)	26,366
+OFED	Oconee Federal Financial Corp.	18.65 Dec 30	0.00 (0.00%)	0
+OFIX	Orthofix International N.V.	38.08 Jan 8	Down 1.00 (2.56%)	128,162
+OFLX	OmegaFlex, Inc.	30.13 Jan 8	Down 2.03 (6.31%)	29,087
+OGXI	OncoGenex Pharmaceuticals, Inc.	1.02 Jan 8	Down 0.10 (8.93%)	937,136
+OHGI	One Horizon Group, Inc.	1.03 Jan 8	0.00 (0.00%)	144,284
+OHRP	Ohr Pharmaceutical, Inc.	4.99 Jan 8	Down 0.15 (2.92%)	637,990
+OIIM	O2Micro International Ltd.	1.44 Jan 8	Down 0.03 (1.71%)	25,139
+OKSB	Southwest Bancorp Inc.	16.75 Jan 8	Down 0.17 (1.00%)	101,257
+OLBK	Old Line Bancshares Inc.	18.06 Jan 8	Up 0.13 (0.73%)	11,731
+OLED	Universal Display Corp.	50.22 Jan 8	Up 0.61 (1.23%)	843,480
+OLLI	Ollie's Bargain Outlet Holdings, Inc.	18.16 Jan 8	Down 0.18 (0.98%)	337,016
+OMAB	Grupo Aeroportuario del Centro Norte, S.A.B. de C.V.	35.58 Jan 8	Down 0.68 (1.88%)	400,898
+OMCL	Omnicell, Inc.	27.48 Jan 8	Down 0.56 (2.00%)	204,004
+OMED	OncoMed Pharmaceuticals, Inc.	20.59 Jan 8	Down 1.28 (5.85%)	205,714
+OMER	Omeros Corporation	11.50 Jan 8	Down 0.01 (0.09%)	563,489
+OMEX	Odyssey Marine Exploration Inc.	0.23 Jan 8	Up 0.01 (3.18%)	610,664
+ON	ON Semiconductor Corp.	8.53 Jan 8	Down 0.11 (1.27%)	5,103,712
+ONB	Old National Bancorp.	12.47 Jan 8	Down 0.20 (1.58%)	739,086
+ONCE	Spark Therapeutics, Inc.	34.29 Jan 8	Down 0.01 (0.03%)	332,148
+ONCS	OncoSec Medical Incorporated	2.18 Jan 8	Up 0.07 (3.32%)	37,099
+ONTX	Onconova Therapeutics, Inc.	0.80 Jan 8	Up 0.05 (6.64%)	85,042
+ONTY	Oncothyreon Inc	1.76 Jan 8	Down 0.06 (3.30%)	586,577
+ONVI	Onvia Inc.	3.56 Jan 8	Down 0.17 (4.55%)	27,533
+OPB	Opus Bank	35.31 Jan 8	Down 0.02 (0.06%)	250,782
+OPGN	OpGen, Inc.	1.84 Jan 8	Down 0.11 (5.64%)	19,022
+OPHC	OptimumBank Holdings Inc.	0.58 Jan 8	Up 0.06 (11.54%)	12,857
+OPHT	Ophthotech Corporation	65.34 Jan 8	Down 2.35 (3.47%)	531,250
+OPOF	Old Point Financial Corporation	18.35 Jan 8	Down 0.14 (0.76%)	3,121
+OPTT	Ocean Power Technologies, Inc.	1.91 Jan 8	Down 0.17 (7.97%)	27,981
+OPXA	Opexa Therapeutics, Inc.	2.31 Jan 8	Down 0.14 (5.71%)	80,442
+ORBC	ORBCOMM, Inc.	7.37 Jan 8	Up 0.04 (0.55%)	599,140
+ORBK	Orbotech Ltd.	20.79 Jan 8	Down 0.57 (2.67%)	342,303
+OREX	Orexigen Therapeutics, Inc.	1.59 Jan 8	Down 0.05 (3.05%)	1,569,342
+ORIG	Ocean Rig UDW Inc.	1.41 Jan 8	Down 0.09 (6.00%)	959,993
+ORIT	Oritani Financial Corp.	15.70 Jan 8	Down 0.19 (1.20%)	260,821
+ORLY	O'Reilly Automotive Inc.	234.66 Jan 8	Down 5.51 (2.29%)	880,040
+ORMP	Oramed Pharmaceuticals Inc.	7.14 Jan 8	Down 0.42 (5.56%)	110,688
+ORPN	Bio Blast Pharma Ltd.	3.47 Jan 8	Down 0.09 (2.53%)	15,181
+ORRF	Orrstown Financial Services Inc.	17.32 Jan 8	Up 0.31 (1.82%)	868
+OSBC	Old Second Bancorp Inc.	7.07 Jan 8	Down 0.15 (2.08%)	62,936
+OSHC	Ocean Shore Holding Co.	17.54 Jan 8	Up 0.19 (1.10%)	11,040
+OSIR	Osiris Therapeutics, Inc.	9.73 Jan 8	Down 0.67 (6.44%)	262,930
+OSIS	OSI Systems, Inc.	82.18 Jan 8	Down 3.55 (4.14%)	160,354
+OSN	Ossen Innovation Co., Ltd.	0.94 Jan 8	Down 0.00 (0.01%)	127
+OSTK	Overstock.com Inc.	11.30 Jan 8	Down 0.30 (2.59%)	132,671
+OSUR	OraSure Technologies, Inc.	6.04 Jan 8	Up 0.11 (1.85%)	796,970
+OTEL	Otelco Inc.	6.90 Jan 8	Up 0.04 (0.58%)	2,401
+OTEX	Open Text Corporation	45.39 Jan 8	Up 0.07 (0.15%)	260,752
+OTIC	Otonomy, Inc.	20.16 Jan 8	Down 0.93 (4.41%)	621,756
+OTIV	On Track Innovations Ltd.	0.36 Jan 8	Down 0.01 (3.54%)	120,493
+OTTR	Otter Tail Corporation	26.23 Jan 8	Down 0.19 (0.72%)	79,789
+OUTR	Outerwall Inc.	33.40 Jan 8	Down 1.10 (3.19%)	529,961
+OVAS	OvaScience, Inc.	8.00 Jan 8	Down 0.22 (2.68%)	631,365
+OVBC	Ohio Valley Banc Corp.	23.83 Jan 8	Down 0.09 (0.36%)	632
+OVLY	Oak Valley Bancorp	9.61 Jan 7	0.00 (0.00%)	0
+OVTI	OmniVision Technologies, Inc.	28.05 Jan 8	Down 0.23 (0.81%)	1,079,896
+OXBR	Oxbridge Re Holdings Limited	5.11 Jan 8	Down 0.15 (2.85%)	10,502
+OXFD	Oxford Immunotec Global PLC	10.08 Jan 8	Down 0.28 (2.70%)	31,247
+OXGN	OXiGENE, Inc.	0.69 Jan 8	Down 0.01 (1.22%)	203,263
+OZRK	Bank of the Ozarks, Inc.	45.81 Jan 8	Down 0.26 (0.56%)	998,417
+PAAC	Pacific Special Acquisition Corp.	9.90 Jan 4	0.00 (0.00%)	0
+PAAS	Pan American Silver Corp.	6.92 Jan 8	Down 0.11 (1.56%)	2,298,445
+PACB	Pacific Biosciences of California, Inc.	12.61 Jan 8	Up 0.35 (2.85%)	2,424,105
+PACE	Pace Holdings Corp.	9.90 Dec 31	0.00 (0.00%)	0
+PACW	PacWest Bancorp	38.60 Jan 8	Down 1.00 (2.53%)	1,181,747
+PAHC	Phibro Animal Health Corporation	29.24 Jan 8	Down 0.52 (1.75%)	126,026
+PARN	Parnell Pharmaceuticals Holdings Ltd.	3.35 Jan 8	Down 0.07 (2.08%)	44,247
+PATI	Patriot Transportation Holding, Inc.	21.63 Jan 8	Down 0.48 (2.17%)	5,251
+PATK	Patrick Industries Inc.	37.54 Jan 8	Down 2.99 (7.38%)	227,259
+PAYX	Paychex, Inc.	47.56 Jan 8	Down 0.87 (1.80%)	5,430,975
+PBBI		9.00 Jan 8	0.00 (0.00%)	1,422,783
+PBCT	People's United Financial Inc.	14.95 Jan 8	Down 0.30 (1.97%)	4,088,696
+PBHC	Pathfinder Bancorp, Inc.	12.86 Jan 8	Up 0.15 (1.21%)	12,660
+PBIB	Porter Bancorp Inc.	1.37 Jan 8	Down 0.01 (0.72%)	1,633
+PBIP	Prudential Bancorp, Inc.	14.97 Jan 8	Up 0.07 (0.47%)	42,066
+PBMD	Prima Biomed Ltd.	1.10 Jan 8	0.00 (0.00%)	484,816
+PBPB	Potbelly Corporation	11.29 Jan 8	Down 0.31 (2.67%)	142,335
+PBSK	Poage Bankshares, Inc.	17.70 Jan 7	0.00 (0.00%)	2
+PCAR	PACCAR Inc.	45.23 Jan 8	Down 0.52 (1.14%)	2,798,373
+PCBK	Pacific Continental Corp.	14.56 Jan 8	Down 0.15 (1.02%)	40,509
+PCCC	PC Connection, Inc.	20.42 Jan 8	Down 0.29 (1.40%)	59,124
+PCH	Potlatch Corporation	27.24 Jan 8	Down 0.57 (2.05%)	286,414
+PCLN	The Priceline Group Inc.	1,136.96 Jan 8	Down 30.23 (2.59%)	1,023,037
+PCMI	PCM, Inc.	9.73 Jan 8	Down 0.03 (0.31%)	7,352
+PCO	Pendrell Corporation	0.46 Jan 8	0.00 (0.00%)	257,057
+PCOM	Points International Ltd.	8.45 Jan 8	Down 0.31 (3.54%)	43,763
+PCRX	Pacira Pharmaceuticals, Inc.	67.56 Jan 8	Up 0.02 (0.03%)	725,413
+PCTI	PCTEL, Inc.	4.58 Jan 8	Down 0.10 (2.14%)	36,819
+PCTY	Paylocity Holding Corporation	36.59 Jan 8	Up 0.19 (0.52%)	297,320
+PCYG	Park City Group Inc.	10.29 Jan 8	Down 0.65 (5.94%)	23,883
+PCYO	Pure Cycle Corporation	4.55 Jan 8	Up 0.02 (0.44%)	20,192
+PDCE	PDC Energy, Inc.	52.13 Jan 8	Up 0.10 (0.19%)	1,125,611
+PDCO	Patterson Companies, Inc.	42.39 Jan 8	Down 1.07 (2.46%)	837,029
+PDEX	Pro-Dex Inc.	2.40 Jan 8	Up 0.06 (2.57%)	2,100
+PDFS	PDF Solutions Inc.	9.31 Jan 8	Down 0.42 (4.32%)	109,415
+PDLI	PDL BioPharma, Inc.	3.26 Jan 8	Down 0.01 (0.31%)	2,227,585
+PDVW	pdvWireless, Inc.	25.86 Jan 8	Down 0.20 (0.77%)	62,119
+PEBK	Peoples Bancorp of North Carolina, Inc.	18.60 Jan 8	Down 0.40 (2.11%)	14,552
+PEBO	Peoples Bancorp Inc.	18.48 Jan 8	Down 0.25 (1.33%)	103,654
+PEGA	Pegasystems Inc.	24.90 Jan 8	Down 0.80 (3.11%)	206,460
+PEGI	Pattern Energy Group Inc.	19.23 Jan 8	Down 0.03 (0.16%)	807,009
+PEIX	Pacific Ethanol, Inc.	3.81 Jan 8	Down 0.10 (2.56%)	671,803
+PENN	Penn National Gaming Inc.	15.17 Jan 8	Up 0.19 (1.27%)	1,114,703
+PERF	Perfumania Holdings, Inc.	2.35 Jan 5	0.00 (0.00%)	0
+PERI	Perion Network Ltd.	2.74 Jan 8	0.00 (0.00%)	214,446
+PERY	Perry Ellis International Inc.	16.78 Jan 8	Down 0.57 (3.29%)	114,364
+PESI	Perma-Fix Environmental Services Inc.	3.71 Jan 8	Up 0.03 (0.82%)	3,200
+PETS	PetMed Express, Inc.	17.09 Jan 8	Up 0.09 (0.53%)	351,433
+PETX	Aratana Therapeutics, Inc.	3.82 Jan 8	Down 0.29 (7.06%)	807,044
+PFBC	Preferred Bank	31.92 Jan 8	Up 0.24 (0.76%)	174,668
+PFBI	Premier Financial Bancorp Inc.	15.96 Jan 8	Down 0.01 (0.06%)	4,048
+PFBX	Peoples Financial Corporation	9.09 Jan 8	Up 0.09 (1.00%)	1,700
+PFIE	Profire Energy, Inc.	0.99 Jan 8	Up 0.06 (6.45%)	20,660
+PFIN	P&F Industries Inc.	8.43 Jan 8	Down 0.09 (1.06%)	4,876
+PFIS	Peoples Financial Services Corp.	34.89 Jan 8	Down 0.55 (1.55%)	8,867
+PFMT	Performant Financial Corporation	1.91 Jan 8	Down 0.01 (0.52%)	42,691
+PFPT	Proofpoint, Inc.	58.40 Jan 8	Down 1.44 (2.41%)	675,109
+PFSW	PFSweb Inc.	11.96 Jan 8	Down 0.01 (0.08%)	146,091
+PGC	Peapack-Gladstone Financial Corp.	20.06 Jan 8	0.00 (0.00%)	37,911
+PGLC	Pershing Gold Corporation	3.48 Jan 8	Down 0.06 (1.71%)	33,174
+PGNX	Progenics Pharmaceuticals, Inc.	4.94 Jan 8	Down 0.24 (4.63%)	1,200,771
+PGTI	PGT, Inc.	9.67 Jan 8	Down 0.25 (2.52%)	615,170
+PHII	PHI Inc.	18.50 Jan 8	0.00 (0.00%)	327
+PHIIK	PHI Inc.	18.24 Jan 8	Down 0.07 (0.38%)	34,141
+PHMD	PhotoMedex, Inc.	0.41 Jan 8	Up 0.01 (2.50%)	49,926
+PICO	PICO Holdings Inc.	9.20 Jan 8	Down 0.30 (3.16%)	116,135
+PIH	1347 Property Insurance Holdings, Inc.	6.91 Jan 8	Down 0.19 (2.74%)	9,561
+PINC	Premier, Inc.	34.18 Jan 8	Up 0.07 (0.21%)	372,977
+PIRS	Pieris Pharmaceuticals, Inc.	2.01 Jan 8	Up 0.01 (0.50%)	345,775
+PKBK	Parke Bancorp Inc.	12.54 Jan 8	Up 0.25 (2.00%)	14,605
+PKOH	Park-Ohio Holdings Corp.	30.98 Jan 8	Down 1.56 (4.79%)	35,735
+PLAB	Photronics Inc.	11.80 Jan 8	Down 0.24 (1.99%)	941,689
+PLAY	Dave & Buster's Entertainment, Inc.	39.51 Jan 8	Down 1.70 (4.13%)	692,645
+PLBC	Plumas Bancorp	8.59 Jan 8	Up 0.06 (0.71%)	400
+PLCE	The Children's Place, Inc.	61.29 Jan 8	Down 1.91 (3.02%)	1,289,789
+PLCM	Polycom, Inc.	11.09 Jan 8	Down 0.44 (3.82%)	1,893,113
+PLKI	Popeyes Louisiana Kitchen, Inc.	56.98 Jan 8	Up 0.98 (1.75%)	298,689
+PLPC	Preformed Line Products Company	42.15 Jan 8	Down 1.03 (2.39%)	2,587
+PLPM	Planet Payment, Inc.	2.90 Jan 8	Down 0.05 (1.69%)	83,453
+PLUG	Plug Power Inc.	1.92 Jan 8	Up 0.02 (1.05%)	1,611,388
+PLUS	ePlus inc.	92.45 Jan 8	Down 0.68 (0.73%)	119,505
+PLXS	Plexus Corp.	31.91 Jan 8	Down 0.79 (2.42%)	218,447
+PMBC	Pacific Mercantile Bancorp	7.07 Jan 8	Down 0.08 (1.12%)	33,147
+PMCS	PMC-Sierra Inc.	11.38 Jan 8	Down 0.05 (0.44%)	3,291,816
+PMD	Psychemedics Corp.	9.67 Jan 8	Down 0.32 (3.20%)	25,994
+PME	Pingtan Marine Enterprise Ltd.	1.45 Jan 8	Up 0.03 (2.17%)	14,494
+PMTS	CPI Card Group, Inc.	10.28 Jan 8	Down 0.02 (0.19%)	162,737
+PNBK	Patriot National Bancorp Inc.	15.50 Jan 6	0.00 (0.00%)	20
+PNFP	Pinnacle Financial Partners Inc.	47.33 Jan 8	Down 1.36 (2.79%)	206,796
+PNK	Pinnacle Entertainment Inc.	30.19 Jan 8	Down 0.51 (1.66%)	837,700
+PNRA	Panera Bread Company	187.50 Jan 8	Down 1.44 (0.76%)	434,046
+PNRG	PrimeEnergy Corp.	50.00 Jan 5	0.00 (0.00%)	0
+PNTR	Pointer Telocation Ltd.	5.84 Jan 8	Down 0.10 (1.68%)	7,838
+PODD	Insulet Corporation	34.77 Jan 8	Down 1.98 (5.39%)	331,898
+POOL	Pool Corp.	75.96 Jan 8	Down 1.57 (2.03%)	264,583
+POPE	Pope Resources, A Delaware Limited Partnership	64.55 Jan 8	Down 0.60 (0.92%)	1,690
+POWI	Power Integrations Inc.	44.57 Jan 8	Up 0.21 (0.47%)	205,420
+POWL	Powell Industries, Inc.	25.23 Jan 8	Down 0.52 (2.02%)	102,887
+POZN	POZEN Inc.	5.95 Jan 8	Down 0.07 (1.16%)	358,526
+PPBI	Pacific Premier Bancorp Inc.	20.17 Jan 8	Up 0.23 (1.15%)	245,295
+PPC	Pilgrim's Pride Corporation	22.91 Jan 8	Up 0.74 (3.34%)	2,696,310
+PPHM	Peregrine Pharmaceuticals, Inc.	1.07 Jan 8	Down 0.02 (1.83%)	909,612
+PPSI	Pioneer Power Solutions, Inc.	3.50 Jan 8	Up 0.19 (5.74%)	100
+PRAA	PRA Group, Inc.	32.25 Jan 8	Down 0.85 (2.57%)	517,125
+PRAH	PRA Health Sciences, Inc.	45.15 Jan 8	Up 1.11 (2.52%)	339,138
+PRAN	Prana Biotechnology Limited	0.66 Jan 8	Up 0.01 (2.29%)	96,388
+PRCP	Perceptron, Inc.	7.36 Jan 8	Up 0.05 (0.68%)	34,859
+PRFT	Perficient Inc.	15.48 Jan 8	Down 0.46 (2.89%)	169,120
+PRGN	Paragon Shipping Inc.	0.14 Jan 8	Up 0.00 (0.36%)	83,848
+PRGS	Progress Software Corporation	23.19 Jan 8	Down 0.61 (2.56%)	2,570,866
+PRGX	PRGX Global, Inc.	3.92 Jan 8	Down 0.04 (1.01%)	16,493
+PRIM	Primoris Services Corporation	20.29 Jan 8	Down 0.05 (0.25%)	277,614
+PRKR	Parkervision Inc.	0.23 Jan 8	Down 0.01 (6.17%)	114,403
+PRMW	Primo Water Corporation	8.54 Jan 8	Up 0.13 (1.55%)	97,745
+PROV	Provident Financial Holdings, Inc.	18.64 Jan 8	Up 0.15 (0.81%)	13,667
+PRPH	ProPhase Labs, Inc.	1.39 Jan 8	Down 0.07 (4.79%)	2,799
+PRQR	ProQR Therapeutics N.V.	6.73 Jan 8	Down 0.29 (4.13%)	48,342
+PRSC	Providence Service Corp.	44.53 Jan 8	Down 2.68 (5.68%)	128,969
+PRSN	Perseon Corporation	0.13 Jan 8	Up 0.00 (3.53%)	475,662
+PRSS	CafePress Inc.	3.67 Jan 8	Down 0.09 (2.39%)	1,918
+PRTA	Prothena Corporation plc	53.87 Jan 8	Down 2.39 (4.25%)	653,825
+PRTK	Paratek Pharmaceuticals, Inc.	17.11 Jan 8	Down 0.39 (2.23%)	85,047
+PRTO	Proteon Therapeutics Inc	11.77 Jan 8	Down 0.51 (4.15%)	16,602
+PRTS	U.S. Auto Parts Network, Inc.	2.81 Jan 8	Down 0.07 (2.43%)	16,930
+PRXI	Premier Exhibitions Inc.	0.63 Jan 8	Down 0.10 (13.30%)	13,920
+PRXL	PAREXEL International Corporation	68.03 Jan 8	Down 0.58 (0.85%)	681,752
+PRZM	Prism Technologies Group, Inc.	0.85 Jan 8	Down 0.02 (2.22%)	1,530
+PSDV	pSivida Corp.	3.96 Jan 8	Down 0.37 (8.55%)	422,682
+PSIX	Power Solutions International, Inc.	14.28 Jan 8	Down 1.22 (7.87%)	102,561
+PSMT	PriceSmart Inc.	75.30 Jan 8	Down 2.89 (3.70%)	524,372
+PSTB	Park Sterling Corporation	7.48 Jan 8	Down 0.01 (0.13%)	332,462
+PSTI	Pluristem Therapeutics, Inc.	1.00 Jan 8	Down 0.01 (0.99%)	356,979
+PSUN	Pacific Sunwear of California Inc.	0.22 Jan 8	Up 0.00 (0.83%)	650,486
+PTC	PTC Inc.	31.36 Jan 8	Down 0.41 (1.29%)	931,998
+PTCT	PTC Therapeutics, Inc.	26.32 Jan 8	Down 1.15 (4.19%)	714,903
+PTEN	Patterson-UTI Energy Inc.	13.26 Jan 8	Down 0.31 (2.28%)	6,069,935
+PTIE	Pain Therapeutics Inc.	1.75 Jan 8	0.00 (0.00%)	123,316
+PTLA	Portola Pharmaceuticals, Inc.	42.42 Jan 8	Down 1.15 (2.64%)	306,970
+PTNR	Partner Communications Company Ltd.	4.64 Jan 8	Up 0.06 (1.31%)	14,018
+PTSI	P.A.M. Transportation Services, Inc.	25.26 Jan 8	Up 0.32 (1.28%)	32,240
+PTX	Pernix Therapeutics Holdings, Inc.	2.65 Jan 8	Down 0.11 (3.99%)	787,507
+PTXP	PennTex Midstream Partners, LP	12.70 Jan 8	Up 0.13 (1.03%)	19,129
+PUB	People's Utah Bancorp	16.57 Jan 8	Down 0.33 (1.95%)	7,514
+PULB	Pulaski Financial Corporation	15.65 Jan 8	Up 0.12 (0.77%)	279,976
+PULM	Pulmatrix, Inc.	3.85 Jan 8	Up 0.30 (8.39%)	8,975
+PVBC	Provident Bancorp, Inc.	13.10 Jan 8	Down 0.09 (0.68%)	2,135
+PVTB	PrivateBancorp, Inc.	37.45 Jan 8	Down 0.92 (2.40%)	637,713
+PWOD	Penns Woods Bancorp Inc.	39.39 Jan 8	Down 1.16 (2.86%)	8,248
+PWX	Providence and Worcester Railroad Company	14.10 Jan 8	Up 0.10 (0.71%)	1,562
+PXLW	Pixelworks, Inc.	2.19 Jan 8	Down 0.08 (3.52%)	172,667
+PXS	Pyxis Tankers Inc.	0.87 Jan 8	Down 0.45 (34.09%)	6,092
+PYDS	Payment Data Systems, Inc.	2.05 Jan 8	Up 0.10 (5.13%)	38,987
+PYPL	PayPal Holdings, Inc.	32.69 Jan 8	Down 0.44 (1.33%)	7,848,846
+PZZA	Papa John's International Inc.	48.63 Jan 8	Down 2.09 (4.12%)	1,098,234
+QADA	QAD Inc.	19.48 Jan 8	Down 0.05 (0.26%)	37,122
+QADB	QAD Inc.	17.75 Jan 8	0.00 (0.00%)	903
+QBAK	Qualstar Corp.	0.78 Jan 6	0.00 (0.00%)	0
+QCCO	QC Holdings, Inc.	1.31 Jan 8	Up 0.01 (1.08%)	1,676
+QCOM	QUALCOMM Incorporated	45.88 Jan 8	Down 0.26 (0.57%)	15,285,528
+QCRH	QCR Holdings Inc.	22.78 Jan 8	Down 0.21 (0.91%)	39,451
+QDEL	Quidel Corp.	17.92 Jan 8	Down 1.17 (6.13%)	581,433
+QGEN	Qiagen NV	25.57 Jan 8	Down 0.32 (1.24%)	660,605
+QIWI	Qiwi plc	16.28 Jan 8	Down 0.67 (3.95%)	119,213
+QKLS	QKL Stores Inc.	0.67 Jan 7	0.00 (0.00%)	5
+QLGC	QLogic Corp.	11.02 Jan 8	Down 0.08 (0.72%)	882,158
+QLIK	Qlik Technologies, Inc.	28.55 Jan 8	Up 0.08 (0.28%)	1,577,444
+QLTI	QLT Inc.	2.60 Jan 8	Up 0.05 (1.96%)	537,084
+QLYS	Qualys, Inc.	28.66 Jan 8	Down 0.51 (1.75%)	449,984
+QNST	QuinStreet, Inc.	3.61 Jan 8	Down 0.08 (2.17%)	379,114
+QPAC	Quinpario Acquisition Corp. 2	9.66 Jan 7	0.00 (0.00%)	0
+QRHC	Quest Resource Holding Corporation	0.68 Jan 7	0.00 (0.00%)	0
+QRVO	Qorvo, Inc.	44.49 Jan 8	Down 1.15 (2.52%)	7,724,413
+QSII	Quality Systems Inc.	16.91 Jan 8	Up 0.04 (0.24%)	1,420,633
+QTNT	Quotient Limited	14.57 Jan 8	Down 0.23 (1.55%)	10,179
+QTWW	Quantum Fuel Systems Technologies Worldwide Inc.	0.71 Jan 8	Down 0.01 (0.71%)	144,773
+QUIK	QuickLogic Corporation	1.20 Jan 8	Down 0.02 (1.64%)	79,789
+QUMU	Qumu Corporation	2.78 Jan 8	Down 0.27 (8.85%)	25,401
+QUNR	Qunar Cayman Islands Limited	40.97 Jan 8	Up 3.67 (9.84%)	1,771,956
+QURE	uniQure N.V.	18.19 Jan 8	Up 0.91 (5.27%)	931,354
+QVCA	Liberty Interactive Corporation	25.02 Jan 8	Down 0.37 (1.46%)	3,538,849
+QVCB	Liberty Interactive Corporation	25.26 Jan 8	Down 1.14 (4.32%)	426
+RADA	RADA Electronic Industries Ltd.	0.32 Jan 8	Down 0.03 (7.58%)	158,725
+RAIL	FreightCar America Inc.	17.78 Jan 8	Down 0.20 (1.11%)	189,091
+RARE	Ultragenyx Pharmaceutical Inc.	86.44 Jan 8	Down 6.59 (7.08%)	499,905
+RAVE	RAVE Restaurant Group, Inc.	6.82 Jan 8	Down 0.11 (1.59%)	315,884
+RAVN	Raven Industries Inc.	14.90 Jan 8	Down 0.14 (0.93%)	216,352
+RBCAA	Republic Bancorp Inc.	25.00 Jan 8	Down 0.05 (0.20%)	16,124
+RBCN	Rubicon Technology, Inc.	1.15 Jan 8	Up 0.01 (0.88%)	54,767
+RBPAA	Royal Bancshares of Pennsylvania Inc.	1.94 Jan 8	Down 0.09 (4.43%)	26,819
+RCII	Rent-A-Center, Inc.	13.82 Jan 8	Down 0.59 (4.09%)	1,074,058
+RCKY	Rocky Brands, Inc.	10.22 Jan 8	Up 0.10 (0.99%)	39,949
+RCMT	RCM Technologies Inc.	5.24 Jan 8	Up 0.07 (1.35%)	8,140
+RCON	Recon Technology, Ltd.	1.28 Jan 8	0.00 (0.00%)	13,945
+RDCM	Radcom Ltd.	13.77 Jan 8	Up 0.55 (4.16%)	59,047
+RDEN	Elizabeth Arden, Inc.	7.70 Jan 8	Down 0.46 (5.64%)	166,495
+RDHL	RedHill Biopharma Ltd.	11.64 Jan 8	Up 0.04 (0.34%)	19,137
+RDI	Reading International, Inc.	12.38 Jan 8	Down 0.02 (0.16%)	38,679
+RDIB	Reading International, Inc.	13.72 Dec 31	0.00 (0.00%)	0
+RDNT	RadNet, Inc.	5.76 Jan 8	Down 0.02 (0.35%)	149,026
+RDUS	Radius Health, Inc.	50.48 Jan 8	Down 0.99 (1.92%)	324,380
+RDWR	Radware Ltd.	13.27 Jan 8	Down 0.32 (2.35%)	290,710
+RECN	Resources Connection, Inc.	13.94 Jan 8	Down 0.21 (1.48%)	387,741
+REDF	Rediff.com India Limited	0.61 Jan 8	Down 0.02 (3.17%)	19,342
+REFR	Research Frontiers Inc.	4.83 Jan 8	Down 0.01 (0.21%)	20,547
+REGI	Renewable Energy Group, Inc.	8.35 Jan 8	Down 0.28 (3.24%)	365,641
+REGN	Regeneron Pharmaceuticals, Inc.	491.68 Jan 8	Down 10.28 (2.05%)	793,073
+REIS	Reis, Inc.	22.51 Jan 8	Up 0.01 (0.04%)	15,019
+RELL	Richardson Electronics Ltd.	5.45 Jan 8	Down 0.11 (1.98%)	45,310
+RELV	Reliv' International, Inc.	0.59 Jan 8	Down 0.03 (5.48%)	7,484
+RELY	Real Industry, Inc.	6.66 Jan 8	Down 0.28 (4.03%)	81,148
+RENT	Rentrak Corporation	41.72 Jan 8	Down 2.23 (5.07%)	84,687
+REPH	Recro Pharma, Inc.	8.75 Jan 8	Down 0.41 (4.48%)	27,934
+RESN	Resonant Inc.	2.43 Jan 8	Down 0.23 (8.65%)	17,589
+REXI	Resource America, Inc.	5.99 Jan 8	Down 0.09 (1.48%)	140,208
+REXX	Rex Energy Corporation	1.01 Jan 8	Up 0.07 (7.30%)	3,061,066
+RFIL	RF Industries, Ltd.	4.19 Jan 8	Down 0.07 (1.64%)	5,398
+RGCO	RGC Resources, Inc.	21.10 Jan 8	Down 0.29 (1.38%)	1,975
+RGEN	Repligen Corporation	23.98 Jan 8	Down 1.56 (6.11%)	387,278
+RGLD	Royal Gold, Inc.	37.59 Jan 8	Down 1.15 (2.97%)	1,159,309
+RGLS	Regulus Therapeutics Inc.	7.26 Jan 8	Down 0.40 (5.22%)	336,416
+RGNX	Regenxbio Inc.	13.78 Jan 8	Down 0.89 (6.07%)	83,252
+RGSE	Real Goods Solar, Inc.	0.57 Jan 8	Up 0.03 (4.90%)	116,250
+RIBT	RiceBran Technologies	2.20 Jan 8	Down 0.03 (1.35%)	3,312
+RICK	RCI Hospitality Holdings, Inc.	8.94 Jan 8	Down 0.51 (5.40%)	87,239
+RIGL	Rigel Pharmaceuticals, Inc.	2.77 Jan 8	Down 0.03 (1.07%)	512,823
+RILY	B. Riley Financial, Inc.	9.75 Jan 8	Down 0.10 (1.02%)	8,150
+RITT	RiT Technologies Ltd.	1.32 Jan 8	Down 0.08 (5.71%)	163,807
+RIVR	River Valley Bancorp	34.73 Jan 8	Up 0.73 (2.15%)	1,613
+RJET	Republic Airways Holdings Inc.	2.35 Jan 8	Down 0.22 (8.56%)	2,171,272
+RKDA	Arcadia Biosciences, Inc.	2.43 Jan 8	Down 0.25 (9.33%)	29,909
+RLJE	RLJ Entertainment, Inc.	0.52 Jan 8	Up 0.02 (4.01%)	31,834
+RLOC	ReachLocal, Inc.	1.74 Jan 8	Up 0.03 (1.75%)	29,053
+RLOG	Rand Logistics, Inc.	1.23 Jan 8	Up 0.02 (1.65%)	65,656
+RLYP	Relypsa, Inc.	21.26 Jan 8	Up 0.06 (0.28%)	3,735,655
+RMBS	Rambus Inc.	10.95 Jan 8	Down 0.17 (1.53%)	684,599
+RMCF	Rocky Mountain Chocolate Factory Inc.	10.37 Jan 8	Down 0.34 (3.17%)	17,027
+RMGN	RMG Networks Holding Corporation	0.79 Jan 8	Up 0.02 (2.90%)	45,250
+RMR	The RMR Group Inc.	15.88 Jan 8	Up 0.17 (1.08%)	166,980
+RMTI	Rockwell Medical, Inc.	7.63 Jan 8	Down 0.56 (6.84%)	891,478
+RNET	RigNet, Inc.	16.04 Jan 8	Down 1.77 (9.94%)	174,445
+RNST	Renasant Corp.	32.65 Jan 8	Down 0.93 (2.77%)	218,235
+RNVA	Rennova Health, Inc.	0.83 Jan 8	Down 0.09 (9.75%)	41,508
+RNWK	RealNetworks Inc.	3.75 Jan 8	Down 0.09 (2.34%)	145,984
+ROCK	Gibraltar Industries, Inc.	22.19 Jan 8	Down 0.85 (3.69%)	491,058
+ROIA	Radio One Inc.	1.56 Jan 8	Down 0.03 (1.70%)	476
+ROIAK	Radio One Inc.	1.53 Jan 8	Down 0.10 (6.13%)	38,826
+ROIC	Retail Opportunity Investments Corp.	17.35 Jan 8	Down 0.20 (1.14%)	496,402
+ROKA	Roka Bioscience, Inc.	0.97 Jan 8	Up 0.01 (1.04%)	20,770
+ROLL	RBC Bearings Inc.	59.64 Jan 8	Down 1.02 (1.68%)	192,722
+ROSG	Rosetta Genomics, Ltd.	1.03 Jan 8	Down 0.05 (4.63%)	884,888
+ROST	Ross Stores Inc.	52.10 Jan 8	Down 1.66 (3.09%)	2,830,863
+ROVI	Rovi Corporation	16.47 Jan 8	Up 0.08 (0.49%)	2,099,427
+ROYL	Royale Energy Inc.	0.33 Jan 8	Down 0.01 (2.94%)	36,434
+RP	RealPage, Inc.	21.96 Jan 8	Up 0.21 (0.97%)	385,692
+RPD	Rapid7, Inc.	14.24 Jan 8	Down 0.64 (4.30%)	228,326
+RPRX	Repros Therapeutics Inc.	1.17 Jan 8	Up 0.05 (4.46%)	272,474
+RPTP	Raptor Pharmaceuticals Corp.	4.07 Jan 8	Down 0.22 (5.13%)	1,059,147
+RPXC	RPX Corporation	10.39 Jan 8	Down 0.16 (1.52%)	515,901
+RRD	R.R. Donnelley & Sons Company	12.82 Jan 8	Down 0.41 (3.10%)	2,547,249
+RRGB	Red Robin Gourmet Burgers Inc.	58.29 Jan 8	Up 1.67 (2.95%)	275,563
+RRM	RR Media Ltd.	8.30 Jan 8	Up 0.02 (0.24%)	8,586
+RSTI	Rofin-Sinar Technologies Inc.	24.29 Jan 8	Down 0.21 (0.86%)	138,654
+RSYS	RadiSys Corporation	2.31 Jan 8	Down 0.05 (2.12%)	111,359
+RTIX	RTI Surgical Inc.	3.59 Jan 8	Up 0.02 (0.56%)	542,793
+RTK	Rentech, Inc.	2.71 Jan 8	Down 0.06 (1.99%)	89,383
+RTRX	Retrophin, Inc.	18.01 Jan 8	Up 0.41 (2.33%)	592,440
+RTTR	Ritter Pharmaceuticals, Inc.	1.56 Jan 8	Up 0.04 (2.63%)	89,897
+RUN	Sunrun Inc.	9.75 Jan 8	Up 0.54 (5.86%)	552,879
+RUSHA	Rush Enterprises, Inc.	19.37 Jan 8	Down 0.18 (0.92%)	242,219
+RUSHB	Rush Enterprises, Inc.	19.36 Jan 8	Down 0.12 (0.62%)	7,529
+RUTH	Ruth's Hospitality Group Inc.	15.85 Jan 8	Down 0.06 (0.38%)	444,149
+RVLT	Revolution Lighting Technologies, Inc.	0.76 Jan 8	Down 0.05 (5.74%)	61,002
+RVNC	Revance Therapeutics, Inc.	28.23 Jan 8	Down 0.15 (0.53%)	576,340
+RVSB	Riverview Bancorp Inc.	4.70 Jan 8	Down 0.06 (1.26%)	3,379
+RWLK	ReWalk Robotics Ltd.	12.38 Jan 8	Down 0.05 (0.40%)	263,461
+RXDX	Ignyta, Inc.	11.79 Jan 8	Down 0.17 (1.42%)	90,961
+RXII	RXi Pharmaceuticals Corporation	0.37 Jan 8	Up 0.00 (1.23%)	583,291
+RYAAY	Ryanair Holdings plc	85.29 Jan 8	Up 1.16 (1.38%)	495,121
+SAAS	inContact, Inc.	8.40 Jan 8	Down 0.17 (1.98%)	388,569
+SABR	Sabre Corporation	25.87 Jan 8	Down 0.38 (1.45%)	1,349,027
+SAEX	SAExploration Holdings, Inc.	1.79 Jan 8	Down 0.16 (8.09%)	4,560
+SAFM	Sanderson Farms, Inc.	75.02 Jan 8	Down 0.68 (0.90%)	359,806
+SAFT	Safety Insurance Group Inc.	55.92 Jan 8	Down 0.46 (0.82%)	77,257
+SAGE	Sage Therapeutics, Inc.	44.35 Jan 8	Down 2.04 (4.40%)	670,128
+SAIA	Saia, Inc.	19.92 Jan 8	Down 0.13 (0.65%)	372,198
+SAJA	Sajan, Inc.	3.51 Jan 8	Down 0.25 (6.60%)	1,514
+SAL	Salisbury Bancorp Inc.	32.59 Jan 8	Down 1.27 (3.76%)	1,489
+SALE	RetailMeNot, Inc.	8.86 Jan 8	Up 0.09 (1.03%)	579,631
+SALM	Salem Media Group, Inc.	4.71 Jan 8	Down 0.07 (1.46%)	15,229
+SAMG	Silvercrest Asset Management Group Inc.	11.15 Jan 8	Up 0.07 (0.63%)	13,165
+SANM	Sanmina Corporation	18.07 Jan 8	Down 0.42 (2.27%)	736,874
+SANW	S&W Seed Company	4.15 Jan 8	Down 0.05 (1.19%)	69,641
+SASR	Sandy Spring Bancorp Inc.	26.02 Jan 8	Down 0.47 (1.77%)	74,677
+SATS	EchoStar Corp.	35.21 Jan 8	Down 0.68 (1.89%)	197,884
+SAUC	Diversified Restaurant Holdings, Inc.	1.72 Jan 8	Down 0.03 (1.74%)	39,610
+SAVE	Spirit Airlines, Inc.	38.54 Jan 8	Down 1.53 (3.82%)	1,545,135
+SBAC	SBA Communications Corp.	101.64 Jan 8	Down 0.95 (0.93%)	1,004,983
+SBBP	Strongbridge Biopharma plc	6.17 Jan 8	Up 0.15 (2.49%)	17,049
+SBBX	Sussex Bancorp	12.75 Jan 8	Down 0.25 (1.92%)	1,850
+SBCF	Seacoast Banking Corp. of Florida	14.60 Jan 8	Down 0.06 (0.41%)	231,456
+SBCP	Sunshine Bancorp, Inc.	15.10 Jan 8	Down 0.09 (0.59%)	2,976
+SBFG	SB Financial Group, Inc.	10.94 Jan 8	Up 0.24 (2.26%)	1,901
+SBGI	Sinclair Broadcast Group, Inc.	29.96 Jan 8	Down 0.86 (2.79%)	979,939
+SBLK	Star Bulk Carriers Corp.	0.44 Jan 8	Up 0.06 (15.79%)	698,089
+SBNY	Signature Bank	135.90 Jan 8	Down 3.03 (2.18%)	607,393
+SBOT	Stellar Biotechnologies, Inc.	6.00 Jan 8	Down 0.37 (5.79%)	11,245
+SBRA	Sabra Health Care REIT, Inc.	20.42 Jan 8	Down 0.20 (0.97%)	398,248
+SBSA	Spanish Broadcasting System Inc.	3.04 Jan 8	Down 0.05 (1.63%)	2,796
+SBSI	Southside Bancshares Inc.	21.92 Jan 8	Down 0.38 (1.70%)	144,192
+SBUX	Starbucks Corporation	56.63 Jan 8	Down 0.06 (0.11%)	10,427,021
+SCAI	Surgical Care Affiliates, Inc.	39.42 Jan 8	Down 0.03 (0.08%)	193,401
+SCHL	Scholastic Corporation	37.71 Jan 8	Up 0.02 (0.05%)	212,603
+SCHN	Schnitzer Steel Industries, Inc.	12.66 Jan 8	Down 0.54 (4.09%)	633,547
+SCLN	SciClone Pharmaceuticals, Inc.	8.08 Jan 8	Down 0.14 (1.70%)	298,202
+SCMP	Sucampo Pharmaceuticals, Inc.	14.63 Jan 8	Down 0.47 (3.11%)	504,395
+SCON	Superconductor Technologies Inc.	0.16 Jan 8	Down 0.01 (4.18%)	786,369
+SCOR	comScore, Inc.	36.40 Jan 8	Down 1.82 (4.76%)	407,408
+SCSC	ScanSource, Inc.	29.57 Jan 8	Down 1.06 (3.46%)	149,057
+SCSS	Select Comfort Corporation	20.05 Jan 8	Down 1.07 (5.07%)	820,786
+SCTY	SolarCity Corporation	48.81 Jan 8	Up 1.74 (3.70%)	2,139,272
+SCVL	Shoe Carnival Inc.	21.78 Jan 8	Down 1.39 (6.00%)	126,207
+SCYX	SCYNEXIS, Inc.	5.28 Jan 8	Down 0.30 (5.38%)	15,968
+SEAC	SeaChange International, Inc.	6.15 Jan 8	Down 0.10 (1.60%)	108,366
+SEDG	SolarEdge Technologies, Inc.	26.71 Jan 8	Down 0.95 (3.43%)	1,037,243
+SEED	Origin Agritech Limited	1.23 Jan 8	Down 0.02 (1.60%)	11,675
+SEIC	SEI Investments Co.	47.50 Jan 8	Down 1.21 (2.48%)	656,371
+SEMI	SunEdison Semiconductor Limited	6.56 Jan 8	Down 0.13 (1.94%)	238,458
+SENEA	Seneca Foods Corp.	27.57 Jan 8	Down 0.20 (0.72%)	37,271
+SENEB	Seneca Foods Corp.	32.00 Jan 7	0.00 (0.00%)	5
+SEV	Sevcon, Inc.	9.82 Jan 8	Up 0.02 (0.20%)	4,629
+SFBC	Sound Financial Bancorp, Inc.	23.54 Jan 8	Up 0.90 (3.98%)	2,202
+SFBS	ServisFirst Bancshares, Inc.	41.46 Jan 8	Down 1.92 (4.43%)	151,005
+SFLY	Shutterfly, Inc.	40.67 Jan 8	Down 0.58 (1.41%)	419,962
+SFM	Sprouts Farmers Market, Inc.	25.52 Jan 8	Down 0.28 (1.09%)	2,336,274
+SFNC	Simmons First National Corporation	49.36 Jan 8	Down 1.15 (2.28%)	124,365
+SFST	Southern First Bancshares, Inc.	23.80 Jan 8	Up 0.31 (1.32%)	19,195
+SFXE	SFX Entertainment, Inc.	0.11 Jan 8	Down 0.11 (49.48%)	4,307,869
+SGBK	Stonegate Bank	31.42 Jan 8	Down 0.67 (2.09%)	34,198
+SGC	Superior Uniform Group Inc.	16.95 Jan 8	Down 0.06 (0.32%)	19,799
+SGEN	Seattle Genetics, Inc.	37.36 Jan 8	Down 0.53 (1.40%)	688,504
+SGI	Silicon Graphics International Corp.	4.72 Jan 8	Down 0.08 (1.67%)	312,094
+SGMA	SigmaTron International Inc.	7.24 Jan 8	Down 0.01 (0.14%)	5,416
+SGMO	Sangamo Biosciences Inc.	7.41 Jan 8	Down 0.24 (3.14%)	829,502
+SGMS	Scientific Games Corporation	7.35 Jan 8	Down 0.18 (2.39%)	1,433,987
+SGNL	Signal Genetics, Inc.	0.70 Jan 8	Up 0.02 (2.76%)	145,452
+SGNT	Sagent Pharmaceuticals, Inc.	13.36 Jan 8	Down 0.70 (4.98%)	497,077
+SGOC	SGOCO Group, Ltd.	0.63 Jan 8	Up 0.01 (1.63%)	552,224
+SGRP	Spar Group Inc.	1.18 Jan 8	Up 0.03 (2.61%)	30,576
+SGRY	Surgery Partners, Inc.	17.46 Jan 8	Down 1.39 (7.37%)	224,868
+SGYP	Synergy Pharmaceuticals, Inc.	4.14 Jan 8	Down 0.57 (12.10%)	5,095,270
+SHBI	Shore Bancshares, Inc.	11.16 Jan 8	Down 0.03 (0.27%)	2,574
+SHEN	Shenandoah Telecommunications Co.	20.27 Jan 8	Down 0.13 (0.64%)	219,138
+SHIP	Seanergy Maritime Holdings Corp.	2.89 Jan 8	Down 0.10 (3.43%)	21,487
+SHLD	Sears Holdings Corporation	18.03 Jan 8	Down 0.33 (1.80%)	539,624
+SHLM	A. Schulman, Inc.	28.61 Jan 8	Down 0.43 (1.48%)	234,367
+SHLO	Shiloh Industries Inc.	4.20 Jan 8	Down 0.33 (7.28%)	131,786
+SHOO	Steven Madden, Ltd.	29.43 Jan 8	Down 1.27 (4.14%)	1,018,496
+SHOR	ShoreTel, Inc.	8.38 Jan 8	Down 0.09 (1.06%)	555,002
+SHOS	Sears Hometown and Outlet Stores, Inc.	7.97 Jan 8	Down 0.08 (0.99%)	84,844
+SHPG	Shire plc	186.00 Jan 8	Down 0.73 (0.39%)	1,266,748
+SHSP	SharpSpring, Inc.	3.02 Jan 8	Up 0.02 (0.67%)	4,653
+SIEB	Siebert Financial Corp.	1.27 Jan 7	0.00 (0.00%)	0
+SIEN	Sientra, Inc.	6.58 Jan 8	Up 0.68 (11.53%)	5,906,866
+SIFI	SI Financial Group Inc.	13.93 Jan 8	Up 0.13 (0.94%)	2,606
+SIFY	Sify Technologies Limited	0.98 Jan 8	Down 0.04 (3.92%)	68,380
+SIGI	Selective Insurance Group Inc.	31.02 Jan 8	Down 0.79 (2.48%)	257,066
+SIGM	Sigma Designs, Inc.	5.88 Jan 8	Down 0.09 (1.51%)	485,321
+SILC	Silicom Ltd.	29.39 Jan 8	Down 0.14 (0.47%)	24,502
+SIMO	Silicon Motion Technology Corp.	28.20 Jan 8	Up 0.79 (2.88%)	681,191
+SINA	SINA Corporation	47.23 Jan 8	Down 0.14 (0.30%)	793,293
+SINO	Sino-Global Shipping America, Ltd.	0.75 Jan 8	Up 0.03 (4.17%)	450
+SIRI	Sirius XM Holdings Inc.	3.81 Jan 8	Down 0.03 (0.78%)	29,613,072
+SIRO	Sirona Dental Systems Inc.	102.44 Jan 8	Down 2.97 (2.82%)	363,206
+SITO	SITO Mobile, Ltd.	2.03 Jan 8	Down 0.07 (3.33%)	5,703
+SIVB	SVB Financial Group	106.80 Jan 8	Down 2.02 (1.86%)	657,012
+SIXD	6D Global Technologies, Inc.	2.90 Oct 28	0.00 (0.00%)	0
+SKIS	Peak Resorts, Inc.	6.00 Jan 8	Down 0.11 (1.80%)	56,160
+SKLN	Skyline Medical Inc.	2.91 Jan 8	Down 0.16 (5.21%)	3,380
+SKUL	Skullcandy, Inc.	4.60 Jan 8	Up 0.07 (1.55%)	412,028
+SKYS	Sky Solar Holdings, Ltd.	4.68 Jan 8	Up 0.06 (1.30%)	8,288
+SKYW	SkyWest Inc.	15.70 Jan 8	Down 0.66 (4.03%)	507,740
+SLAB	Silicon Laboratories Inc.	44.11 Jan 8	Down 0.87 (1.93%)	257,496
+SLCT	Select Bancorp, Inc.	8.04 Jan 8	Up 0.19 (2.42%)	63,811
+SLGN	Silgan Holdings Inc.	53.26 Jan 8	Up 0.01 (0.02%)	542,292
+SLM	SLM Corporation	5.83 Jan 8	Up 0.01 (0.17%)	3,690,735
+SLP	Simulations Plus, Inc.	10.13 Jan 8	Up 0.26 (2.63%)	211,444
+SLTD	Solar3D, Inc.	2.88 Jan 8	Up 0.03 (1.05%)	334,274
+SMBC	Southern Missouri Bancorp, Inc.	23.41 Jan 8	Up 0.16 (0.69%)	21,066
+SMBK	SmartFinancial, Inc.	15.35 Jan 8	0.00 (0.00%)	43,408
+SMCI	Super Micro Computer, Inc.	21.96 Jan 8	Down 0.07 (0.32%)	456,366
+SMED	Sharps Compliance Corp.	8.16 Jan 8	Down 0.34 (4.00%)	43,305
+SMIT	Schmitt Industries, Inc.	2.51 Jan 8	Down 0.19 (7.04%)	18,000
+SMLR	Semler Scientific Inc	2.42 Jan 8	Down 0.00 (0.00%)	3,129
+SMMF	Summit Financial Group Inc.	11.59 Jan 8	Up 0.09 (0.78%)	5,396
+SMMT	Summit Therapeutics plc	10.14 Jan 8	Up 0.06 (0.60%)	2,857
+SMRT	Stein Mart Inc.	6.66 Jan 8	Down 0.35 (4.99%)	367,721
+SMSI	Smith Micro Software Inc.	0.72 Jan 8	Down 0.04 (5.26%)	54,750
+SMT	Smart Technologies Inc.	0.23 Jan 8	Down 0.03 (11.00%)	196,558
+SMTC	Semtech Corporation	18.25 Jan 8	Down 0.17 (0.92%)	456,618
+SMTX	SMTC Corporation	1.43 Jan 8	Down 0.06 (4.03%)	25,351
+SNAK	Inventure Foods, Inc.	5.95 Jan 8	Down 0.39 (6.15%)	244,975
+SNBC	Sun Bancorp Inc.	20.44 Jan 8	Up 0.01 (0.05%)	40,890
+SNC	State National Companies, Inc.	9.41 Jan 8	Down 0.08 (0.84%)	53,493
+SNCR	Synchronoss Technologies, Inc.	32.02 Jan 8	Down 0.15 (0.47%)	371,829
+SNDK	SanDisk Corp.	74.20 Jan 8	Down 0.77 (1.03%)	2,928,589
+SNHY	Sun Hydraulics Corp.	26.95 Jan 8	Down 1.05 (3.75%)	122,817
+SNMX	Senomyx Inc.	3.33 Jan 8	Down 0.07 (2.06%)	197,223
+SNPS	Synopsys Inc.	42.35 Jan 8	Down 0.93 (2.15%)	1,200,453
+SNSS	Sunesis Pharmaceuticals, Inc.	0.88 Jan 8	Up 0.04 (4.36%)	279,785
+SNTA	Synta Pharmaceuticals Corp.	0.27 Jan 8	Down 0.01 (2.68%)	751,343
+SOCB	Southcoast Financial Corp.	14.50 Jan 8	0.00 (0.00%)	7,671
+SODA	SodaStream International Ltd.	13.39 Jan 8	Down 0.53 (3.81%)	554,892
+SOFO	Sonic Foundry, Inc.	4.61 Jan 8	Up 0.16 (3.60%)	9,261
+SOHO	Sotherly Hotels Inc.	6.10 Jan 8	Up 0.02 (0.33%)	19,661
+SOHU	Sohu.com Inc.	53.75 Jan 8	Up 0.49 (0.92%)	246,779
+SONA	Southern National Bancorp of Virginia Inc.	13.02 Jan 8	Down 0.21 (1.59%)	11,085
+SONC	Sonic Corp.	30.54 Jan 8	Up 0.54 (1.80%)	1,288,600
+SONS	Sonus Networks, Inc.	6.02 Jan 8	Down 0.23 (3.68%)	944,382
+SORL	SORL Auto Parts, Inc.	1.74 Jan 8	Down 0.68 (28.10%)	340,100
+SP	SP Plus Corporation	23.59 Jan 8	Down 0.20 (0.84%)	68,803
+SPAN	Span-America Medical Systems Inc.	19.10 Jan 8	Up 0.49 (2.63%)	2,955
+SPAR	Spartan Motors Inc.	3.12 Jan 8	Up 0.05 (1.63%)	116,535
+SPCB	SuperCom Ltd.	4.82 Jan 8	Down 0.14 (2.82%)	105,410
+SPDC	Speed Commerce, Inc.	0.05 Jan 8	Down 0.01 (12.50%)	3,724,621
+SPEX	Spherix Incorporated	0.12 Jan 8	Down 0.01 (6.32%)	1,506,053
+SPHS	Sophiris Bio, Inc.	1.53 Jan 8	Down 0.10 (6.13%)	250,162
+SPIL	Siliconware Precision Industries Co. Ltd.	7.55 Jan 8	Down 0.11 (1.44%)	872,276
+SPKE	Spark Energy, Inc.	20.01 Jan 8	Down 0.22 (1.09%)	24,066
+SPLK	Splunk, Inc.	52.01 Jan 8	Down 0.97 (1.83%)	1,870,740
+SPLS	Staples, Inc.	9.51 Jan 8	Down 0.32 (3.26%)	13,221,632
+SPNC	The Spectranetics Corporation	15.05 Jan 8	Down 0.14 (0.92%)	559,331
+SPNE	SeaSpine Holdings Corporation	15.10 Jan 8	Down 0.70 (4.43%)	68,470
+SPNS	Sapiens International Corporation N.V.	10.41 Jan 8	Up 0.06 (0.58%)	90,997
+SPOK	Spok Holdings, Inc.	16.19 Jan 8	Down 0.36 (2.18%)	115,353
+SPPI	Spectrum Pharmaceuticals, Inc.	5.21 Jan 8	Down 0.03 (0.48%)	636,505
+SPRT	Support.com, Inc.	0.87 Jan 8	Down 0.01 (1.14%)	167,960
+SPSC	SPS Commerce, Inc.	61.59 Jan 8	Down 2.39 (3.74%)	146,877
+SPTN	SpartanNash Company	20.07 Jan 8	Down 0.43 (2.10%)	284,535
+SPU	SkyPeople Fruit Juice, Inc.	0.58 Jan 8	Down 0.06 (9.25%)	42,871
+SPWH	Sportsman's Warehouse Holdings, Inc.	12.81 Jan 8	Down 0.53 (3.97%)	424,718
+SPWR	SunPower Corporation	25.99 Jan 8	Down 0.20 (0.76%)	1,845,431
+SQBG	Sequential Brands Group, Inc.	7.08 Jan 8	Down 0.28 (3.80%)	316,047
+SQI	SciQuest, Inc.	12.50 Jan 8	Down 0.05 (0.40%)	85,610
+SQNM	Sequenom Inc.	1.34 Jan 8	Down 0.07 (4.96%)	926,111
+SRCE	1st Source Corporation	29.58 Jan 8	Down 0.17 (0.57%)	59,205
+SRCL	Stericycle, Inc.	118.24 Jan 8	Down 1.27 (1.06%)	648,240
+SRDX	SurModics, Inc.	18.74 Jan 8	Down 0.64 (3.30%)	142,133
+SREV	ServiceSource International, Inc.	4.08 Jan 8	Down 0.08 (1.92%)	278,459
+SRNE	Sorrento Therapeutics, Inc.	7.16 Jan 8	Up 0.01 (0.14%)	343,933
+SRPT	Sarepta Therapeutics, Inc.	35.93 Jan 8	Down 0.28 (0.77%)	944,804
+SRSC	Sears Canada Inc.	4.00 Jan 8	Down 0.19 (4.53%)	56,626
+SSB	South State Corporation	67.14 Jan 8	Down 1.46 (2.13%)	77,834
+SSBI	Summit State Bank	13.79 Jan 8	Down 0.05 (0.36%)	200
+SSFN	Stewardship Financial Corp.	5.89 Jan 7	0.00 (0.00%)	0
+SSH	Sunshine Heart Inc.	1.24 Jan 8	Up 0.02 (1.64%)	50,134
+SSKN	Strata Skin Sciences, Inc.	1.13 Jan 8	Up 0.01 (0.75%)	4,798
+SSNC	SS&C Technologies Holdings, Inc.	61.53 Jan 8	Down 0.76 (1.22%)	848,813
+SSRG	Symmetry Surgical Inc.	9.00 Jan 8	Down 0.02 (0.22%)	10,354
+SSRI	Silver Standard Resources Inc.	5.21 Jan 8	Down 0.03 (0.57%)	1,189,799
+SSYS	Stratasys Ltd.	21.77 Jan 8	Down 0.67 (2.99%)	1,277,504
+STAA	STAAR Surgical Company	6.85 Jan 8	Up 0.04 (0.59%)	221,891
+STAF	Staffing 360 Solutions, Inc.	3.60 Jan 8	Down 0.10 (2.59%)	8,746
+STB	Student Transportation Inc.	3.32 Jan 8	Up 0.03 (0.93%)	138,302
+STBA	S&T Bancorp Inc.	28.15 Jan 8	Down 0.46 (1.61%)	95,352
+STBZ	State Bank Financial Corporation	19.93 Jan 8	Down 0.15 (0.75%)	98,005
+STCK	BMC Stock Holdings, Inc.	13.90 Jan 8	Up 0.02 (0.14%)	272,411
+STDY	SteadyMed Ltd.	2.99 Jan 8	Up 0.14 (4.91%)	5,047
+STEM	StemCells Inc.	0.38 Jan 8	Down 0.01 (3.38%)	438,676
+STFC	State Auto Financial Corp.	19.75 Jan 8	Down 0.08 (0.40%)	38,678
+STKL	SunOpta Inc.	6.15 Jan 8	0.00 (0.00%)	443,851
+STKS	The ONE Group Hospitality, Inc.	3.06 Jan 8	Up 0.09 (3.03%)	53,722
+STLD	Steel Dynamics Inc.	16.55 Jan 8	Down 0.63 (3.67%)	3,625,346
+STLY	Stanley Furniture Company, Inc.	2.69 Jan 8	Up 0.08 (2.93%)	3,382
+STML	Stemline Therapeutics, Inc.	5.75 Jan 8	Down 0.02 (0.35%)	151,131
+STMP	Stamps.com Inc.	100.77 Jan 8	Down 0.94 (0.92%)	372,115
+STRA	Strayer Education Inc.	53.54 Jan 8	Down 0.72 (1.33%)	115,684
+STRL	Sterling Construction Co. Inc.	5.56 Jan 8	Down 0.35 (5.92%)	71,240
+STRM	Streamline Health Solutions, Inc.	1.42 Jan 8	Up 0.03 (2.16%)	11,275
+STRS	Stratus Properties Inc.	20.11 Jan 8	Up 0.25 (1.26%)	7,172
+STRT	STRATTEC Security Corporation	54.00 Jan 8	Down 0.90 (1.64%)	27,836
+STRZA	Starz	31.47 Jan 8	Down 0.05 (0.16%)	645,379
+STRZB	Starz	33.65 Dec 23	0.00 (0.00%)	1
+STX	Seagate Technology Public Limited Company	32.54 Jan 8	Down 2.00 (5.79%)	9,802,283
+STXS	Stereotaxis Inc.	0.69 Jan 8	Down 0.01 (1.65%)	134,068
+SUMR	Summer Infant, Inc.	2.16 Jan 8	Down 0.01 (0.46%)	13,525
+SUPN	Supernus Pharmaceuticals, Inc.	11.69 Jan 8	Down 1.09 (8.53%)	931,613
+SVA	Sinovac Biotech Ltd.	5.21 Jan 8	Down 0.02 (0.38%)	127,872
+SVBI	Severn Bancorp Inc.	5.25 Jan 8	Down 0.23 (4.20%)	10,719
+SWHC	Smith & Wesson Holding Corporation	22.63 Jan 8	Down 0.99 (4.19%)	3,279,119
+SWIR	Sierra Wireless Inc.	14.62 Jan 8	Up 0.40 (2.81%)	544,321
+SWKS	Skyworks Solutions Inc.	66.89 Jan 8	Down 0.27 (0.40%)	7,170,980
+SWSH	Swisher Hygiene Inc.	0.95 Jan 8	Down 0.01 (1.05%)	3,078
+SXCL	Steel Excel Inc.	14.26 Jan 8	Up 0.62 (4.55%)	942
+SYBT	Stock Yards Bancorp, Inc.	36.18 Jan 8	Down 0.54 (1.47%)	44,168
+SYKE	Sykes Enterprises, Incorporated	28.51 Jan 8	Down 0.80 (2.73%)	366,395
+SYMC	Symantec Corporation	20.49 Jan 8	Down 0.01 (0.05%)	7,120,915
+SYMX	Synthesis Energy Systems, Inc.	0.89 Jan 8	Down 0.05 (5.43%)	157,627
+SYNA	Synaptics Inc.	68.51 Jan 8	Up 0.36 (0.53%)	1,028,320
+SYNC	Synacor, Inc.	1.67 Jan 8	Up 0.09 (5.70%)	104,225
+SYNL	Synalloy Corporation	6.70 Jan 8	Up 0.09 (1.36%)	9,569
+SYNT	Syntel, Inc.	44.15 Jan 8	Up 0.17 (0.39%)	322,984
+SYPR	Sypris Solutions Inc.	1.16 Jan 8	0.00 (0.00%)	49,146
+SYRX	Sysorex Global	0.63 Jan 8	Down 0.02 (2.34%)	14,085
+SYUT	Synutra International Inc.	3.98 Jan 8	Down 0.05 (1.24%)	64,966
+SZMK	Sizmek Inc.	3.67 Jan 8	Up 0.22 (6.38%)	461,954
+SZYM	Solazyme, Inc.	2.03 Jan 8	Up 0.01 (0.25%)	476,461
+TACO	Del Taco Restaurants, Inc.	9.80 Jan 8	Down 0.08 (0.81%)	483,824
+TACT	TransAct Technologies Incorporated	8.88 Jan 8	Up 0.03 (0.34%)	19,413
+TAIT	Taitron Components Inc.	1.02 Jan 8	Up 0.02 (2.20%)	19,115
+TANH	Tantech Holdings Ltd	5.10 Jan 8	Up 0.25 (5.15%)	65,286
+TASR	TASER International Inc.	16.28 Jan 8	Down 0.31 (1.87%)	1,242,020
+TAST	Carrols Restaurant Group, Inc.	11.15 Jan 8	Down 0.30 (2.62%)	198,914
+TATT	TAT Technologies, Ltd.	7.34 Jan 8	Up 0.49 (7.15%)	648
+TAX	Liberty Tax, Inc.	21.58 Jan 8	Down 0.60 (2.71%)	38,811
+TAYD	Taylor Devices Inc.	16.19 Jan 8	Up 0.09 (0.56%)	10,905
+TBBK	The Bancorp Inc.	5.46 Jan 8	Down 0.36 (6.19%)	239,935
+TBIO	Transgenomic Inc.	0.94 Jan 8	Up 0.02 (2.16%)	30,977
+TBK	Triumph Bancorp, Inc.	14.32 Jan 8	Down 1.20 (7.73%)	122,606
+TBNK	Territorial Bancorp Inc.	27.06 Jan 8	Down 0.53 (1.92%)	45,512
+TBPH	Theravance Biopharma, Inc.	14.61 Jan 8	Down 0.92 (5.92%)	195,532
+TBRA	Tobira Therapeutics, Inc.	8.69 Jan 8	Down 0.55 (5.95%)	26,493
+TCBI	Texas Capital BancShares Inc.	44.47 Jan 8	Down 1.40 (3.05%)	618,459
+TCBK	TriCo Bancshares	25.71 Jan 8	Down 0.93 (3.49%)	62,497
+TCCO	Technical Communications Corporation	2.96 Jan 8	Down 0.01 (0.37%)	1,643
+TCFC	The Community Financial Corp.	20.98 Jan 5	0.00 (0.00%)	2
+TCON	TRACON Pharmaceuticals, Inc.	8.23 Jan 8	Up 0.35 (4.44%)	97,998
+TCX	Tucows Inc.	20.05 Jan 8	Down 0.33 (1.62%)	64,889
+TEAM	Atlassian Corporation Plc	27.17 Jan 8	Up 0.20 (0.74%)	455,987
+TEAR	TearLab Corporation	1.45 Jan 8	Down 0.04 (2.68%)	24,684
+TECD	Tech Data Corp.	60.77 Jan 8	Down 1.05 (1.70%)	332,595
+TECH	Bio-Techne Corp.	85.76 Jan 8	Down 1.39 (1.59%)	265,003
+TEDU	Tarena International, Inc.	10.00 Jan 8	Up 0.04 (0.40%)	150,269
+TENX	Tenax Therapeutics, Inc.	3.00 Jan 8	Down 0.05 (1.64%)	23,826
+TERP	TerraForm Power, Inc.	10.52 Jan 8	Up 0.18 (1.74%)	2,306,295
+TESO	Tesco Corporation	6.37 Jan 8	Down 0.27 (4.07%)	258,036
+TESS	TESSCO Technologies Inc.	18.57 Jan 8	Down 0.13 (0.70%)	10,256
+TFM	The Fresh Market, Inc.	21.75 Jan 8	Down 1.04 (4.56%)	511,194
+TFSC	1347 Capital Corp.	9.85 Dec 31	0.00 (0.00%)	0
+TFSL	TFS Financial Corp	17.86 Jan 8	Down 0.30 (1.65%)	225,328
+TGA	TransGlobe Energy Corporation	1.66 Jan 8	Up 0.03 (1.84%)	207,452
+TGEN	Tecogen Inc.	3.56 Jan 8	Down 0.12 (3.26%)	2,616
+TGLS	Tecnoglass Inc.	13.58 Jan 8	Down 0.08 (0.59%)	9,128
+TGTX	TG Therapeutics, Inc.	8.68 Jan 8	Down 0.79 (8.34%)	596,660
+THFF	First Financial Corp.	32.26 Jan 8	Down 0.40 (1.22%)	29,378
+THLD	Threshold Pharmaceuticals Inc.	0.43 Jan 8	Down 0.01 (2.27%)	858,557
+THRM	Gentherm Incorporated	42.01 Jan 8	Down 0.09 (0.21%)	403,666
+THRX	Theravance Inc.	9.81 Jan 8	Up 0.04 (0.41%)	668,805
+THST	Truett-Hurst, Inc.	1.24 Jan 8	Down 0.03 (2.36%)	436
+THTI	THT Heat Transfer Technology, Inc.	0.39 Jan 8	Down 0.19 (33.32%)	210,454
+TIL	Till Capital Ltd.	3.65 Jan 8	0.00 (0.00%)	350
+TILE	Interface Inc.	17.00 Jan 8	Up 0.25 (1.49%)	541,866
+TINY	Harris & Harris Group, Inc.	2.14 Jan 8	Down 0.02 (0.93%)	20,288
+TIPT	Tiptree Financial Inc.	5.58 Jan 8	Down 0.18 (3.13%)	25,705
+TISA	Top Image Systems Ltd.	2.82 Jan 8	Down 0.04 (1.40%)	14,602
+TITN	Titan Machinery, Inc.	9.37 Jan 8	Down 0.53 (5.35%)	290,163
+TIVO	TiVo Inc.	7.92 Jan 8	Down 0.11 (1.37%)	1,680,195
+TKAI	Tokai Pharmaceuticals, Inc.	5.92 Jan 8	Down 0.64 (9.76%)	256,176
+TLF	Tandy Leather Factory, Inc.	7.36 Jan 8	Up 0.01 (0.14%)	4,659
+TLGT	Teligent, Inc.	7.37 Jan 8	Down 0.45 (5.75%)	388,339
+TLMR	Talmer Bancorp, Inc.	16.98 Jan 8	Down 0.44 (2.53%)	439,536
+TLOG	TetraLogic Pharmaceuticals Corporation	0.32 Jan 8	Down 0.09 (21.25%)	3,006,798
+TMUS	T-Mobile US, Inc.	39.88 Jan 8	Down 0.63 (1.56%)	3,512,924
+TNAV	Telenav, Inc.	5.50 Jan 8	Down 0.16 (2.83%)	140,084
+TNDM	Tandem Diabetes Care, Inc.	10.14 Jan 8	Down 0.20 (1.93%)	135,824
+TNGO	Tangoe, Inc.	8.35 Jan 8	Up 0.14 (1.71%)	696,383
+TNXP	Tonix Pharmaceuticals Holding Corp	6.65 Jan 8	Down 0.07 (1.04%)	130,649
+TOPS	Top Ships Inc.	0.30 Jan 8	Down 0.02 (6.25%)	16,382
+TOR	Sutor Technology Group Limited	0.60 Jan 8	Down 0.06 (9.08%)	22,755
+TORM	TOR Minerals International Inc.	4.26 Jan 8	Down 0.15 (3.40%)	13,342
+TOUR	Tuniu Corporation	15.47 Jan 8	Up 0.10 (0.65%)	204,587
+TOWN	Towne Bank	20.02 Jan 8	Down 0.53 (2.58%)	198,037
+TRCB	Two River Bancorp	9.78 Jan 8	Up 0.12 (1.29%)	1,702
+TRCH	Torchlight Energy Resources, Inc.	0.89 Jan 8	Down 0.07 (7.28%)	136,653
+TREE	LendingTree, Inc.	83.04 Jan 8	Down 1.00 (1.19%)	447,851
+TRIB	Trinity Biotech plc	10.62 Jan 8	Down 0.03 (0.28%)	146,763
+TRIL	Trillium Therapeutics Inc.	11.16 Jan 8	Down 0.02 (0.18%)	98,553
+TRIP	TripAdvisor Inc.	76.18 Jan 8	Down 1.51 (1.94%)	1,447,745
+TRIV	TriVascular Technologies, Inc.	6.63 Jan 8	Up 0.35 (5.49%)	15,164
+TRMB	Trimble Navigation Limited	19.43 Jan 8	Down 0.36 (1.82%)	1,420,320
+TRMK	Trustmark Corporation	21.40 Jan 8	Down 0.37 (1.70%)	736,972
+TRNS	Transcat Inc.	9.62 Jan 8	Up 0.06 (0.63%)	5,592
+TROV	TrovaGene, Inc.	4.70 Jan 8	Up 0.03 (0.64%)	490,676
+TROW	T. Rowe Price Group, Inc.	65.36 Jan 8	Down 1.70 (2.54%)	2,142,527
+TRS	TriMas Corporation	17.82 Jan 8	Down 0.19 (1.05%)	296,207
+TRST	TrustCo Bank Corp. NY	5.74 Jan 8	Down 0.20 (3.37%)	472,372
+TRTL	Terrapin 3 Acquisition Corporation	9.85 Jan 8	Up 0.01 (0.10%)	2,550
+TRUE	TrueCar, Inc.	7.58 Jan 8	Down 0.09 (1.17%)	759,595
+TRVN	Trevena, Inc.	8.91 Jan 8	Down 0.32 (3.47%)	263,563
+TSBK	Timberland Bancorp, Inc.	12.73 Jan 8	Up 0.02 (0.20%)	11,274
+TSC	Tristate Capital Holdings, Inc.	12.72 Jan 8	Down 0.30 (2.30%)	59,759
+TSCO	Tractor Supply Company	81.86 Jan 8	Down 0.62 (0.75%)	1,370,926
+TSEM	Tower Semiconductor Ltd.	12.58 Jan 8	Down 0.19 (1.49%)	527,221
+TSLA	Tesla Motors, Inc.	211.00 Jan 8	Down 4.65 (2.16%)	3,628,058
+TSRA	Tessera Technologies Inc.	27.29 Jan 8	Down 0.78 (2.78%)	362,147
+TSRI	TSR, Inc.	4.34 Jan 6	0.00 (0.00%)	40
+TSRO	Tesaro, Inc.	40.50 Jan 8	Down 0.68 (1.65%)	643,228
+TST	TheStreet, Inc.	1.47 Jan 8	0.00 (0.00%)	47,592
+TSYS	TeleCommunication Systems Inc.	4.95 Jan 8	0.00 (0.00%)	1,103,509
+TTEC	TeleTech Holdings Inc.	25.29 Jan 8	Down 0.14 (0.55%)	87,032
+TTEK	Tetra Tech, Inc.	24.06 Jan 8	Down 0.40 (1.64%)	468,107
+TTGT	TechTarget, Inc.	8.45 Jan 8	Down 0.23 (2.65%)	56,705
+TTHI	Transition Therapeutics Inc.	1.80 Jan 8	0.00 (0.00%)	36,494
+TTMI	TTM Technologies Inc.	5.59 Jan 8	Down 0.22 (3.79%)	818,681
+TTNP	Titan Pharmaceuticals Inc.	3.52 Jan 8	Up 0.08 (2.33%)	467,851
+TTOO	T2 Biosystems, Inc.	9.88 Jan 8	Down 0.20 (1.98%)	110,602
+TTPH	Tetraphase Pharmaceuticals, Inc.	7.15 Jan 8	Down 0.40 (5.30%)	969,502
+TTS	Tile Shop Holdings, Inc.	15.78 Jan 8	Down 0.29 (1.80%)	522,244
+TTWO	Take-Two Interactive Software Inc.	32.34 Jan 8	Down 0.08 (0.25%)	1,442,360
+TUBE	TubeMogul, Inc.	12.81 Jan 8	Up 0.05 (0.39%)	177,182
+TUES	Tuesday Morning Corporation	5.39 Jan 8	Down 0.04 (0.74%)	831,800
+TWER	Towerstream Corporation	0.33 Jan 8	Up 0.03 (11.61%)	169,242
+TWIN	Twin Disc, Incorporated	9.31 Jan 8	Down 0.25 (2.62%)	31,812
+TWMC	Trans World Entertainment Corporation	3.58 Jan 8	0.00 (0.00%)	8,341
+TWOU	2U, Inc.	24.32 Jan 8	Down 0.91 (3.61%)	364,477
+TXN	Texas Instruments Inc.	50.36 Jan 8	Down 1.34 (2.59%)	9,619,993
+TXRH	Texas Roadhouse, Inc.	34.63 Jan 8	Up 0.11 (0.32%)	883,809
+TYPE	Monotype Imaging Holdings Inc.	22.15 Jan 8	0.00 (0.00%)	156,086
+TZOO	Travelzoo Inc.	7.73 Jan 8	Down 0.11 (1.40%)	69,317
+UACL	Universal Truckload Services Inc.	13.16 Jan 8	Down 0.30 (2.23%)	62,142
+UBCP	United Bancorp Inc.	9.35 Jan 8	Down 0.05 (0.53%)	348
+UBFO	United Security Bancshares	5.30 Jan 8	Up 0.04 (0.82%)	851
+UBIC	UBIC, Inc.	15.83 Jan 8	Down 0.10 (0.63%)	100
+UBNK	United Financial Bancorp, Inc.	12.01 Jan 8	Down 0.20 (1.64%)	234,739
+UBNT	Ubiquiti Networks, Inc.	28.11 Jan 8	Down 1.07 (3.67%)	474,626
+UBOH	United Bancshares Inc.	17.98 Jan 8	Up 0.53 (3.01%)	1,460
+UBSH	Union Bankshares Corporation	24.46 Jan 8	Down 0.43 (1.73%)	149,021
+UBSI	United Bankshares Inc.	34.39 Jan 8	Down 0.50 (1.43%)	589,286
+UCBA	United Community Bancorp	14.91 Jan 8	Up 0.21 (1.43%)	119
+UCBI	United Community Banks, Inc.	18.04 Jan 8	Down 0.42 (2.28%)	437,268
+UCFC	United Community Financial Corp.	5.65 Jan 8	Down 0.01 (0.18%)	102,322
+UCTT	Ultra Clean Holdings Inc.	4.73 Jan 8	Down 0.06 (1.25%)	160,565
+UDF	United Development Funding IV	10.13 Jan 8	Up 0.06 (0.60%)	186,594
+UEIC	Universal Electronics Inc.	46.54 Jan 8	Down 0.66 (1.40%)	139,770
+UEPS	Net 1 Ueps Technologies Inc.	12.16 Jan 8	Up 0.20 (1.67%)	428,334
+UFCS	United Fire Group, Inc	37.90 Jan 8	Down 0.53 (1.38%)	168,240
+UFPI	Universal Forest Products Inc.	64.07 Jan 8	Down 1.38 (2.11%)	164,489
+UFPT	UFP Technologies, Inc.	23.49 Jan 8	Down 0.18 (0.76%)	3,653
+UG	United-Guardian Inc.	19.68 Jan 8	Down 0.92 (4.45%)	2,409
+UHAL	AMERCO	361.90 Jan 8	Down 6.78 (1.84%)	40,484
+UIHC	United Insurance Holdings Corp.	15.93 Jan 8	Down 0.05 (0.31%)	207,923
+ULBI	Ultralife Corp.	6.51 Jan 8	Up 0.18 (2.84%)	42,022
+ULTA	ULTA Salon, Cosmetics & Fragrance, Inc.	182.17 Jan 8	Down 0.81 (0.44%)	847,551
+ULTI	The Ultimate Software Group, Inc.	178.06 Jan 8	Up 1.58 (0.90%)	453,392
+ULTR	Ultrapetrol (Bahamas) Ltd.	0.08 Jan 8	Down 0.01 (6.56%)	380,448
+UMBF	UMB Financial Corporation	43.18 Jan 8	Down 0.50 (1.14%)	339,826
+UMPQ	Umpqua Holdings Corporation	14.54 Jan 8	Down 0.35 (2.35%)	1,792,715
+UNAM	Unico American Corp.	10.20 Jan 8	Down 0.59 (5.46%)	8,461
+UNB	Union Bankshares, Inc.	27.06 Jan 8	Down 0.13 (0.48%)	1,390
+UNFI	United Natural Foods, Inc.	36.61 Jan 8	Down 0.27 (0.73%)	1,344,728
+UNIS	Unilife Corporation	0.75 Jan 8	Down 0.05 (5.80%)	2,113,456
+UNTD	United Online, Inc.	11.01 Jan 8	Up 0.15 (1.38%)	117,863
+UNTY	Unity Bancorp Inc.	12.81 Jan 8	Down 0.19 (1.47%)	21,245
+UNXL	Uni-Pixel, Inc.	0.46 Jan 8	Up 0.04 (9.55%)	785,327
+UPIP	Unwired Planet, Inc.	10.36 Jan 8	Down 0.12 (1.15%)	10,004
+UPLD	Upland Software, Inc.	6.97 Jan 8	Down 0.04 (0.57%)	10,620
+URBN	Urban Outfitters Inc.	22.36 Jan 8	Up 0.15 (0.68%)	4,318,997
+URRE	Uranium Resources, Inc.	0.50 Jan 8	Up 0.01 (1.47%)	326,535
+USAK	USA Truck Inc.	15.89 Jan 8	Down 0.11 (0.69%)	37,581
+USAP	Universal Stainless & Alloy Products Inc.	8.01 Jan 8	Up 0.04 (0.50%)	9,645
+USAT	USA Technologies Inc.	3.00 Jan 8	Down 0.06 (1.96%)	520,442
+USBI	United Security Bancshares Inc.	8.61 Jan 8	Up 0.04 (0.47%)	8,677
+USCR	U.S. Concrete, Inc.	46.45 Jan 8	Down 1.01 (2.13%)	150,003
+USEG	US Energy Corp.	0.15 Jan 8	Down 0.01 (7.62%)	345,627
+USLM	United States Lime & Minerals, Inc.	55.01 Jan 8	Up 0.81 (1.49%)	10,282
+USMD	USMD Holdings, Inc.	7.30 Jan 8	Up 0.05 (0.69%)	3,474
+UTEK	Ultratech, Inc.	18.75 Jan 8	Down 0.54 (2.80%)	319,267
+UTHR	United Therapeutics Corporation	141.50 Jan 8	Down 2.92 (2.02%)	623,871
+UTIW	UTi Worldwide Inc.	7.02 Jan 8	Down 0.01 (0.14%)	5,478,382
+UTMD	Utah Medical Products Inc.	58.22 Jan 8	Up 0.35 (0.60%)	16,929
+UTSI	UTStarcom Holdings Corp.	2.27 Jan 8	Down 0.05 (2.16%)	20,534
+UVSP	Univest Corporation of Pennsylvania	20.25 Jan 8	Down 0.15 (0.74%)	85,405
+VA	Virgin America Inc.	32.87 Jan 8	Down 0.53 (1.59%)	496,492
+VALU	Value Line, Inc.	13.36 Jan 8	Up 0.26 (1.98%)	102
+VASC	Vascular Solutions Inc.	29.68 Jan 8	Down 1.82 (5.78%)	161,140
+VBFC	Village Bank & Trust Financial Corp.	20.36 Jan 4	0.00 (0.00%)	122
+VBIV	VBI Vaccines Inc	2.55 Jan 8	Up 0.14 (5.80%)	1,756
+VBLT	Vascular Biogenics Ltd.	3.72 Jan 8	Down 0.43 (10.36%)	202,580
+VBTX	Veritex Holdings, Inc.	16.73 Jan 8	Up 0.13 (0.78%)	17,343
+VCEL	Vericel Corporation	2.38 Jan 8	Up 0.10 (4.17%)	61,011
+VCYT	Veracyte, Inc.	6.26 Jan 8	Down 0.25 (3.84%)	39,209
+VDSI	VASCO Data Security International Inc.	15.96 Jan 8	Down 0.25 (1.54%)	1,042,110
+VDTH	Videocon d2h Limited	7.92 Jan 8	Down 0.28 (3.41%)	179,661
+VECO	Veeco Instruments Inc.	17.20 Jan 8	Down 0.84 (4.66%)	401,919
+VGGL	Viggle Inc.	0.24 Jan 8	Down 0.03 (10.07%)	153,287
+VIA	Viacom, Inc.	43.37 Jan 8	Up 1.80 (4.33%)	61,494
+VIAB	Viacom, Inc.	40.98 Jan 8	Up 2.09 (5.37%)	6,538,978
+VIAV	Viavi Solutions Inc.	5.50 Jan 8	Down 0.08 (1.43%)	2,543,974
+VICL	Vical Incorporated	0.37 Jan 8	Up 0.01 (3.35%)	356,692
+VICR	Vicor Corp.	8.08 Jan 8	Down 0.46 (5.39%)	54,377
+VIP	VimpelCom Ltd.	3.11 Jan 8	Down 0.02 (0.64%)	2,544,437
+VIRC	Virco Mfg. Corporation	3.44 Jan 8	Down 0.01 (0.15%)	529
+VIRT	Virtu Financial, Inc.	22.16 Jan 8	Down 0.28 (1.25%)	449,665
+VISN	VisionChina Media Inc.	9.20 Jan 8	0.00 (0.00%)	21,244
+VIVO	Meridian Bioscience, Inc.	18.70 Jan 8	Down 0.54 (2.81%)	418,059
+VKTX	Viking Therapeutics, Inc.	2.93 Jan 8	Down 0.08 (2.66%)	16,908
+VLGEA	Village Super Market Inc.	24.93 Jan 8	Down 0.08 (0.32%)	29,510
+VLTC	Voltari Corporation	4.33 Jan 8	Up 0.08 (1.88%)	128,140
+VNDA	Vanda Pharmaceuticals, Inc.	8.21 Jan 8	Down 0.17 (2.03%)	659,383
+VNET	21Vianet Group, Inc.	19.84 Jan 8	Down 0.13 (0.65%)	1,357,592
+VNOM	Viper Energy Partners LP	13.35 Jan 8	Up 0.52 (4.05%)	18,672
+VNR	Vanguard Natural Resources, LLC	2.90 Jan 8	Up 0.22 (8.21%)	1,498,242
+VOD	Vodafone Group Plc	32.54 Jan 8	Up 0.91 (2.88%)	8,733,798
+VOXX	VOXX International Corporation	4.85 Jan 8	Down 0.12 (2.41%)	209,373
+VPCO	Vapor Corp.	0.22 Jan 8	Down 0.04 (14.63%)	754,029
+VRA	Vera Bradley, Inc.	14.85 Jan 8	Down 0.80 (5.11%)	601,503
+VRML	Vermillion, Inc.	1.78 Jan 8	Up 0.01 (0.56%)	12,689
+VRNG	Vringo, Inc.	1.99 Jan 8	0.00 (0.00%)	192,637
+VRNS	Varonis Systems, Inc.	16.30 Jan 8	Down 0.72 (4.23%)	169,837
+VRNT	Verint Systems Inc.	38.93 Jan 8	Down 0.23 (0.59%)	496,065
+VRSK	Verisk Analytics, Inc.	73.37 Jan 8	Up 0.33 (0.45%)	1,255,595
+VRSN	VeriSign, Inc.	78.15 Jan 8	Down 2.40 (2.98%)	1,050,681
+VRTB	Vestin Realty Mortgage II, Inc.	1.85 Jan 8	Down 0.35 (15.91%)	3,242
+VRTS	Virtus Investment Partners, Inc.	105.06 Jan 8	Down 1.60 (1.50%)	156,847
+VRTU	Virtusa Corporation	39.90 Jan 8	Up 0.10 (0.25%)	247,283
+VRTX	Vertex Pharmaceuticals Incorporated	110.71 Jan 8	Down 4.25 (3.70%)	1,823,007
+VSAR	Versartis, Inc.	10.01 Jan 8	Up 0.43 (4.49%)	119,212
+VSAT	ViaSat Inc.	57.15 Jan 8	Up 0.22 (0.39%)	288,772
+VSCP	VirtualScopics Inc.	2.97 Jan 8	Down 0.08 (2.62%)	55,185
+VSEC	VSE Corp.	57.35 Jan 8	Up 0.23 (0.40%)	40,110
+VSTM	Verastem, Inc.	1.58 Jan 8	Up 0.05 (3.27%)	516,422
+VTAE	Vitae Pharmaceuticals, Inc.	13.99 Jan 8	Down 0.09 (0.64%)	215,154
+VTL	Vital Therapies, Inc.	8.86 Jan 8	Down 0.11 (1.23%)	226,982
+VTNR	Vertex Energy, Inc.	1.05 Jan 8	Up 0.06 (6.06%)	75,128
+VTVT	vTv Therapeutics Inc.	6.71 Jan 8	Down 0.06 (0.89%)	27,563
+VUZI	Vuzix Corporation	5.78 Jan 8	Down 0.41 (6.62%)	359,812
+VVUS	VIVUS Inc.	1.05 Jan 8	Down 0.02 (1.87%)	1,946,795
+VWR	VWR Corporation	26.06 Jan 8	Down 0.07 (0.27%)	412,904
+VYGR	Voyager Therapeutics, Inc.	18.83 Jan 8	Down 0.08 (0.42%)	22,284
+WABC	Westamerica Bancorp.	43.46 Jan 8	Down 0.95 (2.14%)	243,280
+WAFD	Washington Federal Inc.	21.87 Jan 8	Down 0.50 (2.24%)	1,583,094
+WASH	Washington Trust Bancorp Inc.	36.99 Jan 8	Down 0.74 (1.96%)	26,919
+WATT	Energous Corporation	6.66 Jan 8	Down 1.00 (13.05%)	429,899
+WAVX	Wave Systems Corp.	1.13 Jan 8	Down 0.06 (5.04%)	328,249
+WAYN	Wayne Savings Bancshares Inc.	12.75 Jan 7	0.00 (0.00%)	0
+WB	Weibo Corporation	17.42 Jan 8	Up 0.37 (2.17%)	493,752
+WBA	Walgreens Boots Alliance, Inc.	81.05 Jan 8	Down 0.12 (0.15%)	9,767,884
+WBB	Westbury Bancorp, Inc.	17.87 Jan 8	Down 0.16 (0.89%)	432
+WBKC	Wolverine Bancorp, Inc.	27.25 Jan 8	Up 0.20 (0.74%)	2,986
+WBMD	WebMD Health Corp.	51.50 Jan 8	Up 1.38 (2.75%)	2,839,667
+WDC	Western Digital Corporation	55.39 Jan 8	Down 2.44 (4.22%)	3,829,431
+WDFC	WD-40 Company	97.59 Jan 8	Up 3.01 (3.18%)	122,786
+WEB	Web.com Group, Inc.	18.53 Jan 8	Down 0.07 (0.38%)	351,774
+WEBK	Wellesley Bancorp, Inc.	18.80 Jan 8	Down 0.07 (0.37%)	530
+WEN	The Wendy's Company	10.03 Jan 8	Up 0.18 (1.83%)	6,028,929
+WERN	Werner Enterprises Inc.	21.91 Jan 8	0.00 (0.00%)	665,255
+WETF	WisdomTree Investments, Inc.	13.30 Jan 8	Down 0.57 (4.11%)	3,320,984
+WEYS	Weyco Group Inc.	25.60 Jan 8	Down 1.05 (3.94%)	25,615
+WFBI	WashingtonFirst Bankshares Inc.	22.77 Jan 8	Down 0.26 (1.13%)	13,951
+WFD	Westfield Financial Inc.	8.28 Jan 8	Down 0.01 (0.12%)	13,446
+WFM	Whole Foods Market, Inc.	31.98 Jan 8	Down 0.53 (1.62%)	4,021,226
+WGBS	WaferGen Bio-systems, Inc.	0.66 Jan 8	Down 0.03 (4.30%)	245,328
+WHLM	Wilhelmina International, Inc.	6.80 Jan 7	0.00 (0.00%)	0
+WHLR	Wheeler Real Estate Investment Trust, Inc.	1.82 Jan 8	Up 0.02 (1.11%)	37,091
+WIBC	Wilshire Bancorp Inc.	10.64 Jan 8	Down 0.31 (2.83%)	755,638
+WIFI	Boingo Wireless, Inc.	6.08 Jan 8	Down 0.09 (1.46%)	230,175
+WILC	G. Willi Food-International Ltd.	4.35 Jan 8	Up 0.11 (2.59%)	1,104
+WILN	Wi-Lan Inc.	1.06 Jan 8	Down 0.04 (3.64%)	262,633
+WIN	Windstream Holdings, Inc.	5.89 Jan 8	Up 0.01 (0.17%)	2,807,459
+WINA	Winmark Corp.	91.75 Jan 8	Down 0.25 (0.27%)	3,226
+WING	Wingstop Inc.	22.02 Jan 8	Up 0.02 (0.09%)	145,865
+WINS	Wins Finance Holdings Inc.	12.24 Jan 8	Down 0.05 (0.44%)	5,500
+WIRE	Encore Wire Corp.	34.78 Jan 8	Down 0.33 (0.94%)	97,706
+WIX	Wix.com Ltd.	21.87 Jan 8	Down 0.44 (1.97%)	182,205
+WKHS	Workhorse Group Inc.	6.50 Jan 8	Down 0.25 (3.70%)	23,395
+WLB	Westmoreland Coal Co.	4.96 Jan 8	Up 0.13 (2.69%)	240,101
+WLDN	Willdan Group, Inc.	8.05 Jan 8	Down 0.19 (2.31%)	25,177
+WLFC	Willis Lease Finance Corp.	19.31 Jan 8	Down 0.52 (2.62%)	10,477
+WLRH	WL Ross Holding Corp.	10.00 Jan 8	Up 0.03 (0.30%)	7,205
+WMAR	West Marine Inc.	8.35 Jan 8	Up 0.14 (1.71%)	89,807
+WMGI	Wright Medical Group N.V.	21.72 Jan 8	Down 1.00 (4.40%)	676,897
+WMIH	WMIH Corp.	2.41 Jan 8	Down 0.03 (1.23%)	169,378
+WOOF	VCA Inc.	52.66 Jan 8	Up 0.21 (0.40%)	534,429
+WOWO	JM WOWO	5.01 Jan 8	Down 0.14 (2.72%)	2,754
+WPCS	WPCS International Incorporated	1.34 Jan 8	Down 0.04 (2.90%)	147,760
+WPPGY	WPP plc	106.15 Jan 8	Down 1.46 (1.36%)	101,44
+WPRT	Westport Innovations Inc.	1.53 Jan 8	Up 0.03 (2.00%)	591,001
+WRES	Warren Resources, Inc.	0.16 Jan 8	Down 0.01 (3.26%)	455,395
+WRLD	World Acceptance Corp.	39.07 Jan 8	Down 0.80 (2.01%)	185,781
+WSBC	WesBanco Inc.	28.92 Jan 8	Down 0.19 (0.65%)	148,370
+WSBF	Waterstone Financial, Inc.	13.67 Jan 8	Down 0.19 (1.37%)	67,980
+WSCI	WSI Industries Inc.	4.01 Jan 8	Down 0.14 (3.45%)	15,215
+WSFS	WSFS Financial Corp.	30.63 Jan 8	Down 0.28 (0.91%)	198,499
+WSTC	West Corporation	19.40 Jan 8	Down 0.09 (0.46%)	312,243
+WSTG	Wayside Technology Group, Inc.	19.38 Jan 8	Up 0.88 (4.76%)	9,734
+WSTL	Westell Technologies, Inc.	1.22 Jan 8	Down 0.02 (1.61%)	9,603
+WTBA	West Bancorp., Inc.	18.13 Jan 8	Down 0.25 (1.36%)	18,863
+WTFC	Wintrust Financial Corporation	45.33 Jan 8	Down 1.08 (2.33%)	273,739
+WVE	WAVE Life Sciences Pte. Ltd.	13.20 Jan 8	Down 0.86 (6.12%)	50,881
+WVFC	WVS Financial Corp.	12.36 Jan 8	Down 0.14 (1.14%)	749
+WVVI	Willamette Valley Vineyards Inc.	7.04 Jan 8	0.00 (0.00%)	3,080
+WWD	Woodward, Inc.	46.10 Jan 8	Down 0.79 (1.68%)	395,670
+WYNN	Wynn Resorts Ltd.	57.74 Jan 8	Down 2.45 (4.07%)	5,739,956
+XBIT	XBiotech, Inc.	8.50 Jan 8	Down 0.22 (2.52%)	345,212
+XBKS	Xenith Bankshares, Inc.	7.20 Jan 8	Up 0.21 (2.97%)	422,116
+XCOM	Xtera Communications, Inc.	4.14 Jan 8	Down 0.02 (0.48%)	172,294
+XCRA	Xcerra Corporation	5.17 Jan 8	Down 0.10 (1.90%)	346,789
+XELB	Xcel Brands, Inc.	7.00 Jan 8	Up 0.09 (1.30%)	5,395
+XENE	Xenon Pharmaceuticals Inc.	7.94 Jan 8	Up 0.08 (0.95%)	16,516
+XENT	Intersect ENT, Inc.	19.20 Jan 8	Down 0.86 (4.29%)	219,731
+XGTI	xG Technology, Inc.	0.18 Jan 8	Down 0.01 (5.75%)	359,617
+XLNX	Xilinx Inc.	42.93 Jan 8	Down 0.90 (2.05%)	4,067,028
+XLRN	Acceleron Pharma, Inc.	34.43 Jan 8	Down 0.58 (1.66%)	614,751
+XNCR	Xencor, Inc.	12.33 Jan 8	Down 0.22 (1.75%)	294,409
+XNET	Xunlei Limited	7.20 Jan 8	Down 0.10 (1.37%)	228,758
+XNPT	Xenoport, Inc.	5.11 Jan 8	Down 0.38 (6.92%)	588,192
+XOMA	XOMA Corporation	1.13 Jan 8	Up 0.03 (2.73%)	1,343,611
+XONE	The ExOne Company	8.63 Jan 8	Down 0.92 (9.63%)	498,061
+XPLR	Xplore Technologies Corp.	4.75 Jan 8	Down 0.06 (1.25%)	9,551
+XRAY	DENTSPLY International Inc.	56.99 Jan 8	Down 1.68 (2.86%)	1,233,715
+XTLB	XTL Biopharmaceuticals Ltd.	1.43 Jan 7	0.00 (0.00%)	50
+XXIA	Ixia	10.84 Jan 8	Down 0.23 (2.08%)	555,356
+YCB	Your Community Bankshares, Inc.	33.61 Jan 8	Up 0.11 (0.33%)	1,999
+YECO	Yulong Eco-Materials Limited	4.16 Jan 8	Down 0.13 (2.92%)	9,106
+YHOO	Yahoo! Inc.	30.63 Jan 8	Up 0.47 (1.56%)	26,322,780
+YNDX	Yandex N.V.	13.42 Jan 8	Down 0.54 (3.87%)	2,691,289
+YOD	YOU On Demand Holdings, Inc.	1.60 Jan 8	Down 0.08 (4.76%)	31,082
+YORW	The York Water Company	24.69 Jan 8	Up 0.07 (0.28%)	34,907
+YRCW	YRC Worldwide Inc.	12.19 Jan 8	Down 0.26 (2.09%)	540,983
+YY	YY Inc.	59.41 Jan 8	Down 0.09 (0.15%)	779,946
+Z	Zillow Group, Inc.	22.10 Jan 8	Up 0.60 (2.79%)	1,056,597
+ZAGG	ZAGG Inc	9.67 Jan 8	Down 0.69 (6.66%)	676,100
+ZAIS	ZAIS Group Holdings, Inc.	7.12 Jan 8	Down 0.37 (4.94%)	3,396
+ZBRA	Zebra Technologies Corporation	59.25 Jan 8	Down 0.16 (0.27%)	1,035,186
+ZEUS	Olympic Steel Inc.	10.63 Jan 8	Down 0.36 (3.28%)	55,700
+ZFGN	Zafgen, Inc.	5.86 Jan 8	Down 0.01 (0.17%)	378,125
+ZG	Zillow Group, Inc.	23.89 Jan 8	Up 0.87 (3.78%)	634,054
+ZGNX	Zogenix, Inc.	10.96 Jan 8	Down 0.42 (3.69%)	264,569
+ZHNE	Zhone Technologies Inc.	1.51 Jan 8	Up 0.11 (7.86%)	376,153
+ZINC	Horsehead Holding Corp.	1.62 Jan 8	Up 0.08 (5.19%)	829,781
+ZION	Zions Bancorporation	24.60 Jan 8	Down 0.28 (1.13%)	3,401,580
+ZIOP	ZIOPHARM Oncology, Inc.	7.00 Jan 8	Down 0.11 (1.55%)	2,418,119
+ZIXI	Zix Corporation	4.59 Jan 8	Down 0.19 (3.97%)	656,206
+ZLTQ	ZELTIQ Aesthetics, Inc.	26.24 Jan 8	Down 0.74 (2.74%)	1,292,135
+ZN	Zion Oil & Gas, Inc.	1.81 Jan 8	Up 0.01 (0.56%)	16,160
+ZNGA	Zynga, Inc.	2.41 Jan 8	Down 0.07 (2.82%)	7,719,389
+ZSAN	Zosano Pharma Corporation	2.39 Jan 8	Down 0.05 (2.05%)	259
+ZUMZ	Zumiez, Inc.	16.62 Jan 8	Down 0.19 (1.13%)	1,035,982
+ZYNE	Zynerba Pharmaceuticals, Inc.	8.77 Jan 8	Up 0.02 (0.23%)	45,732
