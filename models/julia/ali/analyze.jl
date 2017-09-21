@@ -3,13 +3,12 @@ using Dates
 
 #= 
 # usage:
-dfs_to_matrix(data_dir)
+y = dfs_to_matrix(data_dir);
 
 TODO:
-1. Clean the code
-  b) Make plots in model portfolio and fix the code for your dataset
 
-2. Obtain portfolio: D:\projects\cryptoCurrency_trade\src\Robhoot\models\octave-matlab\ModernPortfolioTheory(M1)\Alex\EffFront_Alex.m
+  1. FIXME: Julia is unable to take inverse of matrix M in function efficient_frontier if model_portfolio_data.jl 
+  2. Obtain portfolio: D:\projects\cryptoCurrency_trade\src\Robhoot\models\octave-matlab\ModernPortfolioTheory(M1)\Alex\EffFront_Alex.m
 
 An example output: D:\projects\cryptoCurrency_trade\src\Robhoot\models\octave-matlab\ModernPortfolioTheory(M1)\Alex\EffFront_c100000_s20_c1000.txt
 
@@ -22,6 +21,9 @@ function create_dataframes(data_dir::String)
   all_files = readdir(data_dir)
   all_dfs = []
   for ff in all_files
+    if ff == "42_histoDay.txt" || ff == "SWT_histoDay.txt"
+      continue
+    end
     df = readtable(joinpath(data_dir, ff),header=true, separator='\t')
     #convert dates to DateTime
     df[:_date] = [DateTime(i) for i in df[:_date]]
@@ -51,6 +53,7 @@ end
   data_dir: directory containing history files for each coin
 """
 function dfs_to_matrix(data_dir)
+  all_files = readdir(data_dir)
   all_dfs = create_dataframes(data_dir)
   max_df_length = longest_df(all_dfs)
   data_matrix = reshape(zeros(max_df_length*length(all_dfs)), (max_df_length, length(all_dfs)))
@@ -60,5 +63,17 @@ function dfs_to_matrix(data_dir)
     start_column = max_df_length - price_size
     data_matrix[start_column+1:end, index] = prices
   end
+
+  # sanity check of data
+  problems = []
+  for col in 1:length(data_matrix[1, :])
+    for row in 1:length(data_matrix[:, 1])
+      if data_matrix[row, col] > 20000
+        println("Extra large prices. Problems in $(all_files[col]) at line $row in the matrix")
+        push!(problems, (row, col))
+      end
+    end
+  end
+
   return data_matrix
 end
