@@ -89,11 +89,11 @@ end
 """
 function efficient_frontier(zbar, M, S)
 	unity = ones(length(zbar), 1)  # Weight vector or unity vector must have same length as zbar
-	A = (unity'*(M^-1))*unity #>0
-	B = (unity'*(M^-1))*zbar #>0
-	C = (zbar'*(M^-1))*zbar #>0
+	A = ((unity'*inv(M))*unity)[1] #>0
+	B = ((unity'*inv(M))*zbar)[1] #>0
+	C = ((zbar'*inv(M))*zbar)[1] #>0
 	D = (A*C)-(B^2)
-	mu = transpose(collect(linspace(1,75, S)))
+	mu = transpose(collect(linspace(1, 75, S)))
 
 	# Plot efficient frontier
 	minvar = ((A*(mu.^2))-2*(B*mu).+C)/D
