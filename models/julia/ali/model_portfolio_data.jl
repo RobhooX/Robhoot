@@ -50,17 +50,17 @@ function var_cov_mat(y, S)
 		for c1 in c+1:S
 			column1 = y[:, c];
 			column2 = y[:, c1];
-			nonzero1 = find(column1)[1];
-			nonzero2 = find(column2)[1];
+			nonzero1 = find(column1)[1]
+			nonzero2 = find(column2)[1]
 			smaller_column = maximum([nonzero1, nonzero2])
 			CM[c, c1] = cov(column1[smaller_column:end], column2[smaller_column:end])  # only compare rows of two columns that have nonzero values.
 		end
 	end
 
 	for c2 in 1:S
-		CM[c2,c2] = var(y[:,c2])
+		CM[c2, c2] = var(y[:, c2])
 	end
-	M = CM + CM';
+	M = CM + transpose(CM);
 	stdevs=sqrt.(diag(M))
 
 	return stdevs, M
@@ -80,9 +80,9 @@ end
 """
 function efficient_frontier(zbar, M, S)
 	unity = ones(length(zbar), 1)  # Weight vector or unity vector must have same length as zbar
-	A = ((unity'*inv(M))*unity)[1] #>0
-	B = ((unity'*inv(M))*zbar)[1] #>0
-	C = ((zbar'*inv(M))*zbar)[1] #>0
+	A = ((transpose(unity)*inv(M))*unity)[1] #>0
+	B = ((transpose(unity)*inv(M))*zbar)[1] #>0
+	C = ((transpose(zbar)*inv(M))*zbar)[1] #>0
 	D = (A*C)-(B^2)
 	mu = transpose(collect(linspace(1, 75, S)))  # TODO: why 75? what parameter is it?
 
@@ -115,7 +115,7 @@ function all_plots(;data_dir="../data/histoDay_all", max_price=10000)
 
 	fig2 = fig[:add_subplot](212)
 	fig2[:scatter](stdevs, zbar, color="red")
-	fig2[:plot](minstd', mu', linewidth=2, color="k")
+	fig2[:plot](transpose(minstd), transpose(mu), linewidth=2, color="k")
 	plt.title("Efficient frontier Individual securities", fontsize=12)
 	plt.xlabel("Standard deviation (%)", fontsize=12)
 	plt.ylabel("Expected return (%)", fontsize=12)
