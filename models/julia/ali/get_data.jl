@@ -2,7 +2,7 @@
 These functions help you a) get a list of all available cryptocurrencies, b) download data for every day of their history, and c) update these data.
 
 # Usage:
-	# get a list of coins and write them to file
+	# get a list of coins and write them to file ("../data/cryptocompare_coins.txt")
 	get_all_coins(write_to_file=true)
 
 	# download data for your list of coins

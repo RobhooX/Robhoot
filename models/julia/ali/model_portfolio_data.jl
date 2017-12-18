@@ -46,7 +46,7 @@ end
 """
 function var_cov_mat(y, S)
 	CM = zeros(S, S)
-	for c in 1:S  # -1
+	for c in 1:S-1
 		for c1 in c+1:S
 			column1 = y[:, c];
 			column2 = y[:, c1];
@@ -60,6 +60,7 @@ function var_cov_mat(y, S)
 	for c2 in 1:S
 		CM[c2, c2] = var(y[:, c2])
 	end
+
 	M = CM + transpose(CM);
 	stdevs=sqrt.(diag(M))
 
@@ -80,14 +81,14 @@ end
 """
 function efficient_frontier(zbar, M, S)
 	unity = ones(length(zbar), 1)  # Weight vector or unity vector must have same length as zbar
-	A = ((transpose(unity)*inv(M))*unity)[1] #>0
-	B = ((transpose(unity)*inv(M))*zbar)[1] #>0
-	C = ((transpose(zbar)*inv(M))*zbar)[1] #>0
-	D = (A*C)-(B^2)
-	mu = transpose(collect(linspace(1, 75, S)))  # TODO: why 75? what parameter is it?
+	A = (transpose(unity) * inv(M) * unity)[1] #>0
+	B = (transpose(unity) * inv(M) * zbar)[1] #>0
+	C = (transpose(zbar) * inv(M) * zbar)[1] #>0
+	D = (A * C) - (B ^ 2)  # TODO: plot D against size of minimum coin vector in the dataset (removing short ones one by one)
+	mu = transpose(collect(linspace(1, 1000, S)))  # TODO: why 75? what parameter is it?
 
 	# Plot efficient frontier
-	minvar = ((A*(mu.^2))-2*(B*mu).+C)/D
+	minvar = ((A .* (mu .^ 2)) - (2 .* (B .* mu) .+ C))/D
 	minstd = sqrt.(minvar)  # FIXME: minvar has negative values, because D is negative
 
 	return minvar, minstd, mu
@@ -98,6 +99,7 @@ function all_plots(;data_dir="../data/histoDay_all", max_price=10000)
 
 	# get data
 	y, y_names = dfs_to_matrix(data_dir, max_price=max_price);
+	# end-183 row is problematic. column 1052
 
 	# Calculate efficient frontier
 	zbar, S, T = calculate_return(y);
@@ -108,7 +110,7 @@ function all_plots(;data_dir="../data/histoDay_all", max_price=10000)
 	fig = plt.figure(figsize=(20,10))
 	fig1 = fig[:add_subplot](211)
 	fig1[:plot](1:T, y, alpha=0.5, linewidth=0.3)
-	plt.title("Random time series", fontsize=12)
+	plt.title("Time series", fontsize=12)
 	plt.yscale("log", ybase=10)
 	plt.xlabel("Time", fontsize=12)
 	plt.ylabel("Price", fontsize=12)

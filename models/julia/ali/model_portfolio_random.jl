@@ -93,7 +93,7 @@ function efficient_frontier(zbar, M, S)
 	B = ((unity'*inv(M))*zbar)[1] #>0
 	C = ((zbar'*inv(M))*zbar)[1] #>0
 	D = (A*C)-(B^2)
-	mu = transpose(collect(linspace(1, 75, S)))
+	mu = transpose(collect(linspace(1, 300, S)))
 
 	# Plot efficient frontier
 	minvar = ((A*(mu.^2))-2*(B*mu).+C)/D

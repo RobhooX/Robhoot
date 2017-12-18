@@ -3,7 +3,9 @@ using Dates
 
 #= 
 # usage:
-y = dfs_to_matrix(data_dir);
+data_dir = "../data/histoDay_all_new/"
+max_price = 30000
+data_matrix, df_names, volume_matrix = dfs_to_matrix(data_dir; max_price=max_price);
 
 TODO:
 
@@ -84,16 +86,22 @@ end
   # parameters
   data_dir: directory containing history files for each coin
 """
-function dfs_to_matrix(data_dir; max_price=10000)
+function dfs_to_matrix(data_dir; max_price=30000)
   all_dfs, df_names = create_dataframes(data_dir, max_price)
   max_df_length = longest_df(all_dfs)
   data_matrix = reshape(zeros(max_df_length*length(all_dfs)), (max_df_length, length(all_dfs)))
+  data_matrix2 = reshape(zeros(max_df_length*length(all_dfs)), (max_df_length, length(all_dfs)))
   for (index, df) in enumerate(all_dfs)
     prices = df[:close]
     price_size = length(prices)
     start_column = max_df_length - price_size
     data_matrix[start_column+1:end, index] = prices
+
+    volumes = df[:volumeto] # - df[:volumefrom]
+    volume_size = length(volumes)
+    start_column = max_df_length - volume_size
+    data_matrix2[start_column+1:end, index] = volumes
   end
 
-  return data_matrix, df_names
+  return data_matrix, df_names, data_matrix2
 end
