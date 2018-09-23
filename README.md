@@ -1,2 +1,6 @@
 # Robhoot
-The access to high-resolution data and models to track trends in time series remains difficult in many disciplines. Robhoot aims to develop an open platform to integrate data, AI algorithms and classic time series models to compare the different approaches in a unified framework. For example, in the investment industry, AI automated algorithms coexist today with classical portfolio models. Yet, tools to compare predictions between these models and high-resolution data are scarce. 
+High-resolution data coming from many sources is 
+here. Yet, inferring insightful patterns and drivers remains 
+challenging in many disciplines. Robhoot aims to develop approaches to
+integrate data, AI algorithms and process-based models to take better
+informed decisions in research, management and investment landscapes.
