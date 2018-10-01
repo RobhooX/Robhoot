@@ -43,14 +43,13 @@
 
 \makeindex
 \begin{document}
-
 \begin{flushleft}
-\textbf{\Large {$\mathcal{ROBHOOT}$} -- An Open Platform To Investigate Investment Markets}
+\textbf{\Large {$\mathcal{ROBHOOT}$} -- An Open Platform for data integration, inference and prediction}
 %by $\mathcal{N}$+3 -- {\small Computing worldwide access to ideas}}
 \\
-\vspace{1.0cm} Alejandro Rozenfeld$^{1}$, Charles N. de Santana$^{1}$, Carlos J. Meli\'an$^{1}$
+%%\vspace{1.0cm} Alejandro Rozenfeld$^{1}$, Charles N. de Santana$^{1}$, Carlos J. Meli\'an$^{1}$
 \\
-\vspace{1.0cm} \bf{1} Horizontal Networks Center. Infinite Galaxy Road, Via Lactea.
+%\vspace{1.0cm} \bf{1} Horizontal Networks Center. Infinite Galaxy Road, Via Lactea.
 \\
 \begin{figure}
 \vspace{-3 in}
@@ -62,6 +61,9 @@
 \end{flushleft}
 
 \newpage
+
+
+\begin{comment}
 \carlos{PUNTOS A SOLUCIONAR\\
   \\
   \\
@@ -76,7 +78,7 @@
   5) Comparar codigos de julia y octave usando los dos quandl. Porducen el mismo output? Lo ideal seria compararlos todos. 
   \\
   6) Listado de productos de saxobank. Mirar en Quandl si solo con los nombres del pais ya sepuede acceder al listado de todos los productos. Consultar con Adrian de saxobank si existe ya el listado.
-  }}
+\end{comment}
 
 \newpage
 
@@ -86,15 +88,29 @@
 
 \section{Summary}
 
-Investment markets are highly regulated and free access to
-high-resolution data and investment models to accurately track market trends remains a challenge. Most companies offering services to small investors show a trade-off between free individual investment decisions at high fee
-rates and decreasing investment cost at the expense of freedom (i.e.,
-automated investments). Here we present the package $\mathcal{ROBHOOT}$ in julia to join free access to high-resolution data with a suite of investment models in one open access platform to investigate markets. Our goal is to allow small investors to access and combine fast and free worldwide high-resolution data and models to inform free-individual decisions and automated algorithms to track highly diversified portfolios.
+High-resolution data coming from many sources is here. Yet, inferring
+insightful patterns and drivers remains challenging in many
+disciplines. Robhoot aims to develop approaches to integrate data,
+Statistical Learning, AI algorithms and process-based models to take
+better informed decisions in research, management and investment
+landscapes.
+
+\begin{comment}
+  Data acces markets are highly regulated and free access to
+  high-resolution data and investment models to accurately track
+  market trends remains a challenge. Most companies offering services
+  to small investors show a trade-off between free individual
+  investment decisions at high fee rates and decreasing investment
+  cost at the expense of freedom (i.e., automated investments). Here
+  we present the package $\mathcal{ROBHOOT}$ in julia to join free
+  access to high-resolution data with a suite of investment models in
+  one open access platform to investigate markets. Our goal is to
+  allow small investors to access and combine fast and free worldwide
+  high-resolution data and models to inform free-individual decisions
+  and automated algorithms to track highly diversified portfolios.
+\end{comment}
 \\
-\\
-Keywords: automated investments, approximate Bayesian computation,
-regulatory markets, time series, informed individuals, complete
-information, stochastic portfolio theory,
+Keywords: automated data integration, multilayer networks, approximate Bayesian computation, regulatory markets
 \newpage
 
 \begin{comment}
@@ -115,18 +131,45 @@ developed in a highly regulatory market to overcome the high cost of
 investments for small investors.
 \end{comment}
 
-\section{Open access to the data in a highly regulated market}
+\section{Data Collection (DC)}
+We collect and clean data received from different sources. The
+collected data can be available in CSV, database, or "real time"
+(e.g. [Nakamoto Terminal](https://www.nterminal.com), [BigQuery](
+https://cloud.google.com/bigquery/)). We aim to have a package in
+Julia language and let the user automatically get the data in their
+desired format.
+
+Most data access platforms, from genomes to ecosystems and markets of
+any kind are highly regulated. This means most interacting agents in
+the market have to deal with a highly complex set of regulations
+before having access to the data, algorithms and the available
+strategies. Having ``easy'' access to the information in a ``perfectly
+informed market'' should be simple and efficient, but unfortunately,
+it is not. 
 
 
-{\bf Introduce Quandl access to the data in julia: pros and cons}
+\section{Complexity Reduction (CR)}
 
-Most networks, from genomes to ecosystems and markets of any kind are
-highly regulated. This means most interacting agents in the market
-have to deal with a highly complex set of regulations before having
-access to the data, algorithms and the available strategies. Having
-``easy'' access to the information in a ``perfectly informed market''
-should be simple and efficient, but unfortunately, it is not. 
+To increase performance, we would reduce data complexity with methods
+such PCA....etc
 
+\section{Pattern Inference (PI)}
+
+Robhoot will range from classical variance-covariance matrices to AI
+algorithms and process-based methods.
+
+\section{Model Validation (MV)}
+
+Model validation can be Bayesian Inference, Approximate Bayesian
+Inference, and common goodness of fit methods.
+
+
+
+%Take from here to edit main points
+\begin{comment}
+Open access to the data in a highly regulated market in biology and markets in general\\
+Introduce Quandl access to the data in julia: pros and cons\\
+\\
 The first thing to consider is to have access to the data in a regulatory market. 
 In order to get the data, we should know each product ID (e.g., as ID's for
 species), the many to one tickers underlying each ID and how these
@@ -147,9 +190,26 @@ regulation mean higher cost to access the data and invest? Which is
 the best (e.g., lowest cost?) strategy to invest in highly regulatory
 markets?
 
-The first step to answer these questions is to have easy and universal access to the data is a first step and there are a few attempts for such universal ID's. For example, the $Bloomberg$ $Open$ $Symbology$ data since 2012 contains a global and universal ID for each product and it allows to mappings to exchange tickers, ISINs and other financial data resources \footnote{Bloomberg open symbology, \url{http://datahub.io/dataset/bsym} and \url{https://github.com/ga-group/bsym}}. With the open symbology, obtaining high-resolution and free intra- and inter-day data in an integrated platform with access to all the markets should be easier but still the services offering data access and tracking the
-market vary greatly and there are no options to have free and open access to the data with a global ID (\footnote{attempts include jstock \url{http://jstock.org/}}. Products range from the more classical close investment platform \index{close
-  investment platform} to \index{automated investment platforms} at low fee\footnote{\url{https://www.sigfig.com/site/#/home/am}}. Close investment platform describes funds and investment products offered by a bank or firm a client decides to choose, limiting individual choices to free tracking and investing and diversifying portfolios. 
+The first step to answer these questions is to have easy and universal
+access to the data is a first step and there are a few attempts for
+such universal ID's. For example, the $Bloomberg$ $Open$ $Symbology$
+data since 2012 contains a global and universal ID for each product
+and it allows to mappings to exchange tickers, ISINs and other
+financial data resources \footnote{Bloomberg open symbology,
+  \url{http://datahub.io/dataset/bsym} and
+  \url{https://github.com/ga-group/bsym}}. With the open symbology,
+obtaining high-resolution and free intra- and inter-day data in an
+integrated platform with access to all the markets should be easier
+but still the services offering data access and tracking the market
+vary greatly and there are no options to have free and open access to
+the data with a global ID (\footnote{attempts include jstock
+  \url{http://jstock.org/}}. Products range from the more classical
+close investment platform \index{close investment platform} to
+\index{automated investment platforms} at low
+fee\footnote{\url{https://www.sigfig.com/site/#/home/am}}. Close
+investment platform describes funds and investment products offered by
+a bank or firm a client decides to choose, limiting individual choices
+to free tracking and investing and diversifying portfolios.
 
 It is important to distinguish an open investment platform
 \index{open investment platform}, on the other hand, where investors
@@ -191,34 +251,46 @@ cover this, we have lost money by just entering and exiting positions
 (the 10,000USD is far beyond what most small investors have to start
 with!). In addition, hidden costs are the norm and most regulations
 underlying investing should be explored further. 
+\end{comment}
 
-\subsection{Keeping a balance between our ideas and worldwide distributed ideas}
 
-There are millions of ideas fluctuating out there. Do most of them go
-to extinction quickly? Diversifying portfolio in science and everyday
-life is a simple consequence of living in fluctuating (and
-unpredictable) environments. The closer we are at predicting
-fluctuations of several time series (including your ideas) at local
-and regional scales the better we know the ecosystem. Unfortunately,
-it is not easy to predict time series of a large number of interacting
-(ideally independent) species (or ideas or market products from stocks
-to bonds). Given we can not predict most of the ideas' trends, we
-should build a minimum understanding on how to investigate ideas and
-build a diversified portfolio with a balance between risk and
-reward. Basic questions will always remain when discussing about
-predicting the future and diversifying portfolios. For example, in a
-complex ecosystem, which is the best strategy under complete
-ignorance? And under complete information? Should we invest following
-a random walk \index{random walk}? Should we produce a portfolio with neutral risk
-\index{neutral risk}?
-\footnote{\url{https://en.wikipedia.org/wiki/A$_$Random$_$Walk$_$Down$_$Wall$_$Street}}
+\begin{comment}
+%\subsection{Keeping a balance between our ideas and worldwide distributed ideas}
 
-\section{Current portfolio theory in economics and ecology}
+  There are millions of ideas fluctuating out there. Do most of them
+  go to extinction quickly? Diversifying portfolio in science and
+  everyday life is a simple consequence of living in fluctuating (and
+  unpredictable) environments. The closer we are at predicting
+  fluctuations of several time series (including your ideas) at local
+  and regional scales the better we know the ecosystem. Unfortunately,
+  it is not easy to predict time series of a large number of
+  interacting (ideally independent) species (or ideas or market
+  products from stocks to bonds). Given we can not predict most of the
+  ideas' trends, we should build a minimum understanding on how to
+  investigate ideas and build a diversified portfolio with a balance
+  between risk and reward. Basic questions will always remain when
+  discussing about predicting the future and diversifying
+  portfolios. For example, in a complex ecosystem, which is the best
+  strategy under complete ignorance? And under complete information?
+  Should we invest following a random walk \index{random walk}? Should
+  we produce a portfolio with neutral risk \index{neutral risk}?
+  \footnote{\url{https://en.wikipedia.org/wiki/A$_$Random$_$Walk$_$Down$_$Wall$_$Street}}
+
+%\section{Current portfolio theory in economics and ecology}
 
 Portfolio theory in economics has a long tradition
-\citep{MarkowitzBook}. The theory is rooted in the concept of efficient frontier\index{efficient frontier}. There are several companies and packages offering codes in several languages to calculate efficient frontiers\footnote{\url{http://www.quantcode.com/}}$^{,}$\footnote{\url{https://github.com/JuliaQuant/PortfolioModels.jl}}$^{,}$\footnote{\url{https://www.wikinvest.com/account/portfolio/register}}$^{,}$\footnote{\url{https://d1so5k0levrfcn.cloudfront.net/SigFig\%20Investment\%20Methodology.pdf}} . Most maths underlying portfoliio theory\index{portfolio theory} are based in matrix correlation patterns\index{matrix correlation patterns}. In ecology, portfolio concept has also been used to predict the number of coexisting species in landscapes with highly fluctuating environments\footnote{Check references}.
+\citep{MarkowitzBook}. The theory is rooted in the concept of
+efficient frontier\index{efficient frontier}. There are several
+companies and packages offering codes in several languages to
+calculate efficient
+frontiers\footnote{\url{http://www.quantcode.com/}}$^{,}$\footnote{\url{https://github.com/JuliaQuant/PortfolioModels.jl}}$^{,}$\footnote{\url{https://www.wikinvest.com/account/portfolio/register}}$^{,}$\footnote{\url{https://d1so5k0levrfcn.cloudfront.net/SigFig\%20Investment\%20Methodology.pdf}}
+. Most maths underlying portfoliio theory\index{portfolio theory} are
+based in matrix correlation patterns\index{matrix correlation
+  patterns}. In ecology, portfolio concept has also been used to
+predict the number of coexisting species in landscapes with highly
+fluctuating environments\footnote{Check references}.
 
-\subsection{Developing a highly diversified portfolio in time and space}
+%\subsection{Developing a highly diversified portfolio in time and space}
 
 Given the basic maths underlying the portfolio theory, which are the
 algorithms and models out there? Which one perform the best? Which is
@@ -230,20 +302,19 @@ connect a highly diversified portfolio with the knowledge of the
 worldwide flow distribution of basic goods?\footnote{Check Bern
   principles}
 
-\newpage
-\section{Exploring de-centralized investments}
+%\newpage
+%\section{Exploring de-centralized investments}
 
-\subsection{Centralized investments}
+%\subsection{Centralized investments}
+%The meaning of a centralized investment. Which are the pros and cons? Why centralized?
 
-The meaning of a centralized investment. Which are the pros and cons? Why centralized?
-
-\subsection{Decentralized investments and virtual currency}
+%\subsection{Decentralized investments and virtual currency}
 
 The meaning of decentralized investment. The origin of bitcoin and
 refs to invest in virtual currencies.
 
-\newpage
-\section{Open platform to investigate markets ($\mathcal{ROBHOOT}$)}
+%\newpage
+%\section{Open platform to investigate markets ($\mathcal{ROBHOOT}$)}
 
 In the long term, $\mathcal{ROBHOOT}$ will be a semi-automated investment tool combining
 access to high-resolution data for both centralized and decentralized
@@ -257,70 +328,109 @@ platform. Enumerating these bottlenecks to recognize our lack of
 expertise is a key first step. At this stage, there are at least 8
 bottlenecks.
 
-\subsection{Models}
+%\subsection{Models}
 
-\begin{comment}
-1) Él ha analisado series temporales de stocks del mercado brasileiro con muestras a
- diferentes escalas temporales (semanales, diárias, intraday de 10 minutos)
-2) Él ha comparado modelos linales, no lineales basados en maquinas de vectores de suporte, y modelos híbridos.
-3) Ha dicho que modelos híbridos generan mejores predicciones de volatilidad que los demás modelos
-4) No hay diferencia significativa entre los modelos no lineales que él estudió y los modelos lineales
-5) La combinación de modelos que genera menos errores es utilizar modelos *lineales* para 
-predecir los valores esperados y los modelos *hibridos* para predecir la volatilidad
-6) Ha dicho que la principal limitación de los modelos que ha estudiado es que los errores
- (los componentes aleatorios) son muy altos cuando comparaods a los componentes determinísticos. 
- Además de eso, la varianza de los componentes aleatorios cambia a lo largo del tiempo, lo que hace mucho dificil la predicción.
-7) Ha dicho que los modelos de black-Litterman utilizan la matriz de covarianza y posiblemente
- tendrán la misma limitación en la predicción que los modelos que él ha estudiado en su master 
- (él no conocía el Black-Litterman, pero ha mirado el paper que Carlos nos envió y me lo dijo).
-8) El artículo que envié anteriormente, que habla de la predicción de Bitcoin, también 
-utiliza la matriz de covarianza. Pero Gilmar cree que dicha predicción solo fué posible 
-porque ellos utilizan informaciones del "libro de ofertas", que resulta 
-en un valor entre -1 y 1. Si el valor es -1, significa que todos en el mercado solo quieren vender.
- Si el valor es +1, siginifca que todos solo quieren comprar. Ha dicho que es tipo de información
-  es dificil para el mercado de stocks. Creo que allí entramos nosotros! ;)
-10) Por esa razón, él cree que es dificil hacer predicciones fiables del comportamiento de stocks. 
-Por eso cree que lo mejor es estudiar el riesgo de los stocks, en vez de la predicción.
-11) Ha dicho que para su doctorado, él va a utilizar solamente modelos lineales, porque ha dicho 
-que lo que se gana con los modelos no hibridos no le parece suficiente como para perder en 
-la performance de la simulación. Su objetivo es intentar mejorar la limitación que mencioné anteriormente.
-\end{comment}
+%\begin{comment}
+1) Él ha analisado series temporales de stocks del mercado brasileiro
+con muestras a diferentes escalas temporales (semanales, diárias,
+intraday de 10 minutos) 2) Él ha comparado modelos linales, no
+lineales basados en maquinas de vectores de suporte, y modelos
+híbridos.  3) Ha dicho que modelos híbridos generan mejores
+predicciones de volatilidad que los demás modelos 4) No hay diferencia
+significativa entre los modelos no lineales que él estudió y los
+modelos lineales 5) La combinación de modelos que genera menos errores
+es utilizar modelos *lineales* para predecir los valores esperados y
+los modelos *hibridos* para predecir la volatilidad 6) Ha dicho que la
+principal limitación de los modelos que ha estudiado es que los
+errores (los componentes aleatorios) son muy altos cuando comparaods a
+los componentes determinísticos.  Además de eso, la varianza de los
+componentes aleatorios cambia a lo largo del tiempo, lo que hace mucho
+dificil la predicción.  7) Ha dicho que los modelos de black-Litterman
+utilizan la matriz de covarianza y posiblemente tendrán la misma
+limitación en la predicción que los modelos que él ha estudiado en su
+master (él no conocía el Black-Litterman, pero ha mirado el paper que
+Carlos nos envió y me lo dijo).  8) El artículo que envié
+anteriormente, que habla de la predicción de Bitcoin, también utiliza
+la matriz de covarianza. Pero Gilmar cree que dicha predicción solo
+fué posible porque ellos utilizan informaciones del "libro de
+ofertas", que resulta en un valor entre -1 y 1. Si el valor es -1,
+significa que todos en el mercado solo quieren vender.  Si el valor es
++1, siginifca que todos solo quieren comprar. Ha dicho que es tipo de
+información es dificil para el mercado de stocks. Creo que allí
+entramos nosotros! ;) 10) Por esa razón, él cree que es dificil hacer
+predicciones fiables del comportamiento de stocks.  Por eso cree que
+lo mejor es estudiar el riesgo de los stocks, en vez de la predicción.
+11) Ha dicho que para su doctorado, él va a utilizar solamente modelos
+lineales, porque ha dicho que lo que se gana con los modelos no
+hibridos no le parece suficiente como para perder en la performance de
+la simulación. Su objetivo es intentar mejorar la limitación que
+mencioné anteriormente.
+%\end{comment}
 
-\subsection{Pattern detection models}
+%\subsection{Pattern detection models}
 
-\subsubsection{Modern Portfolio Theory}
+%\subsubsection{Modern Portfolio Theory}
 
 Explain briefly the main assumptions and the main albegra used. 
 Mention the matlab and julia codes with access to quandl data.
 
-\subsubsection{Mixed Estimation Model: Black-Litterman model}
+%\subsubsection{Mixed Estimation Model: Black-Litterman model}
 
-The Mixed Estimation Model was developed by Henri Theil in the early 1960's, but was applied to financial data by Fischer Black and Robert Litterman in the early 1990's. The beauty of this model is that one can blend a variety of views specified in different ways, absolute or relative, with a given prior estimate to generate a new and updated posterior estimate which includes all the views. The updated posterior estimate should be centered more closely around the unknown mean, and should also have a lower variance(higher precision) that either the prior or conditional distribution. There are implementations in matlab\footnote{\url{http://www.blacklitterman.org/intro.html}} and new automated investment companies use the Black-Litterman model for their automated decisions\footnote{\url{https://www.betterment.com/resources/investment-strategy/why-you-should-invest-beyond-us-stocks/}}. $\mathcal{ROBHOOT}$ uses the matlab version from\footnote{\url{http://www.blacklitterman.org/intro.html}} implemented in julia. 
-
-
-\subsubsection{Neural network model}
-
-\subsubsection{Elliott waves model}
-
-
-\subsection{Dynamic or mechanistic models}
-
-\subsubsection{Brownian motion model (Random walk model)}
-
-
-
-\section{Bottlenecks}
-
-\subsubsection{Bottleneck 1: Data access algorithms}
-
-Streaming data analysis will be the key when accessing the data. Investment products datasets are too large to store in RAM and are being generated in real time. 
+The Mixed Estimation Model was developed by Henri Theil in the early
+1960's, but was applied to financial data by Fischer Black and Robert
+Litterman in the early 1990's. The beauty of this model is that one
+can blend a variety of views specified in different ways, absolute or
+relative, with a given prior estimate to generate a new and updated
+posterior estimate which includes all the views. The updated posterior
+estimate should be centered more closely around the unknown mean, and
+should also have a lower variance(higher precision) that either the
+prior or conditional distribution. There are implementations in
+matlab\footnote{\url{http://www.blacklitterman.org/intro.html}} and
+new automated investment companies use the Black-Litterman model for
+their automated
+decisions\footnote{\url{https://www.betterment.com/resources/investment-strategy/why-you-should-invest-beyond-us-stocks/}}.
+$\mathcal{ROBHOOT}$ uses the matlab version
+from\footnote{\url{http://www.blacklitterman.org/intro.html}}
+implemented in julia.
 
 
-Bottleneck 1 would require to retrieve ID's from the Bloomberg open symbology\footnote{Methods to convert each product between their ID's. For example, convert 9-digit CUSIP codes into ISIN codes \url{http://stackoverflow.com/questions/30545239/convert-9-digit-cusip-codes-into-isin-codes}}. This is not just connecting algorithms to google or yahoo to have access to interday data for a few markets and products (this is by far a trivial problem). Data access has, at least, three steps: 1) ID database access using open symbology; 2) link ID to the several stickers each ISIN contains with a different sticker name in each different market (ID or ISIN can be
-compared with the genome of each investment product and the stickers would be the different varieties of a species in space), and 3) connect the ID or ISIN to the time series at high (intraday) or low
-(interday) resolution with price and volume values. TODAY, THERE IS NO SERVER OFFERING THIS EASY ACCESS SERVICE FOR FREE FOR ANY PRODUCT IN ANY MARKET.
+%\subsubsection{Neural network model}
 
-\subsubsection{Bottleneck 2: Pattern detection algorithms}
+%\subsubsection{Elliott waves model}
+
+
+%\subsection{Dynamic or mechanistic models}
+
+%\subsubsection{Brownian motion model (Random walk model)}
+
+
+
+%\section{Bottlenecks}
+
+%\subsubsection{Bottleneck 1: Data access algorithms}
+
+Streaming data analysis will be the key when accessing the
+data. Investment products datasets are too large to store in RAM and
+are being generated in real time.
+
+
+Bottleneck 1 would require to retrieve ID's from the Bloomberg open
+symbology\footnote{Methods to convert each product between their
+  ID's. For example, convert 9-digit CUSIP codes into ISIN codes
+  \url{http://stackoverflow.com/questions/30545239/convert-9-digit-cusip-codes-into-isin-codes}}. This
+is not just connecting algorithms to google or yahoo to have access to
+interday data for a few markets and products (this is by far a trivial
+problem). Data access has, at least, three steps: 1) ID database
+access using open symbology; 2) link ID to the several stickers each
+ISIN contains with a different sticker name in each different market
+(ID or ISIN can be compared with the genome of each investment product
+and the stickers would be the different varieties of a species in
+space), and 3) connect the ID or ISIN to the time series at high
+(intraday) or low (interday) resolution with price and volume
+values. TODAY, THERE IS NO SERVER OFFERING THIS EASY ACCESS SERVICE
+FOR FREE FOR ANY PRODUCT IN ANY MARKET.
+
+%\subsubsection{Bottleneck 2: Pattern detection algorithms}
 
 Bottleneck 2, pattern detection, includes several open problems but
 they can mostly be reduced to one. This is to have a solid background
@@ -329,7 +439,7 @@ from the most simple one investment product to several investments
 products. The codebase should be ready to simulate the efficient
 frontier for any given portfolio.
 
-\subsubsection{Bottleneck 3: Mechanistic model algorithms}
+%\subsubsection{Bottleneck 3: Mechanistic model algorithms}
 
 Bottlenecks in step 3 are those based in model development, selection
 and inference. Complex models will be difficult to analyze using
@@ -339,16 +449,16 @@ with the available algorithm and methods should allow to simplify the
 models and run ABC to compare them before developing the strategies to
 invest.
 
-\subsubsection{Bottleneck 4: Validation and ABC algorithms}
+%\subsubsection{Bottleneck 4: Validation and ABC algorithms}
 
-\subsubsection{Bottleneck 5: Automated decision algorithms}
+%\subsubsection{Bottleneck 5: Automated decision algorithms}
 
-\subsubsection{Bottleneck 6: API development, cloud access and counting metrics}
+%\subsubsection{Bottleneck 6: API development, cloud access and counting metrics}
 
-\subsubsection{Bottleneck 7: Open platform in a highly regulatory market}
+%\subsubsection{Bottleneck 7: Open platform in a highly regulatory market}
 
-\subsubsection{Bottleneck 8: Security and encryption methods}
-
+%\subsubsection{Bottleneck 8: Security and encryption methods}
+\end{comment}
 
 
 \newpage
