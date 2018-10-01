@@ -1,6 +1,6 @@
 # Robhoot Vision
 
-High-resolution data come from many sources. Yet, inferring insightful patterns and drivers remains challenging in many disciplines. obhoot aims to develop approaches to integrate data, Statistical Learning, AI algorithms and process-based models to take better informed decisions in research, management and investment landscapes.
+High-resolution data come from many sources. Yet, inferring insightful patterns and drivers remains challenging in many disciplines. Robhoot aims to develop approaches to integrate data, statistical Learning, AI algorithms and process-based models to take better informed decisions in research, management and investment landscapes.
 
 We process and analyze the data in different layers. Within each layer there are different methods that can complete the task. Ideally, one should be able to choose any method from each layer.
 
