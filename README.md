@@ -8,16 +8,18 @@ We process and analyze the data in different layers. Within each layer there are
 
 ### 1. Data Collection (DC)
 
-We collect and clean data received from different sources. The collected data can be available in CSV, database, or "real time" (e.g. [Nakamoto Terminal](https://www.nterminal.com), [BigQuery]( https://cloud.google.com/bigquery/)). We aim to have a package in Julia language and let the user automatically get the data in their desired format.
+We collect and clean data received from many sources. The collected data can be available in CSV, mysql, or "real time data" (e.g. [Nakamoto Terminal](https://www.nterminal.com), [BigQuery]( https://cloud.google.com/bigquery/)). We aim to have a package in Julia to let the user automatically get the data in their desired format.
 
 ## 2. Complexity Reduction (CR)
 
-To increase performance, we would reduce data complexity with methods such PCA.
+To increase performance, we will reduce data dimensionality using a variety of model complexity methods from PCA and multilayer networks to information theory.
 
 ## 3. Pattern Inference (PI)
 
-Some of the available methods are variance-covariance matrices, machine learning and artificial intelligence.
+Many patterns can be extracted from high-dimensionality data. We aim to combine classic variance-covariance matrix methods with AI and machine learning and process-based modeling to critically evaluate the robustness of the patterns.
 
 ## 4. Model Validation (MV)
 
-Model validation can be Bayesian Inference, Approximate Bayesian Inference, and common goodness of fit methods.
+We aim to infer patterns and processes combining Information theory methods, Bayesian Inference and Approximate Bayesian Computation methods.
+
+More soon!
