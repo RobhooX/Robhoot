@@ -16,7 +16,7 @@ To increase performance, we will reduce data dimensionality using a variety of m
 
 ## 3. Pattern Inference (PI)
 
-Many patterns can be extracted from high-dimensionality data. We aim to combine classic variance-covariance matrix methods with AI and machine learning and process-based modeling to critically evaluate the robustness of the patterns.
+Many patterns can be extracted from high-dimensionality data. We aim to combine classic variance-covariance matrix methods with AI, machine learning and process-based modeling to critically evaluate the robustness of the patterns.
 
 ## 4. Model Validation (MV)
 
