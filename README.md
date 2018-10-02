@@ -12,7 +12,7 @@ We collect and clean data received from many sources. The collected data can be 
 
 ## 2. Complexity Reduction (CR)
 
-To increase performance, we will reduce data dimensionality using a variety of model complexity methods from PCA and multilayer networks to information theory.
+To increase performance, we will reduce data dimensionality using a variety of model complexity reduction methods from PCA and correlation patterns in multilayer networks to information theory metrics.
 
 ## 3. Pattern Inference (PI)
 
