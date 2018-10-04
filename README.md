@@ -22,4 +22,9 @@ Many patterns can be extracted from high-dimensionality data. We aim to combine 
 
 We aim to infer patterns and processes combining Information theory methods, Bayesian Inference and Approximate Bayesian Computation methods.
 
+## 5. Visualization (VI)
+
+We will use plotting and visualization tools (e.g., [Plotly](https://plot.ly/), []JoVE](https://www.jove.com/visualize) for the metrics and models that best predict the empirical patterns. 
+
+
 More soon!
