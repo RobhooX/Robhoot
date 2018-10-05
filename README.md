@@ -1,4 +1,4 @@
-# Robhoot Vision
+#Roadmap
 
 High-resolution data come from many sources. Yet, inferring insightful patterns and drivers remains challenging in many disciplines. Robhoot aims to develop approaches to integrate data, statistical Learning, AI algorithms and process-based models to take better informed decisions in research, management and investment landscapes.
 
