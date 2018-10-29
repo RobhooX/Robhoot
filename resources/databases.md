@@ -2,9 +2,9 @@
 
 ## Biology
 
-### molecular biology
+### Molecular biology
 
-* [GigaDB Dasets](http://gigadb.org/dataset/100040) contains 550 discoverable, trackable, and citable datasets that have been assigned DOIs and are available for public download and use. Dataset types include genomics, imaging, proteomics, software, neuroscience, workflow, metadata and more.
+* [GigaDB](http://gigadb.org/dataset/100040) contains 550 discoverable, trackable, and citable datasets that have been assigned DOIs and are available for public download and use. Dataset types include genomics, imaging, proteomics, software, neuroscience, workflow, metadata and more.
 * [Biomart](www.biomart.org/) is a community-driven project to provide unified access to distributed research data to facilitate the scientific discovery process.
 * [DisGeNET](http://www.disgenet.org/web/DisGeNET/menu/home) is a discovery platform containing one of the largest publicly available collections of genes and variants associated to human diseases. DisGeNET integrates data from expert curated repositories, GWAS catalogues, animal models and the scientific literature. DisGeNET data are homogeneously annotated with controlled vocabularies and community-driven ontologies. Additionally, several original metrics are provided to assist the prioritization of genotype–phenotype relationships. 
 * [GeneBank](https://www.ncbi.nlm.nih.gov/genbank/)  is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences.
