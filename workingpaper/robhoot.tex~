@@ -44,7 +44,7 @@
 \makeindex
 \begin{document}
 \begin{flushleft}
-\textbf{\Large {$\mathcal{ROBHOOT}$} -- An Open Platform for data integration, inference and prediction}
+\textbf{\Large {$\mathcal{ROBHOOT}$} -- An Open multilayer platform for data integration, inference and prediction}
 %by $\mathcal{N}$+3 -- {\small Computing worldwide access to ideas}}
 \\
 %%\vspace{1.0cm} Alejandro Rozenfeld$^{1}$, Charles N. de Santana$^{1}$, Carlos J. Meli\'an$^{1}$
@@ -88,8 +88,9 @@
 
 \section{Summary}
 
-High-resolution data coming from many sources is here. Yet, inferring
-insightful patterns and drivers remains challenging in many
+High-resolution data coming from many sources is standard in many
+scientific fields. Yet, inferring insightful patterns and drivers
+using coherent frameworks remains challenging in many
 disciplines. Robhoot aims to develop approaches to integrate data,
 Statistical Learning, AI algorithms and process-based models to take
 better informed decisions in research, management and investment
