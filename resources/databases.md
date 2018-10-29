@@ -13,7 +13,7 @@
 
 ### Paleobiology
 
-* <a name="paleobiodb"></a>[Paleobiology Database](https://paleobiodb.org/) is a non-governmental, non-profit public resource for paleontological data. It has been organized and operated by a multi-disciplinary, multi-institutional, international group of paleobiological researchers. Its purpose is to provide global, collection-based occurrence and taxonomic data for organisms of all geological ages, as well data services to allow easy access to data for independent development of analytical tools, visualization software, and applications of all types. The Database’s broader goal is to encourage and enable data-driven collaborative efforts that address large-scale paleobiological questions. Check [this tool](#fossilworks) for accessing this database.
+* <a name="paleobiodb"></a>[Paleobiology Database](https://paleobiodb.org/) is a non-governmental, non-profit public resource for paleontological data. It has been organized and operated by a multi-disciplinary, multi-institutional, international group of paleobiological researchers. Its purpose is to provide global, collection-based occurrence and taxonomic data for organisms of all geological ages, as well data services to allow easy access to data for independent development of analytical tools, visualization software, and applications of all types. The Database’s broader goal is to encourage and enable data-driven collaborative efforts that address large-scale paleobiological questions. Check [Fossilworks](#fossilworks) for accessing this database.
 
 ### Ecology
 
@@ -26,7 +26,7 @@
 * [Quantifying and scaling global plant trait diversity](https://www.try-db.org/TryWeb/Home.php) is a network of vegetation scientists headed by Future Earth and the Max Planck Institute for iogeochemistry, providing a global archive of curated plant traits.
 * [AnAge: the Animal Ageing and Longevity Database](http://genomics.senescence.info/species/) is a curated database of ageing and life history in animals, including extensive longevity records. AnAge was primarily developed for comparative biology studies, in particular studies of longevity and ageing, but can also be useful for ecological and conservation studies and as a reference for zoos and field biologists.
 * [BIRD: Banks' Integrated Reporting Dictionary](http://banks-integrated-reporting-dictionary.eu) aims to foster cooperation in the field of regulatory reporting thus alleviating the reporting burden for the banks and improving the quality of data reported to the authorities.
-* [Interaction Web Database](https://www.nceas.ucsb.edu/interactionweb/) is a nonprofit, cooperative database containing published data on species interaction networks. Also check [this tool](#IntWebData)
+* [Interaction Web Database](https://www.nceas.ucsb.edu/interactionweb/) is a nonprofit, cooperative database containing published data on species interaction networks. Also check [IntWebData](#IntWebData)
 * [Movebank](https://www.movebank.org/) is a free, online database of animal tracking data. Check [this youtube video](https://www.youtube.com/watch?v=TG4eCWkdyQY) for an animation made from Movebank's data.
 * [NEMAPLEX](http://nemaplex.ucdavis.edu) is a virtual encyclopedia on soil and plant nematodes.
 
