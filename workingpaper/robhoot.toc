@@ -1,0 +1,14 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Abstract}{3}
+\contentsline {section}{\numberline {2}Introduction}{4}
+\contentsline {section}{\numberline {3}Methods}{4}
+\contentsline {subsection}{\numberline {3.1}Data Collection and integration (DC)}{4}
+\contentsline {subsection}{\numberline {3.2}Complexity Reduction (CR)}{4}
+\contentsline {subsection}{\numberline {3.3}Pattern Inference (PI)}{5}
+\contentsline {subsection}{\numberline {3.4}Model Validation (MV)}{5}
+\contentsline {subsection}{\numberline {3.5}Visualization (VI)}{6}
+\contentsline {subsection}{\numberline {3.6}Examples}{6}
+\contentsline {section}{\numberline {4}Discussion}{6}
+\contentsline {section}{\numberline {5}Acknowledgments}{7}
+\contentsline {section}{\numberline {6}Tables}{9}
+\contentsline {section}{\numberline {7}Figures}{10}

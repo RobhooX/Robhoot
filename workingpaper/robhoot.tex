@@ -44,12 +44,12 @@
 \makeindex
 \begin{document}
 \begin{flushleft}
-\textbf{\Large {$\mathcal{ROBHOOT}$} -- An Open multilayer platform for data integration, inference and prediction}
+\textbf{\Large {$\mathcal{ROBHOOT}$} -- An open multilayer platform for data integration, inference and prediction}
 \\
 \begin{figure}
-\vspace{-3 in}
+\vspace{-7 in}
 \begin{center}
-\includegraphics[scale=0.4]{robhoot.pdf}
+\includegraphics[scale=0.4]{robhootcartoon.pdf}
 \end{center}
 \caption{Our dream icon $\mathcal{ROBHOOT}$}
 \end{figure}
@@ -61,85 +61,147 @@
 \tableofcontents
 \newpage
 
-\section{Summary}
+\section{Abstract}
 
-High-resolution data coming from many sources is becoming standard in many
-scientific fields. Yet, inferring insightful patterns and drivers
-using integrative frameworks remains challenging in many
-disciplines. Robhoot aims to develop approaches to integrate data,
-statistical Learning, AI algorithms and process-based models to take
-better informed decisions in research, management and investment
-landscapes.
+High-resolution data coming from many sources is becoming standard in
+many scientific fields. Yet, inferring insightful patterns and
+processes integrating databases with analytical frameworks remain
+challenging in many disciplines. In this work we aim to introduce the
+main features of an automated workflow to integrate data, statistical
+learning, AI algorithms and process-based models accounting for many
+sources of bias to take better informed decisions in research,
+management and investment landscapes.
 \\
-Keywords: automated data integration, multilayer networks, approximate Bayesian computation, process-based inference.
+\\
+Keywords: automated data integration, multilayer networks, approximate
+Bayesian computation, process-based inference.
 \newpage
 
 
 \section{Introduction}
 
-$\mathcal{ROBHOOT}$ will be a semi-automated tool combining
-access to high-resolution data from both centralized and decentralized platforms. To achieve such a combination, we aim to
-develop $\mathcal{ROBHOOT}$ in two stages. The first stage will be to
-develop the free-access platform to have access to high-resolution
-data. The second stage will
-be to run automatically ...
+Achieving robustness and reproducibility in science is challenging
+\citep{Ioannidis:2005}. One of its cornerstones is to achieve data
+integration and insights from the processes that might govern the
+patterns from such an integration to make testable predictions and to
+facilitate new experiments. There are many bias and stages in the
+scientific method that make such a data and insight integration hard
+to follow. For example, sampling design and experiments, \index{robust
+  algorithms} and randomizations to achieve solid statistics, model
+selection and inference just to name a few. An ideal procedure might
+account for all the bias integrating the minimal set of stages to
+accomplish a given question (Figure 1 -- fully connected 5-layers and
+an example).
 \\
-Flowchart 1: fully connected graph using the 5 layers\\ 
-Start with a simple example\\
 
 The main five components can be described as follows: 
 ...summarize here the 5 layers and why
 \\
 
-\section{Data Collection (DC)}
 
-Data access platforms from genomes to ecosystems and markets of
-any kind are highly regulated. This means most interacting agents in
-the market have to deal with a highly complex set of regulations
-before having access to the data, algorithms and the available
-strategies. Having ``easy'' access to the information in a ``perfectly
-informed market'' should be simple and efficient, but unfortunately,
-it is not. We aim to collect and clean data received from different sources. The
-collected data can be available in CSV, database, or "real time"
-(e.g. [Nakamoto Terminal](https://www.nterminal.com), [BigQuery](
+\section{Methods}
+
+In this section we introduce each of the layers outlined in Figure
+1. For any given question, there are different methods within each
+layer that can complete the task. Ideally, one should be able to
+choose the best method from each layer and connect them to reach
+insightful patterns and predictions from the data. How many paths are
+there? Which of these minimize bias? Which topology within and between
+layers give the best response to our question?
+
+
+\subsection{Data Collection and integration (DC)}
+
+$\mathcal{DAAI}$ Package}
+
+Data access platforms from genomes to ecosystems and markets of any
+kind are highly scattered across the web
+\footnote{\url{https://github.com/melian009/Robhoot/blob/master/resources/databases.md}}. This
+means most interacting agents in the market have to deal with a highly
+complex set of intermediate stages and regulations before having
+access to the data. Having ``easy'' access to the information in a
+``perfectly informed market'' should be simple and efficient, but
+unfortunately, it is not. We aim to collect and clean data received
+from different sources. The collected data can be available in CSV,
+database, or "real time" (e.g. [Nakamoto
+Terminal](https://www.nterminal.com), [BigQuery](
 https://cloud.google.com/bigquery/)). We aim to have a package in
 Julia language and let the user automatically get the data in their
 desired format.
 
+\subsection{Complexity Reduction (CR)}
 
-\section{Complexity Reduction (CR)}
+$\mathcal{GOCORE}$ Package (Generalizing complexity reduction models)
 
-Data dimension reduction is a second step to increase performance during the next stages of analysis. 
-Complexity reduction in economics and in ecology has a long tradition mostly by looking at variance-covariance matrices.
-Portfolio theory in economics has a long tradition \citep{MarkowitzBook}. The theory is rooted in the concept of
-efficient frontier\index{efficient frontier}. There are several packages in several languages to
-calculate efficient frontiers\footnote{\url{http://www.quantcode.com/}}$^{,}$\footnote{\url{https://github.com/JuliaQuant/PortfolioModels.jl}}$^{,}$\footnote{\url{https://www.wikinvest.com/account/portfolio/register}}$^{,}$\footnote{\url{https://d1so5k0levrfcn.cloudfront.net/SigFig\%20Investment\%20Methodology.pdf}}. Most maths underlying portfoliio theory\index{portfolio theory} are
-based in matrix correlation patterns\index{matrix correlation patterns}. In ecology, portfolio concept has also been used to predict the number of coexisting species in landscapes with highly fluctuating environments\footnote{Check references}.
+PCA family -- High-dimensionality of Convex hull -- Information metrics multilayer networks\\
 
-Many fields aim at predicting fluctuations of several time series at local and regional scales. The better the predictions are the better we know the ecosystem. Unfortunately,
-  it is not easy to predict time series of a large number of
-  interacting (ideally independent) variables. Given we can not predict most of the
-  ideas' trends, we should build a minimum understanding on how to
-  investigate ideas and build a diversified portfolio with a balance
-  between risk and reward. Basic questions will always remain when
-  discussing about predicting the future and diversifying
-  portfolios. For example, in a complex ecosystem, which is the best
-  strategy under complete ignorance? And under complete information?
-  Should we invest in ideas following a random walk \index{random walk}? Should
-  we produce a portfolio with neutral risk \index{neutral risk}?
-  \footnote{\url{https://en.wikipedia.org/wiki/A$_$Random$_$Walk$_$Down$_$Wall$_$Street}}. Given the basic maths underlying complexity reduction, which are the
+
+Data dimension reduction is a second step to increase performance
+during the next stages of analysis.  Complexity reduction in economics
+and in ecology has a long tradition mostly by looking at
+variance-covariance matrices.  Portfolio theory in economics has a
+long tradition \citep{MarkowitzBook}. The theory is rooted in the
+concept of efficient frontier\index{efficient frontier}. There are
+several packages in several languages to calculate efficient
+frontiers\footnote{\url{http://www.quantcode.com/}}$^{,}$\footnote{\url{https://github.com/JuliaQuant/PortfolioModels.jl}}$^{,}$\footnote{\url{https://www.wikinvest.com/account/portfolio/register}}$^{,}$\footnote{\url{https://d1so5k0levrfcn.cloudfront.net/SigFig\%20Investment\%20Methodology.pdf}}. Most
+maths underlying portfoliio theory\index{portfolio theory} are based
+in matrix correlation patterns\index{matrix correlation patterns}. In
+ecology, portfolio concept has also been used to predict the number of
+coexisting species in landscapes with highly fluctuating
+environments\footnote{Check references}.
+
+Many fields aim at predicting fluctuations of several time series at
+local and regional scales. The better the predictions are the better
+we know the ecosystem. Unfortunately, it is not easy to predict time
+series of a large number of interacting (ideally independent)
+variables. Given we can not predict most of the ideas' trends, we
+should build a minimum understanding on how to investigate ideas and
+build a diversified portfolio with a balance between risk and
+reward. Basic questions will always remain when discussing about
+predicting the future and diversifying portfolios. For example, in a
+complex ecosystem, which is the best strategy under complete
+ignorance? And under complete information?  Should we invest in ideas
+following a random walk \index{random walk}? Should we produce a
+portfolio with neutral risk \index{neutral risk}?
+\footnote{\url{https://en.wikipedia.org/wiki/A$_$Random$_$Walk$_$Down$_$Wall$_$Street}}. Given
+the basic maths underlying complexity reduction, which are the
 algorithms and models out there? Which one perform the best? Which is
 the mixed of models to minimize data complexity?
 \\
 
-\section{Pattern Inference (PI)}
+\subsection{Pattern Inference (PI)}
+
+$\mathcal{PROPENCE}$ Package
 
 Outline classical variance-covariance matrices, AI
 algorithms and process-based methods.
 
-\section{Model Validation (MV)}
+\subsection{Model Validation (MV)}
+
+$\mathcal{VATION}$
 
 Describe briefly Bayesian Inference, Approximate Bayesian computation, AIC and BIC model comparison methods.
+Gibbs sampling -- Bayes factors
+
+
+\subsection{Visualization (VI)}
+
+
+\subsection{Examples}
+
+$\mathcal{ROBHOOT}$
+
+In this section, we will use $\mathcal{ROBHOOT}$ to illustrate how it
+works. $\mathcal{ROBHOOT}$ will be a semi-automated tool combining
+access to data from both centralized and decentralized platforms and
+integrating the datasets to infer insights and predictions obtained
+from analyzing patterns in the datasets (Figure 1). We aim to develop
+$\mathcal{ROBHOOT}$ in two stages. The first stage will be to develop
+the free-access platform to have access to integrated databases. The
+second stage will be to run it automatically to produce insights and
+pattern inference given specific questions (Figure 1). 
+
+\section{Discussion}
 
 
 \newpage
@@ -159,9 +221,9 @@ Describe briefly Bayesian Inference, Approximate Bayesian computation, AIC and B
 
 \section{Figures}
 
-%Figure 1: Flowchart 1 5 fully connected layers and a example
+%Figure 1: Flowchart 1 5--fully connected layers and a example
 
-%Figure 2: ROBHOT: Steps to develop ROBHOT
+%Figure 2: ROBHO0T: Steps to develop ROBHO0T
 %\begin{figure}
 %\vspace{-1 in}
 %\begin{center}
