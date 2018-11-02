@@ -1,6 +1,6 @@
 High-resolution data come from many sources. Yet, inferring insightful patterns and drivers remains challenging in many disciplines. Robhoot aims to develop approaches to integrate data, statistical Learning, AI algorithms and process-based models to take better informed decisions in research, management and investment landscapes.
 
-Given a question Robhoot will implement algorithms to find robust and efficient paths and answers along the following five layers:
+Given a question Robhoot will implement algorithms to find robust and efficient paths and answers by integrating the following five layers:
 
 ### 1. Data Collection (DC)
 
