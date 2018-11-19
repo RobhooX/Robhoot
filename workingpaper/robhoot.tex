@@ -31,7 +31,7 @@
 \newcommand{\cf}{{}}
 \usepackage{titling}
 \usepackage{color}
-
+\usepackage{subfigure} 
 
 \date{}
 
@@ -92,7 +92,13 @@ selection and inference just to name a few. An ideal procedure might
 account for all the bias integrating the minimal set of stages to
 accomplish a given question (Figure 1 -- fully connected 5-layers and
 an example).
+
+TI and PI -- theory vs AI models -- why do they need to be integrated?
+
 \\
+
+
+
 
 The main five components can be described as follows: 
 ...summarize here the 5 layers and why
@@ -220,35 +226,33 @@ pattern inference given specific questions (Figure 1).
 \newpage
 
 \section{Figures}
-% Figure 1: Flowchart 1 5--fully connected layers and a example
+
+\begin{figure}%fully connected layers and an example
+\vspace{-5 in}
+\begin{center}
+  \hspace{-0.5 in}\includegraphics[width=10cm,height=14cm]{multilayer.pdf}\\
+\end{center}
+\caption{$\mathcal{ROBHOOT}$'s layers and paths}
+\label{}
+\end{figure}
+  
+\newpage
 \begin{figure}
 \begin{center}
-\vspace{-8 in}
 \hspace{-0.5 in}\includegraphics[scale=0.3,angle=90]{mindmap.png}
 \end{center}
 \caption{$\mathcal{ROBHOOT}$ mind map}
 \label{}
 \end{figure}
+
 \newpage
 
-\begin{figure}
-  \begin{center}
-\hspace{-0.5 in}\includegraphics[scale=0.8]{Figure2b.pdf}
-\end{center}
-\vspace{-2 in}
-\caption{$\mathcal{ROBHOOT}$ 5-layers and 1-path illustrated in red}
-\label{}
-\end{figure}
-\newpage
-
-
-%Figure 3: ROBHOT: Steps to develop ROBHOT
 %\begin{figure}
 %\vspace{-1 in}
 %\begin{center}
 %\includegraphics[scale=1.25]{EasyFlowChartBottlenecks.pdf}
 %\end{center}
-%\caption{Bottlenecks to overcome to develop $\mathcal{ROBHOOT}$}
+%\caption{Packages graph in $\mathcal{ROBHOOT}$: Visualization: Julia(Tikz and Tikz-network)}
 %\end{figure}
 %\newpage
 
