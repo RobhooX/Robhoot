@@ -3,49 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: robhoot.aux
 The style file: evolution.bst
 Database file #1: ref.bib
-You're missing a field part---line 49 of file ref.bib
- :   volume = 
- :            ,
-I'm skipping whatever remains of this entry
-You've used 2 entries,
+You've used 3 entries,
             2892 wiz_defined-function locations,
-            604 strings with 4458 characters,
-and the built_in function-call counts, 861 in all, are:
-= -- 68
-> -- 22
+            613 strings with 4712 characters,
+and the built_in function-call counts, 1461 in all, are:
+= -- 115
+> -- 62
 < -- 2
-+ -- 8
-- -- 6
-* -- 40
-:= -- 155
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 11
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 66
-empty$ -- 79
-format.name$ -- 8
-if$ -- 172
++ -- 21
+- -- 18
+* -- 85
+:= -- 257
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 20
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 110
+empty$ -- 115
+format.name$ -- 23
+if$ -- 289
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 13
-newline$ -- 16
-num.names$ -- 8
-pop$ -- 25
+missing$ -- 22
+newline$ -- 22
+num.names$ -- 12
+pop$ -- 43
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 18
 quote$ -- 0
-skip$ -- 29
+skip$ -- 41
 stack$ -- 0
-substring$ -- 34
-swap$ -- 22
+substring$ -- 45
+swap$ -- 40
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 15
+type$ -- 24
 warning$ -- 0
-while$ -- 7
+while$ -- 10
 width$ -- 0
-write$ -- 30
-(There was 1 error message)
+write$ -- 45

@@ -44,17 +44,18 @@
 \makeindex
 \begin{document}
 \begin{flushleft}
-\textbf{\Large {$\mathcal{ROBHOOT}$} -- An open multilayer platform for data integration, inference and prediction}
-\\
-\begin{figure}
-\vspace{-7 in}
-\begin{center}
-\includegraphics[scale=0.4]{robhootcartoon.pdf}
-\end{center}
-\caption{Our dream icon $\mathcal{ROBHOOT}$}
-\end{figure}
-\end{flushleft}
+  \textbf{\Large Reproducibility and inference in research platforms}\\
+  \vspace{0.5cm} Ali R. Vahdati\textsuperscript{1, *}, \vspace{0.5cm}
+  Charles N. de Santana\textsuperscript{2, *}, and Carlos
+  J. Meli\'an\textsuperscript{3, *}
 
+\textbf{1} Department of Anthropology, University of Zurich, Switzerland\\
+\textbf{2} Institute of Evolutionary Biology and Environmental Studies, University of Zurich, Switzerland\\
+\textbf{3} Department of Fish Ecology and Evolution, Center for Ecology, Evolution and Biogeochemistry, EAWAG, Kastanienbaum, Switzerland
+\\
+\bigskip
+\end{flushleft}
+* These authors contributed equally to this work.\\
 \newpage
 
 
@@ -62,82 +63,97 @@
 \newpage
 
 \section{Abstract}
-
 High-resolution data coming from many sources is becoming standard in
 many scientific fields. Yet, inferring insightful patterns and
 processes integrating databases with analytical frameworks remain
 challenging in many disciplines. In this work we aim to introduce the
-main features of an automated workflow to integrate data, statistical
-learning, AI algorithms and process-based models accounting for many
-sources of bias to take better informed decisions in research,
-management and investment landscapes.
+main features of an semi-automated workflow to integrate data,
+statistical learning, AI algorithms and process-based models
+accounting for many sources of bias to take better informed decisions
+in research, management and investment landscapes.
 \\
 \\
-Keywords: automated data integration, multilayer networks, approximate
+Keywords: data integration, multilayer networks, approximate
 Bayesian computation, process-based inference.
 \newpage
 
 
 \section{Introduction}
+We are in a era of data accumulation and integration, yet obtaining
+insights from such an integration accounting for robustness and
+reproducibility in pattern and process inference is at a very
+incipient stage \citep{Ioannidis2005}. There are many challenges to
+integrate data, inference and prediction. For example, sampling design
+and experiments \index{robust experiments} \citep{Voelkl2018},
+randomizations to achieve solid statistics \index{robust algorithms},
+and process- or pattern-based model selection and inference
+\index{robust inference} just to name a few. Future protocols might
+account for all the bias integrating the minimal set of paths to
+facilitate the understanding of a given question (Figure 1). Open
+semi-automated platforms \index{semi-automated platforms} might play a
+leading role in explicitly addressing these challenges by minimizing
+bias. Open platforms might allow for maximizing reproducibility of
+pattern-processes detection along the many paths in the scientific
+enterprise (Figure 1). These platforms might also help to make the
+scientific method such a data, pattern, process and insight
+integration less hard to follow.
 
-Achieving robustness and reproducibility in science is challenging
-\citep{Ioannidis:2005}. One of its cornerstones is to achieve data
-integration and insights from the processes that might govern the
-patterns from such an integration to make testable predictions and to
-facilitate new experiments. There are many bias and stages in the
-scientific method that make such a data and insight integration hard
-to follow. For example, sampling design and experiments, \index{robust
-  algorithms} and randomizations to achieve solid statistics, model
-selection and inference just to name a few. An ideal procedure might
-account for all the bias integrating the minimal set of stages to
-accomplish a given question (Figure 1 -- fully connected 5-layers and
-an example).
+%Robust experiments
+Sampling desing and experiments...\\
 
-TI and PI -- theory vs AI models -- why do they need to be integrated?
+% Robust algorithms
+Randomizations to achieve solid statistics...\\
 
-\\
+%Robust inference
+One of the most discussed challenges nowadays is how to balance
+pattern and process inference. Many problems might not require a
+mechanistic understanding to make predictions. Recent examples are AI
+algorithms playing chess and go. They do not require a theory of mind
+to win. On the other side, there can be problems that might require a
+solid mechanistic understanding to make accurate predictions. Examples
+of these problems can be global warming or astrophysics. Therefore
+platforms that learn to combine AI and process-based methods
 
-
-
-
-The main five components can be described as follows: 
-...summarize here the 5 layers and why
-\\
+% Summary and conclusions
 
 
-\section{Methods}
 
-In this section we introduce each of the layers outlined in Figure
-1. For any given question, there are different methods within each
-layer that can complete the task. Ideally, one should be able to
-choose the best method from each layer and connect them to reach
-insightful patterns and predictions from the data. How many paths are
-there? Which of these minimize bias? Which topology within and between
-layers give the best response to our question?
+\section{Research platforms}
+In this section we outline the steps to develop a research
+platform. We introduce each of the layers outlined in Figure 1, data
+collection and integration (DC), complexity reduction, pattern-process
+inference, validation and visualization. The second part introduces a
+simple example using the $\mathcal{ROBHOOT}$ package.
 
 
-\subsection{Data Collection and integration (DC)}
+For any given question, there are different
+methods within each layer that can complete the task. Ideally, one
+should be able to choose the best method from each layer and connect
+them to reach insightful patterns and predictions from the data. How
+many paths are there? Which of these minimize bias? Which topology
+within and between layers give the best response to our question?
 
-$\mathcal{DAAI}$ Package}
 
-Data access platforms from genomes to ecosystems and markets of any
-kind are highly scattered across the web
-\footnote{\url{https://github.com/melian009/Robhoot/blob/master/resources/databases.md}}. This
-means most interacting agents in the market have to deal with a highly
-complex set of intermediate stages and regulations before having
-access to the data. Having ``easy'' access to the information in a
-``perfectly informed market'' should be simple and efficient, but
-unfortunately, it is not. We aim to collect and clean data received
-from different sources. The collected data can be available in CSV,
-database, or "real time" (e.g. [Nakamoto
-Terminal](https://www.nterminal.com), [BigQuery](
-https://cloud.google.com/bigquery/)). We aim to have a package in
-Julia language and let the user automatically get the data in their
-desired format.
+\subsection{Data Integration (DI) ($\mathcal{DAADI}$)}
 
-\subsection{Complexity Reduction (CR)}
+Data access platforms within and qacross disciplines are highly
+scattered across the web
+\footnote{\url{https://github.com/melian009/Robhoot/blob/master/resources/databases.md}}. Researchers
+have to deal with a highly complex set of intermediate stages and
+regulations before having access to the raw data. Having ``easy''
+access to the information in a ``perfectly informed market'' should be
+simple and efficient, but unfortunately, it is not. Data integration
+in research platforms is rapidly evolving and there are many platforms
+that can have access and deliver real time data plots (Table 1).
 
-$\mathcal{GOCORE}$ Package (Generalizing complexity reduction models)
+Data Integration and standarization -- Size effects -- N labs vs N
+samplings per lab: Accuracy and uncertainty: How do initial
+distributions change accuracy and uncertainty? Trade-offs experimental
+vs big data
+
+
+
+\subsection{Complexity Reduction (CR) ($\mathcal{GOCORE}$)}
 
 PCA family -- High-dimensionality of Convex hull -- Information metrics multilayer networks\\
 
@@ -175,37 +191,34 @@ algorithms and models out there? Which one perform the best? Which is
 the mixed of models to minimize data complexity?
 \\
 
-\subsection{Pattern Inference (PI)}
-
-$\mathcal{PROPENCE}$ Package
+\subsection{Pattern-Process Inference (PPI) ($\mathcal{PROPENCE}$)}
 
 Outline classical variance-covariance matrices, AI
 algorithms and process-based methods.
 
-\subsection{Model Validation (MV)}
+\subsection{Validation (V) ($\mathcal{VATION}$)}
 
-$\mathcal{VATION}$
-
-Describe briefly Bayesian Inference, Approximate Bayesian computation, AIC and BIC model comparison methods.
-Gibbs sampling -- Bayes factors
+Describe briefly Bayesian Inference, Approximate Bayesian computation,
+AIC and BIC model comparison methods.  Gibbs sampling -- Bayes factors
 
 
-\subsection{Visualization (VI)}
+\subsection{Visualization (VI) ($\mathcal{VITION}$)}
 
 
-\subsection{Examples}
-
-$\mathcal{ROBHOOT}$
-
-In this section, we will use $\mathcal{ROBHOOT}$ to illustrate how it
-works. $\mathcal{ROBHOOT}$ will be a semi-automated tool combining
-access to data from both centralized and decentralized platforms and
+\subsection{An example with $\mathcal{ROBHOOT}$}
+In this section, we illustrate a semi-automated tool combining access
+to data from both centralized and decentralized platforms and
 integrating the datasets to infer insights and predictions obtained
 from analyzing patterns in the datasets (Figure 1). We aim to develop
 $\mathcal{ROBHOOT}$ in two stages. The first stage will be to develop
 the free-access platform to have access to integrated databases. The
 second stage will be to run it automatically to produce insights and
-pattern inference given specific questions (Figure 1). 
+pattern inference given specific questions (Figure 1).
+
+
+
+
+\section{Gaps}
 
 \section{Discussion}
 
@@ -221,29 +234,76 @@ pattern inference given specific questions (Figure 1).
 \newpage
 
 \section{Tables}
+\begin{center}
+\rowcolors{1}{white}{pink!20}
+\begin{tabular}{  p{5cm}  |  p{13cm} }
+%\bottomrule
+\hline
+Table 1 & \textbf{}\\  \hline
+  \textbf{Data platforms} & \textbf{Webpage}\\  \hline
+        Nakamoto Terminal & https://www.nterminal.com \\ \hline
+        BigQuery & https://cloud.google.com/bigquery/ \\ \hline
+         & \\ \hline
+         & \\ \hline
+         & \\ \hline        
+         & \\ \hline
+         & \\ \hline 
+         & \\ \hline        
+         & \\ \hline
+         & \\ \hline
+         & \\ \hline
+         & \\ \hline
+         & \\ \hline
+         & \\ \hline
+         & \\ \hline
+         & \\ \hline
+        
+\bottomrule
+\end{tabular}
+\end{center}
 
 
 \newpage
 
 \section{Figures}
 
-\begin{figure}%fully connected layers and an example
-\vspace{-5 in}
+\vspace{-7 in}
+%Fully connected layers and a specific example
+\begin{figure}
+  \vspace{-7 in}
 \begin{center}
-  \hspace{-0.5 in}\includegraphics[width=10cm,height=14cm]{multilayer.pdf}\\
+  \hspace{-0.5 in}\includegraphics[width=9cm,height=14cm]{multilayer.pdf}\\
 \end{center}
-\caption{$\mathcal{ROBHOOT}$'s layers and paths}
+\caption{A five layer research platform: Data Integration (Layer 1),
+  Complexity reduction (Layer 2), Pattern-process inference (Layer 3),
+  Validation (Layer 4) and Visualization (Layer 5). Research platforms
+  might play a leading role in accounting for bias and reproducibility
+  in the pattern-process detection enterprise. a) A fully connected
+  5-layer research platform, and b) A specific path representing the
+  best solution to solve a task.}
 \label{}
 \end{figure}
   
 \newpage
+%The 5 layers described 
 \begin{figure}
 \begin{center}
 \hspace{-0.5 in}\includegraphics[scale=0.3,angle=90]{mindmap.png}
 \end{center}
-\caption{$\mathcal{ROBHOOT}$ mind map}
+\caption{A mind map outlining the different methods to be used within each layer.}
 \label{}
 \end{figure}
+
+\newpage
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{robhootcartoon.pdf}
+\end{center}
+\caption{$\mathcal{ROBHOOT}$} -- An open multilayer platform for data integration, inference and prediction}
+\end{figure}
+\newpage
+
+
 
 \newpage
 
