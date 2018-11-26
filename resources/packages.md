@@ -93,6 +93,10 @@
 * [MLDatasets](https://github.com/JuliaML/MLDatasets.jl): Utility package for accessing common Machine Learning datasets in Julia.
 * [OnlineAI](https://github.com/tbreloff/OnlineAI.jl): Machine learning for sequential/streaming data.
 
+#### Auto-ML
+
+* [auto-sklearn](https://github.com/automl/auto-sklearn): Automated Machine Learning with scikit-learn. This package is in Python.
+
 ### Deep learning
 
 * [Mocha](https://github.com/pluskid/Mocha.jl): Mocha is a Deep Learning framework for Julia, inspired by the C++ framework Caffe.
