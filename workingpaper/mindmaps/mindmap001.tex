@@ -1,0 +1,53 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees}
+\usepackage{verbatim}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{tikzpicture}
+  \path[mindmap,concept color=black,text=white]
+    node[concept] {Integrated data analysis}
+    [clockwise from=0]
+    child[concept color=green!70!black] {
+      node[concept] {Data integration}
+      [clockwise from=90]
+      child { node[concept] {Storage} 
+      child {node[concept] {JSON}}
+      child {node[concept] {SQL}}
+      }
+      child { node[concept] {Meta-data check} }
+      child { node[concept] {Format conversion} }
+      child { node[concept] {Data types} }
+    }  
+    child[concept color=green!60!black] {
+      node[concept] {Complexity reduction}
+      [clockwise from=90]
+      child { node[concept] {PCA} }
+      child { node[concept] {Machine learning} }
+    }
+    child[concept color=green!50!black] {
+      node[concept] {Pattern and process inference}
+      [clockwise from=90]
+      child { node[concept] {Machine learning} }
+      child { node[concept] {Deep learning} }
+      child { node[concept] {Bayesian analysis} }
+    }
+    child[concept color=green!40!black] {
+      node[concept] {Validation}
+      [clockwise from=90]
+      child { node[concept] {Agent-based modeling} }
+      child { node[concept] {Differential equations} }
+    }
+    child[concept color=green!30!black] {
+      node[concept] {Visualization}
+      [clockwise from=90]
+      child { node[concept] {Makie} }
+      child { node[concept] {PyPlot} }
+      child { node[concept] {Plots.jl} }
+    }
+    ;
+\end{tikzpicture}
+\end{document}
