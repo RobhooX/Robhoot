@@ -129,6 +129,13 @@
 
 * [Measurements](https://github.com/JuliaPhysics/Measurements.jl): It is a package that allows you to define numbers with uncertainties, perform calculations involving them, and easily get the uncertainty of the result according to linear error propagation theory.
 
+## Validation
+
+### Agent-based modeling frameworks
+
+* [SimJulia](https://github.com/BenLauwens/SimJulia.jl
+): A discrete event process oriented simulation framework written in Julia inspired by the Python library SimPy.
+
 ## Data Visualization
 
 * [Makie](https://github.com/JuliaPlots/Makie.jl): High level plotting on the GPU 
