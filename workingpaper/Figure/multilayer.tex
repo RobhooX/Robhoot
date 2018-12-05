@@ -17,28 +17,28 @@ Multilayer example following tikz-networks package
 \begin{tikzpicture}[multilayer=3d]
 
 \begin{Layer}[layer=1]
-\draw[very thin,orange] (-.5,-.5) rectangle (2.5,2);
-\node at (-.5,-.5)[below right]{Layer 1};
+\draw[very thick,green!60] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Data integration};
 \end{Layer}
 
 \begin{Layer}[layer=2]
-\draw[very thin,red] (-.5,-.5) rectangle (2.5,2);
-\node at (-.5,-.5)[below right]{Layer 2};
+\draw[very thick,blue!90] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Complexity reduction};
 \end{Layer}
 
 \begin{Layer}[layer=3]
-\draw[very thin,blue] (-.5,-.5) rectangle (2.5,2);
-\node at (-.5,-.5)[below right]{Layer 3};
+\draw[very thin,blue!60] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Pattern-Process inference};
 \end{Layer}
 
 \begin{Layer}[layer=4]
-\draw[very thin,blue] (-.5,-.5) rectangle (2.5,2);
-\node at (-.5,-.5)[below right]{Layer 4};
+\draw[very thin,red!60] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Validation};
 \end{Layer}
 
 \begin{Layer}[layer=5]
-\draw[very thin,blue] (-.5,-.5) rectangle (2.5,2);
-\node at (-.5,-.5)[below right]{Layer 5};
+\draw[very thin,orange!60] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Visualization};
 \end{Layer}
 
 \Vertices{data/ml_vertices.csv}
