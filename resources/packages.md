@@ -145,4 +145,5 @@
 
 ## Data Visualization
 
-* [Makie](https://github.com/JuliaPlots/Makie.jl): High level plotting on the GPU 
+* [Makie](https://github.com/JuliaPlots/Makie.jl): High level plotting on the GPU
+* [VegaLite](https://github.com/fredo-dedup/VegaLite.jl): A plotting package based on Vega-Lite, which extends a traditional grammar of graphics API into a grammar of interactive graphics. 
