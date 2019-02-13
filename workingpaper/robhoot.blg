@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: robhoot.aux
 The style file: evolution.bst
 Database file #1: ref.bib
-You've used 3 entries,
+You've used 2 entries,
             2892 wiz_defined-function locations,
-            613 strings with 4712 characters,
-and the built_in function-call counts, 1461 in all, are:
-= -- 115
-> -- 62
-< -- 2
-+ -- 21
-- -- 18
-* -- 85
-:= -- 257
-add.period$ -- 10
-call.type$ -- 3
-change.case$ -- 20
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 110
-empty$ -- 115
-format.name$ -- 23
-if$ -- 289
+            607 strings with 4625 characters,
+and the built_in function-call counts, 1075 in all, are:
+= -- 85
+> -- 51
+< -- 1
++ -- 17
+- -- 15
+* -- 69
+:= -- 188
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 15
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 80
+empty$ -- 77
+format.name$ -- 19
+if$ -- 209
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 22
-newline$ -- 22
-num.names$ -- 12
-pop$ -- 43
+missing$ -- 16
+newline$ -- 17
+num.names$ -- 8
+pop$ -- 29
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 13
 quote$ -- 0
-skip$ -- 41
+skip$ -- 26
 stack$ -- 0
-substring$ -- 45
-swap$ -- 40
+substring$ -- 34
+swap$ -- 32
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 18
 warning$ -- 0
-while$ -- 10
+while$ -- 7
 width$ -- 0
-write$ -- 45
+write$ -- 33

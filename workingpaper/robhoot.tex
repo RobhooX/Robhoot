@@ -44,7 +44,7 @@
 \makeindex
 \begin{document}
 \begin{flushleft}
-  \textbf{\Large Reproducibility and inference in automated research platforms}\\
+  \textbf{\Large Automated research platforms}\\
   \vspace{0.5cm} Ali R. Vahdati\textsuperscript{1, *}, \vspace{0.5cm}
   Charles N. de Santana\textsuperscript{2, *}, and Carlos
   J. Meli\'an\textsuperscript{3, *}
@@ -63,14 +63,15 @@
 \newpage
 
 \section{Abstract}
-High-resolution data coming from many sources is becoming standard in
-many scientific fields. Yet, inferring insightful patterns and
-processes integrating databases with analytical frameworks remain
-challenging in many disciplines. In this work we aim to introduce the
-main features of an semi-automated workflow to integrate data and
-pattern- and process-based inference accounting for many sources of
-uncertainty to take better informed decisions in research, management
-and investment landscapes.
+High-resolution data coming from many sources is a standard in
+science, engineering and investment landscapes. Yet, automated
+inference providing insightful patterns and processes integrating
+databases with analytical frameworks remain challenging. In this work
+we review and discuss the challenges for automated workflows to
+integrate data and pattern-process-based inference accounting for many
+sources of uncertainty. Our results suggest that automated research
+platforms will help to do science of science and to take better
+informed decisions in research, management and investment landscapes.
 \\
 \\
 Keywords: data integration, multilayer networks, approximate Bayesian
@@ -80,26 +81,32 @@ computation, process-based inference.
 
 \section{Introduction}
 
-% Search research platforms?
-
-We are in a era of data accumulation and integration, yet obtaining
-insights from such an integration accounting for robustness and
-reproducibility in pattern and process inference is at a very
+%Search automated research platforms?
+We are in a era of massive data accumulation, integration and pattern
+detection. Yet, obtaining insights from such an integration accounting
+for reproducibility, inference and prediction power is at a very
 incipient stage \citep{Ioannidis2005}. There are many challenges when
 aiming to integrate data, inference and prediction. For example,
 sampling design and experiments \index{robust experiments}
 \citep{Voelkl2018}, randomizations to achieve solid statistics
 \index{robust algorithms}, and process- or pattern-based model
 selection and inference \index{robust inference} just to name a
-few. Protocols should take into account the robustness of experiments,
-algorithms and inference to facilitate the reproducibility of
-solutions to questions given new data and experiments (Figure 1). Open
-semi-automated platforms \index{semi-automated platforms} might play a
-leading role in addressing these challenges. Open platforms might
-allow for maximizing reproducibility of pattern-processes detection
-along the many paths in the scientific enterprise (Figure 1). These
-platforms might also help to make the scientific method such a data,
-pattern, process and insight integration less hard to follow.
+few. They all require many intermediate decisions that make the
+scientific process difficult to reproduce and challenging to
+improve. Currently, there are many protocols and platforms
+automatizing partial steps of the scientific cycle (Table 1), but
+integrative and automated research platforms with the ability to
+automatize the whole scientific cycle is currently lacking (Figure
+1).
+
+
+Open automated research platforms \index{Open automated research
+  platforms} might play a leading role in addressing these
+challenges. Open platforms might allow for maximizing reproducibility
+of pattern-processes detection along the many paths in the scientific
+enterprise (Figure 1). These platforms might also help to make the
+scientific method such a data, pattern, process and insight
+integration less hard to follow.
 
 The design or research platforms is still in its infancy. Many factors
 are involved in research platforms: the programming language, the
@@ -139,8 +146,7 @@ platforms that learn to combine AI and process-based methods
 %Example and results exploring PI vs TI gradient -- PI, TI or hybrid PTI 
 
 
-
-\section{Research platforms}
+\section{The structure of automated research platforms}
 In this section we outline the steps to develop a research
 platform. We introduce each of the layers outlined in Figure 1, data
 collection and integration (DC), complexity reduction, pattern-process
@@ -155,8 +161,7 @@ them to reach insightful patterns and predictions from the data. How
 many paths are there? Which of these minimize bias? Which topology
 within and between layers give the best response to our question?
 
-
-\subsection{Data Integration (DI) ($\mathcal{DAADI}$)}
+\subsection{Data Integration}
 
 Data access platforms within and qacross disciplines are highly
 scattered across the web
@@ -173,10 +178,9 @@ samplings per lab: Accuracy and uncertainty: How do initial
 distributions change accuracy and uncertainty? Trade-offs experimental
 vs big data
 
+\subsection{Complexity Reduction}
 
-
-\subsection{Complexity Reduction (CR) ($\mathcal{GOCORE}$)}
-
+\begin{comment}
 PCA family -- High-dimensionality of Convex hull -- Information metrics multilayer networks\\
 
 
@@ -212,22 +216,25 @@ the basic maths underlying complexity reduction, which are the
 algorithms and models out there? Which one perform the best? Which is
 the mixed of models to minimize data complexity?
 \\
+\end{comment}
 
-\subsection{Pattern-Process Inference (PPI) ($\mathcal{PROPENCE}$)}
+
+\subsection{Pattern-Process Inference}
 
 Outline classical variance-covariance matrices, AI
 algorithms and process-based methods.
 
-\subsection{Validation (V) ($\mathcal{VATION}$)}
+\subsection{Validation}
 
 Describe briefly Bayesian Inference, Approximate Bayesian computation,
 AIC and BIC model comparison methods.  Gibbs sampling -- Bayes factors
 
 
-\subsection{Visualization (VI) ($\mathcal{VITION}$)}
+\subsection{Visualization}
 
 
 \subsection{An example with $\mathcal{ROBHOOT}$}
+
 In this section, we illustrate a semi-automated tool combining access
 to data from both centralized and decentralized platforms and
 integrating the datasets to infer insights and predictions obtained
@@ -237,10 +244,16 @@ the free-access platform to have access to integrated databases. The
 second stage will be to run it automatically to produce insights and
 pattern inference given specific questions (Figure 1).
 
+\subsubsection{Data Integration ($\mathcal{DAADI}$)}
 
+\subsubsection{Complexity Reduction ($\mathcal{GOCORE}$)}
 
+\subsubsection{Pattern-Process Inference ($\mathcal{PROPENCE}$)}
+  
+\subsubsection{Validation ($\mathcal{VATION}$)}
 
-\section{Gaps}
+\subsubsection{Visualization ($\mathcal{VITION}$)}
+
 
 \section{Discussion}
 

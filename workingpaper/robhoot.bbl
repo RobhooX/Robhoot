@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{2}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -8,11 +8,6 @@ Ioannidis, J. P.~A., 2005.
 \newblock {Why most published research findings are false.}
 \newblock PLoS medicine 2:e124.
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16060722}.
-
-\bibitem[{Markowitz(1991)}]{MarkowitzBook}
-Markowitz, H., 1991.
-\newblock {Portfolio selection}.
-\newblock Blackwell Publishing, MA.
 
 \bibitem[{Voelkl et~al.(2018)Voelkl, Vogt, Sena, and W{\"{u}}rbel}]{Voelkl2018}
 Voelkl, B., L.~Vogt, E.~S. Sena, and H.~W{\"{u}}rbel, 2018.
