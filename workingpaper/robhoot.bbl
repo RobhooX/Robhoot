@@ -1,13 +1,33 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+
+\bibitem[{Fortunato et~al.(2018)Fortunato, Bergstrom, B{\"o}rner, Evans,
+  Helbing, Milojevi{\'c}, Petersen, Radicchi, Sinatra, Uzzi, Vespignani,
+  Waltman, Wang, and Barab{\'a}si}]{Fortunatoeaao0185}
+Fortunato, S., C.~T. Bergstrom, K.~B{\"o}rner, J.~A. Evans, D.~Helbing,
+  S.~Milojevi{\'c}, A.~M. Petersen, F.~Radicchi, R.~Sinatra, B.~Uzzi,
+  A.~Vespignani, L.~Waltman, D.~Wang, and A.-L. Barab{\'a}si, 2018.
+\newblock Science of science.
+\newblock Science 359.
+\newblock
+  \urlprefix\url{http://science.sciencemag.org/content/359/6379/eaao0185}.
 
 \bibitem[{Ioannidis(2005)}]{Ioannidis2005}
 Ioannidis, J. P.~A., 2005.
 \newblock {Why most published research findings are false.}
 \newblock PLoS medicine 2:e124.
 \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/16060722}.
+
+\bibitem[{{Reichstein, M.} et~al.(2019){Reichstein, M.}, {Camps-Valls, G.},
+  {Stevens, B.}, {Jung, M.}, {Denzler, J.}, {Carvalhais, N.}, and
+  Prabhat}]{Reichsteietal2019}
+{Reichstein, M.}, {Camps-Valls, G.}, {Stevens, B.}, {Jung, M.}, {Denzler, J.},
+  {Carvalhais, N.}, and Prabhat, 2019.
+\newblock Deep learning and process understanding for data-driven earth system
+  science.
+\newblock Nature 566:195--2024.
 
 \bibitem[{Voelkl et~al.(2018)Voelkl, Vogt, Sena, and W{\"{u}}rbel}]{Voelkl2018}
 Voelkl, B., L.~Vogt, E.~S. Sena, and H.~W{\"{u}}rbel, 2018.

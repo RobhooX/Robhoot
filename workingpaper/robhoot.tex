@@ -70,52 +70,57 @@ databases with analytical frameworks remain challenging. In this work
 we review and discuss the challenges for automated workflows to
 integrate data and pattern-process-based inference accounting for many
 sources of uncertainty. Our results suggest that automated research
-platforms will help to do science of science and to take better
-informed decisions in research, management and investment landscapes.
+platforms can strongly contribute to the science of science 
+to take better informed decisions in research, management and
+investment landscapes.
 \\
 \\
-Keywords: data integration, multilayer networks, approximate Bayesian
-computation, process-based inference.
+Keywords: data integration, multilayer networks, deep process-based learning, approximate Bayesian
+computation, inference.
 \newpage
 
 
 \section{Introduction}
 
-%Search automated research platforms?
-We are in a era of massive data accumulation, integration and pattern
+Automation is rapidly occurring in many fronts, from robotics and
+investments to gaming and ecommerce. What about science? Science is in
+a era of massive data accumulation, integration and pattern
 detection. Yet, obtaining insights from such an integration accounting
 for reproducibility, inference and prediction power is at a very
-incipient stage \citep{Ioannidis2005}. There are many challenges when
-aiming to integrate data, inference and prediction. For example,
-sampling design and experiments \index{robust experiments}
-\citep{Voelkl2018}, randomizations to achieve solid statistics
-\index{robust algorithms}, and process- or pattern-based model
-selection and inference \index{robust inference} just to name a
-few. They all require many intermediate decisions that make the
-scientific process difficult to reproduce and challenging to
-improve. Currently, there are many protocols and platforms
-automatizing partial steps of the scientific cycle (Table 1), but
-integrative and automated research platforms with the ability to
-automatize the whole scientific cycle is currently lacking (Figure
-1).
-
-
-Open automated research platforms \index{Open automated research
-  platforms} might play a leading role in addressing these
-challenges. Open platforms might allow for maximizing reproducibility
-of pattern-processes detection along the many paths in the scientific
-enterprise (Figure 1). These platforms might also help to make the
-scientific method such a data, pattern, process and insight
-integration less hard to follow.
+incipient stage \citep{Ioannidis2005,Reichsteietal2019}. There are
+many challenges when aiming to integrate data, inference and
+prediction. For example, sampling design and experiments \index{robust
+  experiments} \citep{Voelkl2018}, randomizations to achieve solid
+statistics \index{robust algorithms}, and process- or pattern-based
+model selection and inference \index{robust inference} just to name a
+few require many intermediate decisions that make the scientific
+process challenging to repeat, replicate, and reproduce. Currently,
+there are many protocols and platforms automatizing partial steps of
+the scientific cycle (Table 1). Here, we summarize automated platforms
+to analize the existing gaps with the aim to automate the whole
+scientific cycle (Figure 1). Open automated research platforms
+\index{Open automated research platforms} might play a leading role in
+addressing at least the five following challenges: 1) Helping in the
+science of science by providing quantitative statistics
+\citep{Fortunatoeaao0185}, for example, the many paths with solutions
+to specific questions; 2) Identifying systematically bias and
+uncertainty in inference; 3) Exploring prediction and explanatory
+gradients to gain sinergy between predictive and explanatory power to
+complex problems; 4) Identifying gaps in patterns not explored
+consequence of lack of syntesis within and between disciplines, and 5)
+Allowing for reusability, repeatibility, replicability and
+reproducibility along the many paths in the scientific enterprise
+(Figure 1).
 
 The design or research platforms is still in its infancy. Many factors
 are involved in research platforms: the programming language, the
-number of packages, its efficiency and the, its functionality in parsing ...
+number of packages and their interactions, their efficiency and
+functionality, etc.
 
 
 Many questions in science strongly depend on our own bias, lab inertia
 in the methods and data explored. Therefore, exploring new paths would
-require new efforts to lear new methods or new collaborations...
+require new efforts to lead to new methods or new collaborations...
 
 Reproducibility and robustness across the different stages of a
 research platform are two of the desire properties. Reproducibility
@@ -296,6 +301,45 @@ Table 1 & \textbf{}\\  \hline
 \bottomrule
 \end{tabular}
 \end{center}
+
+\newpage
+Script Workflow Automated Research Platform \\
+Sensu Renku (SDSC) knowledge graph \\
+ \\
+SUMMARY==========================================
+This is a prototype for a script workflow to automate interactions among data search, parsing, integration, database, cleaning, data complexity reduction, pattern and process inference, validation and visualization. The script is based in two types of packages: backbone and specialized packages. Backbone packages (B) connect intra- and inter-layer algorithms to automatically run the workflow. Specialized (S) packages feedback with backbone packages to run specific tasks: parsing, likelihoods, inference, plotting, visualizing, etc. There are at least five properties automated ARP can provide to science:  \\
+1. Testing science: Helping select the best paths in responding to a question? ARP can provide a distribution of solutions by classifying the topologies of the multilayer networks. \\
+2. Identifying bias and uncertainty in inference. \\
+3. Exploring predictions-explanatory gradients to gain sinergy between predictive and explanatory power. \\
+4. Identifying gaps in patterns not explored consequence of lack of integration within and between disciplines, and \\
+5. Facilitating the 4R in open science: reusability, repeatability, replicability, and reproducibility. \\
+================================================
+ \\
+Layers========================
+DATA INTEGRATION: D \\
+COMPLEXITY REDUCTION: C \\
+PATTERN-PROCESS INFERENCE: P \\
+VALIDATION: VA \\
+VISUALIZATION: VI \\
+==============================
+ \\
+EXAMPLE with julia ============================================================ \\
+Julia packages: \\
+https://github.com/melian009/Robhoot/blob/master/packages.md \\
+ \\
+WORKFLOW NETWORK----------------------------- \\
+ \\
+data.search D S                ------> Retriever.jl \\
+parsing.data D S               ------> Query.jl  \\
+data.to.table D S              ------> MySQL.jl SQLite.jl Clickhouse? \\
+data.julia D S                 ------> DataFrames.jl \\
+table.comp.reduction C B       ------> TensorFlow.jl lm4.jl Clustering.jl OnlineAI.jl LightGBM.jl \\
+pattern.detection P S          ------> TensorFlow.jl DataVoyage.jl DataFitting.jl Mocha.jl DeepQLearning.jl Flux.jl AnomalyDetection.jl \\
+proccess.simulation P S        ------> Simjulia.jl Agents.jl JuliaDynamics.jl Zygote.jl \\
+pat.proc.infer P S             ------> mads.jl temporal.jl GlobalSearchRegression.jl BlackBoxOptim.jl JuMP.jl GeneticAlgorithms.jl NaiveBayes.jl Mamba.jl ABC.jl ApproxBayes.jl DynamicHMC.jl \\
+validation.pat.proc VA S       ------> mads.jl LearningStrategies.jl Mamba.jl ABC.jl Measurements.jl \\
+visualiztion.pattern.process   ------> Makie.jl VegaLite.jl \\
+FIN ===========================================================================
 
 
 \newpage

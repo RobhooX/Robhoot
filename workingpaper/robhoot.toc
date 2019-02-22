@@ -6,8 +6,8 @@
 \contentsline {subsection}{\numberline {3.2}Complexity Reduction}{5}
 \contentsline {subsection}{\numberline {3.3}Pattern-Process Inference}{5}
 \contentsline {subsection}{\numberline {3.4}Validation}{5}
-\contentsline {subsection}{\numberline {3.5}Visualization}{5}
-\contentsline {subsection}{\numberline {3.6}An example with $\mathcal {ROBHOOT}$}{5}
+\contentsline {subsection}{\numberline {3.5}Visualization}{6}
+\contentsline {subsection}{\numberline {3.6}An example with $\mathcal {ROBHOOT}$}{6}
 \contentsline {subsubsection}{\numberline {3.6.1}Data Integration ($\mathcal {DAADI}$)}{6}
 \contentsline {subsubsection}{\numberline {3.6.2}Complexity Reduction ($\mathcal {GOCORE}$)}{6}
 \contentsline {subsubsection}{\numberline {3.6.3}Pattern-Process Inference ($\mathcal {PROPENCE}$)}{6}
@@ -16,4 +16,4 @@
 \contentsline {section}{\numberline {4}Discussion}{6}
 \contentsline {section}{\numberline {5}Acknowledgments}{7}
 \contentsline {section}{\numberline {6}Tables}{9}
-\contentsline {section}{\numberline {7}Figures}{10}
+\contentsline {section}{\numberline {7}Figures}{12}
