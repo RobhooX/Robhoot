@@ -10,30 +10,46 @@ This is a prototype for a script workflow to automate interactions within and am
 5. Facilitating the 4R in open science: reusability, repeatability, replicability, and reproducibility.
 
 
-Notation: ========================
+Notation:
 DATA INTEGRATION (D)
+
 COMPLEXITY REDUCTION (C)
+
 PATTERN-PROCESS INFERENCE (P)
+
 VALIDATION (VA) 
+
 VISUALIZATION (VI)
 
 Backbone packages (B)
-Specialized packages (S)
-==============================
 
-Script workflow EXAMPLE with julia ============================================================
+Specialized packages (S)
+
+
+Script workflow EXAMPLE with julia
 
 Julia packages:
 https://github.com/melian009/Robhoot/blob/master/packages.md
 
 data.search D S           ------> Retriever.jl
+
 parsing.data D S          ------> Query.jl 
+
 data.to.table D S         ------> MySQL.jl SQLite.jl Clickhouse?
+
 data.julia D S            ------> DataFrames.jl
+
 table.comp.reduction C B  ------> TensorFlow.jl lm4.jl Clustering.jl OnlineAI.jl LightGBM.jl
-pattern.detection P S     ------> TensorFlow.jl DataVoyage.jl DataFitting.jl Mocha.jl DeepQLearning.jl Flux.jl AnomalyDetection.jl
+
+pattern.detection P S     ------> TensorFlow.jl DataVoyage.jl DataFitting.jl Mocha.jl DeepQLearning.jl Flux.jl 
+AnomalyDetection.jl
+
 proccess.simulation P S   ------> Simjulia.jl Agents.jl JuliaDynamics.jl Zygote.jl
+
 pat.proc.infer P S        ------> mads.jl temporal.jl GlobalSearchRegression.jl BlackBoxOptim.jl JuMP.jl GeneticAlgorithms.jl NaiveBayes.jl Mamba.jl ABC.jl ApproxBayes.jl DynamicHMC.jl
+
 validation.pat.proc VA S  ------> mads.jl LearningStrategies.jl Mamba.jl ABC.jl Measurements.jl
+
 visualiztion.pattern.process ------> Makie.jl VegaLite.jl
-FIN ===========================================================================
+                    
+                                     === FIN ===
