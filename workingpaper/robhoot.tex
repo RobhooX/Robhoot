@@ -45,13 +45,15 @@
 \begin{document}
 \begin{flushleft}
   \textbf{\Large Automated research platforms}\\
-  \vspace{0.5cm} Ali R. Vahdati\textsuperscript{1, *}, \vspace{0.5cm}
-  Charles N. de Santana\textsuperscript{2, *}, and Carlos
-  J. Meli\'an\textsuperscript{3, *}
-
+Ali R. Vahdati\textsuperscript{1, *}\\
+Charles N. de Santana\textsuperscript{2}\\
+Alejandro Rozenfeld\textsuperscript{3}\\
+Carlos J. Meli\'an\textsuperscript{4, *}\\
+  \vspace{0.5cm} 
 \textbf{1} Department of Anthropology, University of Zurich, Switzerland\\
 \textbf{2} Institute of Evolutionary Biology and Environmental Studies, University of Zurich, Switzerland\\
-\textbf{3} Department of Fish Ecology and Evolution, Center for Ecology, Evolution and Biogeochemistry, EAWAG, Kastanienbaum, Switzerland
+\textbf{3} Conicet-cificen-intelymec, University of the Center of Buenos Aires, Argentina\\
+\textbf{4} Department of Fish Ecology and Evolution, Center for Ecology, Evolution and Biogeochemistry, EAWAG, Kastanienbaum, Switzerland
 \\
 \bigskip
 \end{flushleft}
@@ -63,20 +65,20 @@
 \newpage
 
 \section{Abstract}
-High-resolution data coming from many sources is a standard in
-science, engineering and investment landscapes. Yet, automated
-inference providing insightful patterns and processes integrating
-databases with analytical frameworks remain challenging. In this work
-we review and discuss the challenges for automated workflows to
+High-resolution and heterogeneous data coming from many sources is
+standard in science, engineering and investment landscapes. Yet,
+automated inference providing insightful patterns and processes
+integrating databases with analytical frameworks remains
+challenging. In this work we propose a prototype of an automated
+research platform to discuss the challenges for automated workflows to
 integrate data and pattern-process-based inference accounting for many
-sources of uncertainty. Our results suggest that automated research
-platforms can strongly contribute to the science of science 
-to take better informed decisions in research, management and
-investment landscapes.
+sources of uncertainty. Automated research platforms can strongly
+contribute to the science of science to take better informed decisions
+in research, management and investment landscapes.
 \\
 \\
-Keywords: data integration, multilayer networks, deep process-based learning, approximate Bayesian
-computation, inference.
+Keywords: data integration, multilayer networks, deep process-based
+learning, approximate Bayesian computation, inference.
 \newpage
 
 
@@ -111,6 +113,13 @@ consequence of lack of syntesis within and between disciplines, and 5)
 Allowing for reusability, repeatibility, replicability and
 reproducibility along the many paths in the scientific enterprise
 (Figure 1).
+
+1. Testing science: Helping select the best paths in responding to a question? ARP can provide a distribution of solutions by classifying the topologies of the multilayer networks. \\
+2. Identifying bias and uncertainty in inference. \\
+3. Exploring predictions-explanatory gradients to gain sinergy between predictive and explanatory power. \\
+4. Identifying gaps in patterns not explored consequence of lack of integration within and between disciplines, and \\
+5. Facilitating the 4R in open science: reusability, repeatability, replicability, and reproducibility. \\
+
 
 The design or research platforms is still in its infancy. Many factors
 are involved in research platforms: the programming language, the
@@ -308,11 +317,7 @@ Sensu Renku (SDSC) knowledge graph \\
  \\
 SUMMARY==========================================
 This is a prototype for a script workflow to automate interactions among data search, parsing, integration, database, cleaning, data complexity reduction, pattern and process inference, validation and visualization. The script is based in two types of packages: backbone and specialized packages. Backbone packages (B) connect intra- and inter-layer algorithms to automatically run the workflow. Specialized (S) packages feedback with backbone packages to run specific tasks: parsing, likelihoods, inference, plotting, visualizing, etc. There are at least five properties automated ARP can provide to science:  \\
-1. Testing science: Helping select the best paths in responding to a question? ARP can provide a distribution of solutions by classifying the topologies of the multilayer networks. \\
-2. Identifying bias and uncertainty in inference. \\
-3. Exploring predictions-explanatory gradients to gain sinergy between predictive and explanatory power. \\
-4. Identifying gaps in patterns not explored consequence of lack of integration within and between disciplines, and \\
-5. Facilitating the 4R in open science: reusability, repeatability, replicability, and reproducibility. \\
+
 ================================================
  \\
 Layers========================
@@ -351,36 +356,63 @@ FIN ===========================================================================
 \begin{figure}
   \vspace{-7 in}
 \begin{center}
-  \hspace{-0.5 in}\includegraphics[width=9cm,height=14cm]{multilayer.pdf}\\
+  \hspace{-0.5 in}\includegraphics[width=9cm,height=14cm]{Figure1.pdf}\\
 \end{center}
-\caption{A five layer research platform: Data Integration (Layer 1),
-  Complexity reduction (Layer 2), Pattern-process inference (Layer 3),
-  Validation (Layer 4) and Visualization (Layer 5). Research platforms
-  might play a leading role in accounting for bias and reproducibility
-  in the pattern-process detection enterprise. a) A fully connected
-  5-layer research platform, and b) A specific path representing the
-  best solution to solve a task.}
+\caption{A cartoon of a five layer automated research platform: Data
+  Integration, Complexity reduction, Pattern-process inference,
+  Validation, and Visualization. Nodes and links represent algorithms
+  and interactions between two algorithms, respectively. For example,
+  the figure shows five algorithms in the layer Data integration
+  ({\bf a}, {\bf b}, {\bf c}, {\bf d}, and {\bf e}). Algorithm {\bf a}
+  interacts with algorithm {\bf b} and {\bf e} in the same layer
+  (intra-layer connections) and with algorithm {\bf f} from the second
+  layer (inter-layer connection), Complexity reduction. The cartoon
+  represents many intra- and inter-layer connections to solve a
+  problem. The paths can be quantified by many metrics each producing
+  a distribution of automated solutions. This distribution can be
+  analyzed with the ones used for a specific domain in science, the
+  science of science of a domain, to quantify properties as
+  robustness, reproducibility and bias of a domain.}
 \label{}
 \end{figure}
   
 \newpage
 %The 5 layers described 
 \begin{figure}
+    %\vspace{-7 in}
 \begin{center}
-\hspace{-0.5 in}\includegraphics[scale=0.3,angle=90]{mindmap.png}
+\hspace{-0.5 in}\includegraphics[width=9cm,height=14cm]{Figure2.pdf}\\
 \end{center}
-\caption{A mind map outlining the different methods to be used within each layer.}
+\caption{A julia prototype of an automated research platform. Nodes
+  and links in each layer represent julia packages and interactions
+  between two packages, respectively. The figure shows julia packages
+  within each layer. For example, the layer Data integration contains
+  the packages "Retriever.jl" ({\bf Re}), "Query.jl" ({\bf Qu}),
+  "MySQL.jl" ({\bf My}), "SQlite.jl" ({\bf lite}), and "DataFrames.jl"
+  ({\bf df}). }
+
+
+%Algorithm \bf{a} interacts with algorithm \bf{b} and \bf{e} in the
+%same layer (intra-layer connections) and with algorithm \bf{f} from
+%the second layer (inter-layer connection), Complexity reduction.
+
+%The cartoon represents many intra- and inter-layer connections to
+%solve a problem. The paths can be quantified by many metrics each
+%producing a distribution of automated solutions. This distribution can
+%be analyzed with the ones used for a specific domain in science, the
+%science of science of a domain, to quantify properties as robustness,
+%reproducibility and bias of a domain.  }
 \label{}
 \end{figure}
 
-\newpage
-\begin{figure}
-\begin{center}
-\includegraphics[scale=0.4]{robhootcartoon.pdf}
-\end{center}
-\caption{$\mathcal{ROBHOOT}$} -- An open multilayer platform for data integration, inference and prediction}
-\end{figure}
-\newpage
+%\newpage
+%\begin{figure}
+%\begin{center}
+%\includegraphics[scale=0.4]{robhootcartoon.pdf}
+%\end{center}
+%\caption{$\mathcal{ROBHOOT}$} -- An open multilayer platform for data integration, inference and prediction}
+%\end{figure}
+%\newpage
 
 
 
