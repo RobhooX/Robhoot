@@ -1,4 +1,4 @@
-# A list of scientific databases
+# A not exhaustive list of databases for Biodiversity research
 
 ## Biology
 
