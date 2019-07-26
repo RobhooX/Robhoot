@@ -1,0 +1,84 @@
+\documentclass{standalone}%scrreprt
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{tikz-network}
+\usepackage{verbatim}
+\usetikzlibrary{arrows,shapes,backgrounds,positioning}
+
+\begin{comment}
+Multilayer example following tikz-networks package
+\end{comment}
+\usetikzlibrary{3d}
+
+\begin{document}
+
+\pagestyle{empty}
+%\SetCoordinates[xAngle=90,yLength=1.2,xLength=.8]
+\begin{tikzpicture}[multilayer=3d]
+
+\begin{Layer}[layer=1]
+\draw[very thick,green!60] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Data integration};
+\end{Layer}
+
+\begin{Layer}[layer=2]
+\draw[very thick,blue!90] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Complexity reduction};
+\end{Layer}
+
+\begin{Layer}[layer=3]
+\draw[very thin,blue!60] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Pattern-Process inference};
+\end{Layer}
+
+\begin{Layer}[layer=4]
+\draw[very thin,red!60] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Validation};
+\end{Layer}
+
+\begin{Layer}[layer=5]
+\draw[very thin,orange!60] (-.5,-.5) rectangle (2.5,2);
+\node at (-.5,-.5)[below right]{Visualization};
+\end{Layer}
+
+\Vertices{data/ml_vertices.csv}
+\Edges{data/ml_edges.csv}
+\end{tikzpicture}
+
+
+
+
+
+%\begin{tikzpicture}[multilayer=3d]
+%\begin{Layer}[layer=1]
+%\draw[very thick] (-.5,-.5) rectangle (2.5,2);
+%\node at (-.5,-.5)[below right]{Layer 1};
+%\end{Layer}
+%\Vertices[layer=1]{data/ml_vertices.csv}
+%\Edges[layer={1,1}]{data/ml_edges.csv}
+%\end{tikzpicture}
+  
+
+
+%\begin{tikzpicture}[multilayer=3d]
+%\begin{Layer}[layer=1]
+%\draw[very thick] (-.5,-.5) rectangle (2.5,2);
+%\node at (-.5,-.5)[below right]{Layer 1};
+%\end{Layer}
+%\Vertices[layer=1]{data/ml_vertices.csv}
+%\Edges[layer={1,1}]{data/ml_edges.csv}
+%\end{tikzpicture}
+
+
+%\begin{tikzpicture}[on grid,multilayer=3d]
+%\draw[very thick] (-.5,-.5) rectangle (2.5,2);
+%\Vertex[x=0.5,IdAsLabel,layer=1]{A}
+%\Vertex[x=1.5,IdAsLabel,layer=1]{B}
+%\Vertex[x=1.5,IdAsLabel,layer=2]{C}
+%\Edge[bend=60](A)(B)
+%\Edge[style=dashed](B)(C)
+%\Edge(C)(C)
+%\end{tikzpicture}
+
+
+\end{document}
