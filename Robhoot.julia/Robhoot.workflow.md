@@ -1,9 +1,9 @@
 Script Workflow Automated Research Platform
 Sensu Renku (SDSC) knowledge graph
 
-This is a prototype for a script workflow to automate interactions within and among the five layers contained in Robhoot, from data adquisition and integration to validation and visualization. The script is based in two types of packages: backbone and specialized packages. Backbone packages (B) connect intra- and inter-layer algorithms to automatically run the workflow. Specialized (S) packages feedback with backbone packages to run specific tasks: parsing, likelihoods, inference, plotting, visualizing, etc. There are at least five properties automated ARP can provide to science:
+Prototype for a script workflow to automate interactions within and among the five layers contained in Robhoot, from data adquisition and integration to validation and visualization. The script is based in two types of packages: backbone and specialized packages. Backbone packages (B) connect intra- and inter-layer algorithms to automatically run the workflow. Specialized (S) packages feedback with backbone packages to run specific tasks: parsing, likelihoods, inference, plotting, visualizing, etc. There are at least five properties automated ARP can provide to science:
 
-1. Science of science: Inferring the best paths in responding to questions. ARP will provide distributions of solutions by classifying the topologies of multilayer networks.
+1. Science of science: Inferring the best paths in responding to questions. DARP will provide distributions of solutions by classifying the topologies of multilayer networks.
 2. Identifying bias and uncertainty in inference.
 3. Exploring predictions-explanatory gradients to gain sinergy between predictive and explanatory power.
 4. Identifying gaps in patterns not explored consequence of lack of integration within and between disciplines, and
