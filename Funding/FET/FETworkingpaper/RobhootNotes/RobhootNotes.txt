@@ -1,0 +1,207 @@
+FET 18 SEPT
+
+0. Acronym ::
+Dec Open Auto Res Network
+DOARNET DAREN 
+
+Robhoot open automated research networks
+RON
+ROAR
+ROARNES
+
+1. State art ::
+ Decentralized Knowledge-public data inspired technology
+
+encryption end-to-end ::
+automatic sensor network and public data to report generation
+
+4r + decentralization
+
+Centralization :: 
+On one side many platforms focus on specific layers of the scientific process, sensor networks, data processing, inference or visualization. On the other hand, decentralized science platforms (scienceroot) aims to enhance peer-to-peer technology to minimize...
+
+2. Team EU -------- 3EU Countries
+Eawag -- Harald: send draft
+ID :: SDSC Christine Victor Raul 
+
+Benoit
+Inca -- Evgeny 
+-------------------
+
+3. PI team Who can be PI? Or start up?
+Ali Charles 
+ 
+4. Make clear how Robhoot differs from ARP
+
+Decentralized:: editorial(publisher)-review-submissions:
+check literature ::  scienceroot partner :: Distributed Ledger Technology (DLT)
+
+Multiple layer integration :: end-to-end
+
+multiple layer <--> Renku <--> notebook 
+
+Victor :: task flow diagram ::
+
+Data processing
+https://news.bitcoin.com/pr-plan-flash-decentralized-data-processing/
+
+5. Open::
+Most Automated projects driven by the industry:: see table
+
+--------------------
+From TON whitepaper
+ 2.1 Blockchain implementation
+ 
+ 2.6.25. Decentralization of the system. One might suspect that a Proof-of-Stake system such as the TON Blockchain, relying on T ≈ 1000 validators to create all shardchain and masterchain blocks, is bound to become “too
+centralized”, as opposed to conventional Proof-of-Work blockchains like Bit-
+coin or Ethereum, where everybody (in principle) might mine a new block, without an explicit upper limit on the total number of miners.
+However, popular Proof-of-Work blockchains, such as Bitcoin and Ethereum, currently require vast amounts of computing power (high “hash rates”)
+to mine new blocks with non-negligible probability of success. Thus, the mining of new blocks tends to be concentrated in the hands of several large players, who invest huge amounts money into datacenters filled with custom-
+designed hardware optimized for mining; and in the hands of several large mining pools, which concentrate and coordinate the efforts of larger groups of people who are not able to provide a sufficient “hash rate” by themselves.
+Therefore, as of 2017, more than 75% of new Ethereum or Bitcoin blocks are produced by less than ten miners. In fact, the two largest Ethereum mining pools produce together more than half of all new blocks! Clearly,
+such a system is much more centralized than one relying on T ≈ 1000 nodes to produce new blocks. One might also note that the investment required to become a TON Blockchain validator—i.e., to buy the hardware (say, several high-performance
+servers) and the stake (which can be easily collected through a pool of nominators if necessary; cf. 2.6.3)—is much lower than that required to become a successful stand-alone Bitcoin or Ethereum miner. In fact, the parame-
+ter L of 2.6.7 will force nominators not to join the largest “mining pool” (i.e., the validator that has amassed the largest stake), but rather to look for smaller validators currently accepting funds from nominators, or even to
+create new validators, because this would allow a higher proportion s0i/si of
+the validator’s—and by extension also the nominator’s—stake to be used,
+hence yielding larger rewards from mining. In this way, the TON Proof-of-Stake system actually encourages decentralization (creating and using more validators) and punishes centralization.
+-----------------
+
+Decentralized prediction markets
+ 2009, Almenberg, Kittlitz and Pfeiffer conducted a series of experiments in which they demonstrated the ability of PMs to accelerate scientific research. In the modern scientific community, communication is slow and similar tasks are sometimes investigated by independent groups that are not aware of each other’s results. However, it turned out that PMs between them, even without the sharing of information, allowed for the engagements as a single omniscient group, which was able to quickly identify the most realistic hypotheses among the many possible
+
+6. Milestones
+
+Dashboard as README file
+
+
+Layers
+311 Data processing >> integration 
+(Ali Charles Harald)
+
+312 Complexity reduction 
+313 Inference
+Probabilistic ML or deep learning in Bayesian neural networks
+
+314 Validation
+315 Visualization 
+316 Reporting :: notebook
+317 DLT :: notebook >> Blockchain 
+    
+Biodiversity research testnet case study
+
+Golem network?
+Data sensors
+Data public 
+Notebook
+Accessibility
+Scalability 
+
+
+7. Figures
+
+Triangle data-rule-knowledge tradeoffs
+Refs rules
+
+What is the difference between rule and knowledge?
+
+  -- short term -- polynomials 
+  -- medium-long term -- dynamic equations 
+
+
+
+----- From here ------------
+
+6. Additional database
+NEON LTEN
+Rat experiment -- mysql
+David birds communication
+Bern paper -- database 
+===========================
+
+=====================
+ASK A QUESTION
+
+How many jobs in science? Open market access
+Plot network applicants-committees (strategies?)
+Where am i with my algo? Open trees access
+
+-------------------
+
+
+PROCESS===========
+------------
+OCT 8 2018
+Animation-Visualization 5 layers: 
+Makie-Tikz combi
+------------
+OCT 22 2018 working paper
+Build ref doc bib
+------------
+NOV 12 2018
+database David -- sounds
+Intro -- data driven vs theory driven
+Sections -- bib + general ideas
+Pseudocode 
+------------
+NOV 19 2018
+Figure 1 -- tikz-networks
+------------
+NOV 26 2018
+Writing draft -- 
+Many problems do not require mechanistic theories -- games (refs). However, other kind of problems would require a more mechanistic understanding -- how to accurately discern human driven from background climate change?
+
+
+test tikz julia - refs -- 
+gaps: scalability -- account uncertainty
+Detailed code -- whiteboard
+Example 
+==================
+
+SECTIONS----------
+DATA ADQUISITION and INTEGRATION
+DaaDI
+
+Writing ------
+Data integration -- standarization 
+Size effects: N labs (or sites) vs N sampling per lab -- Accuracy -- uncertainty -- 
+How do initial distributions change accuracy and uncertainty? Trade-offs experimental vs big data? --> check paper
+
+DIMENSIONALITY REDUCTION
+PCA family
+Convex hull + Ellipse 
+Information multilayer networks
+
+-------
+Charles-Oskar GitHub -- repo -- 
+Generalizing complexity reduction models
+GoCORE
+-------
+
+PROCESS PATTERN INFERENCE
+PROPENCE 
+
+Metrics 
+aggregation-dispersion-correlation
+Markov random fields -- AI book
+Process -- IBM -- ABM -- PBM: Uncertainty-
+
+VALIDATION
+VATION
+
+Uncertainty-Sensitivity-Robustness
+Information criteria -- AICc BICc
+ABC -- Bayes Factors: adaptive-non adaptive alg
+Gibbs sampling
+
+VISUALIZATION
+VITION
+
+Jove
+Plotly Falcon
+Automated plotting -- julia package: tikz --
+Check tikz-network in julia
+
+
+
+

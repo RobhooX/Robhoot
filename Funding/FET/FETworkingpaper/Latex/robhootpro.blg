@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: robhootpro.aux
+The style file: evolution.bst
+Database file #1: ref.bib
+Warning--I didn't find a database entry for "Fortunatoeaao0185"
+You've used 3 entries,
+            2892 wiz_defined-function locations,
+            617 strings with 4919 characters,
+and the built_in function-call counts, 1936 in all, are:
+= -- 148
+> -- 118
+< -- 1
++ -- 39
+- -- 36
+* -- 141
+:= -- 325
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 27
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 136
+empty$ -- 127
+format.name$ -- 43
+if$ -- 376
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 29
+newline$ -- 22
+num.names$ -- 12
+pop$ -- 54
+preamble$ -- 1
+purify$ -- 24
+quote$ -- 0
+skip$ -- 38
+stack$ -- 0
+substring$ -- 73
+swap$ -- 60
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 27
+warning$ -- 0
+while$ -- 12
+width$ -- 0
+write$ -- 46
+(There was 1 warning)
