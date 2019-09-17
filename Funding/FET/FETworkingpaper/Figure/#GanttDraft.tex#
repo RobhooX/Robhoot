@@ -1,0 +1,63 @@
+\documentclass[tikz]{standalone}
+
+%
+% This is a direct copy of the codes in section 2.9 of the package
+% documentation (See page 45) https://mirrors.tuna.tsinghua.edu.cn/CTAN/graphics/pgf/contrib/pgfgantt/pgfgantt.pdf 
+% except the color setting
+
+
+\usepackage{pgfgantt}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+
+\definecolor{barblue}{RGB}{153,204,254}
+\definecolor{groupblue}{RGB}{51,102,254}
+\definecolor{linkred}{RGB}{165,0,33} 
+
+\begin{document}
+\begin{ganttchart}[
+    y unit title=0.4cm,
+    y unit chart=0.5cm,
+    vgrid,
+    time slot format=isodate-yearmonth,
+    compress calendar,
+    title/.append style={draw=none, fill=barblue},
+    title label font=\sffamily\bfseries\color{white},
+    title label node/.append style={below=-1.6ex},
+    title left shift=.05,
+    title right shift=-.05,
+    title height=1,
+    bar/.append style={draw=none, fill=groupblue},
+    bar height=.6,
+    bar label font=\normalsize\color{black!50},
+    group right shift=0,
+    group top shift=.6,
+    group height=.3,
+    group peaks height=.2,
+    bar incomplete/.append style={fill=green}
+   ]{2020-21}{2021-22}
+   \gantttitlecalendar{year}\\
+   \ganttbar[
+    progress=100,
+    bar progress label font=\small\color{barblue},
+    bar progress label node/.append style={right=4pt},
+    bar label font=\normalsize\color{barblue},
+    name=pp
+   ]{Preliminary Project}{2020-21}{2021-22} \\
+\ganttset{progress label text={}, link/.style={black, -to}}
+\ganttgroup{Objective 1}{2020-21}{2021-22} \\
+\ganttbar[progress=4, name=T1A]{Task A}{2021-22}{2022-23} \\
+\ganttlinkedbar[progress=0]{Task B}{2011-07}{2011-12} \\
+
+\ganttgroup{Objective 2}{2011-01}{2011-12} \\
+\ganttbar[progress=15, name=T2A]{Task A}{2011-01}{2011-09} \\
+\ganttlinkedbar[progress=0]{Task B}{2011-10}{2011-12} \\
+
+\ganttgroup{Objective 3}{2011-05}{2011-08} \\
+  \ganttbar[progress=0]{Task A}{2011-05}{2011-08}
+  \ganttset{link/.style={green}}
+  \ganttlink[link mid=.4]{pp}{T1A}
+  \ganttlink[link mid=.159]{pp}{T2A}
+\end{ganttchart}
+\end{document}
+
