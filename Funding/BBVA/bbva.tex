@@ -144,14 +144,9 @@ considered classically as distinct fields. However, the current
 scientific ecosystem is at the stage where merging methods from
 distinct fields is radically transforming the discipline boundaries,
 the reproducibility of science and our predicting-understanding
-power\footnote{Reichstein, M., Camps-Valls, G., Stevens, B., Jung, M.,
-  Denzler, J., Carvalhais, N., and Prabhat (2019). Deep learning and
-  process understanding for data-driven Earth system science. {\em
-    Nature}. 566:195-204.}. Many of the recent approaches applying
+power\citep{Reichsteietal2019}. Many of the recent approaches applying
 deep learning methods in ecology and evolution have mostly focused at
-one level of biological organization\footnote{Sheehan, S., Song,
-  Y. S., (2016). Deep learning for population genetic inference.  {\em
-    PLoS Comput. Biol}. 12:e10048452.}. While this might produce
+one level of biological organization\citep{Sheehan&Song:2016}. While this might produce
 additional gain in detailed knowledge at each level, it remains
 unknown how many layers are going to be needed for predicting the
 consequences of feedbacks between the Earth system and Biodiversity.
@@ -163,10 +158,7 @@ life. To gain predictive and understanding power in biodiversity
 research we are going to need to merge distinct databses into hybrid
 deep process-based learning methods accounting for many layers and the
 topology of the interactions within and between the
-layers\footnote{Melián, C. J.; Matthews, B.; de Andreazzi, C. S.;
-  Rodríguez, J. P.; Harmon, L. J.; Fortuna, M. A. (2018) Deciphering
-  the interdependence between ecological and evolutionary networks,
-  {\em Trends in Ecology and Evolution}, 33:504-512.}. Many methods
+layers\citep{Melianetal:2018}. Many methods
 from data science and biological systems share fundamental properties
 (i.e., network-like patterns, multiple layers, etc). Yet the full
 potential of these shared properties have not been sufficiently
@@ -199,56 +191,73 @@ Figures 3 and 4).
        stability of Earth.}}
      \end{center}
    %\end{wrapfigure}
-
-
+     
 \begin{mybox}\begin{singlespace}
 {\bf{Box 1. Deep process-based learning networks in Biodiversity research}}\\
 \begin{small}
-  We will implement a multilayer approach to generate process-based
-  species distribution maps accounting for interdependent biological
-  networks. Each layer will be parametrized taking advantage from the
-  integration of biodiversity datasets. Most data in biodiversity are
-  collections of small data. In areas such as species ranges and
-  species interactions, there is a large amount of data, but only a
-  relatively small amount of data for each gene, phenotype, individual
-  or trophic interaction. To customize predictions accounting for
-  interdependent biological levels we will use a formalism considering
-  the heterogeneity at individual level, with its inherent
-  uncertainties, and to couple the individual level together in a
-  hierarchy scaling from genes to phenotypes, populations, communities
-  and species ranges, so that information can be borrowed from other
-  similar levels across the landscape in the absence of empirical
-  estimations. We will implement a multilayer approach using
-  hierarchical Bayesian neural networks\footnote{Ghahramani,
-    Z. (2015). Probabilistic machine learning and artificial
-    intelligence. {\em Nature}. 521:452-459}. The outputs of the
-  multilayer approach will generate a biodiversity distribution map
-  for many interacting species that can be evaluated against the
-  empirical patterns.
+  We will infer process-based species distribution maps accounting for
+  biological levels using learning networks. Most datasets in
+  biodiversity are collections of small data. In areas such as species
+  ranges and species interactions, there is a large amount of data,
+  but only a relatively small amount of data match the species ranges
+  or the species interactions with lower biological level data as the
+  gene architecture or the phenotypes. To account for such uncertainty
+  we will use a formalism considering the heterogeneity at individual
+  level\citep{Ghahramani:2015} coupling the gene-to-phenotype map to populations, and
+  interactions among phenotypes to communities and species ranges, so
+  that information can be borrowed from other similar levels across
+  the landscape. We will develop our formalism into hierarchical
+  Bayesian neural networks to generate biodiversity
+  distribution maps accounting for biotic, abiotic and migration
+  traits that can be compared against the empirical distribution
+  patterns. We will consider many populations characterized each by
+  individuals containing $\mathrm{T}$ normally distributed traits
+  (i.e., biotic, abiotic, and migration traits represented as {\bf
+    $z_{i}$} with $i$ the biotic, abiotic or the migration
+  trait). Populations will be located in a network of
+  discrete/continuous sites guided by long/lat empirical data
+  connected by migration events and the local population demography
+  will be driven by the temporal dependent fitness function accounting
+  for trait architecture following
+\begin{equation}
+  \hspace{-0.05 in} \mathrm{W({\bf z_{i}})}^{t}_{jx} = exp[\left -\gamma(((\mathrm{\bf z_{i}}^{t}_{jx} - \mathrm{\bf \theta}_{jx})^2)^T \mathrm{\bf \omega}^{-1} (\mathrm{\bf z_{i}}^{t}_{jx} - {\bf \mathrm{\bf \theta}_{jx})^2)\right],\hspace{-0.15 in} 
+\end{equation}
+where $\mathrm{\bf (z_{i})}^{t}_{jx}$ is the vector of trait values of
+phenotype $z$ at time $t$ for species $j$ and site $x$,
+${\bf \theta}_{jx}$ is the multivariate fitness optimum of species $j$
+in site $x$, ${\bf \omega}$ is the covariance matrix\citep{Lande:1980,
+  Melo&Marroig:2014}, and $\gamma$ determines the interaction
+sensitivity to deviations from the biotic, abiotic and migration
+optimum. If the covariance matrix, ${\bf \omega}$, is diagonal, then
+we are in a no correlated stabilizing selection scenario. Each trait
+is independently evolving and the connections within and between each
+biological level are modular and mostly weak. Adding covariation among
+traits will result in correlated stabilizing selection with strong
+interactions within and between each biological level. The population
+dynamics of species $j$ in site $x$ is then given by
 
-  We will contrast two scenarios to explore the best one fitting the
-  empirical patterns. The first scenario will simulate independent
-  levels considering modularity within- and between-layers (i.e., a
-  highly modular pleiotropy matrix determining the genotype-phenotype
-  map and a highly modular within- and between-species interactions
-  with most interactions weak or zero across the landscape.) Such
-  scenario will produce a non- or weakly-interactive species
-  biodiversity map. The second scenario will account for feedbacks
-  among layers. We will explore a range of topologies from
-  bidirectional recurrent neural networks (BRNN) to feedforward neural
-  networks (FNN) and reinforcement learning in unknown and fluctuating
-  environments (RL)\footnote{Schmidhuber, J. (2015). Deep learning in
-    neural networks: An overview. {\em Neural Networks},
-    61:85-117}. Such scenario will produce an (strongly)-interactive
-  species biodiversity map. We will disturb both scenarios following
-  random and non-random disturbance regimes (i.e., removing specific
-  interactions, abundances and habitats) and will quantify responses
-  to disturbances using a variety of metrics, from biodiversity to
-  functional metrics\footnote{Melián, C. J.; Matthews, B.; de
-    Andreazzi, C. S.; Rodríguez, J. P.; Harmon, L. J.; Fortuna,
-    M. A. (2018) Deciphering the interdependence between ecological
-    and evolutionary networks, {\em Trends in Ecology and Evolution},
-    33:504-512.}.
+{\begin{equation}{\frac {dN_{jx}}{dt}}&= r_{jx}(F(W({\bf z})) + m_{jx}(F(W({\bf z})),\end{equation}}
+
+where $r_{jx}$ and $m_{jx}$ are the multivariate fitness-dependent
+intrinsic growth and migration rate, respectively. The first scenario
+accounting for independently evolving traits will be our proxy for
+quasi-independent levels considering modularity within- and
+between-layers (i.e., a highly modular pleiotropy matrix determining
+the genotype-phenotype map and a highly modular within- and
+between-species interactions with most interactions weak or zero
+across the landscape). Such scenario will produce a non- or
+weakly-interactive species biodiversity map. The second scenario will
+account for correlated traits and we will consider this scenario as
+our proxy for feedbacks within and among layers. We will explore a
+range of topologies from bidirectional recurrent neural networks
+(BRNN) to feedforward neural networks (FNN) and reinforcement learning
+(RL) in both static and unknown and dynamic optimum\citep{Schmidhuber:2015}. This scenario will
+produce an strongly-interactive species biodiversity map. We will
+disturb both scenarios following random and non-random disturbance
+regimes (i.e., removing specific interactions, abundances and
+habitats) and will quantify responses to disturbances using a variety
+of metrics, from local, regional and global biodiversity
+metrics\citep{Melianetal:2018}.
 \end{small}
 \end{singlespace}
 \end{mybox}
@@ -316,6 +325,12 @@ Figures 3 and 4).
      }
 %\end{wrapfigure}
 
+     \newpage
+     \section{References}
+\bibliographystyle{unsrtnat}
+\bibliography{ref.bib}
+
+
 \end{document}
 
      \newpage
@@ -362,6 +377,4 @@ joining fundamental and applied research.
 %about complex networks.
 
 
-%\newpage
-%\bibliographystyle{evolution}
-%\bibliography{ref}
+\newpage
