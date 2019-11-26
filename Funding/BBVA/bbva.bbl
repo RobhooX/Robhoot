@@ -19,6 +19,16 @@ S.~Sheehan and Y.~S. Song.
 \newblock Deep learning for population genetic inference.
 \newblock \emph{PLoS Comput. Biol.}, 12, 2016.
 
+\bibitem[Schmidhuber(2015)]{Schmidhuber:2015}
+J.~Schmidhuber.
+\newblock Deep learning in neural networks: An overview.
+\newblock \emph{Neural Networks}, 61:\penalty0 85--117, 2015.
+
+\bibitem[Ghaharmani(2015)]{Ghahramani:2015}
+Z.~Ghaharmani.
+\newblock Probabilistic machine learning and artificial intelligence.
+\newblock \emph{Nature}, 521:\penalty0 452--459, 2015.
+
 \bibitem[Meli\'an et~al.(2018)Meli\'an, Matthews, Andreazzi, Rodr\'iguez,
   Harmon, and Fortuna]{Melianetal:2018}
 C.~J. Meli\'an, B.~Matthews, C.~S. Andreazzi, J.~P. Rodr\'iguez, L.~J. Harmon,
@@ -26,11 +36,6 @@ C.~J. Meli\'an, B.~Matthews, C.~S. Andreazzi, J.~P. Rodr\'iguez, L.~J. Harmon,
 \newblock Deciphering the interdependence between ecological and evolutionary
   networks.
 \newblock \emph{Trends in Ecology and Evolution}, 33:\penalty0 504--512, 2018.
-
-\bibitem[Ghaharmani(2015)]{Ghahramani:2015}
-Z.~Ghaharmani.
-\newblock Probabilistic machine learning and artificial intelligence.
-\newblock \emph{Nature}, 521:\penalty0 452--459, 2015.
 
 \bibitem[Lande(1980)]{Lande:1980}
 R.~Lande.
@@ -44,11 +49,6 @@ D.~Melo and G.~Marroig.
   complex traits.
 \newblock \emph{Proceedings of the National Academy of the Sciences, USA.},
   112:\penalty0 470--475, 2014.
-
-\bibitem[Schmidhuber(2015)]{Schmidhuber:2015}
-J.~Schmidhuber.
-\newblock Deep learning in neural networks: An overview.
-\newblock \emph{Neural Networks}, 61:\penalty0 85--117, 2015.
 
 \bibitem[Webb(2018)]{Webb2018}
 Sarah Webb.
