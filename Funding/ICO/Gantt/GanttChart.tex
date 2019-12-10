@@ -1,0 +1,135 @@
+\documentclass[border=9pt]{standalone}%{article}
+%\usepackage[margin=1cm]{geometry}
+\usepackage{pgfgantt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+%\usetikzlibrary{positioning}
+
+\ganttset{group/.append style={orange},
+  milestone/.append style={green},progress label node anchor/.append style={text=green},
+  report/.append style={green},progress label node anchor/.append style={text=green}}
+
+\begin{document}
+\begin{ganttchart}[%Specs
+     y unit title=0.5cm,
+     y unit chart=0.5cm,
+     vgrid,hgrid,
+     title height=1,
+%     title/.style={fill=none},
+     title label font=\bfseries\footnotesize,
+     bar/.style={fill=blue},
+     bar height=0.75,
+%   progress label text={},
+     group right shift=0,
+     group top shift=0.7,
+     group height=.4,
+     %bar/.style={fill=green},
+     group peaks width={0.3},
+     inline]{1}{42}
+    %labels
+    \gantttitle{Years}{42}\\  % title 1
+    \gantttitle[]{2020}{6}                 % title 2
+    \gantttitle[]{2021}{12}   
+    \gantttitle[]{2022}{12}
+    \gantttitle[]{2023}{12}
+    \gantttitle[]{}{0}\\                 % title 2
+
+\gantttitle{Q3}{3}                      % title 3
+\gantttitle{Q4}{3}
+
+    \gantttitle{Q1}{3}
+    \gantttitle{Q2}{3}
+    \gantttitle{Q3}{3}
+    \gantttitle{Q4}{3}
+    
+    \gantttitle{Q1}{3} 
+    \gantttitle{Q2}{3}
+    \gantttitle{Q3}{3}                      % title 3
+    \gantttitle{Q4}{3}
+    
+    \gantttitle{Q1}{3}
+    \gantttitle{Q2}{3}
+    \gantttitle{Q3}{3}
+    \gantttitle{Q4}{3}
+    \\
+
+    % Setting group if any
+    %logistic  
+    \ganttbar[inline=false]{Team and staff hiring}{1}{3}\\
+    \ganttmilestone[inline=false]{Synchronized teams}{3}\\
+    \ganttbar[progress=5,inline=false]{Project progress}{1}{42}\\
+
+    %obj 1
+    \ganttgroup[inline=false]{O1: Multilayer}{3}{19}\\ 
+    \ganttbar[inline=false]{{\bf WP1 (DIVAL)}}{3}{14} \\%\ganttnewline
+    
+    %\ganttlinkedbar{Task 2}{3}{7} \ganttnewline
+     \ganttmilestone[inline=false]{{\bf WP1 deadline}}{14} \ganttnewline
+     \ganttbar[inline=false]{{\bf WP2 (VISUR)}}{5}{16} \\%\ganttnewline
+     \ganttmilestone[inline=false]{{\bf WP2 deadline}}{16} \ganttnewline
+
+    
+     \ganttbar[inline=false]{Intra-Inter-layer Automation}{8}{17} \ganttnewline
+     \ganttmilestone[inline=false]{{\bf WP3}: Running prototype}{17} \\
+     \ganttbar[inline=false]{Multilayer and KG integration: deep learning}{12}{18} \ganttnewline
+     \ganttmilestone[inline=false]{{\bf WP4}: Automated KGs}{18} \\
+
+     
+     \ganttbar[progress=25,inline=false]{Project progress}{1}{42}\\
+     %\ganttbar[inline=false]{\bf{RP1}}{19}{19}\\
+
+     \ganttlink{elem5}{elem8}
+     \ganttlink{elem7}{elem8}
+     \ganttlink{elem9}{elem10}
+     
+     %\ganttlink{elem8}{elem9}
+     %\ganttlink{elem9}{elem10}
+     
+     
+    % obj 2
+    \ganttgroup[inline=false]{O2: Ledger}{2}{19}\\ 
+    \ganttbar[inline=false]{Ledger implementation}{2}{12}\\
+    \ganttmilestone[inline=false]{{\bf WP5}: Running prototype}{12} \\
+    \ganttbar[inline=false]{Minimizing scalability-security-decentralization trade-offs}{4}{14}\\
+    \ganttmilestone[inline=false]{{\bf WP6}: Running prototype}{14} \\
+     \ganttbar[inline=false]{Ledger automation}{8}{18}\\
+    \ganttmilestone[inline=false]{{\bf WP7}: Running prototype}{18} \\
+    \ganttbar[progress=45,inline=false]{Project progress}{1}{42}\\
+    
+
+    
+    \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{RP1}}}{19}{19}\\
+ 
+      \ganttlink{elem15}{elem17}
+      \ganttlink{elem17}{elem19}
+    
+     % obj 3
+    \ganttgroup[inline=false]{O3: DeepKlen}{18}{31}\\ 
+    \ganttbar[inline=false]{Launch testnet: Deep Knowledge Ledger Network}{18}{26}\\
+    \ganttmilestone[inline=false]{{\bf WP8}: Running prototype}{26} \\
+    \ganttbar[inline=false]{Launch testnet: Deep Knowledge Ledger Network}{22}{30}\\
+    \ganttmilestone[inline=false]{{\bf WP9}: Running prototype}{30} \\
+    \ganttbar[progress=70,inline=false]{Project progress}{1}{42}\\
+
+      \ganttlink{elem19}{elem21}
+      \ganttlink{elem11}{elem21}
+      \ganttlink{elem24}{elem25}
+
+      \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{RP2}}}{31}{31}\\
+
+     % obj 4
+    \ganttgroup[inline=false]{O4: Robhoot}{30}{42}\\ 
+    \ganttbar[inline=false]{Launch testnet: Robhoot Open Network}{30}{36}\\
+    \ganttmilestone[inline=false]{{\bf WP10}: Running prototype}{36} \\
+    \ganttbar[inline=false]{Launch testnet: RON in Biodiversity Research}{35}{41}\\
+    \ganttmilestone[inline=false]{{\bf WP11}: Running prototype}{41} \\
+    \ganttbar[progress=100,inline=false]{Project progress}{1}{42}\\
+    \ganttbar[inline=false]{\bf{RP3}}{42}{42}\\
+
+    \ganttlink{elem26}{elem28}
+    \ganttlink{elem31}{elem32}
+    \ganttlink{elem33}{elem35}
+    
+\end{ganttchart}
+
+\end{document}

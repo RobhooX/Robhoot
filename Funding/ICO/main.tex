@@ -20,27 +20,48 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[10pt, a4paper, twocolumn]{article} % 10pt font size (11 and 12 also possible), A4 paper (letterpaper for US letter) and two column layout (remove for one column)
+
 \usepackage[english]{babel} % English language hyphenation
-
 \usepackage{microtype} % Better typography
-
 \usepackage{amsmath,amsfonts,amsthm} % Math packages for equations
-
 \usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
-
 \usepackage[hang, small, labelfont=bf, up, textfont=it]{caption} % Custom captions under/above tables and figures
-
 \usepackage{booktabs} % Horizontal rules in tables
-
 \usepackage{lastpage} % Used to determine the number of pages in the document (for "Page X of Total")
-
 \usepackage{graphicx} % Required for adding images
-
+\usepackage{amssymb}
+\usepackage[table]{xcolor}
 \usepackage{enumitem} % Required for customising lists
 \setlist{noitemsep} % Remove spacing between bullet/numbered list elements
-
 \usepackage{sectsty} % Enables custom section titles
 \allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands (Helvetica)
+\usepackage{hyperref}
+%----------------------------------------------------------------------------------------
+%	MARGINS AND SPACING
+%----------------------------------------------------------------------------------------
+\usepackage{geometry} % Required for adjusting page dimensions
+\geometry{
+	top=0.65cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	left=1.5cm, % Left margin
+	right=1.5cm, % Right margin
+	includehead, % Include space for a header
+	includefoot, % Include space for a footer
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+\setlength{\columnsep}{6mm} % Column separation width
+
+
+%----------------------------------------------------------------------------------------
+%	FONTS
+%----------------------------------------------------------------------------------------
+
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+
+\usepackage{XCharter} % Use the XCharter font
+
+
 
 %\input{structure.tex} % Specifies the document structure and loads requires packages
 
@@ -48,15 +69,16 @@
 %	ARTICLE INFORMATION
 %----------------------------------------------------------------------------------------
 
-\title{Robhoot: A Deep Knowledge Network} % The article title
+\title{Robhoot 1.0\\ The Deep Knowledge Network} % The article title
 
-\author{
-	\authorstyle{\textsuperscript{1,2,3} and \textsuperscript{2,3}} % Authors
-	\newline\newline % Space before institutions
+\author{XX{\textsuperscript{1,2,3} and XY\textsuperscript{2,3}} % Authors
+  \newline\newline % Space before institutions
+  \\
 	\textsuperscript{1}\institution{}\\ % Institution 1
 	\textsuperscript{2}\institution{}\\ % Institution 2
-	\textsuperscript{3}\institution{\texttt{LaTeXTemplates.com}} % Institution 3
-}
+	%\textsuperscript{3}\institution{\texttt{LaTeXTemplates.com}}
+      %} % Institution 3
+
 
 % Example of a one line author/institution relationship
 %\author{\newauthor{John Marston} \newinstitution{Universidad Nacional Autónoma de México, Mexico City, Mexico}}
@@ -74,102 +96,191 @@
 %----------------------------------------------------------------------------------------
 %	ABSTRACT
 %----------------------------------------------------------------------------------------
-
-\lettrineabstract{\section{{\bf Summary}}
-The Robhoot project is trying to connect scientist and the public to
-interact in a decentralized open-access knowledge network to gain
-informed decisions when solving complex social, environmental and
-technological problems. Current technologies for scientific inquiry
-are highly fragmented and thus only increase robustness,
-reproducibility and the interactions with the public marginally. The
-goal of Robhoot is to propose a hybrid-technology concept
-combining deep learning, automation, multilayer networks and
-blockchain technology with the advances of neural biological networks
-to lay the foundation for a novel open-science ecosystem aiming to
-couple predictive and knowledge power in contemporary
-societies. Robhoot is not set out to deliver a finished deep knowledge
-ledger network in the science ecosystem but provide a science-enabled
-technology in establishing a prototype proof-of-principle for an open
-public-science ecosystem.}
-
+\lettrineabstract{\section{{\bf Summary}} The Robhoot project aims to
+  connect scientist and the public in a decentralized network to help
+  taking informed decisions when solving complex social, environmental
+  and technological problems. Current technologies for scientific
+  inquiry and decision-making are highly fragmented and thus only
+  increase robustness, reproducibility, open-access and the
+  interactions with the public marginally. The goal of Robhoot is to
+  propose a hybrid-technology to lay out the foundation for a
+  open-science ecosystem aiming to strengthen the robustness and
+  reproducibility of science and the interactions with the
+  public. Robhoot is not set out to deliver a finished deep knowledge
+  network in the science ecosystem, but to provide a science-enabled
+  technology in establishing a prototype proof-of-principle to connect
+  decentralized and neutral-knowledge generation with
+  knowledge-inspired societies.}
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
+\section{The Science Ecosystem}
+Peer-to-peer interactions composed by trusting and untrusting peers
+abound in social, economical, natural and technological
+ecosystems. The science ecosystem, the connections among all the
+peers, requires multiple steps of information transfer among
+trusted/untrusted peers to build solid evidence-based science. In this
+ecosystem, immutable and secure peer-to-peer architecture storing
+end-to-end open-source research is key to have neutral access and
+fully reproducible reports when taking informed decisions in complex
+societal, environmental and technological problems. However, public
+funded science is highly centralized (Günther, 2018; Inhaber, 1977)⁠⁠,
+prone to errors ((Fang & Casadevall, 2011)⁠), difficult to reproduce
+(Hardwicke. et al., 2019)), and contains many biases (Ioannidis,
+2005). Yet, despite many rapid advances are making the science
+ecosystem less centralized and biased while increasing openness and
+reproducibility (refs) a science-enabled technological paradigm
+connecting open-science to knowledge-inspired societies is not
+currently in place. Therefore, while the existing technological
+paradigm is rapidly shifting towards science-based decentralization
+and automation technologies, end-to-end open-source research
+accounting for decentralized, neutral and automated knowledge-inspired
+technologies are missing.
 
-\section{Section}
-
-Public funded science is highly centralized (Günther, 2018; Inhaber,
-1977)⁠⁠, prone to errors ((Fang & Casadevall, 2011)⁠), difficult to
-reproduce (Hardwicke. et al., 2019)), and contains many biases
-(Ioannidis, 2005). Yet, despite many rapid advances are making the
-science ecosystem less centralized and biased while increasing
-openness and reproducibility (refs) a science-enabled technological
-paradigm connecting open-science to knowledge-inspired societies is
-not currently in place. While the existing technological paradigm is
+Many studies in decentralized systems are producing an immense gain in
+detailed knowledge about scalability, security and decentralization
+trade-offs (refs; TON network; Fabric ledger OS network). Automation
+and AI technologies is the other angle from which many advances are
+rapidly occurring. Yet, while the existing technological paradigm is
 rapidly shifting towards science-based decentralization and automation
 technologies, end-to-end open-source research accounting for
 decentralized, neutral and automated knowledge-inspired technologies
-are missing. In this project we aim to build an automated knowledge
-ledger network technology to connect open-science and
-knowledge-inspired societies (Figure 1). Our final aim is to provide
-real-time open-access neutral data-rule-knowledge to gain informed
-decisions when solving complex social, environmental and technological
-problems.
+are missing. Rapid advances of automated research platforms
+facilitating data integration accounting for sections of the research
+cycle are currently under development\footnote{This is by no means an
+  exhaustive list but it gives an indication of the many projects
+  currently in place:
+  \href{https://www.nterminal.com}{NakamotoT},\href{https://cloud.google.com/bigquery/}{BigQuery},\href{https://www.automaticstatistician.com/index/}{Automated
+    statistician},\href{http://www.modulos.ai/}{Modulos},\href{https://ai.google/}{Google
+    AI},\href{https://iris.ai}{Iris},\href{https://github.com/DS3Lab/easeml}{easeml}}
+but open-source decentralized automated platforms accounting for the
+research cycle are still at a very incipient stage of development.
 
+\begin{table}
+ %\rowcolor{pink}
+\begin{tabular}{ p{3cm} | p{2cm} | p{2cm}}
+  \hline \hline
+  \textbf{Features} & \textbf{Science Ecosystem} &\textbf{Robhoot 1.0}\\  \hline
+  Decentralization & No & Yes \\ \hline
+  Open-access & Mostly No & Yes \\ \hline
+  Immutability & No & Yes \\ \hline
+  Robustness & Mostly No & Yes \\ \hline
+  Reproducibility & Mostly No & Yes \\ \hline        
+  Owner-Controlled assets & No & Yes \\ \hline       
+  \bottomrule
 
-\begin{center}
-       \includegraphics[width=0.35\textwidth]{Figure1.pdf}
-  \end{center}
-     %\vspace{-0.7 in}
-  \caption{{\bf Figure 1: Figure 1: Deep knowledge-based ledger
-      network technology. a) End-to-end research cycle from data
-      integration to reporting. b) The knowledge graph (KG) tracking
-      one research path of a (i.e., Renku open-source code). c) Deep
-      knowledge-based network automatically explore a population of
-      KGs to gain understanding of the data. d) The ledger accounts
-      for all the KGs in a distributed network of mutually
-      trusting/untrusting peers with every peer maintaining the
-      population of the KGs (i.e., decentralized P2P git network like
-      Gitchain.)
+\end{tabular}
+\caption{Robhoot 1.0 aims to be designed to resolve desirable
+  properties of science: Robustness, Reproducibility,
+  Decentralization, Open and Direct access to reporting by peers and
+  not-peers}
+\end{table}
 
+(smoother transition: describe more clearly predictive power without
+the need of understanding or knowledge about the predicted system:
+then introduce knowledge power and how the synergy between both can
+increase our understanding of any given system) Data driven multilayer
+process-based methods can increase the pool of deep learning models in
+data science to understand more broadly the connection between
+predictive power (i.e., pattern detection), and understanding power
+(i.e., process-based inference). While conceptual frameworks unifying
+different layers in many research fields is well established, there is
+currently a lack of deep process-based learning models accounting for
+many layers in biological, social, technological and economical
+systems. Here is where data science can benefit to further developing
+approaches unifying data driven patterns and process based theory. The
+interaction between prediction and understanding power can also
+advance synthesis in data-science by gaining broader insights from
+deep pattern- and process- based learning models that can be applied
+to other many fields.
 
-TODO FROM HERE
-\begin{align}
-	A = 
-	\begin{bmatrix}
-		A_{11} & A_{21} \\
-		A_{21} & A_{22}
-	\end{bmatrix}
-\end{align}
-
-Donec nec nibh sagittis, finibus mauris quis, laoreet augue. Maecenas aliquam sem nunc, vel semper urna hendrerit nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas pellentesque dolor lacus, sit amet pretium felis vestibulum finibus. Duis tincidunt sapien faucibus nisi vehicula tincidunt. Donec euismod suscipit ligula a tempor. Aenean a nulla sit amet magna ullamcorper condimentum. Fusce eu velit vitae libero varius condimentum at sed dui.
-
-In non leo tincidunt, tristique orci eu, suscipit ex. Fusce non lectus ut dolor tincidunt fermentum. Donec dictum mauris magna, ut dictum nisl finibus quis. Nulla elementum ipsum ut lectus sodales finibus. Nulla ac malesuada magna. Etiam arcu dolor, luctus eget elit a, volutpat vulputate mi. Donec elementum tellus libero, ut ornare orci dignissim lacinia. Nullam iaculis vehicula sem, at tempor tellus. Praesent eu nisi a elit viverra lobortis. Nullam eu metus et justo molestie posuere vitae imperdiet erat. Praesent at gravida dui. Vivamus mauris odio, efficitur eget lacus quis, mattis tristique risus. Mauris quis metus sed risus lobortis sollicitudin vitae vitae quam. Morbi leo turpis, aliquam at nunc sit amet, ultricies dictum lorem. Nam et fringilla elit. Vestibulum auctor, turpis ut facilisis tempor, arcu nibh tincidunt libero, quis blandit leo turpis a urna.
-
-%------------------------------------------------
-
-\subsection{Subsection}
-
-Nam ante risus, tempor nec lacus ac, congue pretium dui. Donec a nisl est. Integer accumsan mauris eu ex venenatis mollis. Aliquam sit amet ipsum laoreet, mollis sem sit amet, pellentesque quam. Aenean auctor diam eget erat venenatis laoreet. In ipsum felis, tristique eu efficitur at, maximus ac urna. Aenean pulvinar eu lorem eget suscipit. Aliquam et lorem erat. Nam fringilla ante risus, eget convallis nunc pellentesque non. Donec ipsum nisl, consectetur in magna eu, hendrerit pulvinar orci. Mauris porta convallis neque, non viverra urna pulvinar ac. Cras non condimentum lectus. Aliquam odio leo, aliquet vitae tellus nec, imperdiet lacinia turpis. Nam ac lectus imperdiet, luctus nibh a, feugiat urna.
-
-\begin{itemize}
-	\item First item in a list 
-	\item Second item in a list 
-	\item Third item in a list
+% ------------------------------------------------
+  \section{Robhoot Design Goals}
+  In this project we aim to build an automated knowledge ledger
+  network technology to connect open-science and knowledge-inspired
+  societies (Figure 1). Our final aim is to provide real-time
+  open-access neutral data-rule-knowledge to gain informed decisions
+  when solving complex social, environmental and technological
+  problems.
+  \includegraphics[width=0.45\textwidth]{Figure1.pdf}
+  
+  {\small Figure 1: {\bf Deep knowledge-based ledger network
+      technology}. a) End-to-end research cycle from data integration
+    (top) to reporting (bottom). b) The knowledge graph (KG) tracking
+    one research path of a (i.e., Renku open-source code). c) Deep
+    knowledge-based network automatically exploring a population of
+    KGs to gain process-based understanding of the data. d) The ledger
+    accounts for all the KGs in a distributed network of mutually
+    trusting/untrusting peers with every peer maintaining the
+    population of the KGs (i.e., decentralized P2P git network like
+    Gitchain.)}
+  The overall objectives for the project with the outlines of the
+  specific goals of each one are the following:
+  \subsection{Deep learning networks}
+  \begin{itemize}
+  \item Deploy an automated knowledge-based network technology
+    accounting for end-to-end research in a lineage client-tracker to
+    produce a population of Knowledge Graphs (KGs) (Figures 1a-b).
+  \item Intralayer automation of data integration, inference, and
+    validation (Figure 1a top three layers).
+  \item Intralayer automation of visualization and reporting
+    generation (Figure 1a bottom three layers).
+  \item Deep inter-layer automation exploring novel neural biological
+    networks algorithms with a lineage client-tracker paths in the
+    multilayer network (Figures 1a-c.)
+  \end{itemize}
+  \subsection{Distributed ledger network}
+  \begin{itemize}
+  \item Deploy an end-to-end permissioned-permissionless distributed
+    ledger technology to guarantee decentralization, open-access and
+    security of the KGs in the science ecosystem (Figures 1c and 1d.)
+  \item Distributed ledger implementation accounting for consensus
+    algorithms and smart contracts among trusted-untrusted
+    peer-to-peer interactions.
+  \item Exploring scenarios to minimize
+    scalability-security-decentralization trade-offs when storing the
+    KGs in the science ecosystem
+  \end{itemize}
+  \subsection{DeepKlen 1.0}  
+  \begin{itemize}
+  \item Deployment of DeepKlen, a deep knowledge ledger network, to
+    explore the interaction between consensus protocols with the
+    security-scalability-decentralization trade-offs.
+  \item Deployment of DeepKlen to test the robustness of the generated
+    KGs in the automated science ecosystem.
+  \item Testnet for the interaction between consensus protocols and
+    the scalability-security-decentralization trade-offs when
+    committing the KGs to the distributed ledger.
+  \item Mainnet to cryptographically link each population of KGs to
+    previous KGs-ledger to create an historical KGs-ledger chain that
+    goes back to the genesis ledger. The mainnet aims to connect
+    real-time open-access citizen data science to knowledge-inspired
+    societies.
+  \end{itemize}
+ \subsection{Robhoot 1.0}
+ \begin{itemize}
+ \item Robhoot Open Network in Biodiversity Research to connect
+   citizen open science to real-time open-access data-rule-knowledge
+   to gain informed decisions when solving local and global
+   environmental problems.
+ \item Citizen open science for biodiversity datasets integration
+   (Figure 1a top layer and Figure X)
 \end{itemize}
-
-Nunc egestas quis leo sed efficitur. Donec placerat, dui vel bibendum bibendum, tortor ligula auctor elit, aliquet pulvinar leo ante nec tellus. Praesent at vulputate libero, sit amet elementum magna. Pellentesque sodales odio eu ex interdum molestie. Suspendisse lacinia, augue quis interdum posuere, dolor ipsum euismod turpis, sed viverra nibh velit eget dolor. Curabitur consectetur tempus lacus, sit amet luctus mauris interdum vel. Curabitur vehicula convallis felis, eget mattis justo rhoncus eget. Pellentesque et semper lectus.
-
-\begin{description}
-	\item[First] This is the first item
-	\item[Last] This is the last item
-\end{description}
-
-Donec nec nibh sagittis, finibus mauris quis, laoreet augue. Maecenas aliquam sem nunc, vel semper urna hendrerit nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas pellentesque dolor lacus, sit amet pretium felis vestibulum finibus. Duis tincidunt sapien faucibus nisi vehicula tincidunt. Donec euismod suscipit ligula a tempor. Aenean a nulla sit amet magna ullamcorper condimentum. Fusce eu velit vitae libero varius condimentum at sed dui.
-
 %------------------------------------------------
+\subsection{Multilayer nature of Robhoot}
 
-\subsection{Subsection}
+\subsubsection{Data aintegration}
+\subsubsection{Complexity reduction}
+\subsubsection{Inference}
+\subsubsection{Validation}
+\subsubsection{Visualization}
+\subsubsection{Reporting}
+
+\subsection{Robhoot in Digital Ecosystems}
+
+\subsubsection{Computing Power}
+\subsubsection{Decentralization}
+\subsubsection{Neural Networks}
 
 In hac habitasse platea dictumst. Etiam ac tortor fermentum, ultrices libero gravida, blandit metus. Vivamus sed convallis felis. Cras vel tortor sollicitudin, vestibulum nisi at, pretium justo. Curabitur placerat elit nunc, sed luctus ipsum auctor a. Nulla feugiat quam venenatis nulla imperdiet vulputate non faucibus lorem. Curabitur mollis diam non leo ullamcorper lacinia.
 
@@ -200,7 +311,7 @@ Aliquam elementum nulla at arcu finibus aliquet. Praesent congue ultrices nisl p
 
 %------------------------------------------------
 
-\section{Section}
+\section{Conclusion}
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{bear.jpg} % Figure image
@@ -235,3 +346,23 @@ Pellentesque ac nisi dolor. Pellentesque maximus est arcu, eu scelerisque est ru
 %----------------------------------------------------------------------------------------
 
 \end{document}
+
+\hspace{-0.2 in}\includegraphics[width=0.52\textwidth]{Figure3.pdf}
+{\small {\bf Figure 1: Prediction power (top), understanding (middle),
+    and prediction-understanding power maps (bottom)}. x-axis
+  represents data-based inference (i.e., gradient of AI methods from
+  low (left) to high (right) predictive power). y-axis represents
+  process-based inference (i.e., gradient of process-based methods
+  from low (bottom left) to high (top left) understanding power). The
+  gradient of predicting power map (top) shows a hot spot red area in
+  the bottom right highlighting the region where AI methods best
+  predict the empirical data. The gradient of understanding power map
+  (middle) shows a red hot spot in the top left highlighting the
+  region where the best mechanistic understanding occur. The
+  predicting-understanding power map (bottom) shows the sum of the two
+  previous maps highlighting a red hot spot where the best synthesis
+  research joining predicting and understanding power of the empirical
+  data might occur. The first research goal of this proposal aims to
+  build an automated research platform to maximize the predicting and
+  understanding power highlighted in the red hot spot of the
+  predicting-understanding power map (bottom).}
