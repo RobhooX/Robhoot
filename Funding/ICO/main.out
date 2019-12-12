@@ -5,15 +5,17 @@
 \BOOKMARK [2][-]{subsection.3.2}{Distributed ledger network}{section.3}% 5
 \BOOKMARK [2][-]{subsection.3.3}{DeepKlen 1.0}{section.3}% 6
 \BOOKMARK [2][-]{subsection.3.4}{Robhoot 1.0}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.5}{Multilayer nature of Robhoot}{section.3}% 8
-\BOOKMARK [3][-]{subsubsection.3.5.1}{Data aintegration}{subsection.3.5}% 9
-\BOOKMARK [3][-]{subsubsection.3.5.2}{Complexity reduction}{subsection.3.5}% 10
-\BOOKMARK [3][-]{subsubsection.3.5.3}{Inference}{subsection.3.5}% 11
-\BOOKMARK [3][-]{subsubsection.3.5.4}{Validation}{subsection.3.5}% 12
-\BOOKMARK [3][-]{subsubsection.3.5.5}{Visualization}{subsection.3.5}% 13
-\BOOKMARK [3][-]{subsubsection.3.5.6}{Reporting}{subsection.3.5}% 14
-\BOOKMARK [2][-]{subsection.3.6}{Robhoot in Digital Ecosystems}{section.3}% 15
-\BOOKMARK [3][-]{subsubsection.3.6.1}{Computing Power}{subsection.3.6}% 16
-\BOOKMARK [3][-]{subsubsection.3.6.2}{Decentralization}{subsection.3.6}% 17
-\BOOKMARK [3][-]{subsubsection.3.6.3}{Neural Networks}{subsection.3.6}% 18
-\BOOKMARK [1][-]{section.4}{Conclusion}{}% 19
+\BOOKMARK [1][-]{section.4}{The multilayer nature of Robhoot}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Data integration}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Complexity reduction}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.3}{Inference}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.4}{Validation}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.5}{Visualization}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.6}{Reporting}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Robhoot in Digital Ecosystems}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Computing Power}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Decentralization}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.3}{Neural Networks}{section.5}% 18
+\BOOKMARK [1][-]{section.6}{How to contribute to Robhoot}{}% 19
+\BOOKMARK [1][-]{section.7}{The Robhoot roadmap}{}% 20
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 21
