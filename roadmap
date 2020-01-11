@@ -1,24 +1,60 @@
 
-0. White paper
+_________________________________________________________________________________________
+Robhoot prototype
+-----------------
 
-2019 Research paper -- scheme for the prototype 
+Integration python or julia output to telegram bot xxx
+Clickhouse or other DB output to telegram bot x
 
-1. Funding schemes
+Fussion :: julia Agents package Ali + data merging done for INEEX
+Figure :: Robhoot Open-software ecosystem
+_________________________________________________________________________________________
+    
 
---------------------------------------------------------------
-Potential EU funding FET scheme
+_________________________________________________________________________________________
+Team
+----
 
-Swiss Data Science Center
+EAWAG SWITZERLAND 
+Mario : 
+Harald :
 
-National Geographic microsoft AI
+SDSC SWITZERLAND
+Christine 
+
+IFISC SPAIN
+Victor
+
+Univ. Tartu ESTONIA
+Raul Vicente
+
+CASTOR Software research centre SWEDEN ?
+Benoit
+Martin
+______________________________________________________________________________
+
+
+______________________________________________
+Whitepaper
+----------
+
+ICO-IPO draft :: Introduce Ali's suggestions
+Fussion FET-BBVA-SDSC
+______________________________________________
+
+
+_______________________________________________________________________________________
+Funding schemes
+---------------
+
+FET B1 B2 :: Advanced draft by MAR 2020 :: MAY 13
+
+Swiss Data Science Center :: Data intensive tangling of the webs of life :: JAN 20 2020
 
 Swiss National Foundation
-Interdisciplinary projects -- Oct 1 full proposal
--------------------------------------------------
+Interdisciplinary projects -- Oct 1 2020 full proposal
 
-
-------------------------------------------
 Innoswiss -- 
 Deadline each month 
-Solving a problem together with a company
-------------------------------------------
+Solving a problem together with a company -- company has to finance 10% initial project?
+________________________________________________________________________________________
