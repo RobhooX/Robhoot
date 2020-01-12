@@ -10,9 +10,11 @@ ________________________________________________________________________________
 Robhoot prototype
 -----------------
 
+Foreground :: 
 Integration python or julia output to telegram bot xxx
 Clickhouse or other DB output to telegram bot x
 
+Background :: 
 Fussion :: julia Agents package Ali + data merging done for INEEX
 Figure :: Robhoot Open-software ecosystem
 _________________________________________________________________________________________
@@ -45,6 +47,13 @@ ______________________________________________
 Whitepaper
 ----------
 
+Describe versions :: 
+Beta 0.9
+Robhoot 1.0 (1.0.1, 1.0.2 ...)
+Robhoot 1.1 (1.1.1, 1.1.2 ...)
+
+
+
 ICO-IPO draft :: Introduce Ali's suggestions
 Fussion FET-BBVA-SDSC
 ______________________________________________
@@ -54,14 +63,24 @@ ________________________________________________________________________________
 Funding schemes
 ---------------
 
+TO BE SUBMITTED -------------------------------------
+
+CHISTERA :: Pre-proposal (10pp) :: FEB 14  
+
+SPARK :: MAR 13 (Ali)
+
 FET B1 B2 :: Advanced draft by MAR 2020 :: MAY 13
 
-Swiss Data Science Center :: Data intensive tangling of the webs of life :: JAN 20 2020
 
+ALTERNATIVE FUNDING SCHEMES -------------------------------------------
 Swiss National Foundation
 Interdisciplinary projects -- Oct 1 2020 full proposal
 
 Innoswiss -- 
 Deadline each month 
 Solving a problem together with a company -- company has to finance 10% initial project?
+
+
+SUBMITTED ----------------------------------------
+Swiss Data Science Center :: Data intensive tangling of the webs of life :: JAN 20 2020
 ________________________________________________________________________________________

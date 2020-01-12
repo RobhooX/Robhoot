@@ -1,5 +1,10 @@
-Script Workflow Automated Research Platform
-Sensu Renku (SDSC) knowledge graph
+
+
+
+
+Foreground : Connecting layers to telegram (or other) bot 
+Background : Script Workflow Automated Research Platform -- Sensu Renku (SDSC) knowledge graph
+
 
 Prototype for a script workflow to automate interactions within and among the five layers contained in Robhoot, from data adquisition and integration to validation and visualization. The script is based in two types of packages: backbone and specialized packages. Backbone packages (B) connect intra- and inter-layer algorithms to automatically run the workflow. Specialized (S) packages feedback with backbone packages to run specific tasks: parsing, likelihoods, inference, plotting, visualizing, etc. There are at least five properties automated ARP can provide to science:
 
