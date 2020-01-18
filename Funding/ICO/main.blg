@@ -1,64 +1,56 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: biblatex.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: main-blx.bib
-Database file #2: example.bib
-Biblatex version: 3.8
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 1 entry,
-            6268 wiz_defined-function locations,
-            1178 strings with 8558 characters,
-and the built_in function-call counts, 1205 in all, are:
-= -- 58
-> -- 52
-< -- 1
-+ -- 37
-- -- 22
-* -- 24
-:= -- 275
-add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
-chr.to.int$ -- 30
-cite$ -- 0
-duplicate$ -- 11
-empty$ -- 87
-format.name$ -- 0
-if$ -- 266
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 20
-num.names$ -- 0
-pop$ -- 40
+The style file: unsrtnat.bst
+Database file #1: Robhoot.bib.bib
+Warning--I didn't find a database entry for "Gunter2018"
+Warning--empty journal in Gunther2018
+Warning--there's a number but no volume in Golem2016
+Warning--empty journal in Durov2017
+Warning--empty journal in OceanProtocolFoundation2018
+Warning--there's a number but no volume in BigchainDBGmbH2018
+Warning--empty year in Reichstein
+Warning--empty year in Reichstein
+Warning--empty institution in Gil2019
+You've used 13 entries,
+            2481 wiz_defined-function locations,
+            663 strings with 7941 characters,
+and the built_in function-call counts, 6006 in all, are:
+= -- 465
+> -- 435
+< -- 10
++ -- 162
+- -- 136
+* -- 548
+:= -- 1047
+add.period$ -- 60
+call.type$ -- 13
+change.case$ -- 27
+chr.to.int$ -- 13
+cite$ -- 21
+duplicate$ -- 249
+empty$ -- 444
+format.name$ -- 153
+if$ -- 1204
+int.to.chr$ -- 1
+int.to.str$ -- 14
+missing$ -- 12
+newline$ -- 94
+num.names$ -- 39
+pop$ -- 89
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 13
 quote$ -- 0
-skip$ -- 67
+skip$ -- 142
 stack$ -- 0
-substring$ -- 110
-swap$ -- 1
-text.length$ -- 14
+substring$ -- 222
+swap$ -- 36
+text.length$ -- 2
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 22
-warning$ -- 0
-while$ -- 45
+top$ -- 0
+type$ -- 91
+warning$ -- 8
+while$ -- 44
 width$ -- 0
-write$ -- 20
+write$ -- 211
+(There were 9 warnings)
