@@ -14,6 +14,12 @@ H.~Inhaber.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/abs/pii/0048733377900245}.
 
+\bibitem[G{\"{u}}nther and Chirita(2018)]{Gunther2018}
+Vlad G{\"{u}}nther and Alexandru Chirita.
+\newblock {" Scienceroot " Whitepaper}.
+\newblock 2018.
+\newblock URL \url{https://www.scienceroot.com/}.
+
 \bibitem[Fang and Casadevall(2011)]{Fang2011}
 Ferric~C Fang and Arturo Casadevall.
 \newblock {Retracted Science and the Retraction Index}.
@@ -45,12 +51,6 @@ John P~a Ioannidis.
 \newblock ISSN 1549-1676.
 \newblock \doi{10.1371/journal.pmed.0020124}.
 \newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/16060722}.
-
-\bibitem[G{\"{u}}nther and Chirita(2018)]{Gunther2018}
-Vlad G{\"{u}}nther and Alexandru Chirita.
-\newblock {" Scienceroot " Whitepaper}.
-\newblock 2018.
-\newblock URL \url{https://www.scienceroot.com/}.
 
 \bibitem[Golem(2016)]{Golem2016}
 Golem.

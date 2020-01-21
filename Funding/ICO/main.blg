@@ -3,7 +3,6 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: Robhoot.bib.bib
-Warning--I didn't find a database entry for "Gunter2018"
 Warning--empty journal in Gunther2018
 Warning--there's a number but no volume in Golem2016
 Warning--empty journal in Durov2017
@@ -14,7 +13,7 @@ Warning--empty year in Reichstein
 Warning--empty institution in Gil2019
 You've used 13 entries,
             2481 wiz_defined-function locations,
-            663 strings with 7941 characters,
+            661 strings with 7921 characters,
 and the built_in function-call counts, 6006 in all, are:
 = -- 465
 > -- 435
@@ -53,4 +52,4 @@ warning$ -- 8
 while$ -- 44
 width$ -- 0
 write$ -- 211
-(There were 9 warnings)
+(There were 8 warnings)
