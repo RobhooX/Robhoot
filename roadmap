@@ -1,14 +1,66 @@
+_________________________________
+REPOSITORY
+
+Migrate from github to c4science
+_________________________________
 
 
-______________________________
-Repo
+___________________________________________________________________________________________________________________________________________
+ROBHOOT DESIGN AND STAGES (Folder Funding/ICO)
 
-Move from github to c4science
-______________________________
+Robhoot will be developed in four different stages following standard version protocols. The most advanced version is to provide real-time open-access reporting by a decentralized neutral-knowledge network to gain informed decisions when solving complex social, environmental and technological problems. Automating the research cycle in a open research network ultimately aims to contrast human-produced science with machine-produced science to enrich the human-knowledge graphs in a neutral-knowledge-inspired society. The overall objectives and a brief numeration of the tools and methods to be used/developed in each stage for each of the four major Robhoot versions are the following:
 
-_________________________________________________________________________________________
-Robhoot prototype
------------------
+  
+  Robhoot 1.0: Automated Research Cycle
+  
+  Develop, deploy and integrate open-source algorithms to fully automate the research cycle.
+  
+  Exploration of robustness within and between layers from data integration, complexity reduction, inference, and validation to visualization and automated reporting.
+  
+  Robhoot 1.0 testnet to explore a Open Research Network in Biodiversity and Global Change Research to connect open science (i.e., citizen and other data-driven models) to real-time
+  open-access knowledge generation to gain informed decisions when solving local and global environmental problems.
+   
+  Tools and Methods: Multilayer networks, Bayesian Networks, Network metrics, Julia computing language, Open-source software protocols, Gitchain, ETLs algorithms, Kafka, Clickhouse.
+   
+
+  Robhoot 2.0: Knowledge Graphs
+  
+  Implementation of algorithms to reproduce paths of the research cycle with Knowledge Graphs (KGs).
+ 
+  Robustness and stability exploring a suite of open-source lineage client-tracker algorithms.
+  
+  Tools and Methods: Knowlegde graph algorithms and packages (i.e., Renku and others).
+  
+
+  Robhoot 3.0: Deep learning networks
+
+  Deploy automated deep learning algorithms to sample paths of the research cycle to produce populations of Knowledge Graphs (KGs).
+  
+  Exploration of the robustness of automated research cycle combining optimization algorithms and the population of Knowledge Graphs.
+
+  Tools and Methods: Multilayer networks, Neural Biological Networks, Bayesian Networks, Deep learning networks. Optimization algorithms.
+
+    
+  Robhoot 4.0: Distributed ledger network
+  
+  Deploy a permissioned-permissionless distributed ledger technology to guarantee decentralization, open-access, neutral-knowledge-based network and prior confidenciality/posterior   	  reproducibility of the KGs populations.
+   
+  Exploration of a suite of consensus algorithms and smart contracts among trusted-untrusted peer-to-peer interactions to infer macroscopic metrics of the open research network.
+
+  Quantification of metrics to study the scalability-security-decentralization trade-offs when storing KGs in the research network.
+  
+  Testnet case study to explore the interaction between consensus protocols and the scalability-security-decentralization trade-offs when committing the KGs to the distributed ledger.
+  
+  Mainnet to cryptographically link each population of KGs to previous KGs-ledger to create an historical KGs-ledger chain that goes back to the genesis ledger in the open research network. The mainnet aims to connect multiple database with real-time open-access citizen data science to knowledge-inspired societies.
+
+   Tools and Methods: Distributed computing algorithms, Blockchain and consensus algorithms, BighainDB, Gitchain. Telegram open network, Golem.
+____________________________________________________________________________________________________________________________________________________
+  
+
+
+________________________________________________________________________________________
+ROBHOOT PROTOTYPE
+
 
 Prototype :: 
 Integration python or julia output to telegram bot xxx
@@ -20,8 +72,9 @@ Figure :: Robhoot Open-software ecosystem x
 _________________________________________________________________________________________
     
 
+
 _________________________________________________________________________________________
-Team
+TEAM
 ----
 
 EAWAG SWITZERLAND 
@@ -43,29 +96,23 @@ Martin
 ______________________________________________________________________________
 
 
-______________________________________________
-Whitepaper
-----------
+_______________________________________________________
+WHITEPAPER
 
 Describe versions :: 
 Beta 0.9
 Robhoot 1.0 (1.0.1, 1.0.2 ...) :: Sent all JAN 21 2020
 Robhoot 1.1 (1.1.1, 1.1.2 ...)
-
-
-
-ICO-IPO draft :: Introduce Ali's suggestions
-Fussion FET-BBVA-SDSC
-______________________________________________
+_______________________________________________________
 
 
 _______________________________________________________________________________________
-Funding schemes
----------------
+FUNDING
+
 
 TO BE SUBMITTED -------------------------------------
 
-CHISTERA :: Pre-proposal (10pp) :: FEB 14  
+CHISTERA :: Pre-proposal (10pp) :: FEB 14?
 
 SPARK :: MAR 13 (Ali)
 
