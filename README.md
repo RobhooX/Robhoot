@@ -3,7 +3,7 @@ Robhoot aims to fully automate the research cycle in a open decentralized networ
 Robhoot will be developed in four different stages following standard version protocols (Robhoot 1.0 to 4.0). The most advanced version is to provide real-time open-access reporting by a decentralized neutral-knowledge network to gain informed decisions when solving complex social, environmental and technological problems. Automating the research cycle in a open research network ultimately aims to contrast human-produced science with machine-produced science to enrich the human-knowledge graphs in a neutral-knowledge-inspired society. The following is a brief description of each four Robhoot versions:
 
 
-Robhoot 1.0: Automated Research Cycle
+## Robhoot 1.0: Automated Research Cycle
   
   Develop, deploy and integrate open-source algorithms to fully automate the research cycle.
   
@@ -45,7 +45,7 @@ ________________________________________________________________________________
 
 
 
-  Robhoot 2.0: Knowledge Graphs
+## Robhoot 2.0: Knowledge Graphs
   
   Implementation of algorithms to reproduce paths of the research cycle with Knowledge Graphs (KGs).
  
@@ -55,7 +55,7 @@ ________________________________________________________________________________
   
 
 
-  Robhoot 3.0: Deep learning networks
+## Robhoot 3.0: Deep learning networks
 
   Deploy automated deep learning algorithms to sample paths of the research cycle to produce populations of Knowledge Graphs (KGs).
   
@@ -65,7 +65,7 @@ ________________________________________________________________________________
 
 
     
-  Robhoot 4.0: Distributed ledger network
+##  Robhoot 4.0: Distributed ledger network
   
   Deploy a permissioned-permissionless distributed ledger technology to guarantee decentralization, open-access, neutral-knowledge-based network and prior confidenciality/posterior   	  reproducibility of the KGs populations.
    
