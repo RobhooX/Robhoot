@@ -10,13 +10,13 @@ ________________________________________________________________________________
 Robhoot prototype
 -----------------
 
-Foreground :: 
+Prototype :: 
 Integration python or julia output to telegram bot xxx
-Clickhouse or other DB output to telegram bot x
+BigchainDB, Clickhouse or general DB output --> python-julia code --> telegram bot
 
 Background :: 
 Fussion :: julia Agents package Ali + data merging done for INEEX
-Figure :: Robhoot Open-software ecosystem
+Figure :: Robhoot Open-software ecosystem x
 _________________________________________________________________________________________
     
 
@@ -49,7 +49,7 @@ Whitepaper
 
 Describe versions :: 
 Beta 0.9
-Robhoot 1.0 (1.0.1, 1.0.2 ...)
+Robhoot 1.0 (1.0.1, 1.0.2 ...) :: Sent all JAN 21 2020
 Robhoot 1.1 (1.1.1, 1.1.2 ...)
 
 

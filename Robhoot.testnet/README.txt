@@ -1,7 +1,7 @@
-____________________________________________________________________
+_________________________________________________________________________________________
 
-Robhoot --> RobhooX --> VISION --> Broadcast fully automated report
-____________________________________________________________________
+Robhoot --> RobhooX --> VISION --> Broadcast Telegram Open network fully automated report
+_________________________________________________________________________________________
 
 
 Mobile______________________________________________________________
@@ -35,7 +35,6 @@ id_chat 319178712
 Forum --------
 
 https://www.freecodecamp.org/news/learn-to-build-your-first-bot-in-telegram-with-python-4c99526765e4/
-
 
 https://gist.github.com/lucaspg96/284c9dbe01d05d0563fde8fbb00db220
 
