@@ -29,6 +29,7 @@
 * [Interaction Web Database](https://www.nceas.ucsb.edu/interactionweb/) is a nonprofit, cooperative database containing published data on species interaction networks. Also check [IntWebData](#IntWebData)
 * [Movebank](https://www.movebank.org/) is a free, online database of animal tracking data. Check [this youtube video](https://www.youtube.com/watch?v=TG4eCWkdyQY) for an animation made from Movebank's data.
 * [NEMAPLEX](http://nemaplex.ucdavis.edu) is a virtual encyclopedia on soil and plant nematodes.
+* [GBIF](https://datos.gbif.es) is a biodiversity database.
 
 ## Tools
 
