@@ -1,3 +1,8 @@
+#_______________________________________________________________________
+#GOAL :: connect echobot1.py to autom.py to produce prototype reporting
+#JAN 2020
+#_______________________________________________________________________
+
 # pip install datareader
 import pandas as pd
 pd.core.common.is_list_like = pd.api.types.is_list_like

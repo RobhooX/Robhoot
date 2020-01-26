@@ -1,5 +1,8 @@
 # A not exhaustive list of databases for Biodiversity research
 
+#GOAL
+Automatically build a database-of-databases
+
 ## Biology
 
 ### Molecular biology
