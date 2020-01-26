@@ -1,5 +1,7 @@
 ___________________________________________________________________________________________________
-# ROBH0OT TESTNET AS A DECENTRALIZED AUTOMATED RESEARCH NETWORK (DARENET) ::
+# ROBHOOT 
+
+## TESTNET AS A DECENTRALIZED AUTOMATED RESEARCH NETWORK (DARENET)
 
 ## GOAL
 
