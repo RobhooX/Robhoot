@@ -1,0 +1,21 @@
+%https://tex.stackexchange.com/questions/378450/neural-network-illustration
+\documentclass[fleqn,14pt,a4paper,final]{article} 
+\usepackage{neuralnetwork}
+\begin{document}
+
+\begin{figure}[h!]
+\begin{neuralnetwork}[height=2.5 ,maintitleheight=2cm,layertitleheight=3cm]
+  %\newcommand{\nodetextx}[2]{$x_{1}$}
+  \newcommand{\nodetextz}[2]{$RP_{#2,3}$}
+  \newcommand{\nodetexth}[2]{$RC_{#2,1}$}
+  \newcommand{\nodetexthto}[2]{$DC_{#2,2}$}
+  %\inputlayer[count=3, title={Input-lag}, text=\nodetextx]
+  \hiddenlayer[count=5, title={Research Cycle}, text=\nodetexth]
+  \linklayers
+  \hiddenlayer[count=5, title={Data Confidentiality}, text=\nodetexthto]
+   \linklayers
+  \outputlayer[count=5, title={Reporting Privacy}, text=\nodetextz] 
+  \linklayers
+\end{neuralnetwork}
+\end{figure}
+\end{document}

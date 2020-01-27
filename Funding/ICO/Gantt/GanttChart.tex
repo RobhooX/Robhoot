@@ -60,19 +60,19 @@
     \ganttbar[progress=5,inline=false]{Project progress}{1}{42}\\
 
     %obj 1
-    \ganttgroup[inline=false]{O1: Multilayer}{3}{19}\\ 
-    \ganttbar[inline=false]{{\bf WP1 (DIVAL)}}{3}{14} \\%\ganttnewline
+    \ganttgroup[inline=false]{{\bf Robhoot 1.0}}{3}{19}\\ 
+    \ganttbar[inline=false]{{\bf WP1}}{3}{14} \\%\ganttnewline
     
     %\ganttlinkedbar{Task 2}{3}{7} \ganttnewline
      \ganttmilestone[inline=false]{{\bf WP1 deadline}}{14} \ganttnewline
-     \ganttbar[inline=false]{{\bf WP2 (VISUR)}}{5}{16} \\%\ganttnewline
+     \ganttbar[inline=false]{{\bf WP2}}{5}{16} \\%\ganttnewline
      \ganttmilestone[inline=false]{{\bf WP2 deadline}}{16} \ganttnewline
 
     
-     \ganttbar[inline=false]{Intra-Inter-layer Automation}{8}{17} \ganttnewline
-     \ganttmilestone[inline=false]{{\bf WP3}: Running prototype}{17} \\
-     \ganttbar[inline=false]{Multilayer and KG integration: deep learning}{12}{18} \ganttnewline
-     \ganttmilestone[inline=false]{{\bf WP4}: Automated KGs}{18} \\
+     \ganttbar[inline=false]{{\bf WP3}}{8}{17} \ganttnewline
+     \ganttmilestone[inline=false]{{\bf WP3 deadline}}{17} \\
+     \ganttbar[inline=false]{{\bf WP4}}{12}{18} \ganttnewline
+     \ganttmilestone[inline=false]{{\bf WP4 deadline}}{18} \\
 
      
      \ganttbar[progress=25,inline=false]{Project progress}{1}{42}\\
@@ -87,13 +87,13 @@
      
      
     % obj 2
-    \ganttgroup[inline=false]{O2: Ledger}{2}{19}\\ 
-    \ganttbar[inline=false]{Ledger implementation}{2}{12}\\
-    \ganttmilestone[inline=false]{{\bf WP5}: Running prototype}{12} \\
-    \ganttbar[inline=false]{Minimizing scalability-security-decentralization trade-offs}{4}{14}\\
-    \ganttmilestone[inline=false]{{\bf WP6}: Running prototype}{14} \\
-     \ganttbar[inline=false]{Ledger automation}{8}{18}\\
-    \ganttmilestone[inline=false]{{\bf WP7}: Running prototype}{18} \\
+    \ganttgroup[inline=false]{{\bf Robhoot 2.0}}{2}{19}\\ 
+    \ganttbar[inline=false]{{\bf WP5}}{2}{12}\\
+    \ganttmilestone[inline=false]{{\bf WP5 deadline}}{12} \\
+    \ganttbar[inline=false]{{\bf WP6}}{4}{14}\\
+    \ganttmilestone[inline=false]{{\bf WP6 deadline}}{14} \\
+     \ganttbar[inline=false]{{\bf WP7}}{8}{18}\\
+    \ganttmilestone[inline=false]{{\bf WP7 deadline}}{18} \\
     \ganttbar[progress=45,inline=false]{Project progress}{1}{42}\\
     
 
@@ -104,25 +104,30 @@
       \ganttlink{elem17}{elem19}
     
      % obj 3
-    \ganttgroup[inline=false]{O3: DeepKlen}{18}{31}\\ 
-    \ganttbar[inline=false]{Launch testnet: Deep Knowledge Ledger Network}{18}{26}\\
-    \ganttmilestone[inline=false]{{\bf WP8}: Running prototype}{26} \\
-    \ganttbar[inline=false]{Launch testnet: Deep Knowledge Ledger Network}{22}{30}\\
-    \ganttmilestone[inline=false]{{\bf WP9}: Running prototype}{30} \\
+    \ganttgroup[inline=false]{{\bf Robhoot 3.0}}{18}{36}\\ 
+    \ganttbar[inline=false]{{\bf WP8}}{18}{26}\\
+    \ganttmilestone[inline=false]{{\bf WP8 deadline}}{26} \\
+    \ganttbar[inline=false]{{\bf WP9}}{22}{30}\\
+    \ganttmilestone[inline=false]{{\bf WP9 deadline}}{30} \\
+    \ganttbar[inline=false]{{\bf WP10}}{26}{32}\\
+    \ganttmilestone[inline=false]{{\bf WP10 deadline}}{32} \\
+    \ganttbar[inline=false]{{\bf WP11}}{32}{36}\\
+    \ganttmilestone[inline=false]{{\bf WP11 deadline}}{36} \\
+    
     \ganttbar[progress=70,inline=false]{Project progress}{1}{42}\\
 
       \ganttlink{elem19}{elem21}
       \ganttlink{elem11}{elem21}
-      \ganttlink{elem24}{elem25}
+      \ganttlink{elem17}{elem25}
 
-      \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{RP2}}}{31}{31}\\
+      \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{RP2}}}{36}{36}\\
 
      % obj 4
-    \ganttgroup[inline=false]{O4: Robhoot}{30}{42}\\ 
-    \ganttbar[inline=false]{Launch testnet: Robhoot Open Network}{30}{36}\\
-    \ganttmilestone[inline=false]{{\bf WP10}: Running prototype}{36} \\
-    \ganttbar[inline=false]{Launch testnet: RON in Biodiversity Research}{35}{41}\\
-    \ganttmilestone[inline=false]{{\bf WP11}: Running prototype}{41} \\
+    \ganttgroup[inline=false]{{\bf Robhoot 4.0}}{30}{42}\\ 
+    \ganttbar[inline=false]{{\bf WP12}}{30}{36}\\
+    \ganttmilestone[inline=false]{{\bf WP12 deadline}}{36} \\
+    \ganttbar[inline=false]{{\bf WP13}}{35}{41}\\
+    \ganttmilestone[inline=false]{{\bf WP13 deadline}}{41} \\
     \ganttbar[progress=100,inline=false]{Project progress}{1}{42}\\
     \ganttbar[inline=false]{\bf{RP3}}{42}{42}\\
 
