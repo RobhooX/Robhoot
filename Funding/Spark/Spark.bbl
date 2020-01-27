@@ -1,0 +1,64 @@
+\begin{thebibliography}{10}
+
+\bibitem{AutomatedStatistician}
+Automated statistician.
+\newblock \url{https://www.automaticstatistician.com/index/}.
+
+\bibitem{BigQuery}
+Bigquery.
+\newblock \url{https://cloud.google.com/bigquery/}.
+
+\bibitem{easeml}
+Ease.ml.
+\newblock \url{https://github.com/DS3Lab/easeml}.
+
+\bibitem{GAI}
+Google ai.
+\newblock \url{https://ai.google/}.
+
+\bibitem{Iris}
+Iris ai.
+\newblock \url{https://iris.ai}.
+
+\bibitem{Modulus}
+Modulus.
+\newblock \url{http://www.modulos.ai/}.
+
+\bibitem{NakamotoT}
+Nakamoto terminal.
+\newblock \url{https://www.nterminal.com}.
+
+\bibitem{Renku}
+Renku.
+\newblock \url{https://renku.readthedocs.io/en/latest/}.
+
+\bibitem{Ghahramani:2015}
+Z.~Ghahramani.
+\newblock {Probabilistic machine learning and artificial intelligence}.
+\newblock {\em Nature}, 521:452--459, 2015.
+
+\bibitem{Melian2018}
+C.~J. Meli{\'{a}}n, B.~Matthews, C.~S. de~Andreazzi, J.~P. Rodr{\'{i}}guez,
+  L.~J. Harmon, and M.~A. Fortuna.
+\newblock {Deciphering the interdependence between ecological and evolutionary
+  networks}.
+\newblock {\em Trends in Ecology and Evolution}, xx:1--9, 2018.
+
+\bibitem{Reichsteietal2019}
+{Reichstein, M.}, {Camps-Valls, G.}, {Stevens, B.}, {Jung, M.}, {Denzler, J.},
+  {Carvalhais, N.}, and Prabhat.
+\newblock Deep learning and process understanding for data-driven earth system
+  science.
+\newblock {\em Nature}, 566:195--2024, 2019.
+
+\bibitem{Schmidhuber:2015}
+J.~Schmidhuber.
+\newblock {Deep learning in neural networks: An overview}.
+\newblock {\em Neural Networks}, 61:85--117, jan 2015.
+
+\bibitem{Sheehan2016}
+S.~Sheehan and Y.~S. Song.
+\newblock {Deep learning for population genetic inference}.
+\newblock {\em PLoS computational biology}, 12(3):e1004845, mar 2016.
+
+\end{thebibliography}

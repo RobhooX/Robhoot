@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Spark.aux
+The style file: abbrv.bst
+Database file #1: ref.bib
+Warning--to sort, need author or key in NakamotoT
+Warning--to sort, need author or key in BigQuery
+Warning--to sort, need author or key in AutomatedStatistician
+Warning--to sort, need author or key in Modulus
+Warning--to sort, need author or key in GAI
+Warning--to sort, need author or key in Iris
+Warning--to sort, need author or key in easeml
+Warning--to sort, need author or key in Renku
+You've used 13 entries,
+            2118 wiz_defined-function locations,
+            564 strings with 5091 characters,
+and the built_in function-call counts, 3110 in all, are:
+= -- 300
+> -- 106
+< -- 0
++ -- 47
+- -- 34
+* -- 190
+:= -- 460
+add.period$ -- 31
+call.type$ -- 13
+change.case$ -- 56
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 111
+empty$ -- 313
+format.name$ -- 34
+if$ -- 680
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 5
+newline$ -- 60
+num.names$ -- 10
+pop$ -- 86
+preamble$ -- 1
+purify$ -- 43
+quote$ -- 0
+skip$ -- 99
+stack$ -- 0
+substring$ -- 177
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 8
+while$ -- 19
+width$ -- 15
+write$ -- 113
+(There were 8 warnings)
