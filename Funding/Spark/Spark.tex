@@ -1,68 +1,45 @@
-\documentclass[authoryear,1p,12pt]{elsarticle}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage[mathlines,displaymath]{lineno}
+\documentclass[twocolumn]{article}
+
+\usepackage{hyperref} % For hyperlinks in the PDF
+\usepackage{authblk}  % To add author affiliations
 \usepackage{graphicx}
-\usepackage[all,2cell,dvips]{xy}
-% \usepackage{natbib}
-\usepackage[usenames,rgb]{xcolor} 
-\usepackage{ucs}                                            
-\usepackage[utf8]{inputenc}                                                                           
-\usepackage{array}                                            
-\usepackage{longtable}                                        
-\usepackage{calc}                                             
-\usepackage{multirow}                                         
-\usepackage{hhline}                                           
-\usepackage{ifthen} 
-% \usepackage{babel}
+\usepackage{cleveref}
 \usepackage{tcolorbox}
 \newtcolorbox{mybox}{colback=gray!5!white,colframe=red!75!black}
 \usepackage{setspace}
-\usepackage{verbatim}
-\usepackage{etaremune}
-\usepackage{url}
-\usepackage{color}
-\usepackage{graphicx}
-% \usepackage[latin1]{inputenc}
-\usepackage{color}
-\usepackage{array}
-\usepackage{float}
-\usepackage{wrapfig}
-\usepackage{hyperref}
-\usepackage{cleveref}
-\usepackage{tikz}
-%\floatstyle{boxed} 
-%\restylefloat{figure}
 
-\newcommand{\etal}{{et~al.{}}}
-\newcommand{\ie}{{i.~e.{}}}
-\newcommand{\eg}{{e.~g.{}}}
-\newcommand{\viz}{{viz.{}}}
-\newcommand{\etc}{{etc.{}}}
-\newcommand{\apriori}{{a priori{}}}
-\newcommand{\vv}{{vice versa{}}}
-\newcommand{\cf}{cf.{}}
-\setcounter{tocdepth}{3}
-\newcommand{\carlos}[1]{\textcolor{Red}{#1}}
-\graphicspath{ {./} }
+% Personal command
+\graphicspath{ {../} }
+\newcommand{\beginsupplement}{%
+\setcounter{table}{0}
+\renewcommand{\thetable}{S\arabic{table}}%
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}%
+}
 
-% Text layout
-\topmargin 0.0cm
-\oddsidemargin 0.25cm
-\evensidemargin 0.25cm
-\textwidth 17cm 
-\textheight 21cm
+%----------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------
 
-\vspace{0.1 in}
-\pagestyle{myheadings}
-\markboth{Spark Mar 2020 :: AR Vahdati}{Spark Mar 2020 ::  AR Vahdati} 
+\title{{Title: Deep process-based learning networks in Biodiversity research}}
+\author[]{}
+% \author[*,1]{Ali R. Vahdati}
+% \affil[1]{Department of Anthropology, University of Zurich, Zurich, Switzerland}
+% \affil[*]{Corresponding author. Email: ali.rezaee@aim.uzh.ch, zolli@aim.uzh.ch}
 
+% \setcounter{Maxaffil}{0}
+% \renewcommand\Affilfont{\itshape\small}
+
+\date{} % Leave empty to omit a date. Add \today for current date.
+
+%----------------------------------------------------
 
 \begin{document}
-\section*{{\bf Title: Deep process-based learning networks in Biodiversity research}}
+
+\maketitle
 
 
-\section*{{\bf Summary}}
+\section*{Summary}
 We are in a enthralling scientific era. We have the computer power,
 the open-source tools, the know-how in many highly specialized fields
 and the team capabilities to integrate Earth science and Biodiversity
@@ -86,22 +63,9 @@ scenarios taking into account the interdependencies among biological
 levels and scales in ecological and evolutionary networks (Box 1 and
 Figures 3 and 4).
 
-
-% \section{{\bf Milestones (Internal)}}
-
-% \noindent{\bf M1} Submission proposal ``Deep Knowledge Ledger Network ($DEEPKLEN$ \& $ROBHOOT$)''\\
-% Funding scheme: FETOPEN-EU Challenging Current Thinking\\
-% Deadline: March 2020)\\
-% Team:\\
-% Switzerland (SDSC, Christine Choirat, and EAWAG (Carlos Melian))\\
-% Spain, IFISC (Victor Eguiluz)\\
-% Estonia, U. Tartu (Raul Vicente)\\
-% \\
-% {\bf M2} Submission proposal ``Deep process-based learning networks for Biodiversity research''\\
-% Funding scheme: Spark\\
-% Deadline: March 2020\\
-
-
+\newpage
+\setcounter{page}{0}
+\clearpage
 \pagebreak
 \section*{Deep process-based learning networks in Biodiversity research}
 
@@ -122,15 +86,15 @@ into a single framework. % TODO more detail of the objective and its impact
 
 \begin{figure}[htp]
   \centering
-  \includegraphics[height=0.013\maxdimen, width=0.65\textwidth]{Figure1}
+  \includegraphics[height=0.010\maxdimen, width=\linewidth]{{Figure1}.png}
 	\caption{
 		\textbf{Decline of biodiversity across the globe}.
        Map showing the remaining populations of native
        species across many taxa as a percentage of their original
        populations. Blue areas are within proposed safe limits, and
-       red areas are beyond these limits. For furhter information
+       red areas are beyond these limits. For further information
        please check the original work at
-       {http://www.nhm.ac.uk/discover/news/2016/july/biodiversity-breaching-safe-limits-worldwide.html}.
+       \url{http://www.nhm.ac.uk/discover/news/2016/july/biodiversity-breaching-safe-limits-worldwide.html}.
 		}
 	\label{fig:1}
 \end{figure}
@@ -169,7 +133,7 @@ interdependencies and feedbacks within and between layers (Box 1 and
 
 \begin{figure}[htp]
   \centering
-  \includegraphics[height=0.018\maxdimen, width=\textwidth]{Figure2}
+  \includegraphics[height=0.018\maxdimen, width=\linewidth]{{Figure2-2}.pdf}
 	\caption{
   \small{\textbf{Biodiversity is hierarchically
          structured} yet inferring interdependencies among the levels
@@ -235,7 +199,7 @@ interdependencies and feedbacks within and between layers (Box 1 and
 
 \begin{figure}[htp]
   \centering
-  \includegraphics[height=0.018\maxdimen, width=0.85\textwidth]{Figure3-2}
+  \includegraphics[height=0.018\maxdimen, width=\linewidth]{{Figure3-2}.pdf}
   \caption{
     \textbf{Prediction and understanding power
          map}. This figures shows a cartoon of a prediction power map
@@ -261,7 +225,7 @@ interdependencies and feedbacks within and between layers (Box 1 and
 
 \begin{figure}[htp]
   \centering
-  \includegraphics[]{Figure4}
+  \includegraphics[]{{Figure4}.pdf}
 	\caption{
 		\textbf{Figure 4: Prototyping a distributed and open automated research
     platform:} {\bf a)} Our initial prototype will contain five
@@ -296,57 +260,11 @@ interdependencies and feedbacks within and between layers (Box 1 and
 	\label{fig:4}
 \end{figure}
 
+\clearpage
 \pagebreak
-\section*{References}
 \bibliographystyle{abbrv}
 \bibliography{ref}
 
+
+
 \end{document}
-
-%      \newpage
-% \section{{\bf Benefits for Eawag and the Biodiversity research community}}
-% My sabbatical period attempts to fill two main gaps in Biodiversity
-% research:
-
-% 1) developing a platform integrating multiple datasets into process-
-% and ruled-based approaches framing it in multilayer and deep learning
-% networks. The sabbatical will allow me to strengthen international
-% collaborations by submitting a FET-OPEN-EU research grant
-% proposal. The platform, will be fully developed in open source
-% software and coupled to the Renku platform (Swiss data Science Center)
-% and Eawag IT domain. The interactions among different platforms (i.e.,
-% Renku, Robhoot and others) will be a collective, multi-institutional
-% networking effort to integrate transdisciplinary, fundamental and
-% applied Biodiversity research. This will help Eawag to strengthen its
-% cooperatiop with international open research platforms by providing
-% expertise and data from Aquatic ecosystems.
-% \\
-% 2) connecting fundamental and applied research combining open research
-% platforms can provide meaningful for enriching management forums in
-% applied conservation and sustainability centers. Centers that can
-% benefit from such tools in Switzerland and abroad will be the Wyss
-% Centre for Biodiversity, Climate Change and Land use with four planned
-% institutes worldwide, the NCCR centre in Bern and the LifeWatch EU
-% initiative in different parts of Europe. The CEEB could contribute to
-% an emerging network of Swiss synthesis centres with emphasis on
-% distributed and open-data-source driven biodiversity research centers
-% joining fundamental and applied research.
-%\subsection{{\bf International host center for the sabbatical}}
-
-%I've been discussing options for my sabbatical with complex systems
-%institutes in Europe, the Amsterdam, IAS, and the Mallorca, IFISC, and
-%in the USA, the New England, NECSI, and the Santa Fe Institute,
-%SFI. They all have excellent teams for implementing computing
-%platforms, computing facilities to run locally prototypes without much
-%server regulations, together with Linux driven IT teams and team of
-%researchers I would like to work with. After contrasting the pros and
-%cons of each of these centers, I have chosen the one in Mallorca.
-
-%The IFISC in Mallorca has a easy accessible full team of IT researchers
-%like database and platforms developers and scientists thinking broadly
-%about complex networks.
-
-
-%\newpage
-%\bibliographystyle{evolution}
-%\bibliography{ref}
