@@ -1,0 +1,56 @@
+
+
+ISSUE 3
+
+_____________________________________________________________________________________
+# COMMUNICATION :: FEEDBACK, VISUALIZATION, REPORTING, AND BROADCASTING USER/DEVELOPER
+
+## Automated communication, feedback, reporting and broadcasting with user/developer
+
+## GOALS
+
+### Feedback with user-developer
+### Searching broad plotting space over orthogonal methods
+### Converting fitting, results and methods to natural language (plain English)
+
+
+# BROADCAST 
+
+### EXAMPLE TELEGRAM ------------------------------------ 
+
+### Robhoot --> RobhooX --> VISION --> Broadcast Telegram Open network fully automated report
+
+### STEP 1
+
+### Forum
+* [yourfirstbot](https://www.freecodecamp.org/news/learn-to-build-your-first-bot-in-telegram-with-python-4c99526765e4/)
+* [gist](https://gist.github.com/lucaspg96/284c9dbe01d05d0563fde8fbb00db220)
+* [sendmessage](https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e)
+* [stable](https://python-telegram-bot.readthedocs.io/en/stable/)
+* [python-telegram](https://python-telegram-bot.org/)
+
+### STEP 2 
+
+### Forum
+* [wiki](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions-%E2%80%93-Your-first-Bot)
+* [Starting conversation telegram python bot](https://www.codementor.io/@garethdwyer/building-a-telegram-bot-using-python-part-1-goi5fncay)
+
+* First create :: Robhoot
+* Group : RobhooX --> added Ali Charles Victor 
+* https://telegram.me/Robhbot
+* https://api.telegram.org/bot1065718228:AAEzGbD-0-Nj5U7q1AHiZ-R9HzSJaIOHnZ4/getme
+* https://api.telegram.org/bot1065718228:AAEzGbD-0-Nj5U7q1AHiZ-R9HzSJaIOHnZ4/getUpdates
+* https://api.telegram.org/bot1065718228:AAEzGbD-0-Nj5U7q1AHiZ-R9HzSJaIOHnZ4/sendMessage?chat_id=319178712&text=TestReply
+* RobhooX broadcast :: run python echobot1.py
+
+### Julia packages (with Python integration):
+* [packagesJulia](https://github.com/melian009/Robhoot/Robhoot.testnet/packagesJulia.md)
+
+* visualiztion.pattern.process ------> Makie.jl VegaLite.jl
+______________________________________________________________________________________
+                    
+
+## 5. Visualization (VI)
+
+Robhoot will integrate automated plotting and visualization tools (e.g., [Plotly](https://plot.ly/), [JoVE](https://www.jove.com/visualize)) to visualize the empirical patterns and the models that best predict the empirical patterns. Robhoot will summarize the patterns and processes in compact and clean animation tools to help to improve the multilayer protocol and in making decisions in research, management and investment landscapes.
+

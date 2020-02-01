@@ -2,6 +2,8 @@
 \thispagestyle{empty}
 \usepackage{xcolor}
 \usepackage{tikz}
+\usepackage{amsmath,amsfonts,amsthm} % Math packages for equations
+\usepackage[mathscr]{eucal}
 
 \usetikzlibrary{arrows,
                 positioning,
@@ -40,14 +42,18 @@ startstop/.style = {base, rounded corners, fill=yellow!90,minimum height=20mm,te
     \node (LABX)    [processX, center=of LAB1]  {};
     \node (LABE1)    [processE1, above left=of start]  {};
     \node (LABE2)    [processE2, above right=of start]  {};
-                        \node (start)  [rectangle,startstop]                 {\Large {{\bf OPEN RESEARCH NETWORK}}};
+                        \node (start)  [rectangle,startstop]                 {\Large {{\bf I'M $\mathcal{ROBHOOT}$\\\vspace{0.15 in} OPEN RESEARCH NETWORK}}};
                         \node (LAB1)    [processL, below=of start]  {{\Large {\bf WHY?}}};
                         
 %-----------------------------------------------------------%
 \begin{scope}[io/.default = 10em/13mm]
-\node (in1) [io, below left=of LAB1]    {{\bf GLOBAL\\ RESEARCH\\ KNOWLEDGE\\ GAP:\vspace{0.25 in} \\CENTRALIZATION\\ BIAS\\ ERROR-PRONE\\ NONREPRODUCIBILITY\\ AND\\ LACK OF INCENTIVES}};
+  \node (in1) [io, below left=of LAB1] {{\bf GLOBAL\\ RESEARCH\\
+      KNOWLEDGE\\ GAP:\vspace{0.25 in} \\CENTRALIZATION\\ BIAS\\
+      ERROR-PRONE\\ NONREPRODUCIBILITY\\ AND\\ LACK OF INCENTIVES}};
 %\node (in2) [io, below =of in1]        {{\bf CENTRALIZATION, BIAS, ERROR, NONREPRODUCIBILITY AND LACK INCENTIVES}};
-\node (in3) [io, below right=of LAB1]   {{\bf REPRODUCIBILITY AND OPEN GLOBAL\\ SYSTEM SCIENCE\\ REPORTS \vspace{1.32 in}}};
+  \node (in3) [io, below right=of LAB1] {{\bf GLOBAL
+      \\ SCIENCE\\ REPORTS: \vspace{0.37 in} \\OPEN-ACCESS\\
+      REPRODUCIBLE\\ LOCAL\\REGIONAL\\GLOBAL SCALES (NGOs,GOs)}};
     \end{scope}
 %-----------------------------------------------------------%
 
@@ -73,8 +79,8 @@ startstop/.style = {base, rounded corners, fill=yellow!90,minimum height=20mm,te
                 (evaluation)  edge (comparison)
                 (comparison)  to (stops);
 %-----------------------------------------------------------%
-                \draw [arrow,red,line width=1.5mm] (LAB1) -| (in1) node[midway,above]{{\bf REDUCE}};              % around trapecium
-                \draw [arrow,OliveGreen,line width=1.5mm] (LAB1) -| (in3) node[midway,above]{{\bf INCREASE}};
+                \draw [arrow,red,line width=2.5mm] (LAB1) -| (in1) node[midway,above]{{\Large {\bf REDUCE}}};              % around trapecium
+                \draw [arrow,OliveGreen,line width=2.5mm] (LAB1) -| (in3) node[midway,above]{{\Large {\bf INCREASE}}};
                 %\path[->,draw=red,line width=1mm,fill=red]  (LAB1) -- (in1);
                 %\draw [<->,red] (in1) -- (in2); 
 %\draw [->,green] (in1) -- (LAB4);

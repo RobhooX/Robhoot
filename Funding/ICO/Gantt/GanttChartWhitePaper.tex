@@ -3,15 +3,17 @@
 \usepackage{pgfgantt}
 \usepackage{graphicx}
 \usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage[mathscr]{eucal}
 %\usetikzlibrary{positioning}
  \colorlet{ColorPink}{red!10}
  \colorlet{ColorPink2}{red!20}
  \colorlet{ColorPink3}{red!30}
  \colorlet{ColorPink4}{red!40}
- \colorlet{ColorBlue}{blue!10}
- \colorlet{ColorBlue2}{blue!20}
- \colorlet{ColorBlue3}{blue!30}
- \colorlet{ColorBlue4}{blue!40}
+ \colorlet{ColorBlue}{red!10}
+ \colorlet{ColorBlue2}{red!20}
+ \colorlet{ColorBlue3}{red!30}
+ \colorlet{ColorBlue4}{red!40}
          
 
 %\ganttset{
@@ -40,7 +42,7 @@
 %     title/.style={fill=none},
      title label font=\bfseries\footnotesize,
      %bar/.style={fill=white},
-     bar height=0.75,
+     bar height=1.25,
 %   progress label text={},
      group right shift=0,
      group top shift=0.7,
@@ -87,17 +89,20 @@
 
     
     %\ganttbar[inline=false,user task=ColorBlue,bar progress label node/.append style={front= 10pt and 7pt}]{{\bf Robhoot 1.0}}{1}{19} \\%\ganttnewline
-    \ganttbar[bar label inline anchor/.style=above,user task=ColorBlue]{{\bf Robhoot 1.0} : {\bf WP1} to {\bf WP4}}{1}{19} \\
-    \ganttbar[progress=25,bar label inline anchor/.style=above,user task=ColorPink, bar progress label node/.append style={inside left= 1pt and 7pt}]{}{1}{42} \\
+    \ganttbar[bar label inline anchor/.style=above,user task=ColorBlue]{$\mathcal{ROBHOOT}$ 1.0 : WP1-WP4}{1}{10.5} \\
+    %\ganttbar[progress=25,bar label inline anchor/.style=above,user task=ColorPink, bar progress label node/.append style={inside left= 1pt and 7pt}]{{\bf Robhoot 1.0}{1}{42} \\
 
-    \ganttbar[bar label inline anchor/.style=above,user task=ColorBlue2]{{\bf Robhoot 2.0} : {\bf WP5} to {\bf WP7}}{2}{20} \\
-    \ganttbar[progress=50,bar label inline anchor/.style=above,user task=ColorPink2, bar progress label node/.append style={front= 1pt and 7pt}]{}{1}{42} \\
+    \\
+    \ganttbar[bar label inline anchor/.style=above,user task=ColorBlue2]{$\mathcal{ROBHOOT}$ 2.0 : WP5-WP8}{1}{21} \\
+    %\ganttbar[progress=50,bar label inline anchor/.style=above,user task=ColorPink2, bar progress label node/.append style={front= 1pt and 7pt}]{}{1}{42} \\
 
-    \ganttbar[bar label inline anchor/.style=above,user task=ColorBlue3]{{\bf Robhoot 3.0} : {\bf WP8} to {\bf WP11}}{18}{36} \\
-    \ganttbar[progress=75,bar label inline anchor/.style=above,user task=ColorPink3, bar progress label node/.append style={front= 1pt and 7pt}]{}{1}{42} \\
+    \\
+    \ganttbar[bar label inline anchor/.style=above,user task=ColorBlue3]{$\mathcal{ROBHOOT}$ 3.0 : WP9-WP12}{1}{31.5} \\
+    %\ganttbar[progress=75,bar label inline anchor/.style=above,user task=ColorPink3, bar progress label node/.append style={front= 1pt and 7pt}]{}{1}{42} \\
 
-    \ganttbar[bar label inline anchor/.style=above,user task=ColorBlue4]{{\bf Robhoot 4.0} : {\bf WP12} to {\bf WP13}}{30}{42} \\
-    \ganttbar[progress=100,bar label inline anchor/.style=above,user task=ColorPink4, bar progress label node/.append style={front= 1pt and 7pt}]{}{1}{42} \\
+    \\
+    \ganttbar[bar label inline anchor/.style=above,user task=ColorBlue4]{$\mathcal{ROBHOOT}$ 4.0 : WP13-WP16}{1}{42} \\
+    %\ganttbar[progress=100,bar label inline anchor/.style=above,user task=ColorPink4, bar progress label node/.append style={front= 1pt and 7pt}]{}{1}{42} \\
    
     
     %\ganttbar[inline=false,user task=ColorBlue2]{{\bf Robhoot 2.0}}{2}{20} \\%\ganttnewline

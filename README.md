@@ -1,82 +1,93 @@
-Robhoot aims to fully automate the research cycle in a open decentralized network. Research automation with reporting generation might help to contrast informed decisions when solving complex social, environmental and technological problems. Current technologies for scientific inquiry and decision-making are highly fragmented and thus only increase robustness, reproducibility, open-access and the interactions with the public marginally. The goal of Robhoot is to propose a hybrid-neutral-technology to lay out the foundation for an open-science research ecosystem aiming to strengthen the robustness and reproducibility of science. Robhoot is not set out to deliver a finished research open network in the science ecosystem, but to provide a science-enabled technology in establishing a prototype proof-of-principle to connect automated, decentralized and neutral-knowledge generation with knowledge-inspired societies.
+_______________________________________________________________________________________________________________________________________________________________________________________
 
-Robhoot will be developed in four different stages following standard version protocols (Robhoot 1.0 to 4.0). The most advanced version is to provide real-time open-access reporting by a decentralized neutral-knowledge network to gain informed decisions when solving complex social, environmental and technological problems. Automating the research cycle in a open research network ultimately aims to contrast human-produced science with machine-produced science to enrich the human-knowledge graphs in a neutral-knowledge-inspired society. The following is a brief description of each four Robhoot versions:
+# I'M ROBHOOT, AN AUTOMATED RESEARCH NETWORK 
 
+Global sustainability is a major goal of humanity. Many studies have shown global sustainability could be achieved by strengthening feedbacks between social, ecological and governance systems. Sustainability goals, however, strongly depend on filling evidence- and research-based knowledge gaps. Yet, the science ecosystem lack expertise in developing technologies to narrow down the knowledge gaps in a reproducible and open science ecosystem. In this whitepaper we introduce Robhoot, an open decentralized research network generating reproducible science fully accounting for the research cycle. Robhoot targets the reduction of knowledge gaps by generating open-access reproducible global science reports. Robhoot is to develop a hybrid-neutral-technology to lay out the foundation of an open-science ecosytem strengthening the robustness, decentralization and reproducibility of science. Robhoot is not set out to deliver a finished research open network in the science ecosystem, but to provide a science-enabled technology in establishing a prototype proof-of-principle to connect automated, decentralized and neutral-knowledge generation with knowledge-inspired societies.
 
-## Robhoot 1.0: Automated Research Cycle
-  
-  Develop, deploy and integrate open-source algorithms to fully automate the research cycle.
-  
-  Exploration of robustness within and between layers from data integration, complexity reduction, inference, and validation to visualization and automated reporting.
-  
-  Robhoot 1.0 testnet to explore a Open Research Network in Biodiversity and Global Change Research to connect open science (i.e., citizen and other data-driven models) to real-time
-  open-access knowledge generation to gain informed decisions when solving local and global environmental problems.
-   
-  Tools and Methods: Multilayer networks, Bayesian Networks, Network metrics, Julia computing language, Open-source software protocols, Gitchain, ETLs algorithms, Kafka, Clickhouse.
-   
-
-Robhoot 1.0 will automate algorithms within and between layers to explore the robustness of the scientific process:
-______________________________________________________________________________________________________________________________________________________________________________________
-## 1. Data Integration
-
-Data come from many sources. Yet, inferring insightful patterns and drivers integrating heterogeneous datasets to fully automated reporting remain challenging. 
-Robhoot aims to develop approaches to integrate data, statistical Learning, AI algorithms and process-based models to take better informed decisions when solving complex social, environmental and technological problems. A generalized algorithm will be developed to extract, transform and load data (ETLs) from many (heterogeneous) sources for analysis. The integrated data will then be available to analyze in python-Julia or other computer languages. ETLs algorithms include "real time data" -- for example using GraphQL or similar. Robhoot v.1.0 aims to have a generalized funcitonal open-source package to let the user automatically get the integrated data in their desired format.
-
-## 2. Complexity Reduction (CR)
-
-Robhoot will reduce data dimensionality using a variety of complexity reduction methods. Robhoot will combine classical PCA, correlation methods and information theory metrics in multilayer networks to contrast the robutness of the different data complexity reduction methods.
-
-## 3. Pattern Process Inference (PPI)
-
-Many patterns can be extracted from data. Robhoot will exmplore a suite of methods from classic variance-covariance matrix methods to AI, machine learning, and process-based stochastic and deterministic modeling to understand the processes underlying the patterns.
-
-## 4. Validation (VA)
-
-Robhoot will use different model selection criteria accounting for uncertainty in the parameter estimations using information theory methods, Bayesian Inference and Approximate Bayesian Computation methods. 
-
-## 5. Visualization (VI)
-
-Robhoot will integrate automated plotting and visualization tools (e.g., [Plotly](https://plot.ly/), [JoVE](https://www.jove.com/visualize)) to visualize the empirical patterns and the models that best predict the empirical patterns. Robhoot will summarize the patterns and processes in compact and clean animation tools to help to improve the multilayer protocol and in making decisions in research, management and investment landscapes.
-
-## 6. Reporting (RE)
-
-Robhoot will produce fully automated standard reporting accounting for the population of explored paths (i.e., each path connects the different layers).
+Robhoot is being developed in four stages following standard version protocols. The most advanced version, Robhoot v.4.0 will provide real-time open-access global science reporting in a decentralized neutral-knowledge network to gain informed decisions when solving complex social, governance, environmental and technological problems. Automating fully the research cycle in a open decentralized research network ultimately aims to contrast human-expertise generated science with machine-generated science to enrich human-knowledge in a neutral-knowledge-inspired society. The following readme is a brief description of each of the Robhoot versions. Please take a look at the open issues for contributing to Robhoot development:
 _______________________________________________________________________________________________________________________________________________________________________________________
 
 
+# ROBHOOT v.1.0: AUTOMATED RESEARCH CYCLE
 
-## Robhoot 2.0: Knowledge Graphs
-  
-  Implementation of algorithms to reproduce paths of the research cycle with Knowledge Graphs (KGs).
  
-  Robustness and stability exploring a suite of open-source lineage client-tracker algorithms.
-  
-  Tools and Methods: Knowlegde graph algorithms and packages (i.e., Renku and others).
-  
+## UNIVERSAL ETLs
+
+The ETLs algorithms will generate a network connecting the ETLs features associated to each database features. The ETLs algorithms will be developed in open-source language to extract, transform , load and ultimately, integrate data with different properties (i.e., formats, historical-real time, storage, dimensions, size, sampling bias and spatiotemporal resolution). 
+
+## BAYESIAN SPACE MODELS
+
+Bayesian networks will explore generalized open-ended language of models combining Bayesian and optimization methods. The Bayesian space models module will search, evaluate models trading-off complexity, fit to data and quantify resource usage to extract properties like inference robustness and validation.
+ 
+## ANIMATION SPACE
+
+The open-source codes for visualization schemes will generate animations of the processes making reproducible the research cycle together with the exploration of open-ended models to make the whole search transparent, highly visual and reproducible.
+
+## REPORTING
+
+Natural language processing algorithms will be used to automatically explain the structure of the Bayesian space modeling module. It will also report a summary of the visualization patterns and the procedures followed by the Universal ETLs.
 
 
-## Robhoot 3.0: Deep learning networks
+# ROBHOOT v.1.0 TESTNET
 
-  Deploy automated deep learning algorithms to sample paths of the research cycle to produce populations of Knowledge Graphs (KGs).
-  
-  Exploration of the robustness of automated research cycle combining optimization algorithms and the population of Knowledge Graphs.
+ROBHOOT v.1.0 TESTNET will explore ``Biodiversity and Global Change Research'' as a case study to explore the robustness of the automated research cycle to generate open global science reports.
 
-  Tools and Methods: Multilayer networks, Neural Biological Networks, Bayesian Networks, Deep learning networks. Optimization algorithms.
+## The following are at least five properties of ROBHOOT v.1.0:
 
-
-    
-##  Robhoot 4.0: Distributed ledger network
-  
-  Deploy a permissioned-permissionless distributed ledger technology to guarantee decentralization, open-access, neutral-knowledge-based network and prior confidenciality/posterior   	  reproducibility of the KGs populations.
-   
-  Exploration of a suite of consensus algorithms and smart contracts among trusted-untrusted peer-to-peer interactions to infer macroscopic metrics of the open research network.
-
-  Quantification of metrics to study the scalability-security-decentralization trade-offs when storing KGs in the research network.
-  
-  Testnet case study to explore the interaction between consensus protocols and the scalability-security-decentralization trade-offs when committing the KGs to the distributed ledger.
-  
-  Mainnet to cryptographically link each population of KGs to previous KGs-ledger to create an historical KGs-ledger chain that goes back to the genesis ledger in the open research network. The mainnet aims to connect multiple database with real-time open-access citizen data science to knowledge-inspired societies.
-
-   Tools and Methods: Distributed computing algorithms, Blockchain and consensus algorithms, BighainDB, Gitchain. Telegram open network, Golem.
+* Science of science: Inferring paths when responding to questions by providing distributions of solutions that show high robutness in fitting to the empirical patterns.
+* Identifying the strength of bias and uncertainty in inference.
+* Exploring predictions-explanatory gradients to gain sinergy between predictive and explanatory power.
+* Identifying gaps in patterns not explored consequence of lack of integration within and between disciplines (i.e., research knowledge gap), and
+* Facilitating the 4R in open science: reusability, repeatability, replicability, and reproducibility.
 
 
+ROBHOOT v.1.0 TESTNET will develop a prototype of a DECENTRALIZED AUTOMATED RESEARCH NETWORK (DARENET) to explore the properties of an open and decentralized automated research network
+
+## DARENET
+
+* FUNCTIONAL SCRIPT WORKFLOW INTEGRATING LANGUAGES (PYTHON, JULIA, JAVA, NATURAL LAUNGUAGE PROCESSING, ...)
+
+Prototyping a script workflow to automate the layers of the research cycle, from data adquisition and integration to validation and visualization in a decentralized database (i.e., BIGCHAINDB)
+______________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+__________________________________________________________________________________________________________________________________________________________________________________
+
+# ROBHOOT v.2.0: KNOWLEDGE GRAPHS
+
+ROBHOOT v.2.0 will develop, implement and test algorithms to track paths of the research cycle developed in ROBHOOT v.1.0. ROBHOOT v.2.0 will work with the Knowledge Graphs (KGs) concept exploring a suite of open-source lineage client-tracker algorithms (i.e., Renku and others).
+
+__________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+____________________________________________________________________________________________________________________________________________________________________________________
+
+
+# ROBHOOT v.3.0: DEEP LEARNING NETWORKS
+
+ROBHOOT v.3.0 will deploy automated deep learning algorithms to sample paths of the research cycle to produce populations of Knowledge Graphs (KGs). ROBHOOT v.3.0 will quantify the robustness of the population of KGs combining Bayesian networks and optimization algorithms. 
+
+____________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+____________________________________________________________________________________________________________________________________________________________________________________
+
+
+# ROBHOOT v.4.0: DISTRIBUTED LEDGER NETWORK
+
+ROBHOOT v.4.0 will deploy a permissioned-permissionless distributed ledger technology to guarantee decentralization, open-access, a neutral-knowledge-based network and prior confidenciality/posterior reproducibility of the KGs populations. ROBHOOT v.4.0 will explore a suite of consensus algorithms and smart contracts among trusted-untrusted peer-to-peer interactions scenarios to infer macroscopic metrics of the open research network like security, scalability and decentralization properties. Finally, ROBHOOT v.4.0 will generate a mainnet Open Research Network to cryptographically link each population of KGs to previous KGs-ledger to create an historical KGs-ledger chain that goes back to the genesis ledger in the Open Research Network. The ROBHOOT mainnet network aims to functionally work in the digital ecosystem connecting multiple database with real-time open-access citizen data science to knowledge-inspired societies.
+
+____________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+____________________________________________________________________________________________
+
+
+
+                                     === FIN ===

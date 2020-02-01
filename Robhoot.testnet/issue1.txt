@@ -1,0 +1,44 @@
+ISSUE 1
+
+___________________________
+
+## UNIVERSAL ETLs ALGORITHM
+___________________________
+
+
+### PROBLEM
+Data come from many sources and in many formats. Open-source ETLs aims to deal with such an heterogeneous ecosystem. Despite ETLs have been rapidly evolving towards accounting for many heterogeneous aspects of data integration (i.e., formats, historical-real time, storage, dimensions, size, bias and spatiotemporal resolution), there are not yet generalized open-source ETLs algorithms accounting for many-to-many formats-languages to automate database construction minimizing human intervention. ROBHOOT v.1.0 aims to develop a generalized funcitonal open-source package to let the user automatically get the integrated data combining multiple data sources.
+
+
+### GOALS of UNIVERSAL ETLs ALGORITHM
+
+### High Flexibility
+### High Robustness and fault-tolerance
+### High Integration capabilities
+### Multiple language recognition
+### Minimal human-inputs
+
+
+### Languages :: Python, Julia, others
+### Features :: 
+	* Programmed to understand Schema Webmasters and easy-connect to open search engines
+	* Detecting capabilities links-webs with given words-questions
+	* Make a list of links-webs and ask questions :: Open-close, API, access properties, ...
+	* Building temporal DB :: accounting for missing values, etc
+	* Extracting to the temporal DB
+	* Transforming the extrcted data to standard DB
+	* Loading the standard DB for :: cleaning, complexity reduction analysis, initial plotting and visualization
+
+
+### (EXAMPLE) Julia (with Python integration):
+* [packagesJulia](https://github.com/melian009/Robhoot/Robhoot.testnet/packagesJulia.md)
+
+* data.search D S           ------> Retriever.jl
+* parsing.data D S          ------> Query.jl 
+* data.to.table D S         ------> MySQL.jl SQLite.jl Clickhouse?
+* data.julia D S            ------> DataFrames.jl
+* table.comp.reduction C B  ------> TensorFlow.jl lm4.jl Clustering.jl OnlineAI.jl LightGBM.jl
+
+
+### HOW
+ETLs algorithms will generate a graph connecting ETLs features associated to each database structural features. ETLs algorithms will be developed in open-source language to extract, transform , load and ultimately, integrate data with different properties (i.e., formats, historical-real time, storage, dimensions, size, sampling bias and spatiotemporal resolution). ROBHOOT v.1.0 will also implement data complexity reduction algorithms to reduce data dimensionality using a variety of methods. Robhoot will combine classical PCA, correlation methods and information theory metrics in multilayer networks to contrast the robutness of the different data complexity reduction methods.

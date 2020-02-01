@@ -1,0 +1,28 @@
+
+
+ISSUE 2
+
+_____________________________________________________________________________________________________________
+# BAYESIAN SPACE MODELS
+
+Open-ended space exploration of a broad set of models
+
+## Automated searching large space of (orthogonal) models to robustly infer and validate a population of models
+(Robhoot will use different model selection criteria accounting for uncertainty in the parameter estimations using information theory methods, Bayesian Inference and Approximate Bayesian Computation methods)
+
+## GOALS
+* Orthogonal or non-nested models : models with non correlated assumptions, features and predictions
+* Open-ended model exploration
+* Broad set of language of models 
+
+### Julia packages (with Python integration):
+* [packagesJulia](https://github.com/melian009/Robhoot/Robhoot.testnet/packagesJulia.md)
+
+* pattern.detection P S     ------> TensorFlow.jl DataVoyage.jl DataFitting.jl Mocha.jl DeepQLearning.jl Flux.jl 
+AnomalyDetection.jl
+* proccess.simulation P S   ------> Simjulia.jl Agents.jl JuliaDynamics.jl Zygote.jl
+* pat.proc.infer P S        ------> mads.jl temporal.jl GlobalSearchRegression.jl BlackBoxOptim.jl 
+JuMP.jl GeneticAlgorithms.jl NaiveBayes.jl Mamba.jl ABC.jl ApproxBayes.jl DynamicHM.jl
+* validation.pat.proc VA S  ------> mads.jl LearningStrategies.jl Mamba.jl ABC.jl Measurements.jl
+______________________________________________________________________________________________________________
+
