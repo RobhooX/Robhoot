@@ -11,45 +11,48 @@ Warning--there's a number but no volume in BigchainDBGmbH2018
 Warning--empty year in Reichstein
 Warning--empty year in Reichstein
 Warning--empty institution in Gil2019
-You've used 13 entries,
+Warning--empty journal in Steinruecken
+Warning--empty year in Steinruecken
+Warning--empty year in Steinruecken
+You've used 16 entries,
             2481 wiz_defined-function locations,
-            661 strings with 7921 characters,
-and the built_in function-call counts, 6006 in all, are:
-= -- 465
-> -- 435
-< -- 10
-+ -- 162
-- -- 136
-* -- 548
-:= -- 1047
-add.period$ -- 60
-call.type$ -- 13
-change.case$ -- 27
-chr.to.int$ -- 13
-cite$ -- 21
-duplicate$ -- 249
-empty$ -- 444
-format.name$ -- 153
-if$ -- 1204
+            686 strings with 9407 characters,
+and the built_in function-call counts, 8249 in all, are:
+= -- 589
+> -- 708
+< -- 11
++ -- 256
+- -- 224
+* -- 800
+:= -- 1464
+add.period$ -- 74
+call.type$ -- 16
+change.case$ -- 33
+chr.to.int$ -- 16
+cite$ -- 27
+duplicate$ -- 314
+empty$ -- 556
+format.name$ -- 244
+if$ -- 1630
 int.to.chr$ -- 1
-int.to.str$ -- 14
-missing$ -- 12
-newline$ -- 94
-num.names$ -- 39
-pop$ -- 89
+int.to.str$ -- 17
+missing$ -- 15
+newline$ -- 114
+num.names$ -- 48
+pop$ -- 112
 preamble$ -- 1
-purify$ -- 13
+purify$ -- 16
 quote$ -- 0
-skip$ -- 142
+skip$ -- 183
 stack$ -- 0
-substring$ -- 222
-swap$ -- 36
-text.length$ -- 2
+substring$ -- 291
+swap$ -- 50
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 91
-warning$ -- 8
-while$ -- 44
+type$ -- 112
+warning$ -- 11
+while$ -- 55
 width$ -- 0
-write$ -- 211
-(There were 8 warnings)
+write$ -- 258
+(There were 11 warnings)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -51,6 +51,28 @@ John P~a Ioannidis.
 \newblock ISSN 1549-1676.
 \newblock \doi{10.1371/journal.pmed.0020124}.
 \newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/16060722}.
+
+\bibitem[Mastr\'angelo et~al.(2019)Mastr\'angelo, P\'erez-Harguindeguy, Enrico,
+  Bennett, Lavorel, Cumming, Abeygunawardane, Amarilla, Burkhard, Egoh,
+  Frishkoff, Galetto, Huber, Karp, Ke, Kowaljow, Kronenburg-Garc\'ia,
+  Locatelli, Mart\'in-L\'opez, Meyfroidt, Mwampamba, Nel, Nicholas, Nicholson,
+  Oteros-Rozas, Rahlao, Raudsepp-Hearne, Ricketts, Shrestha, Torres, Winkler,
+  and Zoeller]{Mastrangelo2019}
+Mat\'ias~E Mastr\'angelo, Natalia P\'erez-Harguindeguy, Lucas Enrico, Elena
+  Bennett, Sandra Lavorel, Graeme~S Cumming, Dilini Abeygunawardane, Leonardo~D
+  Amarilla, Benjamin Burkhard, Benis~N Egoh, Luke Frishkoff, Leonardo Galetto,
+  Sibyl Huber, Daniel~S Karp, Alison Ke, Esteban Kowaljow, Angela
+  Kronenburg-Garc\'ia, Bruno Locatelli, Berta Mart\'in-L\'opez, Patrick
+  Meyfroidt, Tuyeni~H Mwampamba, Jeanne Nel, Kimberly~A Nicholas, Charles
+  Nicholson, Elisa Oteros-Rozas, Sebataolo~J Rahlao, Ciara Raudsepp-Hearne,
+  Taylor Ricketts, Uttam~B Shrestha, Carolina Torres, Klara~J Winkler, and Kim
+  Zoeller.
+\newblock {Key knowledge gaps to achieve global sustainability goals}.
+\newblock \emph{Nature Sustainability}, 2\penalty0 (12):\penalty0 1115--1121,
+  2019.
+\newblock ISSN 2398-9629.
+\newblock \doi{10.1038/s41893-019-0412-1}.
+\newblock URL \url{https://doi.org/10.1038/s41893-019-0412-1}.
 
 \bibitem[Golem(2016)]{Golem2016}
 Golem.
@@ -121,5 +143,22 @@ Yolanda Gil, Bart Selman, Marie Desjardins, Ken Forbus, Kathy Mckeown, Dan
   the US Roadmap Co-chairs: Workshop Chairs: Steering Committee}.
 \newblock Technical report, 2019.
 \newblock URL \url{https://bit.ly/2ZNVBVb}.
+
+\bibitem[Steinruecken et~al.()Steinruecken, Smith, Janz, Lloyd, and
+  Ghahramani]{Steinruecken}
+Christian Steinruecken, Emma Smith, David Janz, James Lloyd, and Zoubin
+  Ghahramani.
+\newblock {The Automatic Statistician}.
+\newblock pages 161--173.
+
+\bibitem[Guimer{\`a} et~al.(2020)Guimer{\`a}, Reichardt, Aguilar-Mogas,
+  Massucci, Miranda, Pallar{\`e}s, and Sales-Pardo]{Guimera}
+Roger Guimer{\`a}, Ignasi Reichardt, Antoni Aguilar-Mogas, Francesco~A.
+  Massucci, Manuel Miranda, Jordi Pallar{\`e}s, and Marta Sales-Pardo.
+\newblock A bayesian machine scientist to aid in the solution of challenging
+  scientific problems.
+\newblock \emph{Science Advances}, 6\penalty0 (5), 2020.
+\newblock \doi{10.1126/sciadv.aav6971}.
+\newblock URL \url{https://advances.sciencemag.org/content/6/5/eaav6971}.
 
 \end{thebibliography}
