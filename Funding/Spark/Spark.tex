@@ -141,12 +141,11 @@ potential of these shared properties have not been sufficiently
 explored. We will
 integrate different biological layers into a platform to explore
 contrasting scenarios of biodiversity dynamics accounting for
-interdependencies and feedbacks within and between layers (Box 1 and
-\Cref*{fig:3,fig:4}).
+interdependencies and feedbacks within and between layers (Box 1).
 
 \begin{figure}[htp]
   \centering
-  \includegraphics[height=0.018\maxdimen, width=\linewidth]{{Figure2-2}.pdf}
+  \includegraphics[height=0.018\maxdimen, width=\linewidth]{{fig2}.pdf}
 	\caption{
   \small{\textbf{Biodiversity is hierarchically
          structured} yet inferring interdependencies among the levels
@@ -210,68 +209,68 @@ interdependencies and feedbacks within and between layers (Box 1 and
 \end{mybox}
 
 
-\begin{figure}[htp]
-  \centering
-  \includegraphics[height=0.018\maxdimen, width=\linewidth]{{Figure3-2}.pdf}
-  \caption{
-    \textbf{Prediction and understanding power
-         map}. This figures shows a cartoon of a prediction power map
-       (top), an understanding power map (middle), and a
-       predicting-understanding power map (bottom). x- and y-axis
-       represent data-based inference (i.e., gradient of AI methods
-       from low (left) to high (right) predictive power) and
-       process-based inference (i.e., gradient of process-based
-       methods from low (bottom left) to high (top left) understanding
-       power). The gradient of predicting power map (top) shows a hot
-       spot red area in the bottom right highlighting the region where
-       AI methods best predict the empirical data. The gradient of
-       understanding power map (middle) shows a hot spot red area in
-       the top left highlighting the region where the best mechanistic
-       understanding occur. The predicting-understanding power map
-       (bottom) shows the sum of the two previous maps highlighting a
-       red hot spot where the best synthesis research joining
-       predicting and understanding power of the empirical data might
-       occur.
-    }
-  \label{fig:3}
-\end{figure}
+% \begin{figure}[htp]
+%   \centering
+%   \includegraphics[height=0.018\maxdimen, width=\linewidth]{{Figure3-2}.pdf}
+%   \caption{
+%     \textbf{Prediction and understanding power
+%          map}. This figures shows a cartoon of a prediction power map
+%        (top), an understanding power map (middle), and a
+%        predicting-understanding power map (bottom). x- and y-axis
+%        represent data-based inference (i.e., gradient of AI methods
+%        from low (left) to high (right) predictive power) and
+%        process-based inference (i.e., gradient of process-based
+%        methods from low (bottom left) to high (top left) understanding
+%        power). The gradient of predicting power map (top) shows a hot
+%        spot red area in the bottom right highlighting the region where
+%        AI methods best predict the empirical data. The gradient of
+%        understanding power map (middle) shows a hot spot red area in
+%        the top left highlighting the region where the best mechanistic
+%        understanding occur. The predicting-understanding power map
+%        (bottom) shows the sum of the two previous maps highlighting a
+%        red hot spot where the best synthesis research joining
+%        predicting and understanding power of the empirical data might
+%        occur.
+%     }
+%   \label{fig:3}
+% \end{figure}
 
-\begin{figure}[htp]
-  \centering
-  \includegraphics[]{{Figure4}.pdf}
-	\caption{
-		\textbf{Figure 4: Prototyping a distributed and open automated research
-    platform:} {\bf a)} Our initial prototype will contain five
-  layers (this is not an exhaustive number. Some might be merged
-  and others, like reporting generation, can be introduced): Data
-  Integration, Complexity reduction, Pattern-process inference,
-  Validation, and Visualization. Nodes and links represent
-  algorithms and interactions between two algorithms,
-  respectively. The inter-layer interactions will be implemented
-  using the Renku-SDSC
-  platform \cite{Renku}. The
-  intra-layer interactions will be developed initially in Julia
-  language (other languages will come into play during the
-  development of each layer). {\bf b)} A Julia-computing-language
-  prototype of an automated research platform. Nodes and links in
-  each layer represent Julia packages and interactions between
-  two packages, respectively. The figure shows the Julia packages
-  to be used for the Data integration layer containing the
-  packages "Retriever.jl" ({\bf Re}), "Query.jl" ({\bf Qu}),
-  "MySQL.jl" ({\bf My}), "SQlite.jl" ({\bf lite}), and
-  "DataFrames.jl" ({\bf df}). This cartoon representing many
-  intra- and inter-layer connections might be helpful to show the
-  vision of the platform. For example, the path taken to solve a
-  specific intra- or inter-domain (fundamental or applied)
-  question can be quantified by many metrics each producing a
-  distribution of automated solutions across many nodes in a
-  distributed and open network, the Robhoot Open Network % TODO: do not mention Robhoot to stay anonymous?
-  (RON). This distribution can be analyzed to quantify properties
-  as robustness, reproducibility and bias of a fundamental or
-  applied solution.
-		}
-	\label{fig:4}
-\end{figure}
+% \begin{figure}[htp]
+%   \centering
+%   \includegraphics[]{{Figure4}.pdf}
+% 	\caption{
+% 		\textbf{Figure 4: Prototyping a distributed and open automated research
+%     platform:} {\bf a)} Our initial prototype will contain five
+%   layers (this is not an exhaustive number. Some might be merged
+%   and others, like reporting generation, can be introduced): Data
+%   Integration, Complexity reduction, Pattern-process inference,
+%   Validation, and Visualization. Nodes and links represent
+%   algorithms and interactions between two algorithms,
+%   respectively. The inter-layer interactions will be implemented
+%   using the Renku-SDSC
+%   platform \cite{Renku}. The
+%   intra-layer interactions will be developed initially in Julia
+%   language (other languages will come into play during the
+%   development of each layer). {\bf b)} A Julia-computing-language
+%   prototype of an automated research platform. Nodes and links in
+%   each layer represent Julia packages and interactions between
+%   two packages, respectively. The figure shows the Julia packages
+%   to be used for the Data integration layer containing the
+%   packages "Retriever.jl" ({\bf Re}), "Query.jl" ({\bf Qu}),
+%   "MySQL.jl" ({\bf My}), "SQlite.jl" ({\bf lite}), and
+%   "DataFrames.jl" ({\bf df}). This cartoon representing many
+%   intra- and inter-layer connections might be helpful to show the
+%   vision of the platform. For example, the path taken to solve a
+%   specific intra- or inter-domain (fundamental or applied)
+%   question can be quantified by many metrics each producing a
+%   distribution of automated solutions across many nodes in a
+%   distributed and open network, the Robhoot Open Network % TODO: do not mention Robhoot to stay anonymous?
+%   (RON). This distribution can be analyzed to quantify properties
+%   as robustness, reproducibility and bias of a fundamental or
+%   applied solution.
+% 		}
+% 	\label{fig:4}
+% \end{figure}
 
 \clearpage
 \pagebreak
