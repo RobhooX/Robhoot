@@ -1,0 +1,95 @@
+\documentclass[dvipsnames]{article}
+\thispagestyle{empty}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{amsmath,amsfonts,amsthm} % Math packages for equations
+\usepackage[mathscr]{eucal}
+
+\usetikzlibrary{arrows,
+                positioning,
+                shapes.geometric}
+              \colorlet{ColorPink}{red!30}
+              \colorlet{ColorPink2}{red!50}
+              \colorlet{ColorGreen}{OliveGreen}
+         
+\begin{document}
+   \begin{figure}[h!]
+     % \centering
+     \vspace{-1 in}
+     
+    \hspace{-1.75 in}\begin{tikzpicture}[
+    node distance=10mm and 10mm,
+% Define block styles
+     base/.style = {text width=28mm, minimum height=20mm, align=center},
+startstop/.style = {base, rounded corners, fill=yellow!90,minimum height=20mm,text width=65mm},
+  io/.style args = {#1/#2}{rectangle, rectangle stretches body,
+                    draw, fill=blue!20,
+                    minimum width=#1, minimum height=#2,
+                    text width =\pgfkeysvalueof{/pgf/minimum width}+11*\pgfkeysvalueof{/pgf/inner xsep},
+                    align=center},
+                  processK/.style = {base,text width=95mm, minimum height=130mm,fill=white!80},            
+                  processL/.style = {base,text width=85mm, fill=pink!50},
+                  processX/.style = {base,text width=75mm, minimum height=40mm,fill=ColorPink2},
+                  processE1/.style = {base,text width=5mm, minimum height=5mm,fill=Black},
+                  processE2/.style = {base,text width=5mm, minimum height=5mm,fill=Black},
+ processS/.style = {base,  text width=105mm, minimum height=175mm, align=center, fill=ColorPink},
+ decision/.style = {diamond, aspect=1.5,
+                    base, fill=green!30},
+                  arrow/.style = {thick,-stealth}            
+    ]
+
+    
+    \node (LABX)    [processX, center=of LAB1]  {};
+    \node (LABE1)    [processE1, above left=of start]  {};
+    \node (LABE2)    [processE2, above right=of start]  {};
+                        \node (start)  [rectangle,startstop]                 {\Large {{\bf I'M $\mathcal{ROBHOOT}$\\\vspace{0.15 in} OPEN RESEARCH NETWORK}}};
+                        \node (LAB1)    [processL, below=of start]  {{\Large {\bf WHY?}}};
+                        
+%-----------------------------------------------------------%
+\begin{scope}[io/.default = 10em/13mm]
+  \node (in1) [io, below left=of LAB1] {{\bf GLOBAL\\ RESEARCH\\
+      KNOWLEDGE\\ GAP:\vspace{0.25 in} \\CENTRALIZATION\\ BIAS\\
+      ERROR-PRONE\\ NONREPRODUCIBILITY\\ AND\\ LACK OF INCENTIVES}};
+%\node (in2) [io, below =of in1]        {{\bf CENTRALIZATION, BIAS, ERROR, NONREPRODUCIBILITY AND LACK INCENTIVES}};
+  \node (in3) [io, below right=of LAB1] {{\bf GLOBAL
+      \\ SCIENCE\\ REPORTS: \vspace{0.37 in} \\OPEN-ACCESS\\
+      REPRODUCIBLE\\ LOCAL\\REGIONAL\\GLOBAL SCALES (NGOs,GOs)}};
+    \end{scope}
+%-----------------------------------------------------------%
+
+    \node (LAB2)    [processS, below=of LAB1,label={[shift={(0,-17)}] {\Large {{\bf FULLY AUTOMATED TECHNOLOGY}}}}];
+    
+    %\node (LAB5)    [processS, below=of LAB1,label={[shift={(0,-15)}] {{\bf KNOWLEDGE GRAPHS}}}];
+    %\node (LAB6)    [processS, below=of LAB1,label={[shift={(0,-15)}] {{\bf DEEP LEARNING NETWORKS}}}];
+
+    %\node (LAB4)    [processS, below=of LAB2];
+    \node (LAB3)    [processL, below=of LAB1]       {{\Large {\bf HOW?}}};
+     \node (LAB2)    [processK, below=of LAB3,label={[shift={(0,-12.5)}] {{\bf DECENTRALIZED KNOWLEDGE GRAPHS}}}];
+\node (testdrive)   [processL, below=of LAB3]   {{\Large {\bf UNIVERSAL ETLs}}};
+\node (evaluation)  [processL, below=of testdrive]  {{\Large {\bf BAYESIAN SPACE MODELS}}};
+\node (comparison)  [processL, below=of evaluation] {{\Large {\bf ANIMATION SPACE}}};
+\node (stops)   [startstop, below=of comparison]    {\Large {{\bf REPORTING}}};
+\node ()    [below=of startstop,label={[shift={(0,-20)}] {{\bf IN DEEP LEARNING NETWORKS}}}];
+%-----------------------------------------------------------%
+\draw [arrow,line width=1mm]   (start)   edge (LAB1)
+                %(LAB1)    edge (in2) 
+                %(in2)     edge (LAB2)           
+                (LAB3)    edge (testdrive)
+                (testdrive)   edge (evaluation)
+                (evaluation)  edge (comparison)
+                (comparison)  to (stops);
+%-----------------------------------------------------------%
+                \draw [arrow,red,line width=2.5mm] (LAB1) -| (in1) node[midway,above]{{\Large {\bf REDUCE}}};              % around trapecium
+                \draw [arrow,OliveGreen,line width=2.5mm] (LAB1) -| (in3) node[midway,above]{{\Large {\bf INCREASE}}};
+                %\path[->,draw=red,line width=1mm,fill=red]  (LAB1) -- (in1);
+                %\draw [<->,red] (in1) -- (in2); 
+%\draw [->,green] (in1) -- (LAB4);
+%\draw [arrow] (in2) |- (LAB3);
+\draw [<-->,arrow,line width=1mm] (in1) -- (LAB2);
+\draw [<-->,arrow,line width=1mm] (in3) -- (LAB2);
+\end{tikzpicture}
+    %\caption{Flow-chart}
+    %\label{figure3111111}
+\end{figure}
+
+\end{document}
