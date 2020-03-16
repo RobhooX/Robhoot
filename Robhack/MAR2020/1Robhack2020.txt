@@ -2,17 +2,12 @@ Robhack -- 23-27 March 2020
 
 
 ____________________________________________________________________________________
-1. Project on git --> currently github -- make it public :: 
+1. Project on git --> currently github --> public :: 
    git options :: c4science :: gitchain @ https://github.com/gitchain/gitchain
-
-Added : Charles, Ali, Victor, Carlos
-To be added : Gian Marco, Luiño, Juan, Jorge, Simona, Christine, Raul, Marco, Harald
 ____________________________________________________________________________________
 
 ____________________________________________________________________________________
-2. RobhooX on telegram
-Ali, Charles, Carlos, Gian Marco, Jorge, Juan, Victor  
-To be added : Luiño, Simona, Christine, Raul, Marco, Harald
+2. Updates RobhooX on telegram
 ____________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________
