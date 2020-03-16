@@ -3,6 +3,34 @@ Robhack -- 23-27 March 2020
 __________________________________________________________________________
 0. Schedule 
 
+
+
+________________________________________________________________________________________
+Data integration (DI)    Process based analysis (PBA)    Visualization (V)    Output (O)   
+
+Monday
+Tuesday
+Wednesday 
+
+D3.1: Prototype    D3.2: Prototype    D3.3: Prototype    D3.4: Prototype
+DI 
+
+
+Thursday
+Friday
+
+D4.1: glue DI + PBA            D4.2: glue DI + PBA+Output
+        
+
+Participants
+DI: Ali Charles Carlos 
+PBA: Gian Marco, Juan, Jorge, Luiño
+V: Charles Ali
+O: 
+_________________________________________________________________________________________
+
+
+
 ------------------------------------------------------------------------
 MONDAY 23 (Morning): 
 Scriptflow (all together):: Discussion Robhoot architecture
@@ -65,7 +93,8 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________
 3. GOAL :: Functional automated discovery for a specific case study (Robhoot 1.0: Automated Research Cycle in the Whitepaper)
-   Potential data-modeling case studies: covid-19 :: Biodiversity and global change :: Global city map :: Citizen-data science ::
+   Potential data-modeling case studies: covid-19 :: Biodiversity and global change :: Global city map :: 
+Citizen-data science (biodiversidad) :: Sensor networks (ocean and terrestrial) :: 
 __________________________________________________________________________________________________________________________________
 
 _____________________________________________________________________________________________________________________________________
