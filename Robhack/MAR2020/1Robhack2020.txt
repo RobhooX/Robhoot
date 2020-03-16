@@ -1,0 +1,52 @@
+Robhack -- 23-27 March 2020
+
+
+____________________________________________________________________________________
+1. Project on git --> currently github -- make it public :: 
+   git options :: c4science :: gitchain @ https://github.com/gitchain/gitchain
+
+Added : Charles, Ali, Victor, Carlos
+To be added : Gian Marco, Luiño, Juan, Jorge, Simona, Christine, Raul, Marco, Harald
+____________________________________________________________________________________
+
+____________________________________________________________________________________
+2. RobhooX on telegram
+Ali, Charles, Carlos, Gian Marco, Jorge, Juan, Victor  
+To be added : Luiño, Simona, Christine, Raul, Marco, Harald
+____________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________
+3. GOAL :: Functional automated discovery for a specific case study (Robhoot 1.0: Automated Research Cycle in the Whitepaper)
+   Potential data-modeling case studies: covid-19 :: Biodiversity and global change :: Global city map :: Citizen-data science ::
+__________________________________________________________________________________________________________________________________
+
+_____________________________________________________________________________________________________________________________________
+4. Robhoot Sriptflow
+  
+   4.1 Scriptflow :: Macroscopic view
+       Check: Airflow @ https://github.com/apache/airflow
+
+   4.2 Reproducibility-based knowledge graphs
+       Check: Renku @ https://github.com/SwissDataScienceCenter/renku
+
+   4.3 Robustness-based knowledge graphs
+       Check: AI and deep learning algorithms  
+ 
+   4.4 Question-based kowledge graphs (qETLs :: Question-driven Extract, Transform and Load data algorithms)
+       Check: corpus conversion algorithms
+       Check: Fluentd -- https://docs.fluentd.org/installation/install-by-deb
+       Check: NLP algorithms (Natural Language Processing)
+       Check: Hadoop -- https://github.com/melian009/Robhoot/issues/1
+   
+   4.5 Bayes scientist (Bayesian Space Models :: Process-based inference)
+       Check: Machine scientist -- code in python at https://bitbucket.org/rguimera/machine-scientist  
+       Check: Bayesian methods, Bayesian Networks, Differentiable programming: Flux @ https://github.com/FluxML/Flux.jl Julia packages
+       Check: Multidimensional Pareto Optimization -- Julia packages
+   
+   4.6 Animation space
+       Check:  Vegalite @ https://github.com/queryverse/VegaLite.jl
+
+   4.7 Reporting 
+       Check:
+_____________________________________________________________________________________________________________________________________
+
