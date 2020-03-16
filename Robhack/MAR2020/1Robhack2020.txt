@@ -1,5 +1,58 @@
 Robhack -- 23-27 March 2020
 
+__________________________________________________________________________
+0. Schedule 
+
+------------------------------------------------------------------------
+MONDAY 23 (Morning): 
+Scriptflow (all together):: Discussion Robhoot architecture
+Dynamics (all together ??):: Discussion split and all together sessions
+
+MONDAY 23 (Afternoon): (Check section 4 below)
+How many groups? This is a preliminary group classification
+
+Group Scriptflow :: Robhoot Arquitecture and implementation tools
+Group Qus :: Question-based knowledge graphs and generalized data integration algorithms
+Group Repro :: Reproducibility-based knowledge graphs
+Group Bayes :: Process-based classification and robustness-based knowledge graphs 
+Group Anima :: Animation space and reporting ::
+
+We should merge some of them to have around max maybe 3
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+TUESDAY 24 (Morning)
+Groups hacking hours ::
+
+TUESDAY 24 (Afternoon)
+Summary groups :: main challenges 
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+WEDNESDAY 25 (Morning)
+Groups hacking hours :: 
+
+WEDNESDAY 25 (Afternoon)
+Summary groups :: progress
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+THURSDAY 26 (Morning)
+Groups hacking hours :: 
+
+THURSDAY 26 (Afternoon)
+Summary groups :: new algorithms to fill the gaps
+------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+FRIDAY 27 (Morning)
+Groups hacking hours ::
+
+FRIDAY 27 (Afternoon)
+Summary groups :: final summary :: how far are we from a functional Robhoot v1.0?
+---------------------------------------------------------------------------------
+
+___________________________________________________________________________
 
 ____________________________________________________________________________________
 1. Project on git --> currently github --> public :: 
@@ -27,13 +80,13 @@ ________________________________________________________________________________
    4.3 Robustness-based knowledge graphs
        Check: AI and deep learning algorithms  
  
-   4.4 Question-based kowledge graphs (qETLs :: Question-driven Extract, Transform and Load data algorithms)
+   4.4 Question-based knowledge graphs (qETLs :: Question-driven Extract, Transform and Load data algorithms)
        Check: corpus conversion algorithms
        Check: Fluentd -- https://docs.fluentd.org/installation/install-by-deb
        Check: NLP algorithms (Natural Language Processing)
        Check: Hadoop -- https://github.com/melian009/Robhoot/issues/1
    
-   4.5 Bayes scientist (Bayesian Space Models :: Process-based inference)
+   4.5 Bayesian scientist (Bayesian Space Models :: Process-based inference)
        Check: Machine scientist -- code in python at https://bitbucket.org/rguimera/machine-scientist  
        Check: Bayesian methods, Bayesian Networks, Differentiable programming: Flux @ https://github.com/FluxML/Flux.jl Julia packages
        Check: Multidimensional Pareto Optimization -- Julia packages
