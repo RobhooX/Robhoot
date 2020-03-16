@@ -1,6 +1,6 @@
 _______________________________________________________________________________________________________________________________________________________________________________________
 
-# I'M ROBHOOT, AN AUTOMATED RESEARCH NETWORK 
+# I'M ROBHOOT, AN AUTOMATED DISCOVERY NETWORK 
 
 Global sustainability is a major goal of humanity. Many studies have shown global sustainability could be achieved by strengthening feedbacks between social, ecological and governance systems. Sustainability goals, however, strongly depend on filling evidence- and research-based knowledge gaps. Yet, the science ecosystem lack expertise in developing technologies to narrow down the knowledge gaps in a reproducible and open science ecosystem. In this whitepaper we introduce Robhoot, an open decentralized research network generating reproducible science fully accounting for the research cycle. Robhoot targets the reduction of knowledge gaps by generating open-access reproducible global science reports. Robhoot is to develop a hybrid-neutral-technology to lay out the foundation of an open-science ecosytem strengthening the robustness, decentralization and reproducibility of science. Robhoot is not set out to deliver a finished research open network in the science ecosystem, but to provide a science-enabled technology in establishing a prototype proof-of-principle to connect automated, decentralized and neutral-knowledge generation with knowledge-inspired societies.
 
