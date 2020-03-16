@@ -39,13 +39,12 @@
 \usepackage{hyperref}
 \usepackage[sort,numbers]{natbib}
 \usepackage{fancyhdr}
-\usepackage{verbatim} 
-%----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
 %	MARGINS AND SPACING
 %----------------------------------------------------------------------------------------
 \usepackage{geometry} % Required for adjusting page dimensions
 \geometry{
-	top=0.65cm, % Top margin
+	top=1.5cm, % Top margin
 	bottom=1.5cm, % Bottom margin
 	left=1.5cm, % Left margin
 	right=1.5cm, % Right margin
@@ -62,6 +61,9 @@
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage{XCharter} % Use the XCharter font
+\usepackage{verbatim} 
+%\usepackage{fontspec}
+%\setmainfont{TeX Gyre Termes}
 \pagestyle{headings}
 
 %\input{structure.tex} % Specifies the document structure and loads requires packages
@@ -74,11 +76,11 @@
 \fancyhf{}
 %\fancyhead[LE,RO]{Overleaf}
 %\fancyhead[RE,LO]{Guides and tutorials}
-\fancyfoot[LO,RE]{FETOPEN-01 template WP18-20 v20171106}
+%\fancyfoot[LO,RE]{FETOPEN-01 template WP18-20 v20171106}
 \fancyfoot[LE,RO]{$\mathcal{ROBHOOT}$}
 
 
-\title{$\mathcal{ROBHOOT}$ \\ Open Discovery Network \\ FET v.1.0}} % The article title
+\title{$\mathcal{ROBHOOT}$ \\ Open Discovery Network \\ v.1.0}} % The article title
   %\author{{\textsuperscript{1,2,3} and XY\textsuperscript{2,3}}% Authors
   \newline\newline % Space before institutions
   \\
@@ -100,7 +102,7 @@
 %----------------------------------------------------------------------------------------
 %	ABSTRACT
 %----------------------------------------------------------------------------------------
-\section{{\bf Summary}} Global sustainability is a
+\section*{{\bf Summary}} Global sustainability is a
   major goal of humanity. Many studies have shown global
   sustainability could be achieved by strengthening transparency and
   feedbacks between social, ecological, technological and governance
@@ -123,6 +125,19 @@
 % ----------------------------------------------------------------------------------------
 \section{Excellence}
 \subsection{Radical vision of a science-enabled technology}
+
+\begin{itemize}
+\item \textcolor{red}{Describe the vision of a radically-new science-enabled
+  technology that the project would contribute towards.}
+\item \textcolor{red}{Describe how this vision surpasses substantially
+    any technological paradigms that currently exist or are under
+    development.}
+\item \textcolor{red}{Describe the overall and specific objectives for
+    the project, which should be clear, measurable, realistic and
+    achievable within the duration of the project. (The details of the
+    project plan belong to the Implementation section).}
+\end{itemize}
+
 We are in the midst of the fourth industrial revolution, a
 transformation revolving around data driven intelligent machines. Yet,
 despite the rapid evolution of the digital ecosystem around data
@@ -143,8 +158,30 @@ combining question- and reproducibility-based decentralized
 knowledge-graphs to lay the foundation for a novel, global access to
 scientific discovery technology.
 
+\begin{figure}
+  %\begin{minipage}[c]{0.75\textwidth}
+    \hspace{-0.25 in}\includegraphics[width=0.65\textwidth]{Figures/flowchart.pdf}
+  %\end{minipage}\hfill
+  %\begin{minipage}[c]{0.5\textwidth}
+    \caption*{\small {\bf Figure 1: Open discovery network
+        technology}. $\mathcal{ROBHOOT}$ targets global knowledge gaps
+      (red path) and open-access fully reproducible discovery reports
+      (green path). $\mathcal{ROBHOOT}$ is open-source science-based
+      automated technology decentralizing reproducible knowledge
+      graphs. $\mathcal{ROBHOOT}$ integrates 1) question-based
+      knowledge gaps with data extraction, transformation and loading
+      algorithms for database integration and complexity reduction
+      ({\bf qETLs}), 2) {\bf Bayesian Space Models} accounting for
+      open-ended model optimization techniques, 3) {\bf Animation
+        Space} visualizing fitting procedures and pattern generation
+      connecting empirical data and open-ended models, and 4) open and
+      globally accessible {\bf Reporting} formalized in natural
+      processing language.}}
+  %\end{minipage}
+\end{figure}
 
 
+\begin{comment}
 ontain multiple steps of information transfer
 among trusted and untrusted peers. As a consequence, science generates
 knowledge with specific features. Which are the desirable features of
@@ -182,31 +219,7 @@ and Table 1).
 %in natural processing language.}
 %\end{figure}
 
-\begin{figure}
-  %\begin{minipage}[c]{0.75\textwidth}
-    \hspace{-0.25 in}\includegraphics[width=0.65\textwidth]{Figures/flowchart.pdf}
-  %\end{minipage}\hfill
-  %\begin{minipage}[c]{0.5\textwidth}
-    \caption*{\small {\bf Figure 1: Open discovery network
-        technology}. $\mathcal{ROBHOOT}$ targets global knowledge gaps
-      (red path) and open-access fully reproducible discovery reports
-      (green path). $\mathcal{ROBHOOT}$ is open-source science-based
-      automated technology decentralizing reproducible knowledge
-      graphs. $\mathcal{ROBHOOT}$ integrates 1) question-based
-      knowledge gaps with data extraction, transformation and loading
-      algorithms for database integration and complexity reduction
-      ({\bf qETLs}), 2) {\bf Bayesian Space Models} accounting for
-      open-ended model optimization techniques, 3) {\bf Animation
-        Space} visualizing fitting procedures and pattern generation
-      connecting empirical data and open-ended models, and 4) open and
-      globally accessible {\bf Reporting} formalized in natural
-      processing language.}}
-  %\end{minipage}
-\end{figure}
-
-
-\begin{comment}
-  The Robhoot project is trying to introduce new concepts to allow
+ The Robhoot project is trying to introduce new concepts to allow
   scientist and the public to interact in a decentralized open-access
   knowledge network to gain informed decisions when solving complex
   social, environmental and technological problems. Current
@@ -221,8 +234,6 @@ and Table 1).
   deep knowledge ledger network in the science ecosystem but provide a
   science-enabled technology in establishing a prototype
   proof-of-principle for an open public-science ecosystem.
-  \end{comment}
-
  
 \begin{table}
  %\rowcolor{pink}
@@ -244,6 +255,8 @@ and Table 1).
   added during the different stages of development of the project
   (section ``Design Goals'').}
 \end{table}
+
+
 The core feature of an open research network is to embed
 knowledge-generation into reproducible automation and
 decentralization. Currently, many studies focusing on decentralized
@@ -277,7 +290,228 @@ technologies accounting for the research cycle we need to compactly
 integrate knowledge-generation (Figure 2a) to automated tools
 connecting knowledge graphs (Figure 2b) and deep learning networks
 (Figure 2c) in fully decentralized ecosystems (Figure 2d).
+\end{comment}
 
+\subsection{Science-to-technology breakthrough that addresses this vision}
+
+\begin{itemize}
+\item \textcolor{red}{Discuss the relevant state-of-the-art and the extent of the
+  advance the project would provide beyond this state-of-the-art:
+  Automated causal inference exploring cuting-edge neural networks}
+\item \textcolor{red}{Describe the science-to-technology breakthrough,
+    targeted by the project that would represent the first proof of
+    concept of the envisioned technology: Collapsing evidence- and
+    research-based knowledge gaps for a sustainable knowledge-inspired
+    society}
+\end{itemize}
+
+\subsection{Interdisciplinarity and non-incrementality of the research
+  proposed}
+
+\begin{itemize}
+\item \textcolor{red}{Describe the research disciplines necessary for
+    achieving the targeted breakthrough of the project and the added
+    value from the interdisciplinarity.}
+\item \textcolor{red}{Explain why the proposed research is
+    non-incremental.}
+  \end{itemize}
+
+\begin{figure}
+\hspace{-0.2 in}\includegraphics[width=1\textwidth]{Figures/Figure3.pdf}
+{\small {\bf Figure 2: Prediction power (top), understanding (middle),
+    and prediction-understanding power maps (bottom)}. x-axis
+  represents data-based inference (i.e., gradient of AI methods from
+  low (left) to high (right) predictive power). y-axis represents
+  process-based inference (i.e., gradient of process-based methods
+  from low (bottom left) to high (top left) understanding power). The
+  gradient of predicting power map (top) shows a hot spot red area in
+  the bottom right highlighting the region where AI methods best
+  predict the empirical data. The gradient of understanding power map
+  (middle) shows a red hot spot in the top left highlighting the
+  region where the best mechanistic understanding occur. The
+  predicting-understanding power map (bottom) shows the sum of the two
+  previous maps highlighting a red hot spot where the best synthesis
+  research joining predicting and understanding power of the empirical
+  data might occur. The first research goal of this proposal aims to
+  build an automated research platform to maximize the predicting and
+  understanding power highlighted in the red hot spot of the
+  predicting-understanding power map (bottom).}
+\end{figure}
+  
+{\bf $\mathcal{ROBHOOT}$} aims to be a hybrid-technology
+accounting for many features (Tables 1 to 3). Producing such a
+multi-feature technology requires multidisciplinarity teams making
+contributions for each of the Robhoot features while integrating all
+these features in a rapidly evolving digital ecosystem. In this
+regard, the project aims to put together data and computer scientists
+(i.e., distributed computing, open-source software development),
+scientists from the physics of complex systems (i.e., multilayer
+networks), artificial intelligence (i.e., deep learning and
+automation) and the biology, ecology and evolution of social, natural
+and technological ecosystems.
+
+Technologies with the capacity to compactly account for neutral,
+borderless, immutable, and open-access information in hybrid,
+trusted-untrusted peer-to-peer interactions, accounting for the
+multilayer nature of science and engineering are currently not in
+place. Producing such a technology will require integrating expertise
+from disparate disciplines like multilayer networks, deep learning,
+automation algorithmics, and distributed technologies. The integration
+of these disciplines will require to go beyond domain
+boundaries. Specifically, we will merge scientists and engineers from
+data and computer science, the physics of complex systems, artificial
+intelligence and the biology, ecology and evolution of social, natural
+and technological ecosystems to develop a “de novo” technology: the
+synthesis of automated knowledge generation in a neutral, borderless
+and immutable network synthesized anew from existing open-source
+projects like Renku, Fabric and gitchain.
+
+
+\subsection{High risk, plausibility and flexibility of the research approach}
+
+
+\begin{itemize}
+\item \textcolor{red}{Explain how the research approach relates to the
+    project objectives and how it is suitable to deal with the
+    considerable science-and-technology uncertainties and appropriate
+    for choosing alternative directions and options. (The risks and
+    mitigation plan should be spelled out under the Implementation
+    section).}
+\end{itemize}
+
+\section{Impact}
+
+\subsection{Expected impacts}
+
+
+\begin{itemize}
+\item \textcolor{red}{Each of the expected impacts listed in the work
+    programme:}
+\item \textcolor{red}{Scientific and technological contributions to
+    the foundation of a new future technology.}
+ \item \textcolor{red}{Potential for future social or economic impact
+     or market creation.}
+ \item \textcolor{red}{Building leading research and innovation
+     capacity across Europe by involvement of key actors that can make
+     a difference in the future, for example excellent young
+     researchers, ambitious high-tech SMEs or first-time participants
+     2 to FET under Horizon 2020}
+ \item \textcolor{red}{any substantial impacts not mentioned in the
+     work programme, that would enhance innovation capacity; create
+     new market opportunities, strengthen competitiveness and growth
+     of companies, address issues related to climate change or the
+     environment, or bring other important benefits for society.}
+  \end{itemize}
+
+
+The following are the general and the specific impacts according to
+our objectives, working packages and deliverables:
+
+\begin{itemize}
+\item Automated knowledge-based network technology\\
+  
+  The integration between open-source data integration and inference
+  schemes, the interlayer automation (O1: Multilayer), will allow for
+  the systematic exploration of robust knowledge-based patterns when
+  exploring the population of KGs. This is in sharp contrast to
+  existing AI technologies mostly oriented to prediction without
+  knowledge-based understanding (refs). Despite open-source ETLs are
+  rapidly evolving towards accounting for many aspects of data
+  integration (formats, historical-real time, storage, dimensions,
+  size, bias and spatiotemporal resolution), there is a missing
+  component in quantifying the robustness of knowledge that integrated
+  data can provide. Automated populations of KGs connecting
+  cutting-edge open-source ETLs to inference classification schemes
+  can provide the quantification of robustness in knowledge-based
+  patters for future predictive technologies.
+
+\item Open immutable knowledge in untrusted digital peer-to-peer ecosystems\\
+  
+  The open access of immutable accumulation of knowledge in untrusted
+  digital peer-to-peer ecosystems: Social, environmental and economic
+  impact to facilitate global access to transparent knowledge.  ETLs
+  are rapidly evolving towards accounting for many key aspects of data
+  integration: Data manipulation across formats (CloverDX), merging of
+  historical and real-time streaming data pipelines (i.e., Kafka) and
+  data structures facilitating the storage and access of large amounts
+  of data (i.e., clickhouse.) Our research methodology will be focused
+  on developing an automated workflow using the geographically
+  distributed cloud on computing and storage to test the robustness of
+  data integration metrics across gradients of simulated data
+  containing dimensions, biases, sizes, formats, temporal and spatial
+  resolution (should we be more domain specific here? Or should we
+  stay general and thinking broadly about simulated data with along
+  complexity gradients and explore data integration metrics? How is
+  the SDSC dealing with data integration for Renku?  We anticipate
+  implementation of an automated end-to-end research cycle within an
+  open ledger to facilitate real-time open-access neutral
+  data-rule-knowledge to gain informed decisions to help solve complex
+  social, environmental and technological problems. This facilitation
+  might occur for local, regional and global problems in many
+  fronts. Specifically, open deep ledger knowledge networks might have
+  an impact in the following five areas
+  
+\item The identification of gaps in research paths not explored
+  consequence of lack of synthesis in interdisciplinary research: The
+  creation of new markets opportunities obtained from exploring these
+  gaps and the development of comparative method in the science of
+  science and citizen data science.
+
+\item The merging of prediction and explanatory power in open science
+  to gain synergy between AI open predictive tools and ruled-based
+  pattern inference creating a more balanced pattern and process
+  inference interaction. Recent examples of AI algorithms playing
+  chess and go using brute force deep learning models or rule-based
+  algorithms have discovered the power...: The integration between
+  prediction and understanding power to facilitate explanatory
+  synthesis.
+
+\item The automation of reproducible open knowledge will facilitate
+  the reusability, repeatability, and replicability of research
+  outputs. The open access knowledge for governance transparency.
+  \end{itemize}
+
+\subsection{Measures to maximise impact}
+
+  \begin{itemize}
+  \item Dissemination and exploitation of results
+
+    1. G4 will launch a testnet to help disseminate the main results
+    of the deep ledger knowledge network. The launch will have invited
+    NGO’s and GO across disciplines and social, economical and
+    technological sectors.
+
+    2. The Robhoot Open network will be launched as a Biodiversity
+    research network to integrate the existing public databases and
+    crowdsource data collections into the automated KGs and ledger
+    network to facilitate NGOs, GO and other organizations
+    transparency and governance in Biodiversity management.
+
+    3. The project aims to publish its main findings in top open
+    scientific journals to communicate the global impact of a deep
+    ledger knowledge network for transparency and governance across
+    social and economical sectors.
+
+\item Communication activities
+
+  1. The contribution in communication of the Swiss Data Science Center, Switzerland
+
+  2. Contribution of the Wyss center
+
+  3. Contribution of Ifisc, Spain
+\end{itemize}
+
+
+\section{Implementation}
+
+
+\begin{itemize}
+\item \textcolor{red}{Describe here the objectives, list of work
+    packages, list of deliverables (mention Ghentt chart)}
+  \end{itemize}
+
+  \begin{comment}
+    
 \section{The objectives of the proposal}
 The $\mathcal{ROBHOOT}$ consortium will build on the achievements of
 many open-source software projects, the open-source digital ecosystem,
@@ -299,8 +533,6 @@ imaging, artificial intelligence and patient-matched organoids, or
 organ-on-a-chip disease models to study the progression of an illness
 and develop novel therapeutics.
 
-
-
 is set to be developed in four stages each with
 one main goal (Figure 2). The most advanced version is to provide
 open-access automated and fully reproducible reporting in a
@@ -314,28 +546,6 @@ undestanding of the process-based patterns contained in the data, and
 {\bf d}) {\bf $\mathcal{ROBHOOT}$ v.4.0} deploys KGs in a
 decentralized network of trusting/untrusting peers with every peer
 maintaining the population of the KGs.
-
-
-
-\hspace{-0.2 in}\includegraphics[width=0.52\textwidth]{Figures/Figure3.pdf}
-{\small {\bf Figure 1: Prediction power (top), understanding (middle),
-    and prediction-understanding power maps (bottom)}. x-axis
-  represents data-based inference (i.e., gradient of AI methods from
-  low (left) to high (right) predictive power). y-axis represents
-  process-based inference (i.e., gradient of process-based methods
-  from low (bottom left) to high (top left) understanding power). The
-  gradient of predicting power map (top) shows a hot spot red area in
-  the bottom right highlighting the region where AI methods best
-  predict the empirical data. The gradient of understanding power map
-  (middle) shows a red hot spot in the top left highlighting the
-  region where the best mechanistic understanding occur. The
-  predicting-understanding power map (bottom) shows the sum of the two
-  previous maps highlighting a red hot spot where the best synthesis
-  research joining predicting and understanding power of the empirical
-  data might occur. The first research goal of this proposal aims to
-  build an automated research platform to maximize the predicting and
-  understanding power highlighted in the red hot spot of the
-  predicting-understanding power map (bottom).}
 
 
 \section{How they will be achieved}
@@ -359,7 +569,7 @@ maintaining the population of the KGs.
         every peer maintaining the population of the KGs.}
   \end{figure*}
     
-      \begin{comment}
+      %\begin{comment}
         Figure 1: Deep knowledge-based ledger network technology. a)
         End-to-end research from data integration to reporting. b) The
         knowledge graph (KG) representing one research path of a
@@ -372,8 +582,9 @@ maintaining the population of the KGs.
         like Gitchain.) The end-to-end automated research connects
         citizen data science and open-science to knowledge-inspired
         societies in a integrated loop.}
-      \end{comment}
-
+      %\end{comment}
+    \end{comment}
+    
       Mapping partly the discovery process is highly informative and
       challenging by itself, but a diverse group of X scientists
       across Europe decided that merely taking for reproducibility
@@ -632,9 +843,6 @@ goals of each one are the following:
 \end{comment}
 
 
-
-
-
 The science ecosystem currently lack technologies fully automating the
 research cycle into the open-source digital ecosystem. Despite public
 institutions are demanding more reproducibility and openness of the
@@ -681,7 +889,7 @@ open, reproducible and immutable knowledge networks (Tables 1 and 2).
 
     %\centering
   \includegraphics[width=0.45\textwidth]{Figures/FigureRobhoot.pdf}
-  %\caption{
+ 
   {\small {\bf Figure 3: Robhoot in Digital Ecosystems}: {\bf Left
       column}: {\bf $\mathcal{ROBHOOT}$ v.1.0} representing the
     research cycle as nodes from number 0 to 4: Data integration (0),
@@ -697,12 +905,119 @@ open, reproducible and immutable knowledge networks (Tables 1 and 2).
     generated by the connections to the open-source software from
     where each report is generated only using a subset of the research
     layers and open-source software.}
+  
+\subsection{Research methodology and work plan – Work packages,
+  deliverables}
+
+\begin{comment}
+  \textcolor{red}{3. Implementation 3.1 Research methodology and work
+    plan – Work packages, deliverables We will use a hybrid modular
+    approach (refs for selecting project management) containing four
+    objectives, eleven work packages and X deliverables. The following
+    is the research methodology and timing of the work packages and
+    the connections among the packages within and across goals: O1:
+    Multilayer WP1 (ADAI): Automated data acquisition and
+    integration. Open-source ETLs are rapidly evolving towards
+    accounting for many key aspects of data integration: Data
+    manipulation across formats (CloverDX), merging of historical and
+    real-time streaming data pipelines (i.e., Kafka) and data
+    structures facilitating the storage and access of large amounts of
+    data (i.e., clickhouse.) Our research methodology will be focused
+    on developing an automated workflow using the geographically
+    distributed cloud on computing and storage to test the robustness
+    of data integration metrics across gradients of simulated data
+    containing dimensions, biases, sizes, formats, temporal and
+    spatial resolution (should we be more domain specific here? Or
+    should we stay general and thinking broadly about simulated data
+    with along complexity gradients and explore data integration
+    metrics? How is the SDSC dealing with data integration for Renku?
+    MapReduce Golem network Resource distribution in data storage and
+    simulating data (Ease.ml constraints and novelty and how Fluence
+    network can help to solve it) WP2 (PROPANCE): Process pattern
+    automated inference. Automated classification scheme to explore
+    many inference methods across the population of KGs.  WP3 (VISUR):
+    Intralayer visualization and reporting. We will integrate and
+    develop new algorithms to merge distinct database into one large
+    db using mySQL, clickhouse or similar db-open-source software.
+    WP4 (XX) Multilayer and KG integration: Existing knowledge of
+    neural networks (refs by Luis) and deep knowledge-based algorithms
+    to obtain the KGs (integrating WP1-3.)  automated ledger knowledge
+    network technology to compactly facilitate open-science,
+    decentralization, reproducibility and security in the science
+    ecosystem O2: Ledger WP5 (): DeepKlen consensus protocol (DCP).
+    The ledger represents the DeepKlen universe at a given point in
+    time. It contains the KGs list and all the orders in the
+    distributed network. We will define and implement a protocol to
+    which KG set to apply to the last ledger.  WP6 (): Scalability,
+    decentralization and security protocols.  WP7 (): Ledger
+    automation O3: DeepKlen WP8 (): Testnet WP9 (): Mainnet O4:
+    Robhoot WP10 (): Testnet Showcase of the julia packages to be
+    integrated within and between layers and the existing gaps.  WP11
+    (): The Robhoot Open Network (RON) for Biodiversity research}
+\end{comment}
+  
+  \subsection{Management structure, milestones and procedures}
+  \begin{itemize}
+  \item \textcolor{red}{Describe the organisational structure and the
+      decision-making (including a list of milestones (table 3.2a))}
+\item \textcolor{red}{Explain why the organisational structure and
+  decision-making mechanisms are appropriate to the complexity and
+  scale of the project.}
+\item \textcolor{red}{Describe any critical risks, relating to project
+    implementation, that the stated project's objectives may not be
+    achieved. Detail any risk mitigation measures. Please provide a
+    table with critical risks identified and mitigating actions (table
+    3.2b) and relate these to the milestones.}
+  \end{itemize}
+
+  \subsection{Consortium as a whole}
+
+  \begin{itemize}
+    \item \textcolor{red}{The individual members of the consortium are
+        described in a separate section 4}
+      \item \textcolor{red}{Describe the consortium. Explain how it will
+    support achieving the project objectives.  Does the consortium
+    provide all the necessary expertise? Is the interdisciplinarity in
+    the breakthrough idea reflected in the expertise of the
+    consortium?}
+\item \textcolor{red}{In what way does each of the partners contribute
+    to the project? Show that each has a valid role and adequate
+    resources in the project to fulfil that role. How do the members
+    complement one another? Other countries and international
+    organisations: If one or more of the participants requesting EU
+    funding is based in a country or is an international organisation
+    that is not automatically eligible for such funding (entities from
+    Member States of the EU, from Associated Countries and from one of
+    the countries in the exhaustive list included in General Annex A
+    of the work programme are automatically eligible for EU funding),
+    explain why the participation of the entity in question is
+    considered essential for carrying out the action on the grounds
+    that participation by the applicant has clear benefits for the
+    consortium.}
+  \end{itemize}
 
 
+  \subsection{Resources to be committed}
+ 
+  \begin{itemize}
+  \item \textcolor{red}{Please make sure the information in this
+      section matches the costs as stated in the budget table in
+      section 3 of the administrative proposal forms, and the number
+      of person months, shown in the detailed work package
+      descriptions.  Please provide the following:}
+ \item \textcolor{red}{a table showing number of person months required
+    (table 3.4a)}
+  \item \textcolor{red}{a table showing ‘other direct costs’ (table
+      3.4b) for participants where those costs exceed 15\% of the
+      personnel costs (according to the budget table in section 3 of
+      the administrative proposal forms)}
+\end{itemize}
+
+
+\begin{comment}
 \section{Their relevance in terms of Future and Emerging Technologies}
 
 Table 2 
-
 
 \subsection{Scientific concept}
 Research cycle automation combining novel decentralization algorithms
@@ -838,41 +1153,6 @@ reproducibility and openness of the data and the scientific cycle
 scientific and engineering landscapes, there are not currently open
 technologies aiming to compactly facilitate and distribute the
 scientific and engineering cycle in immutable knowledge networks.
-
-
-\subsection{Science-to-technology breakthrough targeted by the
-  project}
-Closing global sustainability knowledge gaps in the science of bias in
-neural spiking networks and automation in multilayer networks.
-
-
-\subsection{Interdisciplinarity}
-{\bf $\mathcal{ROBHOOT}$} aims to be a hybrid-technology accounting
-for many features (Tables 1 to 3). Producing such a multi-feature
-technology requires multidisciplinarity teams making contributions for
-each of the Robhoot features while integrating all these features in a
-rapidly evolving digital ecosystem. In this regard, the project aims
-to put together data and computer scientists (i.e., distributed
-computing, open-source software development), scientists from the
-physics of complex systems (i.e., multilayer networks), artificial
-intelligence (i.e., deep learning and automation) and the biology,
-ecology and evolution of social, natural and technological ecosystems.
-
-Technologies with the capacity to compactly account for neutral,
-borderless, immutable, and open-access information in hybrid,
-trusted-untrusted peer-to-peer interactions, accounting for the
-multilayer nature of science and engineering are currently not in
-place. Producing such a technology will require integrating expertise
-from disparate disciplines like multilayer networks, deep learning,
-automation algorithmics, and distributed technologies. The integration
-of these disciplines will require to go beyond domain
-boundaries. Specifically, we will merge scientists and engineers from
-data and computer science, the physics of complex systems, artificial
-intelligence and the biology, ecology and evolution of social, natural
-and technological ecosystems to develop a “de novo” technology: the
-synthesis of automated knowledge generation in a neutral, borderless
-and immutable network synthesized anew from existing open-source
-projects like Renku, Fabric and gitchain.
 
 
 \subsection{Scientific and technological contributions to the
@@ -1059,210 +1339,114 @@ for future predictive technologies.
     Switzerland 2. Contribution of the Wyss center 3. Contribution of
     Ifisc, Spain}
 
+
+  
   
 \subsection{Create new market opportunities, strengthen
   competitiveness and growth of companies, address issues related to
   climate change or the environment, or bring other important benefits
   for society}
+\end{comment}
 
-\section{Impact}
+  \section{Members of the consortium}
 
-\subsection{Expected impacts}
+  \begin{comment}
+ This section is not covered by the page limit.
+
+ The information provided here will be used to judge the operational
+ capacity. Please make sure that you do not include information here
+ that relates to the headings under sections 1 to 3. Experts will be
+ instructed to ignore any information here which appears to have been
+ included to circumvent page limits applying to those sections.
+ \end{comment}
+
+ \subsection{Participants (applicants)}
+
+ 
+ Please provide, for each participant, the following (if available):
+ \begin{itemize}
+ \item a description of the legal entity and its main tasks, with an
+   explanation of how its profile matches the tasks in the proposal
+ \item a curriculum vitae or description of the profile of the
+   persons, including their gender, who will be primarily responsible
+   for carrying out the proposed research and/or innovation
+   activities. Indicate each person who would be a first-time
+   participant to FET under Horizon 2020
+ \item a list of up to 5 relevant publications, and/or products,
+   services (including widely-used datasets or software), or other
+   achievements relevant to the call content
+ \item a list of up to 5 relevant previous projects or activities,
+   connected to the subject of this proposal
+ \item a description of any significant infrastructure and/or any
+   major items of technical equipment, relevant to the proposed work
+ \item if operational capacity cannot be demonstrated at the time of
+   submitting the proposal, describe the concrete measures that will
+   be taken to obtain it by the time of the implementation of the
+   task.1
+ \end{itemize}
+
+ \subsection{Third parties involved in the project (including use of third party resources)}
+
+ 
+Please complete, for each participant, the following table (or simply state "No third parties involved", if applicable):
+\begin{itemize}
+\item Does the participant plan to subcontract certain tasks  (please note that core tasks of the project should not be sub-contracted)
+  Y/N
+  If yes, please describe and justify the tasks to be subcontracted
+\item Does the participant envisage that part of its work is performed by linked third parties2
+Y/N
+If yes, please describe the third party, the link of the participant to the third party, and describe and justify the foreseen tasks to be performed by the third party
+
+\item Does the participant envisage the use of contributions in kind provided by third parties (Articles 11 and 12 of the General Model Grant Agreement)
+Y/N
+If yes, please describe the third party and their contributions
+
+\item Does the participant envisage that part of the work is performed by International Partners3 (Article 14a of the General Model Grant Agreement)?
+Y/N
+If yes, please describe the International Partner(s) and their contributions
+\end{itemize}
 
 
-The following are the general and the specific impacts according to our objectives, working packages and deliverables:
+\section{Ethics and Security}
+
+ This section is not covered by the page limit.
+
+\subsection{Ethics}
+
+ For more guidance, see the document "How to complete your ethics self-assessment".
+If you have entered any ethics issues in the ethical issue table in the administrative proposal forms, you must:
 
 \begin{itemize}
-\item Automated knowledge-based network technology\\
+\item submit an ethics self-assessment, which:
+\item describes how the proposal meets the national legal and ethical
+  requirements of the country or countries where the tasks raising
+  ethical issues are to be carried out;
+\item explains in detail how you intend to address the issues in the
+  ethical issues table, in particular as regards: research objectives
+  (e.g. study of vulnerable populations, dual use, etc.)  ▪ research
+  methodology (e.g. clinical trials, involvement of children and
+  related consent procedures, protection of any data collected, etc.)
+\item the potential impact of the research (e.g. dual use issues,
+  environmental damage, stigmatisation of particular social groups,
+  political or financial retaliation, benefit-sharing, misuse, etc.).
+\item provide the documents that you need under national law(if you
+  already have them), e.g.: ◦ an ethics committee opinion; ◦ the
+  document notifying activities raising ethical issues or authorising
+  such activities If these documents are not in English, you must also
+  submit an English summary of them (containing, if available, the
+  conclusions of the committee or authority concerned).
+
   
-  The integration between open-source data integration and inference
-  schemes, the interlayer automation (O1: Multilayer), will allow for
-  the systematic exploration of robust knowledge-based patterns when
-  exploring the population of KGs. This is in sharp contrast to
-  existing AI technologies mostly oriented to prediction without
-  knowledge-based understanding (refs). Despite open-source ETLs are
-  rapidly evolving towards accounting for many aspects of data
-  integration (formats, historical-real time, storage, dimensions,
-  size, bias and spatiotemporal resolution), there is a missing
-  component in quantifying the robustness of knowledge that integrated
-  data can provide. Automated populations of KGs connecting
-  cutting-edge open-source ETLs to inference classification schemes
-  can provide the quantification of robustness in knowledge-based
-  patters for future predictive technologies.
+  If you plan to request these documents specifically for the project
+  you are proposing, your request must contain an explicit reference
+  to the project title.
+\subsection{Security}
+Please indicate if your project will involve:
 
-\item Open immutable knowledge in untrusted digital peer-to-peer ecosystems\\
-  
-  The open access of immutable accumulation of knowledge in untrusted
-  digital peer-to-peer ecosystems: Social, environmental and economic
-  impact to facilitate global access to transparent knowledge.  ETLs
-  are rapidly evolving towards accounting for many key aspects of data
-  integration: Data manipulation across formats (CloverDX), merging of
-  historical and real-time streaming data pipelines (i.e., Kafka) and
-  data structures facilitating the storage and access of large amounts
-  of data (i.e., clickhouse.) Our research methodology will be focused
-  on developing an automated workflow using the geographically
-  distributed cloud on computing and storage to test the robustness of
-  data integration metrics across gradients of simulated data
-  containing dimensions, biases, sizes, formats, temporal and spatial
-  resolution (should we be more domain specific here? Or should we
-  stay general and thinking broadly about simulated data with along
-  complexity gradients and explore data integration metrics? How is
-  the SDSC dealing with data integration for Renku?  We anticipate
-  implementation of an automated end-to-end research cycle within an
-  open ledger to facilitate real-time open-access neutral
-  data-rule-knowledge to gain informed decisions to help solve complex
-  social, environmental and technological problems. This facilitation
-  might occur for local, regional and global problems in many
-  fronts. Specifically, open deep ledger knowledge networks might have
-  an impact in the following five areas
-  
-\item The identification of gaps in research paths not explored
-  consequence of lack of synthesis in interdisciplinary research: The
-  creation of new markets opportunities obtained from exploring these
-  gaps and the development of comparative method in the science of
-  science and citizen data science.
-
-\item The merging of prediction and explanatory power in open science
-  to gain synergy between AI open predictive tools and ruled-based
-  pattern inference creating a more balanced pattern and process
-  inference interaction. Recent examples of AI algorithms playing
-  chess and go using brute force deep learning models or rule-based
-  algorithms have discovered the power...: The integration between
-  prediction and understanding power to facilitate explanatory
-  synthesis.
-
-\item The automation of reproducible open knowledge will facilitate
-  the reusability, repeatability, and replicability of research
-  outputs. The open access knowledge for governance transparency.
-
-\subsection{Measures to maximise impact}
-
-  \begin{itemize}
-  \item Dissemination and exploitation of results
-
-    1. G4 will launch a testnet to help disseminate the main results
-    of the deep ledger knowledge network. The launch will have invited
-    NGO’s and GO across disciplines and social, economical and
-    technological sectors.
-
-    2. The Robhoot Open network will be launched as a Biodiversity
-    research network to integrate the existing public databases and
-    crowdsource data collections into the automated KGs and ledger
-    network to facilitate NGOs, GO and other organizations
-    transparency and governance in Biodiversity management.
-
-    3. The project aims to publish its main findings in top open
-    scientific journals to communicate the global impact of a deep
-    ledger knowledge network for transparency and governance across
-    social and economical sectors.
-
-\item Communication activities
-
-  1. The contribution in communication of the Swiss Data Science Center, Switzerland
-
-  2. Contribution of the Wyss center
-
-  3. Contribution of Ifisc, Spain
-
-\section{Implementation}
-
-\subsection{Research methodology and work plan – Work packages,
-  deliverables}
-
-  \textcolor{red}{3. Implementation 3.1 Research methodology and work
-    plan – Work packages, deliverables We will use a hybrid modular
-    approach (refs for selecting project management) containing four
-    objectives, eleven work packages and X deliverables. The following
-    is the research methodology and timing of the work packages and
-    the connections among the packages within and across goals: O1:
-    Multilayer WP1 (ADAI): Automated data acquisition and
-    integration. Open-source ETLs are rapidly evolving towards
-    accounting for many key aspects of data integration: Data
-    manipulation across formats (CloverDX), merging of historical and
-    real-time streaming data pipelines (i.e., Kafka) and data
-    structures facilitating the storage and access of large amounts of
-    data (i.e., clickhouse.) Our research methodology will be focused
-    on developing an automated workflow using the geographically
-    distributed cloud on computing and storage to test the robustness
-    of data integration metrics across gradients of simulated data
-    containing dimensions, biases, sizes, formats, temporal and
-    spatial resolution (should we be more domain specific here? Or
-    should we stay general and thinking broadly about simulated data
-    with along complexity gradients and explore data integration
-    metrics? How is the SDSC dealing with data integration for Renku?
-    MapReduce Golem network Resource distribution in data storage and
-    simulating data (Ease.ml constraints and novelty and how Fluence
-    network can help to solve it) WP2 (PROPANCE): Process pattern
-    automated inference. Automated classification scheme to explore
-    many inference methods across the population of KGs.  WP3 (VISUR):
-    Intralayer visualization and reporting. We will integrate and
-    develop new algorithms to merge distinct database into one large
-    db using mySQL, clickhouse or similar db-open-source software.
-    WP4 (XX) Multilayer and KG integration: Existing knowledge of
-    neural networks (refs by Luis) and deep knowledge-based algorithms
-    to obtain the KGs (integrating WP1-3.)  automated ledger knowledge
-    network technology to compactly facilitate open-science,
-    decentralization, reproducibility and security in the science
-    ecosystem O2: Ledger WP5 (): DeepKlen consensus protocol (DCP).
-    The ledger represents the DeepKlen universe at a given point in
-    time. It contains the KGs list and all the orders in the
-    distributed network. We will define and implement a protocol to
-    which KG set to apply to the last ledger.  WP6 (): Scalability,
-    decentralization and security protocols.  WP7 (): Ledger
-    automation O3: DeepKlen WP8 (): Testnet WP9 (): Mainnet O4:
-    Robhoot WP10 (): Testnet Showcase of the julia packages to be
-    integrated within and between layers and the existing gaps.  WP11
-    (): The Robhoot Open Network (RON) for Biodiversity research}
-
-  \subsection{Management structure, milestones and procedures}
-  \begin{itemize}
-  \item Describe the organisational structure and the decision-making
-    (including a list of milestones (table 3.2a))
-  \item Explain why the organisational structure and decision-making
-    mechanisms are appropriate to the complexity and scale of the
-    project.
-  \item Describe any critical risks, relating to project
-    implementation, that the stated project's objectives may not be
-    achieved. Detail any risk mitigation measures. Please provide a
-    table with critical risks identified and mitigating actions (table
-    3.2b) and relate these to the milestones.
-  \end{itemize}
-
-  \subsection{Consortium as a whole}
-
-  \textcolor{red}{The individual members of the consortium are
-    described in a separate section 4. There is no need to repeat that
-    information here.  • Describe the consortium. Explain how it will
-    support achieving the project objectives.  Does the consortium
-    provide all the necessary expertise? Is the interdisciplinarity in
-    the breakthrough idea reflected in the expertise of the
-    consortium?  • In what way does each of the partners contribute to
-    the project? Show that each has a valid role and adequate
-    resources in the project to fulfil that role. How do the members
-    complement one another?  Other countries and international
-    organisations: If one or more of the participants requesting EU
-    funding is based in a country or is an international organisation
-    that is not automatically eligible for such funding (entities from
-    Member States of the EU, from Associated Countries and from one of
-    the countries in the exhaustive list included in General Annex A
-    of the work programme are automatically eligible for EU funding),
-    explain why the participation of the entity in question is
-    considered essential for carrying out the action on the grounds
-    that participation by the applicant has clear benefits for the
-    consortium.}
-
-
-  \subsection{Resources to be committed}
-
-  \textcolor{red}{Please make sure the information in this section
-    matches the costs as stated in the budget table in section 3 of
-    the administrative proposal forms, and the number of person
-    months, shown in the detailed work package descriptions.  Please
-    provide the following: • a table showing number of person months
-    required (table 3.4a) • a table showing ‘other direct costs’
-    (table 3.4b) for participants where those costs exceed 15\% of the
-    personnel costs (according to the budget table in section 3 of the
-    administrative proposal forms)}
+\begin{itemize}
+\item activities or results raising security issues: (YES/NO)
+\item EU-classified information as background or results: (YES/NO)
+\end{itemize}  
   
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
