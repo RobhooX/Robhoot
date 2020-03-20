@@ -6,20 +6,25 @@ __________________________________________________________________________
 _______________________________________________________________________________________________________
 Architecture(A) -- Data integration (DI) -- Bayesian Space Models (BSM) -- Visualization&Reporting (VR) 
 
-Monday         Prototypes: A-group DI-group BSM-group VR-group
-Tuesday        Prototypes: A-group DI-group BSM-group VR-group
-Wednesday      Prototypes: A-group DI-group BSM-group VR-group
-Thursday       Glue A-DI-groups Glue BSM-VR-groups 
-Friday         Glue A-DI-BSM-VR-groups
+Case study : Covid-19
+
+Monday         A + DI
+Tuesday        DI
+Wednesday      BSM
+Thursday       VR 
+Friday         DI + BSM + VR
 
 
 Participants ----------------------------------------------------
-
-Preliminary groups -- Please modify according to your preferences
-A: Victor Carlos -- All
-DI: Ali -- Charles Carlos 
-BSM: Gian Marco -- Juan Jorge Luiño
-VR: Charles -- Ali 
+Ali 
+Carlos
+Charles
+Gian Marco
+Juan
+Jorge
+Luiño
+Simona
+Victor
 -----------------------------------------------------------------
 _________________________________________________________________________________________
 
@@ -54,8 +59,12 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________________________
 3. GOAL :: Functional automated discovery for a specific case study (Robhoot 1.0: Automated Research Cycle in the Whitepaper)
-   Potential data-modeling case studies: covid-19 :: Biodiversity and global change :: Global city map :: 
-Citizen-data science (biodiversidad) :: Sensor networks (ocean and terrestrial) :: 
+   Potential data-modeling case studies: 
+covid-19 :: 
+Biodiversity and global change :: 
+Global city map :: 
+Citizen-data science (biodiversidad) :: 
+Sensor networks (ocean and terrestrial) :: 
 __________________________________________________________________________________________________________________________________
 
 _____________________________________________________________________________________________________________________________________
