@@ -1,0 +1,55 @@
+____________________________________
+Pragmatic vs Robhoot 
+
+
+Architecture _________________________________________________________________________
+
+A. Pragmatic: Modularity :: R, julia, python... :: 
+   One manual reproducible analysis             
+   
+   Robhoot: Integration: Airflow, or similar :: 
+   Many automated reproducible analysis (from database generation to reporting)
+
+
+B. Pragmatic: Lab scale analysis :: 
+   One reproducible analysis
+   
+   Robhoot: Causal Learning in Federated Networks :: 
+   Population of reproducible analysis across the network each learning from each other
+_______________________________________________________________________________________
+
+
+Data Integration________________________________________________________________
+
+    Pragmatic: Datasets from a few servers :: 
+    csv or direct https download :: sql (clickhouse or other)
+
+    Robhoot: Many datasets from many servers :: 
+    Data mining software, fluentd or similar, data log first, database later :: 
+    sql (clickhouse or other)
+________________________________________________________________________________
+
+
+Bayesian Space Models___________________________________________________
+
+   Pragmatic: Few hypothesis 
+   (i.e., Priors and posteriors with SIR models)
+
+   Robhoot: Open-ended model exploration 
+   (i.e., thousands of scenarios with generalized SIR models)
+_________________________________________________________________________
+
+
+Visualization & Reporting_______________________________________________
+
+  A. Pragmatic: Plots of main results 
+     (i.e., corona example 2D phase space sampling vs contact process)
+   
+     Robhoot: Automated animations of whole process, 
+     from sampling thousands models to posterior distributions
+
+  B. Pragmatic: Handmade writing here and there
+     Robhoot: Automated reporting and reference built using 
+     natural processing language 
+________________________________________________________________________
+
