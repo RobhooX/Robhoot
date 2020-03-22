@@ -1,0 +1,135 @@
+
+Hey Guys, 
+
+Here the last update before our meeting tomorrow at 9am Zurich time.
+
+Why Robhack?
+To have fun! 
+But also to gain vision for the future submission to the Future Emerging technologies (FET) grant proposal -- a EU-FET program with deadline May 13 2020. Robhoot's dream is to be trained to be a open-source technology to help solving complex problems for humanity. Yeah!
+
+I have committed a Robhack guideline file (see below). The file outlines a procedure for complementing steps between the pragmatic and the Robhoot scenarios. As a consequence of all the discussions during the Robhack's preparation, the proposal is moving towards "Causal Learning in Federated Networks" or something like that. What is all this about? 
+
+Imagine having ALL datasets and ALL causal models to respond YOUR question. Would it be possible in the rapidly evolving digital ecosystem? Imagine each of us running a node with YOUR own solution. Can we learn from maaanny maaaany nodes with the same general interest than each of us? Which is the architecture generating the most robust knowledge about YOUR question? Which are the incentives to proceed this way in comparison with the existing way of generating our own research?
+
+
+The procedure is more complete for the first two days -- Architecture and Data Integration. The other days are now in a very early stage. Therefore, the updates for the other modules, Bayesian Space Models and Visualziation and Reporting will come after the discussion during the first two days.
+
+
+Please edit this file if you feel there are missing components
+
+
+__________________________________________________________________
+__________________________________________________________________
+MONDAY MARCH 23 
+9am Zurich time :: Architecture and Data Integration COVID-19
+
+
+ARCHITECTURE
+-----------------------------------------------------------------------------------------
+PRAGMATIC :: 
+Writing pseudo-algorithm to connect scripting languages (i.e., Pyhton, Julia and others) 
+from data adquisition to reporting generation
+-----------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+ROBHOOT ::
+Global design to facilitate decentralization and reproducibility in a federated network
+Airflow @ https://github.com/apache/airflow and 
+Gnunet @ https://gnunet.org/en/index.html :: Robustness-based knowledge graphs
+Renku @ https://github.com/SwissDataScienceCenter/renku :: Reproducibility-based knowledge graphs
+-------------------------------------------------------------------------------------------------
+
+
+DATA INTEGRATION
+-------------------------------------------------------
+PRAGMATIC :: 
+Decide "main" data 
+Download "main" data from a few servers : Python Julia
+Merging all main data
+Create Table (Pandas, JuliaDB, Clickhouse ...)
+Load 
+-------------------------------------------------------
+
+----------------------------------------------------------------------------------------------
+ROBHOOT :: qETLs :: Question-driven extract, transform and load data
+Create Question-based knowledge graph from existing literature (corpus conversion algorithms)
+Create list web data for COVID-19 
+     Fluentd -- https://docs.fluentd.org/installation/install-by-deb
+     NLP algorithms (Natural Language Processing)
+     Hadoop -- https://github.com/melian009/Robhoot/issues/1
+     BigchainDB -- https://www.bigchaindb.com/ -- check also https://gnunet.org/en/index.html
+
+Create database from databases using 
+Create glue code in python, julia or other to connect Robhoot to Golem network ()
+Merging all data
+Create Table (Pandas, JuliaDB, Clickhouse...)
+Load
+----------------------------------------------------------------------------------------------
+__________________________________________________________________
+__________________________________________________________________
+
+ 
+_____________________________________________________________________
+______________________________________________________________________
+TUESDAY MARCH 24 
+9am Zurich time :: Data Integration COVID-19 and Bayesian Space Models
+
+PRAGMATIC
+
+
+ROBHOOT
+   Bayesian scientist
+       Check: Machine scientist -- code in python at https://bitbucket.org/rguimera/machine-scientist  
+       Check: Bayesian methods, Bayesian Networks, Differentiable programming: 
+       Flux @ https://github.com/FluxML/Flux.jl Julia packages
+       Check: Multidimensional Pareto Optimization -- Julia packages
+______________________________________________________________________
+______________________________________________________________________
+
+
+______________________________________________________________
+______________________________________________________________
+WEDNESDAY MARCH 25   
+9am Zurich time :: Bayesian Space Models and Visualization-Reporting
+
+PRAGMATIC
+
+
+ROBHOOT
+
+   Visualization space and reporting
+       Check:  Vegalite @ https://github.com/queryverse/VegaLite.jl
+________________________________________________________________
+________________________________________________________________
+
+
+_________________________________________________________________
+_________________________________________________________________
+THURSDAY MARCH 26  
+9am Zurich time :: 
+
+PRAGMATIC
+
+
+ROBHOOT
+
+________________________________________________________________
+________________________________________________________________
+
+
+_________________________________________________________________
+_________________________________________________________________
+FRIDAY MARCH 27  
+9am Zurich time ::
+
+PRAGMATIC
+
+
+ROBHOOT
+
+________________________________________________________________
+________________________________________________________________
+
+
+
+
