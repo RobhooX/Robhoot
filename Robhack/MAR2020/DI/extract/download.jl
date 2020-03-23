@@ -2,7 +2,7 @@
 
 using RemoteFiles
 using HTTP
-using JSON
+using JSON3
 using DataFrames
 
 "Download a file from a URL"
@@ -26,7 +26,7 @@ function download_api(source::String)
 end
 
 "convert a json object to DataFrame"
-function json2df(input::Dict)
+function json2df(input)
   cols = reduce(∩, keys.(input["data"]))
   df = DataFrame((Symbol(c)=>getindex.(input["data"], c) for c ∈ cols)...)
   return df
