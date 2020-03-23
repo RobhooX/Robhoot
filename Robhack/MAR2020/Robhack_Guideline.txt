@@ -42,10 +42,10 @@ Ali Julia Python
 Jorge C Python
 Victor Fortran
 Carlos Julia Octave(Matlab)
-Charles Julia R **
+Charles Julia R C++ C Python Bash **
 Juan Phyton Fortran **
 Gian Marco C R **
-Alex Matlab **
+Alex Matlab C C++ **
 Luiño C Python **
 
 C 3 1 **
