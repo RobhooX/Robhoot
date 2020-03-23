@@ -33,6 +33,7 @@ Data integration (Julia Python scripts) :: PRAGMATIC :: ROBHOOT
 * Corona Stats API https://developer.smartable.ai/api-details#api=coronavirus&operation=stats
 * CoronaVirus 2019 Global Cases https://github.com/nat236919/Covid2019API
 * Pixels Camp Covid 19 https://www.notion.so/Pixels-Camp-Covid-19-625db3064e5a469db9a13c439c439687
+* Corona in Brazil at the city level, data and API https://brasil.io/dataset/covid19/caso and https://brasil.io/api/dataset/covid19
 
 ## Extract
 
