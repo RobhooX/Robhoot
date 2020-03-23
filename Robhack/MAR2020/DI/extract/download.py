@@ -3,8 +3,12 @@
 
 #!/usr/bin/env python3
 
-#Discover data within the server
-#API request ============================================================
+
+# DISCOVER
+#Automated list of (long repo) servers and API  request
+#for i = 1:S; #Servers
+
+#-------------------------------------------------------------------------
 #Test :: making request does not work
 response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
 
@@ -18,30 +22,23 @@ response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
 #503: The server is not ready to handle the request.
 #_____________________________________________________________________________________________________________________________________________________
 
+
 #Test : making request that work
 response = requests.get("http://api.open-notify.org/astros.json")
 print(response.status_code)
 #200
+#------------------------------------------------------------------------
+
 
 #Making connection to where is the data to the http request below
 
 
-#http request 
+# EXTRACTION : HTTP request 
+
 #download data request
 import requests
 
-#def is_downloadable(url):
-#    """
-#    Does the url contain a downloadable resource
-#    """
-#    h = requests.head(url, allow_redirects=True)
-#    header = h.headers
-#    content_type = header.get('content-type')
-#    if 'text' in content_type.lower():
-#        return False
-#    if 'html' in content_type.lower():
-#        return False
-#    return True
+
 
 urls=['a','b']
 paths=['./data/server'+str(i) for i in range(len(urls))]
@@ -52,3 +49,12 @@ for i in range(len(urls)):
     header=sread.headers
     content_type=header.get('content-type')
     open(path+'.'+content_type,'wb').write(sread.content)
+
+
+# TRANSFORMATION
+#Converting list with many formats to tables
+#Table format SQL or other (Julia :: Clickhouse)
+
+# LOAD
+#
+
