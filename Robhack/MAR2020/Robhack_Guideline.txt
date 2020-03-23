@@ -31,6 +31,37 @@ Writing pseudo-algorithm to connect scripting languages (i.e., Pyhton, Julia and
 from data adquisition to reporting generation
 -----------------------------------------------------------------------------------------
 
+_____________________________________________________________________________
+DISCUSSED
+Goal :: One language or many languages? Broadness technology :: Expertise :: 
+Trade offs :: One optimization :: Many lack of optimization
+Starting: Many languages :: One highly optimized in a later stage  
+
+Language expertise :: 
+Ali Julia Python
+Jorge C Python
+Victor Fortran
+Carlos Julia Octave(Matlab)
+Charles Julia R **
+Juan Phyton Fortran **
+Gian Marco C R **
+Alex Matlab **
+Luiño C Python **
+
+C 3 1 **
+Julia 3 1
+Python 2 1 2 2
+Maltab 1 1 1 2 
+
+
+Starting PRAGMATIC -- elements of ROBHOOT
+Install visual studio code -- 
+Install live share extension -- 
+Access to https://prod.liveshare.vsengsaas.visualstudio.com/join?64649FC48ECF928B8F8DCD83EEC2B4FA5D97
+_____________________________________________________________________________
+
+
+
 -------------------------------------------------------------------------------------------------
 ROBHOOT ::
 Global design to facilitate decentralization and reproducibility in a federated network
