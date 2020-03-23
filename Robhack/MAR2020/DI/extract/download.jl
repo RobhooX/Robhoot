@@ -18,7 +18,7 @@ function download_file(datafile::String, datadir::String="./"; overwrite=false)
   return filepath
 end
 
-"Download a file from an API"
+"Download a file from an API URL"
 function download_api(source::String)
   r = HTTP.request("GET", source; verbose=3);
   println("Status: $(r.status)")
@@ -30,4 +30,10 @@ function json2df(input)
   cols = reduce(∩, keys.(input["data"]))
   df = DataFrame((Symbol(c)=>getindex.(input["data"], c) for c ∈ cols)...)
   return df
+end
+
+"Download data in JSON format from API url"
+function download_json_api(source)
+  string_data = download_api(source);
+  jsonout = JSON3.read(string_data)
 end
