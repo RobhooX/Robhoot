@@ -25,8 +25,9 @@ function download_api(source::String)
   return String(r.body)
 end
 
+"convert a json object to DataFrame"
 function json2df(input::Dict)
-  cols = reduce(∩, keys.(v["data"]))
-  df = DataFrame((Symbol(c)=>getindex.(v["data"], c) for c ∈ cols)...)
+  cols = reduce(∩, keys.(input["data"]))
+  df = DataFrame((Symbol(c)=>getindex.(input["data"], c) for c ∈ cols)...)
   return df
 end
