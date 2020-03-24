@@ -1,7 +1,8 @@
 
 data_sources = Dict(
   :covid19_johnHopkins => ["https://covid2019-api.herokuapp.com/v2/current", "json", "api"],
-  :astros => ["http://api.open-notify.org/astros.json", "json", "api"]
+  :astros => ["http://api.open-notify.org/astros.json", "json", "api"],
+  :ncov => ["http://data.nextstrain.org/ncov.json", "json", "api"]
 )
 
 RobhootDI.download_sources(data_sources, force=false)
