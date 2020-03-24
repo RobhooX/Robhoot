@@ -1,8 +1,8 @@
 
 "convert a json object to DataFrame"
 function json2df(input)
-  cols = reduce(∩, keys.(input))
-  df = DataFrame((Symbol(c)=>getindex.(input, c) for c ∈ cols)...)
+  cols = reduce(∩, keys.(input[:data]))
+  df = DataFrame((Symbol(c)=>getindex.(input[:data], c) for c ∈ cols)...)
   return df
 end
 
@@ -27,4 +27,4 @@ query(client, table_sql)
 query(client, "INSERT INTO clickhouse_jl_test (a, b) VALUES (1, 3.14) (2, 1.61)")
 
 query(client, "SELECT * FROM clickhouse_jl_test")
-#=
+=#
