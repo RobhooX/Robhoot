@@ -6,18 +6,12 @@ import urllib.request
 
 #!/usr/bin/env python3
 
-<<<<<<< HEAD
-#DISCOVER 
-
-#API request ============================================================
-=======
 
 # DISCOVER
 #Automated list of (long repo) servers and API  request
 #for i = 1:S; #Servers
 
 #-------------------------------------------------------------------------
->>>>>>> 3fb2865ff33a684e606675bb9c6f0ef01121a6f7
 #Test :: making request does not work
 response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
 
@@ -69,13 +63,8 @@ def main():
 #Making connection to where is the data to the http request below
 
 
-<<<<<<< HEAD
-#EXTRACT 
-# http request 
-=======
 # EXTRACTION : HTTP request 
 
->>>>>>> 3fb2865ff33a684e606675bb9c6f0ef01121a6f7
 #download data request
 
 
@@ -85,22 +74,6 @@ paths=['./data/server'+str(i) for i in range(len(urls))]
 def download_file(url,path):
     sread=requests.get(url,allow_redirects=True)
     header=sread.headers
-<<<<<<< HEAD
-    content_type = header.get('content-type')
-    content_type=content_type.replace('application/','')
-    open(path+'.'+content_type,'wb+').write(sread.content)
-
-for url,path in zip(urls,paths):
-    download_file(url,path)
-
-#map(download_file,urls,paths)
-
-
- #TRANSFORM
-  
- 
- # LOAD   
-=======
     content_type=header.get('content-type')
     open(path+'.'+content_type,'wb').write(sread.content)
 
@@ -112,4 +85,3 @@ for url,path in zip(urls,paths):
 # LOAD
 #
 
->>>>>>> 3fb2865ff33a684e606675bb9c6f0ef01121a6f7
