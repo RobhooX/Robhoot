@@ -6,14 +6,16 @@ data_sources = Dict(
 
 RobhootDI.download_sources(data_sources, force=false)
 
-data = readdir(datadir())
-main_entries = [:people, :data]
-
 dataframes = []
+data = readdir(datadir())
 for (index, ff) in enumerate(data)
   if endswith(ff, ".json")
     jsonout = JSON3.read(read(datadir(ff), String))
-    df = RobhootDI.json2df(jsonout, main_entries[index])
-    push!(dataframes, df)
+    for k in keys(jsonout)
+      if typeof(jsonout[k]) <: JSON3.Array
+        df = RobhootDI.json2df(jsonout, k)
+        push!(dataframes, df)
+      end
+    end
   end
 end
