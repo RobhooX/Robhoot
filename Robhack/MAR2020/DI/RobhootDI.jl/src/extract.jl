@@ -26,3 +26,10 @@ function download_json_api(source)
   jsonout = JSON3.read(string_data)
   return jsonout, jsonout.dt
 end
+
+"Download data in JSON format from file url"
+function download_json_file(source, datadir)
+  filepath = download_file(source, datadir);
+  jsonout = JSON3.read(read(filepath, String))
+  return jsonout, jsonout.dt
+end

@@ -49,6 +49,12 @@ uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 deps = ["Random", "Serialization", "Sockets"]
 uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
+[[DrWatson]]
+deps = ["FileIO", "LibGit2", "Pkg", "Random", "Requires"]
+git-tree-sha1 = "088ce4bce400017097f0f94039e0d5026ffef1d4"
+uuid = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+version = "1.10.2"
+
 [[FileIO]]
 deps = ["Pkg"]
 git-tree-sha1 = "3d7cb2c4c850439f19c4d6d3fbe1dce6481cddb1"
@@ -181,6 +187,12 @@ deps = ["Dates", "FileIO", "HTTP"]
 git-tree-sha1 = "fa573e218ee48b93b9c9f5f7b54f2162124b0451"
 uuid = "cbe49d4c-5af1-5b60-bb70-0a60aa018e1b"
 version = "0.3.1"
+
+[[Requires]]
+deps = ["UUIDs"]
+git-tree-sha1 = "d37400976e98018ee840e0ca4f9d20baa231dc6b"
+uuid = "ae029012-a4dd-5104-9daa-d747884805df"
+version = "1.0.1"
 
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
