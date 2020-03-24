@@ -1,13 +1,23 @@
-# ROBHOOT :: qETLs :: Question-driven discovery, extract, transform and load data
+# ROBHOOT :: DETLs :: Discover, extract, transform and load
 
-Data integration (Julia Python scripts) :: PRAGMATIC :: ROBHOOT
+Data integration (Julia Python scripts) :: Hybrid :: PRAGMATIC-ROBHOOT
 
-## Discovery
+## Discover
 
 ### Automated
 
-* Create Question-based knowledge graph from existing literature (corpus conversion algorithms)
-* Automated generation of a knowledge graphs given a few keywords of a given topic :: connecting servers by similarity
+
+* INITIAL:: Keywords :: list API address :: 
+* INITIAL:: LIST OF SERVERS :: Automatic API discovery :: list API address
+
+https://modeling-languages.com/automatic-discovery-web-api-specifications/
+https://github.com/opendata-for-all/APIDiscoverer
+https://www.fleekitsolutions.com/api-automation-using-python/
+
+
+## VISION
+* Question-based knowledge graph from existing literature (corpus conversion algorithms)
+* Server-based knowledge graph connecting servers by data-structure similarity :: community metrics
 * Make server list with Case study data
 * Create list web data for COVID-19 
     * Fluentd -- https://docs.fluentd.org/installation/install-by-deb

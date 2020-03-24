@@ -1,9 +1,13 @@
+import requests
+import grequests
+import urllib.request
 
 # Download from source
 
 #!/usr/bin/env python3
 
-#Discover data within the server
+#DISCOVER 
+
 #API request ============================================================
 #Test :: making request does not work
 response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
@@ -23,12 +27,39 @@ response = requests.get("http://api.open-notify.org/astros.json")
 print(response.status_code)
 #200
 
+#Option 1
+urls = [
+    'http://www.heroku.com',
+    'http://tablib.org',
+    'http://httpbin.org',
+    'http://python-requests.org',
+    'http://kennethreitz.com'
+]
+
+   rs = (grequests.get(u) for u in urls)
+   grequests.map(rs)
+
+#Option 2
+def main():
+# open a connection to a URL using urllib2
+   webUrl = urllib2.urlopen("https://www.youtube.com/user/guru99com")
+  
+#get the result code and print it
+   print("result code:" + str(webUrl.getcode())) 
+  
+# read the data from the URL and print it
+   data = webUrl.read()
+   print(data)
+#==========================================================================
+
+
+
 #Making connection to where is the data to the http request below
 
 
-#http request 
+#EXTRACT 
+# http request 
 #download data request
-import requests
 
 #def is_downloadable(url):
 #    """
@@ -43,12 +74,22 @@ import requests
 #        return False
 #    return True
 
-urls=['a','b']
+urls=['http://api.open-notify.org/astros.json','https://covid2019-api.herokuapp.com/v2/current','https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos/Actualizacion_53_COVID-19.pdf']
 paths=['./data/server'+str(i) for i in range(len(urls))]
-for i in range(len(urls)):
-    url=urls[i]
-    path=paths[i]
+def download_file(url,path):
     sread=requests.get(url,allow_redirects=True)
     header=sread.headers
-    content_type=header.get('content-type')
-    open(path+'.'+content_type,'wb').write(sread.content)
+    content_type = header.get('content-type')
+    content_type=content_type.replace('application/','')
+    open(path+'.'+content_type,'wb+').write(sread.content)
+
+for url,path in zip(urls,paths):
+    download_file(url,path)
+
+#map(download_file,urls,paths)
+
+
+ #TRANSFORM
+  
+ 
+ # LOAD   
