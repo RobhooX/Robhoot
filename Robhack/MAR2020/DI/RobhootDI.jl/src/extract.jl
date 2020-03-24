@@ -20,16 +20,18 @@ function download_api(source::String)
   return String(r.body)
 end
 
-"Download data in JSON format from API url"
-function download_json_api(source)
-  string_data = download_api(source);
-  jsonout = JSON3.read(string_data)
-  return jsonout, jsonout.dt
-end
-
-"Download data in JSON format from file url"
-function download_json_file(source, datadir)
-  filepath = download_file(source, datadir);
-  jsonout = JSON3.read(read(filepath, String))
-  return jsonout, jsonout.dt
+function download_sources(data_sources::Dict; force=false)
+  for (k, v) in data_sources
+    if v[2] == "json" 
+      if v[3] == "api"
+        string_data = RobhootDI.download_api(v[1]);
+        outfile = datadir("$(string(k)).json")
+        if !isfile(outfile) || (isfile(outfile) && force == true)
+          print(open(outfile, "w"), string_data);
+        end
+      elseif v[3] == "file"
+        RobhootDI.download_file(v[1], datadir("$(string(k)).json"))
+      end
+    end
+  end
 end

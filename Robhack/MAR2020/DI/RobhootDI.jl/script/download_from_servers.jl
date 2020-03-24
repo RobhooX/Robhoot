@@ -4,13 +4,16 @@ data_sources = Dict(
   :astros => ["http://api.open-notify.org/astros.json", "json", "api"]
 )
 
-for (k, v) in data_sources
-  if v[2] == "json" 
-    if v[3] == "api"
-      data, date = RobhootDI.download_json_api(v[1]);
-      # TODO: convert and save
-    elseif v[3] == "file"
-      data, date = RobhootDI.download_json_file(v[1], datadir())
-    end
+RobhootDI.download_sources(data_sources, force=false)
+
+data = readdir(datadir())
+main_entries = [:people, :data]
+
+dataframes = []
+for (index, ff) in enumerate(data)
+  if endswith(ff, ".json")
+    jsonout = JSON3.read(read(datadir(ff), String))
+    df = RobhootDI.json2df(jsonout, main_entries[index])
+    push!(dataframes, df)
   end
 end

@@ -11,5 +11,6 @@ using DrWatson
 include("discover.jl")
 include("extract.jl")
 include("transform.jl")
+include("load.jl")
 
 end # module
