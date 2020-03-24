@@ -6,9 +6,18 @@ import urllib.request
 
 #!/usr/bin/env python3
 
+<<<<<<< HEAD
 #DISCOVER 
 
 #API request ============================================================
+=======
+
+# DISCOVER
+#Automated list of (long repo) servers and API  request
+#for i = 1:S; #Servers
+
+#-------------------------------------------------------------------------
+>>>>>>> 3fb2865ff33a684e606675bb9c6f0ef01121a6f7
 #Test :: making request does not work
 response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
 
@@ -22,10 +31,13 @@ response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
 #503: The server is not ready to handle the request.
 #_____________________________________________________________________________________________________________________________________________________
 
+
 #Test : making request that work
 response = requests.get("http://api.open-notify.org/astros.json")
 print(response.status_code)
 #200
+#------------------------------------------------------------------------
+
 
 #Option 1
 urls = [
@@ -57,28 +69,23 @@ def main():
 #Making connection to where is the data to the http request below
 
 
+<<<<<<< HEAD
 #EXTRACT 
 # http request 
+=======
+# EXTRACTION : HTTP request 
+
+>>>>>>> 3fb2865ff33a684e606675bb9c6f0ef01121a6f7
 #download data request
 
-#def is_downloadable(url):
-#    """
-#    Does the url contain a downloadable resource
-#    """
-#    h = requests.head(url, allow_redirects=True)
-#    header = h.headers
-#    content_type = header.get('content-type')
-#    if 'text' in content_type.lower():
-#        return False
-#    if 'html' in content_type.lower():
-#        return False
-#    return True
+
 
 urls=['http://api.open-notify.org/astros.json','https://covid2019-api.herokuapp.com/v2/current','https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos/Actualizacion_53_COVID-19.pdf']
 paths=['./data/server'+str(i) for i in range(len(urls))]
 def download_file(url,path):
     sread=requests.get(url,allow_redirects=True)
     header=sread.headers
+<<<<<<< HEAD
     content_type = header.get('content-type')
     content_type=content_type.replace('application/','')
     open(path+'.'+content_type,'wb+').write(sread.content)
@@ -93,3 +100,16 @@ for url,path in zip(urls,paths):
   
  
  # LOAD   
+=======
+    content_type=header.get('content-type')
+    open(path+'.'+content_type,'wb').write(sread.content)
+
+
+# TRANSFORMATION
+#Converting list with many formats to tables
+#Table format SQL or other (Julia :: Clickhouse)
+
+# LOAD
+#
+
+>>>>>>> 3fb2865ff33a684e606675bb9c6f0ef01121a6f7
