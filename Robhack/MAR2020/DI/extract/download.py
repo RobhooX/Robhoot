@@ -74,8 +74,7 @@ urls = ['https://www.gisaid.org/epiflu-applications/next-hcov-19-app/',
         'https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11'
        ]
 
-#paths=['./data/server'+str(i) for i in range(len(urls))]
-paths=['./data/'+'_'.join(urls[i].split('/')[2:]).replace('.','_') for i in range(len(urls))]
+
 def download_file(url,path = './data'):
    """download_file function:
 
@@ -99,7 +98,11 @@ def download_file(url,path = './data'):
         content_type = header.get('content-type')
         content_type = content_type.replace('application/','')
         fname = '_'.join(url.split('/')[2:]).replace('.','_')
-        open(path+'/'+fname+'.'+content_type,'wb+').write(sread.content)
+        pathFname = path+'/'+fname+'.'+content_type
+        open(pathFname,'wb+').write(sread.content)
     else:
         print('An error has occurred!')
     return sread.status_code
+
+for url in urls:
+    download_file(url)
