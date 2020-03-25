@@ -13,11 +13,32 @@ Stochastic amplification in epidemics
 https://doi.org/10.1098/rsif.2006.0192
 
 
+## MODELING STRATEGY
+
+* [ROBHOOT] :: Multinomial sampling :: Deterministic SIR :: IBM :: ABM 
+
+* Build Modeling strategy knowledge graph
+* Mixed or hybrid modeling :: Nodes state dp of the input data
+
+
+* [PRAGMATIC] :: 3 scenarios
+
+* SIR --> 
+  * Spatial network given the data :: city or nation dp resolution 
+  * Bayesian fitting :: (mobility, transmission, infected, recovery, death) 5 parameters
+
+* eSIR --> (Enviromental state) --> SIR to SIS 
+  * Niche suitability :: 1 parameters
+
+* eSIRevo 
+  * Eco-evo dynamics (virulence rate, mutation rate): 2 parameters 
+    Random number -->  mutation and virulence rate --> Proxy as recovery rate --> virulence by matching
+
 __________________________________________________________________________________
 ## QUESTIONS 
 * Eco-evo dynamics of hot- and cold- urban spots in the human-Covid-19 interaction
-* 
 __________________________________________________________________________________
+
 
 _______________________________________________________________________
 ## DATA
@@ -62,7 +83,7 @@ ________________________________________________________________________________
 
 [Covariance matrix]: High-dimensional parameter space
 
-[Demography]: Mobility -- local, regional, global -- Transmision (interaction trait) :: Recovery (3)
+[Demography]: Mobility -- local, regional, global -- Transmision (interaction trait) :: Recovery :: Deaths :: (4)
 [Environmental]: Niche width (1)
 [Genomics]: Mutation rate :: Migration rate (connected to Mobility using the covariance matrix) (2) 
 [Urban]: city size
