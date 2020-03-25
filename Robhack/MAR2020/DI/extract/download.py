@@ -6,12 +6,9 @@ import urllib.request
 
 #!/usr/bin/env python3
 
+#DISCOVER 
 
-# DISCOVER
-#Automated list of (long repo) servers and API  request
-#for i = 1:S; #Servers
-
-#-------------------------------------------------------------------------
+#API request ============================================================
 #Test :: making request does not work
 response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
 
@@ -63,25 +60,36 @@ def main():
 #Making connection to where is the data to the http request below
 
 
-# EXTRACTION : HTTP request 
-
+#EXTRACT 
+# http request 
 #download data request
 
 
 
-urls=['http://api.open-notify.org/astros.json','https://covid2019-api.herokuapp.com/v2/current','https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/documentos/Actualizacion_53_COVID-19.pdf']
-paths=['./data/server'+str(i) for i in range(len(urls))]
+urls = ['https://www.gisaid.org/epiflu-applications/next-hcov-19-app/',
+        'https://covid2019-api.herokuapp.com/v2/current',
+        'https://envidatrepo.wsl.ch/uploads/chelsa/',
+        'https://millionneighborhoods.org/#2.45/25.19/23.79',
+        'https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11'
+       ]
+
+#paths=['./data/server'+str(i) for i in range(len(urls))]
+paths=['./data/'+'_'.join(urls[i].split('/')[2:]).replace('.','_') for i in range(len(urls))]
 def download_file(url,path):
     sread=requests.get(url,allow_redirects=True)
     header=sread.headers
-    content_type=header.get('content-type')
-    open(path+'.'+content_type,'wb').write(sread.content)
+    content_type = header.get('content-type')
+    content_type=content_type.replace('application/','')
+    open(path+'.'+content_type,'wb+').write(sread.content)
+
+for url,path in zip(urls,paths):
+    download_file(url,path)
+
+#map(download_file,urls,paths)
 
 
-# TRANSFORMATION
-#Converting list with many formats to tables
-#Table format SQL or other (Julia :: Clickhouse)
-
-# LOAD
-#
+ #TRANSFORM
+  
+ 
+ # LOAD   
 
