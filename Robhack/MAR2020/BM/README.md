@@ -23,6 +23,15 @@ https://doi.org/10.1098/rsif.2006.0192
 
 * [PRAGMATIC] :: 3 scenarios
 
+
+_________________________________
+
+Differentiable programming
+Deep Learning Network --> Flow.jl
+_________________________________
+
+
+
 * SIR --> 
   * Spatial network given the data :: city or nation dp resolution 
   * Bayesian fitting :: (mobility, transmission, infected, recovery, death) 5 parameters
