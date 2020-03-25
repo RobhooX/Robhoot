@@ -23,13 +23,11 @@ https://doi.org/10.1098/rsif.2006.0192
 
 * [PRAGMATIC] :: 3 scenarios
 
+_____________________________________
 
-_________________________________
-
-Differentiable programming
-Deep Learning Network --> Flow.jl
-_________________________________
-
+* Differentiable programming
+* Deep Learning Network --> Zygote.jl
+_____________________________________
 
 
 * SIR --> 
