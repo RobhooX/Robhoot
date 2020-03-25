@@ -1,6 +1,7 @@
 import requests
 import grequests
 import urllib.request
+import os
 
 # Download from source
 
@@ -75,21 +76,30 @@ urls = ['https://www.gisaid.org/epiflu-applications/next-hcov-19-app/',
 
 #paths=['./data/server'+str(i) for i in range(len(urls))]
 paths=['./data/'+'_'.join(urls[i].split('/')[2:]).replace('.','_') for i in range(len(urls))]
-def download_file(url,path):
-    sread=requests.get(url,allow_redirects=True)
-    header=sread.headers
-    content_type = header.get('content-type')
-    content_type=content_type.replace('application/','')
-    open(path+'.'+content_type,'wb+').write(sread.content)
+def download_file(url,path = './data'):
+   """download_file function:
 
-for url,path in zip(urls,paths):
-    download_file(url,path)
+			This function downloads the resource from a server and places it in your local folder.
 
-#map(download_file,urls,paths)
+		Inputs:
+			>> url: URL of the desired resource to download.
+         >> path (optional): path where the resource will be stored. 
+         By default it is stored in the folder ./data/
 
+		Returns:
+			<< status: status of the request. 200 is OK.
+   
 
- #TRANSFORM
-  
- 
- # LOAD   
-
+   """
+    sread = requests.get(url,allow_redirects=True)
+    status = sread.status_code
+    if sread:
+        print('Success! Downloading...(%s)' % url)
+        header = sread.headers
+        content_type = header.get('content-type')
+        content_type = content_type.replace('application/','')
+        fname = '_'.join(url.split('/')[2:]).replace('.','_')
+        open(path+'/'+fname+'.'+content_type,'wb+').write(sread.content)
+    else:
+        print('An error has occurred!')
+    return sread.status_code

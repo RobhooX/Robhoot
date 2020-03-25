@@ -46,12 +46,11 @@ https://www.fleekitsolutions.com/api-automation-using-python/
 * CoronaVirus 2019 Global Cases https://github.com/nat236919/Covid2019API
 * Pixels Camp Covid 19 https://www.notion.so/Pixels-Camp-Covid-19-625db3064e5a469db9a13c439c439687
 
-
 #### Global environmental, genomic, density, urban, and demography data
 
 * [Genomic](https://www.gisaid.org/epiflu-applications/next-hcov-19-app/) :: https://github.com/nextstrain/ncov Link to data: http://data.nextstrain.org/ncov.json  
 * [Demography](https://covid2019-api.herokuapp.com/v2/current) 
-* [Environmental](https://envidatrepo.wsl.ch/uploads/chelsa/):: https://github.com/EnviDat/envidat_frontend :: wget script
+* [Environmental](https://envidatrepo.wsl.ch/uploads/chelsa/):: https://github.com/EnviDat/envidat_frontend :: https://github.com/EnviDat/ckan :: https://github.com/EnviDat/ckan :: wget script
 
 * [Urban](https://millionneighborhoods.org/#2.45/25.19/23.79)
 * [Density](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11)
