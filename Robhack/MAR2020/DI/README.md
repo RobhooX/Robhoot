@@ -6,7 +6,6 @@ Data integration (Julia Python scripts) :: Hybrid :: PRAGMATIC-ROBHOOT
 
 ### Automated
 
-
 * INITIAL:: Keywords :: list API address :: 
 * INITIAL:: LIST OF SERVERS :: Automatic API discovery :: list API address
 
@@ -26,6 +25,7 @@ https://www.fleekitsolutions.com/api-automation-using-python/
     * NLP algorithms (Natural Language Processing)
     * Hadoop -- https://github.com/melian009/Robhoot/issues/1
     * BigchainDB -- https://www.bigchaindb.com/ -- check also https://gnunet.org/en/index.html
+*  Create glue code in python, julia or other to connect Robhoot to Golem network 
 
 ### Manual
 
@@ -85,5 +85,4 @@ xml csv (h5 (not read in C)) :: general format extracted and transformed from ma
 
 ## Processing
 
-Create glue code in python, julia or other to connect Robhoot to Golem network ()
 
