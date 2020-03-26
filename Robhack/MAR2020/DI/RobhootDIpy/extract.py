@@ -65,19 +65,11 @@
 # http request
 #download data request
 
-urls = ['https://www.worldpop.org/sdi/advancedapi',#worldpop
-        'https://gadm.org/download_world.html',#boundaries
-        'http://www.migrationpolicycentre.eu/globalmobilities/dataset/',#transnational mobility
-        'https://www.gisaid.org/epiflu-applications/next-hcov-19-app/',
-        'https://covid2019-api.herokuapp.com/v2/current',
-        'https://envidatrepo.wsl.ch/uploads/chelsa/',
-        'https://millionneighborhoods.org/#2.45/25.19/23.79',
-        'https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11'
-       ]
-
 import os
 import requests
 from mimetypes import guess_extension
+from bs4 import BeautifulSoup,SoupStrainer
+
 def download_file(url,path = './data'):
     """
     download_file function:
@@ -120,18 +112,7 @@ def download_file(url,path = './data'):
         print('An error has occurred with status code %i' % status)
     return status
 
-for url in urls:
-    download_file(url)
-
-
-
  ###### CODE FOR ENVIRONMENTAL DATA, DIRECTORY
-
-from bs4 import BeautifulSoup,SoupStrainer
-url='https://envidatrepo.wsl.ch/uploads/chelsa/'
-
-#### Return [False,[]] if it is not html
-#### Return [True,[list of links]] if it is html
 
 def getlinks(sread):
     """
@@ -145,11 +126,7 @@ def getlinks(sread):
     links=[]
     for link in BeautifulSoup(sread.content, "html.parser", parse_only=SoupStrainer('a', href=True)):
         links.append(link['href'])
-#      for link in soup.findAll('a', attrs = {'href': re.compile("^http://")}):
-#        links.append(link.get('href'))
     return links
-
-
 
 def check_html(url):
     """
@@ -175,9 +152,9 @@ def check_html(url):
         else:
             return([True,getlinks(sread)])
 
+# THIS HAS TO BE REWRITTEN AS A FUNCTION
 
-
-
+url='https://envidatrepo.wsl.ch/uploads/chelsa/'
 max_depth =5  ###Maximum depth we will look from the parent directory
 dout = [[] for i in range(max_depth+1)]
 dout[0] = [url]
@@ -200,8 +177,6 @@ for i in range(1,max_depth+1,1):
             for j in range(len(d[1])):
                 d[1][j]=link+d[1][j]
             dout[i] += d[1]###Add all the subdirectories to check in next depth level
-
-
 ####Now we have a list of links to download
 for link in to_download:
     download_file(link)
