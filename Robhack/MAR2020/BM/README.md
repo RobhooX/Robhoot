@@ -32,7 +32,15 @@ _____________________________________
 
 * SIR --> 
   * Spatial network given the data :: city or nation dp resolution 
-  * Bayesian fitting :: (mobility, transmission, infected, recovery, death) 5 parameters
+  * Bayesian fitting ::
+ 
+    mobility : 
+    migration :
+    infection : 
+    transmission :
+    recovery = 1 - death :
+
+    5 parameters
 
 * eSIR --> (Enviromental state) --> SIR to SIS 
   * Niche suitability :: 1 parameters
