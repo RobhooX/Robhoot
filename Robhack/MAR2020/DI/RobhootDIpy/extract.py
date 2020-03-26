@@ -7,7 +7,7 @@ import os
 
 #!/usr/bin/env python3
 
-#DISCOVER 
+#DISCOVER
 
 #API request ============================================================
 #Test :: making request does not work
@@ -47,10 +47,10 @@ urls = [
 def main():
 # open a connection to a URL using urllib2
    webUrl = urllib2.urlopen("https://www.youtube.com/user/guru99com")
-  
+
 #get the result code and print it
-   print("result code:" + str(webUrl.getcode())) 
-  
+   print("result code:" + str(webUrl.getcode()))
+
 # read the data from the URL and print it
    data = webUrl.read()
    print(data)
@@ -61,8 +61,8 @@ def main():
 #Making connection to where is the data to the http request below
 
 
-#EXTRACT 
-# http request 
+#EXTRACT
+# http request
 #download data request
 
 
@@ -84,15 +84,15 @@ def download_file(url,path = './data'):
         This function downloads the resource from a server and places it in your local folder.
 
     Inputs:
-    
+
         >> url: URL of the desired resource to download.
-        >> path (optional): path where the resource will be stored. 
+        >> path (optional): path where the resource will be stored.
                        By default it is stored in the folder ./data/
 
     Returns:
-    
+
         << status: status of the request. 200 is OK.
-   
+
     """
     sread = requests.get(url,allow_redirects=True)
     status = sread.status_code
@@ -105,7 +105,7 @@ def download_file(url,path = './data'):
             # get links as urls2
             for urls in urls2:
                 download_file(url)
-        else:        
+        else:
             fname = '_'.join(url.split('/')[2:]).replace('.','_')+ext
             pathFname = path + '/' + fname
             # Check if directory at path exists and create it if it does not exist
@@ -123,9 +123,9 @@ def download_file(url,path = './data'):
     return status
 
 for url in urls:
-    download_file(url)   
+    download_file(url)
 
- 
+
 
  ###### CODE FOR ENVIRONMENTAL DATA, DIRECTORY
 
@@ -169,7 +169,7 @@ def check_html(url):
 
     Outputs:
 
-        << l: list with 2 entries. The first is a Boolean variable 
+        << l: list with 2 entries. The first is a Boolean variable
                 l[0] = False, not html and l[1] = []
                 l[1] = True, html and l[1] = list of links inside that url
 
@@ -197,8 +197,6 @@ for i in range(1,max_depth+1,1):
             d[1][j]=link+d[1][j]
             dout[i] += d[1]###Add all the subdirectories to check in next depth level
 
-####Now we have a list of links to download         
+####Now we have a list of links to download
 for link in to_download:
     download_file(link)
-
-
