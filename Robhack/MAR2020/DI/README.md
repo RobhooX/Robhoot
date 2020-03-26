@@ -51,9 +51,10 @@ https://www.fleekitsolutions.com/api-automation-using-python/
 * [Genomic](https://www.gisaid.org/epiflu-applications/next-hcov-19-app/) :: https://github.com/nextstrain/ncov Link to data: http://data.nextstrain.org/ncov.json  
 * [Demography](https://covid2019-api.herokuapp.com/v2/current) 
 * [Environmental](https://envidatrepo.wsl.ch/uploads/chelsa/):: https://github.com/EnviDat/envidat_frontend :: https://github.com/EnviDat/ckan :: https://github.com/EnviDat/ckan :: wget script
-
 * [Urban](https://millionneighborhoods.org/#2.45/25.19/23.79)
-* [Density](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11)
+* [Mobility](http://www.migrationpolicycentre.eu/globalmobilities/dataset/)
+* [Density](https://www.worldpop.org/sdi/advancedapi)
+* [AdminBoundries](https://gadm.org/download_world.html)
 
 
 ## Extract

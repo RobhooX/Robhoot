@@ -188,6 +188,7 @@ data_to_collect = Dict(:status => [infected, recovered, length])
 data = step!(model, agent_step!, 100, data_to_collect)
 data[1:10, :]
 
+
 N = sum(model.properties[:Ns]) # Total initial population
 x = data.step
 p = Plots.plot(x, log10.(data[:, Symbol("infected(status)")]), label = "infected")
