@@ -1,0 +1,24 @@
+Simplest SIR (node i)
+
+  dS[t]i = S[t-1]i - b*S[t-1]i - m*S[t-1]ji + m*S[t-1]ij  #susceptible   #b: susceptible to infectious  #mig to/from j
+  dI[t]i = I[t-1]i + b*S[t-1]i - a*I[t-1]i - m*I[t-1]ji + m*I[t-1]ij #infectious #b:susceptible to inf #a:inf to reco  #mig to/from j  
+  dR[t]i = R[t-1]i + a*I[t-1]i - m*I[t-1]ji + m*I[t-1]ij  #recovered  #a: inf to reco  #mig to/from j
+
+
+
+
+
+
+https://github.com/berndblasius/Covid19/blob/master/src/Wang_SEIAHR.jl
+function rhs(du,u,p,t)
+  S,E,I,A,H,R = u
+  b,alpha,n,De,Dq,Di,Dh,r = p
+  N = S+E+I+A+H+R
+  du[1] = dS = -b*S*(I+alpha*A)/N + n - n*S/(N-I-H)   # susceptible
+  du[2] = dE = b*S*(I+alpha*A)/N - E/De - n*E/(N-I-H) # latent
+  du[3] = dI = r*E/De - I/Dq - I/Di                   # reported infectious
+  du[4] = dA = (1-r)*E/De - A/Di - n*A/(N-I-H)        # unreported infectious
+  du[5] = dH = I/Dq - H/Dh                            # hospitalized
+  du[6] = dR = (I+A)/Di + H/Dh - n*R/(N-I-H)          # recovered
+end
+
