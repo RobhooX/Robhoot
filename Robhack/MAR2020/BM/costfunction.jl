@@ -16,6 +16,7 @@ end
 
 using Zygote
 
+<<<<<<< HEAD
 #Examples
 #gradient(x -> 3x^2 + 2x + 1, 5)
 #gradient(x -> pow2(x, 3), 5)
@@ -27,3 +28,6 @@ gradient((C, max_travel_rate) -> cost(C, max_travel_rate), 5, 0.01)
 #gradient((C, max_travel_rate) -> max_travel_rate + C, 5, 0.01)
 
 
+=======
+gradient((C, max_travel_rate) -> cost(C, max_travel_rate), 5, 0.01)
+>>>>>>> 1efbdb9b68b69bc68eb8fae54e482f4cda1b2175
