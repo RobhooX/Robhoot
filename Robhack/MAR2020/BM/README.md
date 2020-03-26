@@ -15,32 +15,34 @@ https://doi.org/10.1098/rsif.2006.0192
 
 ## MODELING STRATEGY
 
-* [ROBHOOT] :: Multinomial sampling :: Deterministic SIR :: IBM :: ABM 
+* [ROBHOOT] :: 
 
 * Build Modeling strategy knowledge graph
-* Mixed or hybrid modeling :: Nodes state dp of the input data
+
+* Model types :: 
+  * Multinomial sampling :: Deterministic SIR :: IBM :: ABM 
+
+  ________________________________________________________________
+
+  * ABM --> Stochastic IBM --> Automated differentiation Zygote.jl
+  * ABM --> (ABC) Approximate Bayesian Computation 
+  ________________________________________________________________
 
 
 * [PRAGMATIC] :: 3 scenarios
 
-_____________________________________
-
-* Differentiable programming
-* Deep Learning Network --> Zygote.jl
-_____________________________________
-
 
 * SIR --> 
   * Spatial network given the data :: city or nation dp resolution 
+  * Mixed or hybrid modeling :: Nodes state dp of the input data
   * Bayesian fitting ::
  
     mobility : 
     migration :
-    infection : 
-    transmission :
+    infection : (transmission)
     recovery = 1 - death :
 
-    5 parameters
+    4 parameters
 
 * eSIR --> (Enviromental state) --> SIR to SIS 
   * Niche suitability :: 1 parameters

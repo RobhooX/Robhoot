@@ -5,11 +5,25 @@ function cost(C, max_travel_rate)
   model = model_initiation(;params...)
   data_to_collect = Dict(:status => [infected, recovered, length])
   data = step!(model, agent_step!, 10, data_to_collect)
+  #step!(model, agent_step!, model_step!, 1)
   sum(data[!, Symbol("infected(status)")])
+#return data
 end
 
-cost(5, 0.01)
+
+#df=cost(5, 0.01)
+#A = convert(Array, df)
 
 using Zygote
 
+#Examples
+#gradient(x -> 3x^2 + 2x + 1, 5)
+#gradient(x -> pow2(x, 3), 5)
+#https://github.com/FluxML/Zygote.jl/issues/295
+
+
 gradient((C, max_travel_rate) -> cost(C, max_travel_rate), 5, 0.01)
+#gradient((C, max_travel_rate) -> A[C, max_travel_rate], 5, 3)
+#gradient((C, max_travel_rate) -> max_travel_rate + C, 5, 0.01)
+
+

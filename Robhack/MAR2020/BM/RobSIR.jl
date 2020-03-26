@@ -13,8 +13,8 @@ mutable struct PoorSoul <: AbstractAgent
   status::Symbol  # 1: S, 2: I, 3:R
 end
 
-function model_initiation(;Ns, migration_rates, β_und, β_det, infection_period = 30,
-  reinfection_probability = 0.05, detection_time = 14, death_rate = 0.02,
+function model_initiation(;Ns, migration_rates, β_und, β_det, infection_period =60,
+  reinfection_probability = 0.05, detection_time = 14, death_rate = 0.1,
   Is=[zeros(Int, length(Ns)-1)..., 1], seed = 0)
 
   Random.seed!(seed)
@@ -31,7 +31,7 @@ function model_initiation(;Ns, migration_rates, β_und, β_det, infection_period
   properties =
     @dict(Ns, Is, β_und, β_det, β_det, migration_rates, infection_period,
     infection_period, reinfection_probability, detection_time, C, death_rate)
-  space = Space(complete_digraph(C))
+  space = GraphSpace(complete_digraph(C))
   model = ABM(PoorSoul, space; properties=properties)
 
   # Add initial individuals
@@ -132,6 +132,3 @@ end
 
 infected(x) = count(i == :I for i in x)
 recovered(x) = count(i == :R for i in x)
-
-
-
