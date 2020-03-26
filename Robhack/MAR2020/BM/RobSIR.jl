@@ -4,8 +4,6 @@
 using Agents, Random, DataFrames, LightGraphs
 using Distributions: Poisson, DiscreteNonParametric
 using DrWatson: @dict
-using Plots
-using AgentsPlots
 using LinearAlgebra: diagind
 
 mutable struct PoorSoul <: AbstractAgent
@@ -80,35 +78,6 @@ function create_params(;C, max_travel_rate, infection_period = 30,
   return params
 end
 
-params = create_params(C=8, max_travel_rate=0.01)
-model = model_initiation(;params...)
-
-
-#Third 
-plotargs = (node_size	= 0.2, method = :circular, linealpha = 0.4)
-
-plotabm(model; plotargs...)
-
-
-g = model.space.graph
-edgewidthsdict = Dict()
-for node in 1:nv(g)
-  nbs = neighbors(g, node)
-  for nb in nbs
-    edgewidthsdict[(node, nb)] = params[:migration_rates][node, nb]
-  end
-end
-
-edgewidthsf(s, d, w) = edgewidthsdict[(s, d)] * 250
-
-plotargs = merge(plotargs, (edgewidth = edgewidthsf,))
-
-plotabm(model; plotargs...)
-
-infected_fraction(x) =  cgrad(:inferno)[count(a.status == :I for a in x)/length(x)]
-plotabm(model, infected_fraction; plotargs...)
-
-
 function agent_step!(agent, model)
   migrate!(agent, model)
   transmit!(agent, model)
@@ -161,42 +130,8 @@ function recover_or_die!(agent, model)
   end
 end
 
-model = model_initiation(;params...)
-
-anim = @animate for i ∈ 1:30
-  step!(model, agent_step!, 1)
-  p1 = plotabm(model, infected_fraction; plotargs...)
-  title!(p1, "Day $(i)")
-end
-
-gif(anim, "covid_evolution.gif", fps = 5);
-
-model
-
-AgentBasedModel with 15994 agents of type PoorSoul
- space: GraphSpace with 8 nodes and 56 edges
- scheduler: fastest
- properties: Dict{Symbol,Any}(:Is => [0, 0, 0, 0, 0, 0, 0, 1],:death_rate => 0.02,:infection_period => 30,:β_und => [0.34, 0.46, 0.42, 0.56, 0.38, 0.54, 0.32, 0.56],:Ns => [560, 1173, 2461, 4937, 341, 933, 3195, 2394],:migration_rates => [0.9781587717872466 0.0019557119196394364 … 0.004237563911278755 0.0033336255110299447; 0.0009425639246973993 0.9874730915674378 … 0.00237571795907573 0.0019400608882836835; … ; 0.0007539574926755329 0.000877040300401259 … 0.9929395043215866 0.0011222019777799076; 0.0007907291204425012 0.0009548174585708877 … 0.0014960680616632161 0.9918737458908621],:detection_time => 14,:reinfection_probability => 0.05,:β_det => [0.034, 0.046, 0.041999999999999996, 0.05600000000000001, 0.038, 0.054000000000000006, 0.032, 0.05600000000000001],:C => 8…)
-
-#Exponential growth
 infected(x) = count(i == :I for i in x)
 recovered(x) = count(i == :R for i in x)
 
-model = model_initiation(;params...)
-
-data_to_collect = Dict(:status => [infected, recovered, length])
-data = step!(model, agent_step!, 100, data_to_collect)
-data[1:10, :]
-
-
-N = sum(model.properties[:Ns]) # Total initial population
-x = data.step
-p = Plots.plot(x, log10.(data[:, Symbol("infected(status)")]), label = "infected")
-plot!(p, x, log10.(data[:, Symbol("recovered(status)")]), label = "recovered")
-dead = log10.(N .- data[:, Symbol("length(status)")])
-plot!(p, x, dead, label = "dead")
-xlabel!(p, "steps")
-ylabel!(p, "log( count )")
-p
 
 
