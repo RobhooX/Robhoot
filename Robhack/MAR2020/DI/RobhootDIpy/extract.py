@@ -1,61 +1,61 @@
-import requests
-import grequests
-import urllib.request
-import os
-
-# Download from source
-
-#!/usr/bin/env python3
-
-#DISCOVER
-
-#API request ============================================================
-#Test :: making request does not work
-response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
-
-#_____________________________________________________________________________________________________________________________________________________
-#200: Everything went okay, and the result has been returned (if any).
-#301: The server is redirecting you to a different endpoint. This can happen when a company switches domain names, or an endpoint name is changed.
-#400: The server thinks you made a bad request. This can happen when you don’t send along the right data, among other things.
-#401: The server thinks you’re not authenticated. Many APIs require login credentials, so this happens when you don’t send the right credentials to access an API.
-#403: The resource you’re trying to access is forbidden: you don’t have the right permissions to see it.
-#404: The resource you tried to access wasn’t found on the server.
-#503: The server is not ready to handle the request.
-#_____________________________________________________________________________________________________________________________________________________
-
-
-#Test : making request that work
-response = requests.get("http://api.open-notify.org/astros.json")
-print(response.status_code)
-#200
-#------------------------------------------------------------------------
-
-
-#Option 1
-urls = [
-    'http://www.heroku.com',
-    'http://tablib.org',
-    'http://httpbin.org',
-    'http://python-requests.org',
-    'http://kennethreitz.com'
-]
-
-   rs = (grequests.get(u) for u in urls)
-   grequests.map(rs)
-
-#Option 2
-def main():
-# open a connection to a URL using urllib2
-   webUrl = urllib2.urlopen("https://www.youtube.com/user/guru99com")
-
-#get the result code and print it
-   print("result code:" + str(webUrl.getcode()))
-
-# read the data from the URL and print it
-   data = webUrl.read()
-   print(data)
-#==========================================================================
-
+# import requests
+# import grequests
+# import urllib.request
+# import os
+#
+# # Download from source
+#
+# #!/usr/bin/env python3
+#
+# #DISCOVER
+#
+# #API request ============================================================
+# #Test :: making request does not work
+# response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
+#
+# #_____________________________________________________________________________________________________________________________________________________
+# #200: Everything went okay, and the result has been returned (if any).
+# #301: The server is redirecting you to a different endpoint. This can happen when a company switches domain names, or an endpoint name is changed.
+# #400: The server thinks you made a bad request. This can happen when you don’t send along the right data, among other things.
+# #401: The server thinks you’re not authenticated. Many APIs require login credentials, so this happens when you don’t send the right credentials to access an API.
+# #403: The resource you’re trying to access is forbidden: you don’t have the right permissions to see it.
+# #404: The resource you tried to access wasn’t found on the server.
+# #503: The server is not ready to handle the request.
+# #_____________________________________________________________________________________________________________________________________________________
+#
+#
+# #Test : making request that work
+# response = requests.get("http://api.open-notify.org/astros.json")
+# print(response.status_code)
+# #200
+# #------------------------------------------------------------------------
+#
+#
+# #Option 1
+# urls = [
+#     'http://www.heroku.com',
+#     'http://tablib.org',
+#     'http://httpbin.org',
+#     'http://python-requests.org',
+#     'http://kennethreitz.com'
+# ]
+#
+#    rs = (grequests.get(u) for u in urls)
+#    grequests.map(rs)
+#
+# #Option 2
+# def main():
+# # open a connection to a URL using urllib2
+#    webUrl = urllib2.urlopen("https://www.youtube.com/user/guru99com")
+#
+# #get the result code and print it
+#    print("result code:" + str(webUrl.getcode()))
+#
+# # read the data from the URL and print it
+#    data = webUrl.read()
+#    print(data)
+# #==========================================================================
+#
 
 
 #Making connection to where is the data to the http request below
@@ -66,13 +66,6 @@ def main():
 #download data request
 
 
-
-urls = ['https://www.gisaid.org/epiflu-applications/next-hcov-19-app/',
-        'https://covid2019-api.herokuapp.com/v2/current',
-        'https://envidatrepo.wsl.ch/uploads/chelsa/',
-        'https://millionneighborhoods.org/#2.45/25.19/23.79',
-        'https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11'
-       ]
 
 import os
 import requests
@@ -122,8 +115,6 @@ def download_file(url,path = './data'):
         print('An error has occurred with status code %i' % status)
     return status
 
-for url in urls:
-    download_file(url)
 
 
 
@@ -181,7 +172,7 @@ def check_html(url):
     else:
         return([True,getlinks(sread)])
 
-
+# THIS HAS TO BE DECLARED AS A FUNCTION
 
 max_depth = 5 ###Maximum depth we will look from the parent directory
 dout = [[] for i in range(max_depth+1)]
