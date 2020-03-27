@@ -97,113 +97,174 @@ dfISO.to_csv(path_transformed_data+'countrycodes.csv',index=False)
 dfpop[['Codes3','2020']].to_csv(path_transformed_data+'population.csv',index=False)
 dfmob.to_csv(path_transformed_data+'mobility.csv')
 
-sys.exit()
-
-
-# import networkx as nx
-# g = nx.DiGraph()
-# fin = open('./data/')
-# for line in fin:
-#     line = line.split(',')
-#     if line[0] != 'reporting country':
-#         fr = line[0]
-#         to = line[1]
-#         year = int(line[2])
-#         if year == 2016:
-#             if fr in pop.keys() and to in pop.keys():
-#                 flux = int(line[3])
-#                 g.add_edge(fr, to, weight = flux)
-
-
 # ### Epidemic data
 #
 # The epidemic data is taken from the [Johns Hopkins CSSE repository](https://github.com/CSSEGISandData/COVID-19). Three tables for [confirmed](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv), [deaths](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv) and [recovered](https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv). Recovered will disappear from this dataset.
 #
 # Alternative source which seems to have alreade the county data for the USA is [coronascraper](https://coronadatascraper.com/#home).
 
+# load epidemilological data, change name of country to code of three letters and aggregate the provinces in a country
 
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-import datetime
+# COUNTRIES NOT RECOGNISED:
 
-fin = open('./data/raw_data/time_series_covid19_confirmed_global.csv')
-confirmed_ts = {}
-for line in fin:
-    line = line.split(',')
-    if line[0] == 'Province/State':
-        totlen = len(line)
-        t = [line[i].rstrip('\n') for i in range(4,len(line))]
-    else:
-        if len(line) == totlen:
-            if line[1] not in confirmed_ts.keys():
-                confirmed_ts[line[1]] = np.array([int(line[i]) for i in range(4,len(line))])
-            else:
-                confirmed_ts[line[1]] += np.array([int(line[i]) for i in range(4,len(line))])
+
+# Cabo Verde
+# Congo (Brazzaville)
+# Congo (Kinshasa)
+# Cote d'Ivoire
+# Czechia
+# Diamond Princess
+# Eswatini
+# Holy See
+# Korea, South
+# Kosovo
+# North Macedonia
+# Taiwan*
+# US
+# West Bank and Gaza
+
+def give_country_code_aggregate(fname, fout = False, path_raw = './data/raw_data/', path_trans = './data/transformed_data/'):
+    if not fout:
+        fout = fname
+    dfconf = pd.read_csv(path_raw+fname)
+    cnames = list(np.unique(dfconf['Country/Region']))
+    cols = list(dfconf.columns)
+    to_remove = ['Province/State','Lat','Long']
+    for elem in to_remove:
+        cols.remove(elem)
+
+    dfconf_agg = pd.DataFrame(columns=cols,index=names)
+    dates = cols.copy()
+    dates.remove('Country/Region')
+
+
+    for name in cnames:
+        samp = dfconf[dfconf['Country/Region'] == name]
+        vec = []
+        samp2 = dfISO['cca3'][dfISO['name'] == name]
+        if len(samp2)>0:
+            cca = list(samp2)
+            vec.append(cca[0])
         else:
-            country = line[1]+','+line[2]
-            if line[1] not in confirmed_ts.keys():
-                confirmed_ts[line[1]] = np.array([int(line[i]) for i in range(5,len(line))])
-            else:
-                confirmed_ts[line[1]] += np.array([int(line[i]) for i in range(5,len(line))])
+            print(name)
+            vec.append(',')
+        for date in dates:
+            # print(name,samp[date])
+            # sys.exit()
+            n=samp[date].sum()
+            vec.append(n)
+        print(vec)
+        dfconf_agg.loc[name]=vec
+    dfconf_agg = dfconf_agg.set_index('Country/Region')
+    print(dfconf_agg.head())
+    print('I am going to write!')
+    dfconf_agg.to_csv(path_trans+fout)
+    print('Done!')
+    return dfconf_agg
 
-for country in confirmed_ts.keys():
-    plt.yscale('log')
-    plt.plot(t, confirmed_ts[country])
+datafiles = ['raw_githubusercontent_com_CSSEGISandData_COVID-19_master_csse_covid_19_data_csse_covid_19_time_series_time_series_covid19_confirmed_global_csv.bat',
+             'raw_githubusercontent_com_CSSEGISandData_COVID-19_master_csse_covid_19_data_csse_covid_19_time_series_time_series_covid19_deaths_global_csv.bat',
+             'raw_githubusercontent_com_CSSEGISandData_COVID-19_master_csse_covid_19_data_csse_covid_19_time_series_time_series_covid19_recovered_global_csv.bat'
+            ]
+
+dataout = ['confirmed.csv','deaths.csv','recovered.csv']
+for i in range(1):
+    give_country_code_aggregate(datafiles[i],fout = dataout[i])
+#map(give_country_code_aggregate,datafiles,dataout)
+sys.exit()
+#c0 = list(dfISO['name'])
+#print(dfISO[dfISO['name'] == 'Namibia'])
+
+#for name in cnames:
+#    if name not in cnames:
+#        print(name)
+ccodes = []
+for name in cnames:
+    samp=dfISO[dfISO['name']==name]
+        
+sys.exit()
+
+date_format = '%m/%d/%y'
+
+# import matplotlib.pyplot as plt
+
+# fin = open('./data/raw_data/time_series_covid19_confirmed_global_csv.bat')
+# confirmed_ts = {}
+# for line in fin:
+#     line = line.split(',')
+#     if line[0] == 'Province/State':
+#         totlen = len(line)
+#         t = [line[i].rstrip('\n') for i in range(4,len(line))]
+#     else:
+#         if len(line) == totlen:
+#             if line[1] not in confirmed_ts.keys():
+#                 confirmed_ts[line[1]] = np.array([int(line[i]) for i in range(4,len(line))])
+#             else:
+#                 confirmed_ts[line[1]] += np.array([int(line[i]) for i in range(4,len(line))])
+#         else:
+#             country = line[1]+','+line[2]
+#             if line[1] not in confirmed_ts.keys():
+#                 confirmed_ts[line[1]] = np.array([int(line[i]) for i in range(5,len(line))])
+#             else:
+#                 confirmed_ts[line[1]] += np.array([int(line[i]) for i in range(5,len(line))])
+
+# for country in confirmed_ts.keys():
+#     plt.yscale('log')
+#     plt.plot(t, confirmed_ts[country])
 
 
-# In[59]:
+# # In[59]:
 
 
-fin = open('./data/raw_data/time_series_covid19_deaths_global.csv')
-deaths_ts = {}
-for line in fin:
-    line = line.split(',')
-    if line[0] == 'Province/State':
-        totlen = len(line)
-        t = [line[i].rstrip('\n') for i in range(4,len(line))]
-    else:
-        if len(line) == totlen:
-            if line[1] not in deaths_ts.keys():
-                deaths_ts[line[1]] = np.array([int(line[i]) for i in range(4,len(line))])
-            else:
-                deaths_ts[line[1]] += np.array([int(line[i]) for i in range(4,len(line))])
-        else:
-            country = line[1]+','+line[2]
-            if line[1] not in deaths_ts.keys():
-                deaths_ts[line[1]] = np.array([int(line[i]) for i in range(5,len(line))])
-            else:
-                deaths_ts[line[1]] += np.array([int(line[i]) for i in range(5,len(line))])
+# fin = open('./data/raw_data/time_series_covid19_deaths_global.csv')
+# deaths_ts = {}
+# for line in fin:
+#     line = line.split(',')
+#     if line[0] == 'Province/State':
+#         totlen = len(line)
+#         t = [line[i].rstrip('\n') for i in range(4,len(line))]
+#     else:
+#         if len(line) == totlen:
+#             if line[1] not in deaths_ts.keys():
+#                 deaths_ts[line[1]] = np.array([int(line[i]) for i in range(4,len(line))])
+#             else:
+#                 deaths_ts[line[1]] += np.array([int(line[i]) for i in range(4,len(line))])
+#         else:
+#             country = line[1]+','+line[2]
+#             if line[1] not in deaths_ts.keys():
+#                 deaths_ts[line[1]] = np.array([int(line[i]) for i in range(5,len(line))])
+#             else:
+#                 deaths_ts[line[1]] += np.array([int(line[i]) for i in range(5,len(line))])
 
-for country in deaths_ts.keys():
-    plt.yscale('log')
-    plt.plot(t, deaths_ts[country])
-
-
+# for country in deaths_ts.keys():
+#     plt.yscale('log')
+#     plt.plot(t, deaths_ts[country])
 
 
-fin = open('./data/raw_data/time_series_covid19_recovered_global.csv')
-recovered_ts = {}
-for line in fin:
-    line = line.split(',')
-    if line[0] == '\ufeffProvince/State':
-        #print(line)
-        totlen = len(line)
-        t = [line[i].rstrip('\n') for i in range(4,len(line))]
-    else:
-        if len(line) == totlen:
-            if line[1] not in recovered_ts.keys():
-                recovered_ts[line[1]] = np.array([int(line[i]) for i in range(4,len(line))])
-            else:
-                recovered_ts[line[1]] += np.array([int(line[i]) for i in range(4,len(line))])
-        else:
-            country = line[1]+','+line[2]
-            if line[1] not in recovered_ts.keys():
-                #print(line)
-                recovered_ts[line[1]] = np.array([int(line[i]) for i in range(5,len(line))])
-            else:
-                recovered_ts[line[1]] += np.array([int(line[i]) for i in range(5,len(line))])
 
-for country in recovered_ts.keys():
-    plt.yscale('log')
-    plt.plot(t, recovered_ts[country])
+
+# fin = open('./data/raw_data/time_series_covid19_recovered_global.csv')
+# recovered_ts = {}
+# for line in fin:
+#     line = line.split(',')
+#     if line[0] == '\ufeffProvince/State':
+#         #print(line)
+#         totlen = len(line)
+#         t = [line[i].rstrip('\n') for i in range(4,len(line))]
+#     else:
+#         if len(line) == totlen:
+#             if line[1] not in recovered_ts.keys():
+#                 recovered_ts[line[1]] = np.array([int(line[i]) for i in range(4,len(line))])
+#             else:
+#                 recovered_ts[line[1]] += np.array([int(line[i]) for i in range(4,len(line))])
+#         else:
+#             country = line[1]+','+line[2]
+#             if line[1] not in recovered_ts.keys():
+#                 #print(line)
+#                 recovered_ts[line[1]] = np.array([int(line[i]) for i in range(5,len(line))])
+#             else:
+#                 recovered_ts[line[1]] += np.array([int(line[i]) for i in range(5,len(line))])
+
+# for country in recovered_ts.keys():
+#     plt.yscale('log')
+#     plt.plot(t, recovered_ts[country])
