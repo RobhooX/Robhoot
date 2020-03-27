@@ -108,14 +108,6 @@ dfmob.to_csv(path_transformed_data+'mobility.csv')
 # COUNTRIES NOT RECOGNISED:
 
 
-# Cabo Verde
-# Congo (Brazzaville)
-# Congo (Kinshasa)
-# Cote d'Ivoire
-# Czechia
-# Diamond Princess
-# Eswatini
-# Holy See
 # Korea, South
 # Kosovo
 # North Macedonia
@@ -133,10 +125,10 @@ def give_country_code_aggregate(fname, fout = False, path_raw = './data/raw_data
     for elem in to_remove:
         cols.remove(elem)
 
-    dfconf_agg = pd.DataFrame(columns=cols,index=names)
+    dfconf_agg = pd.DataFrame(columns=cols,index=cnames)
     dates = cols.copy()
     dates.remove('Country/Region')
-
+    countdic={'Korea, South': 'South Korea', 'US': 'United States', 'Taiwan*':'Taiwan', 'Cabo Verde': 'Cape Verde', "Cote d'Ivoire":'Ivory Coast','Czechia':'Czech Republic','Holy See':'Vatican City','North Macedonia':'Macedonia'}
 
     for name in cnames:
         samp = dfconf[dfconf['Country/Region'] == name]
@@ -147,20 +139,27 @@ def give_country_code_aggregate(fname, fout = False, path_raw = './data/raw_data
             vec.append(cca[0])
         else:
             print(name)
-            vec.append(',')
+            if name in countdic.keys():
+                name2=countdic[name]
+                samp2 = dfISO['cca3'][dfISO['name'] == name2]
+                cca = list(samp2)
+                vec.append(cca[0])
+            else:    
+                vec.append(',')
         for date in dates:
             # print(name,samp[date])
             # sys.exit()
             n=samp[date].sum()
             vec.append(n)
-        print(vec)
+        # print(vec)
         dfconf_agg.loc[name]=vec
     dfconf_agg = dfconf_agg.set_index('Country/Region')
-    print(dfconf_agg.head())
+    # print(dfconf_agg.head())
     print('I am going to write!')
     dfconf_agg.to_csv(path_trans+fout)
     print('Done!')
     return dfconf_agg
+
 
 datafiles = ['raw_githubusercontent_com_CSSEGISandData_COVID-19_master_csse_covid_19_data_csse_covid_19_time_series_time_series_covid19_confirmed_global_csv.bat',
              'raw_githubusercontent_com_CSSEGISandData_COVID-19_master_csse_covid_19_data_csse_covid_19_time_series_time_series_covid19_deaths_global_csv.bat',
@@ -168,7 +167,7 @@ datafiles = ['raw_githubusercontent_com_CSSEGISandData_COVID-19_master_csse_covi
             ]
 
 dataout = ['confirmed.csv','deaths.csv','recovered.csv']
-for i in range(1):
+for i in range(3):
     give_country_code_aggregate(datafiles[i],fout = dataout[i])
 #map(give_country_code_aggregate,datafiles,dataout)
 sys.exit()
