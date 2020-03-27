@@ -6,8 +6,11 @@ Data integration (Julia Python scripts) :: Hybrid :: PRAGMATIC-ROBHOOT
 
 ### Automated
 
-* INITIAL:: Keywords :: list API address :: 
 * INITIAL:: LIST OF SERVERS :: Automatic API discovery :: list API address
+
+https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md
+https://apis.guru/browse-apis/
+https://apis.guru/openapi-directory/
 
 https://modeling-languages.com/automatic-discovery-web-api-specifications/
 

@@ -9,11 +9,11 @@ to infer S, I, R and D types per NODE from Global Density (S), Infected (I) and 
 
 ## SIR equations per NODE
 
-* $$S[t]i = S[t-1]i - b(c)\times S[t-1]i \times I[t-1]i - m\times S[t-1]ji + m\times S[t-1]ij + s\times R[t-1]i - ds\timesS[t-1]i$$
+* $S_{[t]_i} = S_{[t-1]_i} - b(c)\times S_{[t-1]_i} \times I_{[t-1]_i} - m\times S_{[t-1]_{ji}} + m\times S_{[t-1]_{ij}} + s\times R_{[t-1]_i} - ds\times S_{[t-1]_i}$
 
-* $$I[t]i = I[t-1]i + b(c)\times S[t-1]i \times I[t-1]i - a\times I[t-1]i - m\times I[t-1]ji + m\times I[t-1]ij - dI\timesI[t-1]i$$
+* $I_{[t]_i} = I_{[t-1]_i} + b(c)\times S_{[t-1]_i} \times I_{[t-1]_i} - a\times I_{[t-1]_i} - m\times I_{[t-1]_{ji}} + m\times I_{[t-1]_{ij}} - dI\times I_{[t-1]_{i}}$
 
-* $R[t]i = R[t-1]i + a\times I[t-1]i - m\times I[t-1]ji + m\times I[t-1]ij - s\times R[t-1]i - dr\times R[t-1]i$
+* $R[t]_i = R[t-1]_i + a\times I[t-1]_i - m\times I[t-1]_{ji} + m\times I[t-1]_{ij} - s\times R[t-1]_{i} - dr\times R[t-1]_i$
 
 ### Parameters
 
