@@ -1,8 +1,8 @@
 # RobSIRs
 
-A stochastic discrete time model of disease spread in spatial networks
+A stochastic discrete time model of disease spread in spatial networks.
 
-# VISION
+## VISION
 
 Modeling mobility dynamics (NODE: country or city level) at the global scale
 to infer S, I, R and D types per NODE from Global Density (S), Infected (I) and Deaths (D) for Isolated, Fully connected, and Empirical mobility rate estimations. 
@@ -24,6 +24,6 @@ to infer S, I, R and D types per NODE from Global Density (S), Infected (I) and 
 * a: infected to recovered rate
 * d: death rate (ds, dI, dr)
 
-# Generalization of the equations for an automated simulator builder 
+## Generalization of the equations for an automated simulator builder 
 
-* Build Process-based knowledg graph to explore populations of models. For example, the SIR equations per NODE above can be generalized to have Sn nodes for susceptibles (i.e., age classes), In nodes for infected, and Rn nodes for recoverd. In addition, there might be other node types, like explosed, unreported and reported infectious and hospitalized.
+* Process-based knowledge graph to explore populations of models. For example, the SIR equations per NODE described above can be generalized to have Sn nodes for susceptibles (i.e., age classes), In nodes for infected, and Rn nodes for recoverd. In addition, there might be other node types, like explosed, unreported and reported infectious and hospitalized.
