@@ -178,5 +178,5 @@ for i in range(1,max_depth+1,1):
                 d[1][j]=link+d[1][j]
             dout[i] += d[1]###Add all the subdirectories to check in next depth level
 ####Now we have a list of links to download
-for link in to_download:
-    download_file(link)
+# for link in to_download:
+#     download_file(link)
