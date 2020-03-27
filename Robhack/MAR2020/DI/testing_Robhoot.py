@@ -4,6 +4,7 @@ import RobhootDIpy.transform as transform
 import RobhootDIpy.load as load
 import pandas as pd
 import sys
+import numpy as np
 # URLs to automatically extract data from
 
 resources = ['https://worldpopulationreview.com/countries/country-codes/', #country iso codes, taken manually
@@ -47,14 +48,22 @@ dfISO = pd.read_csv('./data/country_ISO_codes.csv')
 #
 # Source: [UN World Population Prospects 2019](https://population.un.org/wpp/Download/Standard/Population/). I did already choose the columns and rows that I wanted, but, again, this should be done via [pandas](https://pandas.pydata.org/).
 
-dfpop = pd.read_excel('./data/population_un_org_wpp_Download_Files_1_Indicators%20(Standard)_EXCEL_FILES_1_Population_WPP2019_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES_xlsx.xlsx',sheet_name='ESTIMATES',skiprows=16)
-regs = list(dfpop['Variant Region, subregion, country or area *'])
+dfpop = pd.read_excel('./data/population_un_org_wpp_Download_Files_1_Indicators%20(Standard)_EXCEL_FILES_1_Population_WPP2019_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES_xlsx.xlsx',sheet_name='ESTIMATES',skiprows=16,usecols=["Region, subregion, country or area *",'Country code','2020'])
+#dfpop = dfpop[["Region, subregion, country or area *",'Country code','2020']].copy()
+samp = list(dfpop['2020'])
+samp = list(map(lambda x:x*1000,samp))
+dfpop['2020'] = samp
 codes = list(dfpop['Country code'])
-pops = list(dfpop['2020'])
-dfpop2 = pd.DataFrame()
-dfpop2['Variant Region, subregion, country or area *']
+codes3 = [None for i in range(len(codes))]
+for index,row in dfISO.iterrows():
+    c1 = row['cca3']
+    c2 = row['ccn3']
+    k  = codes.index(c2)
+    if k != False:
+        codes3[k] = c1
+dfpop['Codes3'] = codes3
+# print(dfpop.head(50))
 
-print(dfpop2.head())
 
 #fin = open('./data/population_estimates_UN_2020.csv')
 # pop = {}
@@ -80,20 +89,47 @@ print(dfpop2.head())
 #
 # Source: [European comission Global Transnational Mobility Dataset](https://ec.europa.eu/knowledge4policy/node/35849_es). It has mobility between countries (directed) in number of trips for a year between 2011 and 2016. Just keeping the 2016 one. It is not completely symmetric, so we can think if we want to symmetrize it. Here I am storing it as a networkx directed graph. For storing I would use an edgelist although robsir is expecting a square matrix.
 
+dftrips = pd.read_csv("./data/KCMD_DDH_data_KCMD-EUI GMP_ Estimated trips.csv")
+dftrips2 = dftrips[dftrips['time']==2016][dftrips['value']!=0]
+# print(dftrips2.head(20),len(dftrips)/6,len(dftrips2))
+names = list(np.unique(list(np.unique(dftrips2['reporting country']))+list(np.unique(dftrips2['secondary country']))))
+N = len(names)
+matr = []
+for name in names:
+    vec=[0 for i in range(N)]
+    samp=dftrips2[dftrips2['reporting country']==name]
+    targets=list(samp['secondary country'])
+    weights=list(samp['value'])
+    for j in range(len(targets)):
+        name2=targets[j]
+        k=names.index(name2)
+        vec[k]=weights[j]
+    matr.append(vec)
 
-import networkx as nx
-g = nx.DiGraph()
-fin = open('./data/KCMD_DDH_data_KCMD-EUI_GMP Estimated trips.csv')
-for line in fin:
-    line = line.split(',')
-    if line[0] != 'reporting country':
-        fr = line[0]
-        to = line[1]
-        year = int(line[2])
-        if year == 2016:
-            if fr in pop.keys() and to in pop.keys():
-                flux = int(line[3])
-                g.add_edge(fr, to, weight = flux)
+#print(matr[0], len(matr), len(matr[0]))
+# names2=['Source']+names
+# dfmob=pd.DataFrame(columns=names2)
+# for i in range(len())
+# for name,vec in zip(names,matr):
+#     dfmob=dfmob.append(pd.DataFrame([name]+vec, columns = names2))
+# dfmob=dfmob.set_index('Source')
+# print(dfmob.head(2))
+
+sys.exit()
+
+# import networkx as nx
+# g = nx.DiGraph()
+# fin = open('./data/')
+# for line in fin:
+#     line = line.split(',')
+#     if line[0] != 'reporting country':
+#         fr = line[0]
+#         to = line[1]
+#         year = int(line[2])
+#         if year == 2016:
+#             if fr in pop.keys() and to in pop.keys():
+#                 flux = int(line[3])
+#                 g.add_edge(fr, to, weight = flux)
 
 
 # ### Epidemic data
@@ -102,10 +138,7 @@ for line in fin:
 #
 # Alternative source which seems to have alreade the county data for the USA is [coronascraper](https://coronadatascraper.com/#home).
 
-# In[46]:
 
-
-get_ipython().run_line_magic('matplotlib', 'inline')
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
