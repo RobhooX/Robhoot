@@ -1,70 +1,3 @@
-# import requests
-# import grequests
-# import urllib.request
-# import os
-#
-# # Download from source
-#
-# #!/usr/bin/env python3
-#
-# #DISCOVER
-#
-# #API request ============================================================
-# #Test :: making request does not work
-# response = requests.get("http://api.open-notify.org/this-api-doesnt-exist")
-#
-# #_____________________________________________________________________________________________________________________________________________________
-# #200: Everything went okay, and the result has been returned (if any).
-# #301: The server is redirecting you to a different endpoint. This can happen when a company switches domain names, or an endpoint name is changed.
-# #400: The server thinks you made a bad request. This can happen when you don’t send along the right data, among other things.
-# #401: The server thinks you’re not authenticated. Many APIs require login credentials, so this happens when you don’t send the right credentials to access an API.
-# #403: The resource you’re trying to access is forbidden: you don’t have the right permissions to see it.
-# #404: The resource you tried to access wasn’t found on the server.
-# #503: The server is not ready to handle the request.
-# #_____________________________________________________________________________________________________________________________________________________
-#
-#
-# #Test : making request that work
-# response = requests.get("http://api.open-notify.org/astros.json")
-# print(response.status_code)
-# #200
-# #------------------------------------------------------------------------
-#
-#
-# #Option 1
-# urls = [
-#     'http://www.heroku.com',
-#     'http://tablib.org',
-#     'http://httpbin.org',
-#     'http://python-requests.org',
-#     'http://kennethreitz.com'
-# ]
-#
-#    rs = (grequests.get(u) for u in urls)
-#    grequests.map(rs)
-#
-# #Option 2
-# def main():
-# # open a connection to a URL using urllib2
-#    webUrl = urllib2.urlopen("https://www.youtube.com/user/guru99com")
-#
-# #get the result code and print it
-#    print("result code:" + str(webUrl.getcode()))
-#
-# # read the data from the URL and print it
-#     data = webUrl.read()
-#     print(data)
-# #==========================================================================
-#
-
-
-#Making connection to where is the data to the http request below
-
-
-#EXTRACT
-# http request
-#download data request
-
 import os
 import requests
 from mimetypes import guess_extension
@@ -91,10 +24,12 @@ def download_file(url,path = './data'):
         header = sread.headers
         ext = guess_extension(sread.headers['content-type'].partition(';')[0].strip())
         #HERE WE NEED TO CHECK IF IT IS AN HTML/HTM TO CHECK THE LINKS INSIDE AND SEE IF IT IS A RESOURCE OR NOT
-        if ext in ['html', 'htm']:
-            # get links as urls2
-            for urls in urls2:
-                download_file(url)
+        if ext in ['.html', '.htm']:
+            print('This resource is an html site and I will not download it by now')
+            return status
+            # get links as urls2, but only until certain depth/number of calls (be careful not to make infinite loop)
+            #for urls in urls2:
+                #download_file(url)
         else:
             fname = '_'.join(url.split('/')[2:]).replace('.','_')+ext
             pathFname = path + '/' + fname
@@ -111,8 +46,6 @@ def download_file(url,path = './data'):
     else:
         print('An error has occurred with status code %i' % status)
     return status
-
- ###### CODE FOR ENVIRONMENTAL DATA, DIRECTORY
 
 def getlinks(sread):
     """
@@ -141,42 +74,44 @@ def check_html(url):
     """
     sread = requests.get(url,allow_redirects=True)
     ####Problems with files in format '.7z' and '.lnk', cannot guess_extension
-    if url[-3:]=='.7z':
-        return([False,[]])
-    elif url[-4:]=='.lnk':
+    # if url[-3:]=='.7z':
+    #     return([False,[]])
+    # elif url[-4:]=='.lnk':
+    #     return([False,[]])
+    # else:
+    ext = guess_extension(sread.headers['content-type'].partition(';')[0].strip())
+    if ext not in ['.html', '.htm']:
         return([False,[]])
     else:
-        ext = guess_extension(sread.headers['content-type'].partition(';')[0].strip())
-        if ext not in ['.html', '.htm']:
-            return([False,[]])
-        else:
-            return([True,getlinks(sread)])
+        return([True,getlinks(sread)])
 
-# THIS HAS TO BE REWRITTEN AS A FUNCTION
 
-url='https://envidatrepo.wsl.ch/uploads/chelsa/'
-max_depth =5  ###Maximum depth we will look from the parent directory
-dout = [[] for i in range(max_depth+1)]
-dout[0] = [url]
-to_download = []
-problems=['/uploads/','?C=N;O=D','?C=N;O=D','?C=M;O=A','?C=D;O=A','?C=S;O=A']
-for i in range(1,max_depth+1,1):
-    for link in dout[i-1]:
-#        print(link)
-        d = check_html(link)
-        if d[0] == False:
-            to_download.append(link)###Append to the list of downloads
-        else:
-            l0=link.replace('https://envidatrepo.wsl.ch','')
-            for elem in d[1]:
-                if elem in l0:#Avoid moving to previous depths
-                    d[1].remove(elem)
-            for elem in problems:#Avoid strange links
-                if elem in d[1]:
-                    d[1].remove(elem)
-            for j in range(len(d[1])):
-                d[1][j]=link+d[1][j]
-            dout[i] += d[1]###Add all the subdirectories to check in next depth level
+
+# THIS IS SPECIFIC FOR THE ENVIRONMENTAL DATA BUT SOME FUNCTIONALITY MIGHT BE REUSABLE
+
+#url='https://envidatrepo.wsl.ch/uploads/chelsa/'
+#max_depth =5  ###Maximum depth we will look from the parent directory
+#dout = [[] for i in range(max_depth+1)]
+#dout[0] = [url]
+#to_download = []
+#problems=['/uploads/','?C=N;O=D','?C=N;O=D','?C=M;O=A','?C=D;O=A','?C=S;O=A']
+#for i in range(1,max_depth+1,1):
+#     for link in dout[i-1]:
+# #        print(link)
+#         d = check_html(link)
+#         if d[0] == False:
+#             to_download.append(link)###Append to the list of downloads
+#         else:
+#             l0=link.replace('https://envidatrepo.wsl.ch','')
+#             for elem in d[1]:
+#                 if elem in l0:#Avoid moving to previous depths
+#                     d[1].remove(elem)
+#             for elem in problems:#Avoid strange links
+#                 if elem in d[1]:
+#                     d[1].remove(elem)
+#             for j in range(len(d[1])):
+#                 d[1][j]=link+d[1][j]
+#             dout[i] += d[1]###Add all the subdirectories to check in next depth level
 ####Now we have a list of links to download
 # for link in to_download:
 #     download_file(link)
