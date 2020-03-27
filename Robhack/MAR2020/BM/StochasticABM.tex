@@ -1,11 +1,19 @@
 Simplest SIR (node i)
 
-  dS[t]i = S[t-1]i - b*S[t-1]i - m*S[t-1]ji + m*S[t-1]ij  #susceptible   #b: susceptible to infectious  #mig to/from j
-  dI[t]i = I[t-1]i + b*S[t-1]i - a*I[t-1]i - m*I[t-1]ji + m*I[t-1]ij #infectious #b:susceptible to inf #a:inf to reco  #mig to/from j  
-  dR[t]i = R[t-1]i + a*I[t-1]i - m*I[t-1]ji + m*I[t-1]ij  #recovered  #a: inf to reco  #mig to/from j
-
-
-
+  S[t]i = S[t-1]i - b(c)* S[t-1]i * I[t-1]i - m*S[t-1]ji + m*S[t-1]ij + s*R[t-1]i - ds*S[t-1]i
+  
+  I[t]i = I[t-1]i + b(c)*S[t-1]i * I[t-1]i - a*I[t-1]i - m*I[t-1]ji + m*I[t-1]ij - dI*I[t-1]i  
+  
+  R[t]i = R[t-1]i + a*I[t-1]i - m*I[t-1]ji + m*I[t-1]ij - s*R[t-1]i - dr*R[t-1]i
+ 
+  
+  #parameters
+  #b: susceptible to infectious transmission rate  
+  #c: susceptible to infectious contact rate
+  #m: migration to/from j rate
+  #s: recovered to susceptible rate
+  #a: infected to recovered rate
+  #d: death rate (ds, dI, dr)
 
 
 
