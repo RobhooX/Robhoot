@@ -16,4 +16,5 @@ function update!(node::Node)
   tempS = node.S - node.b * node.c * node.S * node.I + node.s * node.R - node.ds * node.S
   tempI = node.I + node.b * node.c * model.S * model.I - model.a * model.I - model.di * node.I
   tempR = node.R + (node.a * node.I) - (s * node.R) - (node.dr * node.R)
+  node.S, node.I, node.R = tempS, tempI, tempR
 end
