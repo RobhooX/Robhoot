@@ -2,7 +2,8 @@ import RobhootDIpy as rh
 
 # URLs to automatically extract data from
 
-urls = ['https://www.worldpop.org/sdi/advancedapi',#worldpop
+urls = ['https://population.un.org/wpp/Download/Standard/Population/', #worldpop, pragmatic
+        'https://www.worldpop.org/sdi/advancedapi',#worldpop
         'https://gadm.org/download_world.html',#boundaries
         'http://www.migrationpolicycentre.eu/globalmobilities/dataset/',#transnational mobility
         'https://www.gisaid.org/epiflu-applications/next-hcov-19-app/',
