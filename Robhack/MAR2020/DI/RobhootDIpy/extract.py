@@ -3,7 +3,7 @@ import requests
 from mimetypes import guess_extension
 from bs4 import BeautifulSoup,SoupStrainer
 
-def download_file(url,path = './data/raw_data'):
+def download_file(url,path = './data/raw_data/'):
     """
     download_file function:
         This function downloads the resource from a server and places it in your local folder.
@@ -32,7 +32,7 @@ def download_file(url,path = './data/raw_data'):
                 #download_file(url)
         else:
             fname = '_'.join(url.split('/')[2:]).replace('.','_')+ext
-            pathFname = path + '/' + fname
+            pathFname = path+ fname
             # Check if directory at path exists and create it if it does not exist
             if not os.path.exists(path):
                 os.makedirs(path)
