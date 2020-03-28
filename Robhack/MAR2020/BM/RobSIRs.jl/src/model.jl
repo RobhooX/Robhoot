@@ -83,23 +83,22 @@ function create_model(;parameters)
 end
 
 function step!(model, nsteps = 10)
-  infected = Array{Float64}(undef, nsteps+1)
-  infected[1] = ninfected(model)
-  for gen in nsteps
+  cases = Array{Tuple}(undef, nsteps+1)
+  cases[1] = track_cases(model)
+  for gen in 2:nsteps
     for n in 1:model[:C]
-      node = model[:nodes][n]
-      update!(node)
+      update!(model[:nodes][n])
     end
     migrate!(model)
-    infected[gen+1] = ninfected(model)
+    cases[gen] = track_cases(model)
   end
-  return model, infected
+  return model, cases
 end
 
-function ninfected(model)
-  infected = 0
-  for node in model[:nodes]
-    infected += node.I
-  end
-  return infected  
+function track_cases(model)
+  infected = getproperty.(model[:nodes], :I)
+  recovered = getproperty.(model[:nodes], :R)
+  dead = getproperty.(model[:nodes], :D)
+
+  return infected, recovered, dead
 end
