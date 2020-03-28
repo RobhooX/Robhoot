@@ -117,8 +117,3 @@ function ninfected(model)
   end
   return infected  
 end
-
-rameters)
-model, infected = step!(model, 10)rameters)
-model, infected = step!(model, 10)rameters)
-model, infected = step!(model, 10)
