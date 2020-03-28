@@ -1,10 +1,11 @@
+export step!, create_model
 
 mutable struct Node
   id::Int
-  S::Int
-  I::Int
-  R::Int
-  D::Int
+  S::Float64
+  I::Float64
+  R::Float64
+  D::Float64
   b::Float64
   c::Float64
   s::Float64
@@ -15,12 +16,12 @@ mutable struct Node
 end
 
 function update!(node::Node)
-  I1 = round(Int, node.b * node.c * node.S * node.I)
-  S1 = round(Int, node.s * node.R)
-  R1 = round(Int, node.a * node.I)
-  DS = round(Int, node.ds * node.S)
-  DI = round(Int, node.di * node.I)
-  DR = round(Int, node.dr * node.R)
+  I1 = node.b * node.c * node.S * node.I
+  S1 = node.s * node.R
+  R1 = node.a * node.I
+  DS = node.ds * node.S
+  DI = node.di * node.I
+  DR = node.dr * node.R
   tempS = node.S - I1 + S1 - DS
   tempI = node.I + I1 - R1 - DI
   tempR = node.R + R1 - S1 - DR
@@ -71,21 +72,6 @@ function migrate!(model)
   end
 end
 
-function random_params(;C=200)
-  Ns = rand(500_000:2_000_000, C)
-  migration_rates = rand(0.01:0.01:0.02, C, C)
-  migration_rates[diagind(migration_rates)] .= 0.98
-
-  Ss = Ns
-  Ss[1] -= 10
-  Is = zeros(Int, C)
-  Is[1] += 10
-  Rs = zeros(Int, C)
-  parameters = Dict(:C=>C, :m => Poisson.(migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([0.01], C), :cs=>repeat([0.001], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
-
-  return parameters
-end
-
 function create_model(;parameters)
   all_nodes = Array{Node}(undef, parameters[:C])
   for c in 1:parameters[:C]
@@ -97,7 +83,7 @@ function create_model(;parameters)
 end
 
 function step!(model, nsteps = 10)
-  infected = Array{Int}(undef, nsteps+1)
+  infected = Array{Float64}(undef, nsteps+1)
   infected[1] = ninfected(model)
   for gen in nsteps
     for n in 1:model[:C]
