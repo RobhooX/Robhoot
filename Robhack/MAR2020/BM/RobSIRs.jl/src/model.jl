@@ -7,7 +7,6 @@ mutable struct Node
   R::Float64
   D::Float64
   b::Float64
-  c::Float64
   s::Float64
   a::Float64
   ds::Float64
@@ -16,7 +15,8 @@ mutable struct Node
 end
 
 function update!(node::Node)
-  I1 = node.b * node.c * node.S * node.I
+  I1 = node.b * node.I
+  I1 > node.S && (I1 = node.S)
   S1 = node.s * node.R
   R1 = node.a * node.I
   DS = node.ds * node.S
@@ -75,7 +75,7 @@ end
 function create_model(;parameters)
   all_nodes = Array{Node}(undef, parameters[:C])
   for c in 1:parameters[:C]
-    node = Node(c, parameters[:Ss][c], parameters[:Is][c], parameters[:Rs][c], 0, parameters[:bs][c], parameters[:cs][c], parameters[:ss][c], parameters[:as][c], parameters[:dss][c], parameters[:dis][c], parameters[:drs][c])
+    node = Node(c, parameters[:Ss][c], parameters[:Is][c], parameters[:Rs][c], 0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:dss][c], parameters[:dis][c], parameters[:drs][c])
     all_nodes[c] = node
   end
   parameters[:nodes] = all_nodes
@@ -85,7 +85,7 @@ end
 function step!(model, nsteps = 10)
   cases = Array{Tuple}(undef, nsteps+1)
   cases[1] = track_cases(model)
-  for gen in 2:nsteps
+  for gen in 2:nsteps+1
     for n in 1:model[:C]
       update!(model[:nodes][n])
     end
@@ -101,4 +101,17 @@ function track_cases(model)
   dead = getproperty.(model[:nodes], :D)
 
   return infected, recovered, dead
+end
+
+function cases2df(model, cases)
+  ccodes, ccols = read_countryCodes()
+  ccode_dict = Dict(ccodes[r, 3]=> ccodes[r, 1] for r in 1:size(ccodes, 1))
+  countries = [ccode_dict[i] for i in model[:countries]]
+  nnodes = length(cases[1][1])
+  df = DataFrame(Dict(:location => countries , :infected => cases[1][1], :dead => cases[1][3], :recovered=>cases[1][2], :time => repeat([0], nnodes)))
+  for step in 2:length(cases)
+    dft = DataFrame(Dict(:location => countries , :infected => cases[step][1], :dead => cases[step][3], :recovered=>cases[step][2], :time => repeat([step-1], nnodes)))
+    df = vcat(df, dft)
+  end
+  return df
 end

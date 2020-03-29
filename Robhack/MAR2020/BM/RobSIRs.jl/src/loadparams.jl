@@ -1,4 +1,9 @@
 
+function read_countryCodes(input="..\\..\\DI\\data\\transformed_data\\countrycodes.csv")
+  m, names = DelimitedFiles.readdlm(input, ',', header=true)
+  return m, names
+end
+
 function read_mobility(input="..\\..\\DI\\data\\transformed_data\\mobility.csv")
   m, names = DelimitedFiles.readdlm(input, ',', header=true)
   nrows = size(m, 1)
@@ -40,7 +45,7 @@ function random_params(;C=200)
   Is = zeros(Int, C)
   Is[1] += 10
   Rs = zeros(Int, C)
-  parameters = Dict(:C=>C, :m => Poisson.(migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([0.01], C), :cs=>repeat([0.001], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
+  parameters = Dict(:C=>C, :m => Poisson.(migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([1.6], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
 
   return parameters
 end
@@ -74,6 +79,6 @@ function load_params(datadir="..\\..\\DI\\data\\transformed_data")
   Is = zeros(Int, C)
   Is[1] += 10
   Rs = zeros(Int, C)
-  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Poisson.(migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([0.01], C), :cs=>repeat([0.001], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
+  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Poisson.(migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([1.6], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
   return parameters
 end
