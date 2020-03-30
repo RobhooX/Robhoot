@@ -9,15 +9,43 @@ model, IRD_per_node = step!(model, 100);
 # plot
 results_df = RobSIRs.cases2df(model, IRD_per_node);
 
-p = @vlplot(
-  data = results_df,
+p = results_df |> @vlplot() +
+[@vlplot(
   mark = :line,
   x = :time,
   y = {:infected,
     axis = {
       title = "Number of infected"
-    }
+    },
+    scale = {type="sqrt"}
   },
-  color = :location
-)
-# save("infected.pdf", p)
+  color = {:location,
+    legend = false
+  }
+);
+@vlplot(
+  mark = :line,
+  x = :time,
+  y = {:dead,
+    axis = {
+      title = "Number of death"
+    },
+    scale = {type="sqrt"}
+  },
+  color = {:location,
+    legend = false
+  }
+);
+@vlplot(
+  mark = :line,
+  x = :time,
+  y = {:recovered,
+    axis = {
+      title = "Number of recovered"
+    },
+    scale = {type="sqrt"}
+  },
+  color = {:location,
+    legend = false
+  }
+)]
