@@ -1,8 +1,12 @@
    # ROBHOOT :: BAYESIAN SPACE MODELS
 
-Bayesian Models (Julia scripts) :: Hybrid :: PRAGMATIC-ROBHOOT
 
-## KEY REFERENCES BAYESIAN FRAMEWORK
+#### We have two strategies :: 
+#### The pragmatic and the ROBHOOT targeting the COVID-19 case study and the long-term vision, respectively. 
+
+
+## KEY REFERENCES BAYESIAN MODELING FRAMEWORK
+
 
 Agent Based and/or stochastic Models
 
@@ -13,15 +17,14 @@ Stochastic amplification in epidemics
 https://doi.org/10.1098/rsif.2006.0192
 
 
+
 ## MODELING STRATEGY
 
 * [ROBHOOT] :: 
 
-* Build Modeling strategy knowledge graph
+* Causal knowledge graph 
 
 * Model types :: 
-  * Multinomial sampling :: Deterministic SIR :: IBM :: ABM 
-
   ________________________________________________________________
 
   * ABM --> Stochastic IBM --> Automated differentiation Zygote.jl
@@ -35,14 +38,13 @@ https://doi.org/10.1098/rsif.2006.0192
 * SIR --> 
   * Spatial network given the data :: city or nation dp resolution 
   * Mixed or hybrid modeling :: Nodes state dp of the input data
-  * Bayesian fitting ::
+  * Bayesian or optimization fitting ::
  
-    mobility : 
-    migration :
+    migration (parametrized using empirical mobility data) 
     infection : (transmission)
     recovery = 1 - death :
 
-    4 parameters
+    4 parameters (check)
 
 * eSIR --> (Enviromental state) --> SIR to SIS 
   * Niche suitability :: 1 parameters
