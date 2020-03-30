@@ -68,7 +68,8 @@ function load_params(datadir="..\\..\\DI\\data\\transformed_data")
   # calculate rate: number of travels/pop size
   for n1 in 1:size(migration_rates, 1)
     for n2 in 1:size(migration_rates, 2)
-      migration_rates[n1, n2] /= pop[n1]
+      migration_rates[n1, n2] /= (pop[n1] * 365)
+      migration_rates[n1, n2] > 1 && (migration_rates[n1, n2] = 0.99)
     end
   end
 
@@ -79,6 +80,12 @@ function load_params(datadir="..\\..\\DI\\data\\transformed_data")
   Is = zeros(Int, C)
   Is[1] += 10
   Rs = zeros(Int, C)
-  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Poisson.(migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([1.6], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
+  popmat = zeros(Int64, C, C)
+  for c1 in 1:C
+    for c2 in 1:C
+      popmat[c1, c2] = round(Int, Ns[c1])
+    end
+  end
+  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([1.6], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
   return parameters
 end

@@ -17,8 +17,11 @@ end
 function update!(node::Node)
   I1 = node.b * node.I
   I1 > node.S && (I1 = node.S)
+  I1 < 0 && (I1 = 0.0)
   S1 = node.s * node.R
+  S1 < 0 && (S1 = 0.0)
   R1 = node.a * node.I
+  R1 < 0 && (R1 = 0.0)
   DS = node.ds * node.S
   DI = node.di * node.I
   DR = node.dr * node.R
@@ -32,23 +35,34 @@ function update!(node::Node)
   node.S, node.I, node.R = tempS, tempI, tempR
 end
 
+function get_N(node::Node)
+  node.S + node.I + node.R
+end
+
 function migrate!(model)
   all_movements = rand.(model[:m])
   for nodeid in 1:model[:C]
     node = model[:nodes][nodeid]
-    n_out = rand.(model[:m][node.id, :])
-    partout = sample([:S, :I, :R], weights([node.S, node.I, node.R]))
-    for no in 1:model[:C]
-      if no != node.id
-        if partout == :S # improve this section
-          node.S -= n_out[no]
-          model[:nodes][no].S += n_out[no]
-        elseif partout == :I
-          node.I -= n_out[no]
-          model[:nodes][no].I += n_out[no]
-        else
-          node.R -= n_out[no]
-          model[:nodes][no].R += n_out[no]
+    nodeN = get_N(node)
+    if nodeN > 0  # out migration
+      n_out = rand.(model[:m][node.id, :])
+      partout = sample([:S, :I, :R], weights([node.S, node.I, node.R]))
+      for no in 1:model[:C]
+        if no != node.id
+          n_outn = n_out[no]
+          noden = get_N(node)
+          n_outn < noden && (n_outn = noden)
+          n_outn == 0 && break
+          if partout == :S # improve this section
+            node.S -= n_outn
+            model[:nodes][no].S += n_outn
+          elseif partout == :I
+            node.I -= n_outn
+            model[:nodes][no].I += n_outn
+          else
+            node.R -= n_outn
+            model[:nodes][no].R += n_outn
+          end
         end
       end
     end
@@ -57,15 +71,20 @@ function migrate!(model)
       if no != node.id
         node2 = model[:nodes][no]
         inpart = sample([:S, :I, :R], weights([node2.S, node2.I, node2.R]))
-        if inpart == :S
-          node.S += n_in[no]
-          model[:nodes][no].S -= n_in[no]
-        elseif inpart == :I
-          node.I += n_in[no]
-          model[:nodes][no].I -= n_in[no]
-        else
-          node.R += n_in[no]
-          model[:nodes][no].R -= n_in[no]
+        n_inn = n_in[no]
+        noden = get_N(node2)
+        n_inn > noden && (n_inn = noden)
+        if n_inn > 0
+          if inpart == :S
+            node.S += n_inn
+            model[:nodes][no].S -= n_inn
+          elseif inpart == :I
+            node.I += n_inn
+            model[:nodes][no].I -= n_inn
+          else
+            node.R += n_inn
+            model[:nodes][no].R -= n_inn
+          end
         end
       end
     end
