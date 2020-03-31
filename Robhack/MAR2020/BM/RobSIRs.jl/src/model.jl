@@ -17,11 +17,8 @@ end
 function update!(node::Node)
   I1 = node.b * node.I
   I1 > node.S && (I1 = node.S)
-  I1 < 0 && (I1 = 0.0)
   S1 = node.s * node.R
-  S1 < 0 && (S1 = 0.0)
   R1 = node.a * node.I
-  R1 < 0 && (R1 = 0.0)
   DS = node.ds * node.S
   DI = node.di * node.I
   DR = node.dr * node.R
@@ -50,7 +47,7 @@ function migrate!(model)
       for no in 1:model[:C]
         if no != node.id
           n_outn = n_out[no]
-          noden = get_N(node)
+          noden = getproperty(node, partout)
           n_outn < noden && (n_outn = noden)
           n_outn == 0 && break
           if partout == :S # improve this section
@@ -72,7 +69,7 @@ function migrate!(model)
         node2 = model[:nodes][no]
         inpart = sample([:S, :I, :R], weights([node2.S, node2.I, node2.R]))
         n_inn = n_in[no]
-        noden = get_N(node2)
+        noden = getproperty(node2, inpart)
         n_inn > noden && (n_inn = noden)
         if n_inn > 0
           if inpart == :S

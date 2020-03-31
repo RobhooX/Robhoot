@@ -76,9 +76,10 @@ function load_params(datadir="..\\..\\DI\\data\\transformed_data")
   Ns = pop[popindices]
   C = length(Ns)
   Ss = Ns
-  Ss[1] -= 10
+  chinaindex = findfirst(x->x=="CHN",  popnames)  # BUG this doesn't work correctly.
+  Ss[chinaindex] -= 10
   Is = zeros(Int, C)
-  Is[1] += 10
+  Is[chinaindex] += 10
   Rs = zeros(Int, C)
   popmat = zeros(Int64, C, C)
   for c1 in 1:C
@@ -86,6 +87,6 @@ function load_params(datadir="..\\..\\DI\\data\\transformed_data")
       popmat[c1, c2] = round(Int, Ns[c1])
     end
   end
-  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([1.6], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
+  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([0.8], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
   return parameters
 end
