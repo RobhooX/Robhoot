@@ -1,8 +1,19 @@
 using RobSIRs
 using VegaLite
+using CSV
+using FilePathsBase
+using JLD2
+using FileIO
 
-# parameters = RobSIRs.random_params(C=200);
-parameters = RobSIRs.load_params();
+# Running a single simulation.
+parameters = RobSIRs.load_params(
+  bs=0.0:0.0001:1.0,  # min max of uniform distribution
+  ss=0.01:0.0001:1.0,
+  dss=0.0:0.0001:1.0,
+  dis=0.001:0.0001:1.0,
+  drs=0.0:0.0001:1.0,
+  datadir="../../DI/data/transformed_data");
+
 model = create_model(parameters=parameters)
 model, IRD_per_node = step!(model, 50);
 
