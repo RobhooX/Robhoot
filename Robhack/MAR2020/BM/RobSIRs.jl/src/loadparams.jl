@@ -1,5 +1,6 @@
+using Random
 
-function read_countryCodes(input="..\\..\\DI\\data\\transformed_data\\countrycodes.csv")
+function read_countryCodes(input="../../DI/data/transformed_data/countrycodes.csv")
   m, names = DelimitedFiles.readdlm(input, ',', header=true)
   return m, names
 end
@@ -50,7 +51,8 @@ function random_params(;C=200)
   return parameters
 end
 
-function load_params(datadir="..\\..\\DI\\data\\transformed_data")
+function load_params(datadir="..\\..\\DI\\data\\transformed_data", rep=1)
+  Random.seed!(rep)
   mobility, mobnames = RobSIRs.read_mobility(joinpath(datadir, "mobility.csv"))
   pop, popnames = RobSIRs.read_population(joinpath(datadir, "population.csv"))
 
