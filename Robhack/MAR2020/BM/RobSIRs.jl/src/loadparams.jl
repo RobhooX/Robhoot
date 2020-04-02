@@ -50,7 +50,8 @@ function random_params(;C=200)
   return parameters
 end
 
-function load_params(datadir="..\\..\\DI\\data\\transformed_data")
+function load_params(;b=0.8, s=0.01, ds=0.001, di=0.01, dr=0.001,
+  datadir="..\\..\\DI\\data\\transformed_data")
   mobility, mobnames = RobSIRs.read_mobility(joinpath(datadir, "mobility.csv"))
   pop, popnames = RobSIRs.read_population(joinpath(datadir, "population.csv"))
 
@@ -87,6 +88,6 @@ function load_params(datadir="..\\..\\DI\\data\\transformed_data")
       popmat[c1, c2] = round(Int, Ns[c1])
     end
   end
-  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([0.8], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
+  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([b], C), :ss=>repeat([s], C), :as=>rand(C), :dss=>repeat([ds], C), :dis=>repeat([di], C), :drs =>repeat([dr], C))
   return parameters
 end
