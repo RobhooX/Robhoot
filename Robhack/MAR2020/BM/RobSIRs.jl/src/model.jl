@@ -119,8 +119,8 @@ function track_cases(model)
   return infected, recovered, dead
 end
 
-function cases2df(model, cases)
-  ccodes, ccols = read_countryCodes()
+function cases2df(model, cases; datadir="..\\..\\DI\\data\\transformed_data")
+  ccodes, ccols = read_countryCodes(joinpath(datadir, "countrycodes.csv"))
   ccode_dict = Dict(ccodes[r, 3]=> ccodes[r, 1] for r in 1:size(ccodes, 1))
   countries = [ccode_dict[i] for i in model[:countries]]
   nnodes = length(cases[1][1])

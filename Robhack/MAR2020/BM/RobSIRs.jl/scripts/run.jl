@@ -7,7 +7,7 @@ model = create_model(parameters=parameters)
 model, IRD_per_node = step!(model, 50);
 
 # plot
-results_df = RobSIRs.cases2df(model, IRD_per_node);
+results_df = RobSIRs.cases2df(model, IRD_per_node, datadir="..\\..\\DI\\data\\transformed_data");
 
 p = results_df |> @vlplot() +
 [@vlplot(
