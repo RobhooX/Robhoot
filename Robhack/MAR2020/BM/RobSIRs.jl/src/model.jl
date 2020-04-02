@@ -18,11 +18,13 @@ function update!(node::Node)
   I1 = node.b * node.I
   I1 > node.S && (I1 = node.S)
   S1 = node.s * node.R
+  S1 > node.R && (S1 = node.R)
   R1 = node.a * node.I
+  R1 > node.I && (R1 = node.I)
   DS = node.ds * node.S
   DI = node.di * node.I
   DR = node.dr * node.R
-  tempS = node.S - I1 + S1 - DS
+  tempS = node.S + S1 - I1 - DS
   tempI = node.I + I1 - R1 - DI
   tempR = node.R + R1 - S1 - DR
   tempS < 0 && (tempS = 0)
