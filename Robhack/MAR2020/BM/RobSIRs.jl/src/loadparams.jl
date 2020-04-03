@@ -69,8 +69,8 @@ function load_params(;bs=0.0:0.0001:1.0, ss=0.01:0.0001:1.0, dss=0.0:0.0001:1.0,
   # calculate rate: number of travels/pop size
   for n1 in 1:size(migration_rates, 1)
     for n2 in 1:size(migration_rates, 2)
-      migration_rates[n1, n2] /= (pop[n1] * 365)
-      migration_rates[n1, n2] > 1 && (migration_rates[n1, n2] = 0.99)
+      migration_rates[n1, n2] /= 365
+      # migration_rates[n1, n2] > 1 && (migration_rates[n1, n2] = 0.99)
     end
   end
 
@@ -88,6 +88,6 @@ function load_params(;bs=0.0:0.0001:1.0, ss=0.01:0.0001:1.0, dss=0.0:0.0001:1.0,
       popmat[c1, c2] = round(Int, Ns[c1])
     end
   end
-  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>rand(bs, C), :ss=>rand(ss, C), :as=>rand(C), :dss=>rand(dss, C), :dis=>rand(dis, C), :drs =>rand(drs, C))
+  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => migration_rates, :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>rand(bs, C), :ss=>rand(ss, C), :as=>rand(C), :dss=>rand(dss, C), :dis=>rand(dis, C), :drs =>rand(drs, C))
   return parameters
 end

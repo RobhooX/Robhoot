@@ -39,13 +39,13 @@ function get_N(node::Node)
 end
 
 function migrate!(model)
-  all_movements = rand.(model[:m])
   for nodeid in 1:model[:C]
     node = model[:nodes][nodeid]
     nodeN = get_N(node)
     if nodeN > 0  # out migration
-      n_out = rand.(model[:m][node.id, :])
-      partout = sample([:S, :I, :R], weights([node.S, node.I, node.R]))
+      n_out = model[:m][node.id, :]
+      # partout = sample([:S, :I, :R], weights([node.S, node.I, node.R]))
+      partoutS, partoutI, partoutR = n_out ./ (node.S, node.I, node.R)
       for no in 1:model[:C]
         if no != node.id
           n_outn = n_out[no]
