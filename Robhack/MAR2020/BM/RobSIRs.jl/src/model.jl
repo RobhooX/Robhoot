@@ -44,7 +44,7 @@ function migrate!(model)
     node = model[:nodes][nodeid]
     nodeN = get_N(node)
     if nodeN > 0  # out migration
-      n_out = rand.(model[:m][node.id, :])
+      n_out = all_movements[node.id, :]
       partout = sample([:S, :I, :R], weights([node.S, node.I, node.R]))
       for no in 1:model[:C]
         if no != node.id
@@ -65,7 +65,7 @@ function migrate!(model)
         end
       end
     end
-    n_in = rand.(model[:m][:, node.id])    
+    n_in = all_movements[:, node.id]   
     for no in 1:model[:C]
       if no != node.id
         node2 = model[:nodes][no]

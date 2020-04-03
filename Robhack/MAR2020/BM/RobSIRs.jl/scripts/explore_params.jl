@@ -1,6 +1,5 @@
 using RobSIRs
 using CSV
-using FilePathsBase
 using JLD2
 using FileIO
 resultdir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\BM\\RobSIRs.jl\\results"
@@ -16,7 +15,7 @@ for sim in 1:nsims
     drs=0.0:0.0001:1.0,
     datadir=datadir);
 
-  model = create_model(parameters=parameters)
+  model = create_model(parameters=parameters);
   model, IRD_per_node = step!(model, 100);
   results_df = RobSIRs.cases2df(model, IRD_per_node, datadir=datadir);
   # save the result
