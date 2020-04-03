@@ -42,50 +42,28 @@ function migrate!(model)
   for nodeid in 1:model[:C]
     node = model[:nodes][nodeid]
     nodeN = get_N(node)
+    relS, relR, relI = node.S/nodeN, node.R/nodeN, node.I/nodeN
     if nodeN > 0  # out migration
       n_out = model[:m][node.id, :]
-      # partout = sample([:S, :I, :R], weights([node.S, node.I, node.R]))
-      partoutS, partoutI, partoutR = n_out ./ (node.S, node.I, node.R)
-      for no in 1:model[:C]
-        if no != node.id
-          n_outn = n_out[no]
-          noden = getproperty(node, partout)
-          n_outn < noden && (n_outn = noden)
-          n_outn == 0 && break
-          if partout == :S # improve this section
-            node.S -= n_outn
-            model[:nodes][no].S += n_outn
-          elseif partout == :I
-            node.I -= n_outn
-            model[:nodes][no].I += n_outn
-          else
-            node.R -= n_outn
-            model[:nodes][no].R += n_outn
-          end
-        end
+      partoutS, partoutI, partoutR = (n_out*relS, n_out*relI, n_out*relR)
+      node.S -= sum(partoutS)
+      node.R -= sum(partoutR)
+      node.I -= sum(partoutI)
+      for (nodeid2, node2) in enumerate(model[:nodes])
+        node2.S += partoutS[nodeid2]
+        node2.R += partoutR[nodeid2]
+        node2.I += partoutI[nodeid2]        
       end
     end
-    n_in = rand.(model[:m][:, node.id])    
-    for no in 1:model[:C]
-      if no != node.id
-        node2 = model[:nodes][no]
-        inpart = sample([:S, :I, :R], weights([node2.S, node2.I, node2.R]))
-        n_inn = n_in[no]
-        noden = getproperty(node2, inpart)
-        n_inn > noden && (n_inn = noden)
-        if n_inn > 0
-          if inpart == :S
-            node.S += n_inn
-            model[:nodes][no].S -= n_inn
-          elseif inpart == :I
-            node.I += n_inn
-            model[:nodes][no].I -= n_inn
-          else
-            node.R += n_inn
-            model[:nodes][no].R -= n_inn
-          end
-        end
-      end
+    n_in = model[:m][:, node.id]
+    partinS, partinI, partinR = (n_in*relS, n_in*relI, n_in*relR)
+    node.S += sum(partinS)
+    node.R += sum(partinR)
+    node.I += sum(partinI) 
+    for (nodeid2, node2) in enumerate(model[:nodes])
+      node2.S -= partinS[nodeid2]
+      node2.R -= partinR[nodeid2]
+      node2.I -= partinI[nodeid2]   
     end
   end
 end
