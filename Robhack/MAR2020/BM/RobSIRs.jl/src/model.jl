@@ -3,18 +3,18 @@ export create_model, agent_step!
 mutable struct Node <: AbstractAgent
   id::Int
   pos::Int
+  countryID::Int
   S::Float64
   I::Float64
   R::Float64
   D::Float64
-  infected_days::Int64
+  days_infected::Int64
   b::Float64
   s::Float64
   a::Float64
   ds::Float64
   di::Float64
   dr::Float64
-  country::String
 end
 
 function update!(node::Node, model::ABM)
@@ -37,6 +37,11 @@ function update!(node::Node, model::ABM)
   node.S, node.I, node.R = tempS, tempI, tempR
 end
 
+# transfer between nodes in the same location
+function update!(model)
+    
+end
+
 function population_size(node::Node)
   node.S + node.I + node.R
 end
@@ -45,7 +50,7 @@ function migrate!(node, model)
   nodeN = population_size(node)
   if nodeN > 0
     relS, relR, relI = node.S/nodeN, node.R/nodeN, node.I/nodeN
-    n_out = rand.(model.properties[:m][node.id, :])
+    n_out = rand.(model.properties[:m][node.countryID, :])
     partoutS, partoutI, partoutR = (n_out*relS, n_out*relI, n_out*relR)
     # No migrations more than population size at source
     sumpartoutS = sum(partoutS)
@@ -60,9 +65,9 @@ function migrate!(node, model)
     node.I -= sumpartoutI
     for nodeid2 in 1:nagents(model)
       node2 = model.agents[nodeid2]
-      node2.S += partoutS[nodeid2]
-      node2.R += partoutR[nodeid2]
-      node2.I += partoutI[nodeid2]        
+      node2.S += partoutS[node2.countryID]
+      node2.R += partoutR[node2.countryID]
+      node2.I += partoutI[node2.countryID]        
     end
   end
 end
@@ -76,7 +81,7 @@ function create_model(;parameters)
   space = Space(complete_digraph(parameters[:C]))
   model = ABM(Node, space, properties=parameters)
   for c in 1:parameters[:C]
-    node = Node(c, c, parameters[:Ss][c], parameters[:Is][c], parameters[:Rs][c], 0, 0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:dss][c], parameters[:dis][c], parameters[:drs][c], parameters[:countries][c])
+    node = Node(c, c, c, parameters[:Ss][c], parameters[:Is][c], parameters[:Rs][c], 0, 0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:dss][c], parameters[:dis][c], parameters[:drs][c])
     add_agent!(node, model)
   end
   return model
