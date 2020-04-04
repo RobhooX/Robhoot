@@ -42,7 +42,5 @@ for iter in 1:10
   bs .-= α*grads[1]
   as .-= α*grads[2]
   ss .-= α*grads[3]
-  dss .-= α*grads[4]
-  dis .-= α*grads[5]
-  drs .-= α*grads[6]
+  dis .-= α*grads[4]
 end
