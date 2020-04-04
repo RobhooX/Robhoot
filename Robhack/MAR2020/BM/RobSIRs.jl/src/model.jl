@@ -34,36 +34,31 @@ function update!(node::Node)
   node.S, node.I, node.R = tempS, tempI, tempR
 end
 
-function get_N(node::Node)
+function population_size(node::Node)
   node.S + node.I + node.R
 end
 
-function migrate!(model)
-  for nodeid in 1:model[:C]
-    node = model[:nodes][nodeid]
-    nodeN = get_N(node)
+function migrate!(node, model)
+  nodeN = population_size(node)
+  if nodeN > 0
     relS, relR, relI = node.S/nodeN, node.R/nodeN, node.I/nodeN
-    if nodeN > 0  # out migration
-      n_out = model[:m][node.id, :]
-      partoutS, partoutI, partoutR = (n_out*relS, n_out*relI, n_out*relR)
-      node.S -= sum(partoutS)
-      node.R -= sum(partoutR)
-      node.I -= sum(partoutI)
-      for (nodeid2, node2) in enumerate(model[:nodes])
-        node2.S += partoutS[nodeid2]
-        node2.R += partoutR[nodeid2]
-        node2.I += partoutI[nodeid2]        
-      end
-    end
-    n_in = model[:m][:, node.id]
-    partinS, partinI, partinR = (n_in*relS, n_in*relI, n_in*relR)
-    node.S += sum(partinS)
-    node.R += sum(partinR)
-    node.I += sum(partinI) 
+    n_out = model[:m][node.id, :]
+    partoutS, partoutI, partoutR = (n_out*relS, n_out*relI, n_out*relR)
+    # No migrations more than population size at source
+    sumpartoutS = sum(partoutS)
+    sumpartoutR = sum(partoutR)
+    sumpartoutI = sum(partoutI)
+    sumpartoutS > node.S && (partoutS .*= node.S/sumpartoutS)
+    sumpartoutR > node.R && (partoutR .*= node.R/sumpartoutR)
+    sumpartoutI > node.I && (partoutI .*= node.I/sumpartoutI)
+    # Migrations
+    node.S -= sum(partoutS)
+    node.R -= sum(partoutR)
+    node.I -= sum(partoutI)
     for (nodeid2, node2) in enumerate(model[:nodes])
-      node2.S -= partinS[nodeid2]
-      node2.R -= partinR[nodeid2]
-      node2.I -= partinI[nodeid2]   
+      node2.S += partoutS[nodeid2]
+      node2.R += partoutR[nodeid2]
+      node2.I += partoutI[nodeid2]        
     end
   end
 end
@@ -84,8 +79,8 @@ function step!(model, nsteps = 10)
   for gen in 2:nsteps+1
     for n in 1:model[:C]
       update!(model[:nodes][n])
+      migrate!(model[:nodes][n], model)
     end
-    migrate!(model)
     cases[gen] = track_cases(model)
   end
   return model, cases
@@ -95,7 +90,6 @@ function track_cases(model)
   infected = getproperty.(model[:nodes], :I)
   recovered = getproperty.(model[:nodes], :R)
   dead = getproperty.(model[:nodes], :D)
-
   return infected, recovered, dead
 end
 
