@@ -52,9 +52,9 @@ function migrate!(node, model)
     sumpartoutR > node.R && (partoutR .*= node.R/sumpartoutR)
     sumpartoutI > node.I && (partoutI .*= node.I/sumpartoutI)
     # Migrations
-    node.S -= sum(partoutS)
-    node.R -= sum(partoutR)
-    node.I -= sum(partoutI)
+    node.S -= sumpartoutS
+    node.R -= sumpartoutR
+    node.I -= sumpartoutI
     for (nodeid2, node2) in enumerate(model[:nodes])
       node2.S += partoutS[nodeid2]
       node2.R += partoutR[nodeid2]
