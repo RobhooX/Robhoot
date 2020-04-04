@@ -5,8 +5,8 @@ resultdir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\BM\\RobSIRs.jl\\results"
 datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 
 # a random trajectory of the number of infected of a country
-nrep = 10
-traj = [1.01*i^2 for i in 1:nrep+1];
+timesteps = 10
+traj = [1.01*i^2 for i in 1:timesteps+1];
 
 function cost(bs=rand(0.0:0.0001:1.0, 196),
   as=rand(0.0:0.0001:1.0, 196),
@@ -19,8 +19,8 @@ function cost(bs=rand(0.0:0.0001:1.0, 196),
     drs=drs, datadir=datadir);
 
   model = create_model(parameters=parameters)
-  model, IRD_per_node = step!(model, nrep);
-  country1I = [IRD_per_node[i][1][12] for i in 1:nrep+1]
+  model, IRD_per_node = step!(model, timesteps);
+  country1I = [IRD_per_node[i][1][12] for i in 1:timesteps+1]
   diff = sqrt(sum((country1I .- traj).^2))
   return diff
 end
