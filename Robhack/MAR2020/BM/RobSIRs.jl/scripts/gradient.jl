@@ -8,13 +8,15 @@ datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 timesteps = 10
 traj = [1.01*i^2 for i in 1:timesteps+1];
 
-function cost(bs=rand(0.0:0.0001:1.0, 196),
+function cost(
+  bs=rand(0.0:0.0001:1.0, 196),
   as=rand(0.0:0.0001:1.0, 196),
   ss=rand(0.01:0.0001:1.0, 196),
-  dss=rand(0.0:0.0001:1.0, 196),
   dis=rand(0.001:0.0001:1.0, 196),
-  drs=rand(0.0:0.0001:1.0, 196))
+  )
 
+  dss = fill(0.0, 196)
+  drs = fill(0.0, 196)
   parameters = RobSIRs.load_params(bs=bs, as=as, ss=ss, dss=dss, dis=dis,
     drs=drs, datadir=datadir);
 
@@ -29,14 +31,12 @@ end
 bs=rand(0.0:0.0001:1.0, 196);
 as=rand(0.0:0.0001:1.0, 196);
 ss=rand(0.01:0.0001:1.0, 196);
-dss=rand(0.0:0.0001:1.0, 196);
 dis=rand(0.001:0.0001:1.0, 196);
-drs=rand(0.0:0.0001:1.0, 196);
-cost(bs, as, ss, dss, dis, drs)
+cost(bs, as, ss, dis)
 
 for iter in 1:10
   # Take their gradients
-  grads = grad(central_fdm(5, 1), cost, bs, as, ss, dss, dis, drs)
+  grads = grad(central_fdm(5, 1), cost, bs, as, ss, dis)
   # update params
   α = 0.5
   bs .-= α*grads[1]
