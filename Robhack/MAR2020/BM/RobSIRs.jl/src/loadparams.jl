@@ -50,7 +50,7 @@ function random_params(;C=200)
   return parameters
 end
 
-function load_params(;bs=0.0:0.0001:1.0, ss=0.01:0.0001:1.0, dss=0.0:0.0001:1.0, dis=0.001:0.0001:1.0, drs=0.0:0.0001:1.0,
+function load_params(;as, bs, ss, dss, dis, drs,
   datadir="..\\..\\DI\\data\\transformed_data")
   mobility, mobnames = RobSIRs.read_mobility(joinpath(datadir, "mobility.csv"))
   pop, popnames = RobSIRs.read_population(joinpath(datadir, "population.csv"))
@@ -88,6 +88,6 @@ function load_params(;bs=0.0:0.0001:1.0, ss=0.01:0.0001:1.0, dss=0.0:0.0001:1.0,
       popmat[c1, c2] = round(Int, Ns[c1])
     end
   end
-  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => migration_rates, :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>rand(bs, C), :ss=>rand(ss, C), :as=>rand(C), :dss=>rand(dss, C), :dis=>rand(dis, C), :drs =>rand(drs, C))
+  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => migration_rates, :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>bs, :ss=>ss, :as=>as, :dss=>dss, :dis=>dis, :drs =>drs)
   return parameters
 end
