@@ -34,58 +34,31 @@ function update!(node::Node)
   node.S, node.I, node.R = tempS, tempI, tempR
 end
 
-function get_N(node::Node)
+function population_size(node::Node)
   node.S + node.I + node.R
 end
 
-function migrate!(model)
-  all_movements = rand.(model[:m])
-  for nodeid in 1:model[:C]
-    node = model[:nodes][nodeid]
-    nodeN = get_N(node)
-    if nodeN > 0  # out migration
-      n_out = all_movements[node.id, :]
-      partout = sample([:S, :I, :R], weights([node.S, node.I, node.R]))
-      for no in 1:model[:C]
-        if no != node.id
-          n_outn = n_out[no]
-          noden = getproperty(node, partout)
-          n_outn < noden && (n_outn = noden)
-          n_outn == 0 && break
-          if partout == :S # improve this section
-            node.S -= n_outn
-            model[:nodes][no].S += n_outn
-          elseif partout == :I
-            node.I -= n_outn
-            model[:nodes][no].I += n_outn
-          else
-            node.R -= n_outn
-            model[:nodes][no].R += n_outn
-          end
-        end
-      end
-    end
-    n_in = all_movements[:, node.id]   
-    for no in 1:model[:C]
-      if no != node.id
-        node2 = model[:nodes][no]
-        inpart = sample([:S, :I, :R], weights([node2.S, node2.I, node2.R]))
-        n_inn = n_in[no]
-        noden = getproperty(node2, inpart)
-        n_inn > noden && (n_inn = noden)
-        if n_inn > 0
-          if inpart == :S
-            node.S += n_inn
-            model[:nodes][no].S -= n_inn
-          elseif inpart == :I
-            node.I += n_inn
-            model[:nodes][no].I -= n_inn
-          else
-            node.R += n_inn
-            model[:nodes][no].R -= n_inn
-          end
-        end
-      end
+function migrate!(node, model)
+  nodeN = population_size(node)
+  if nodeN > 0
+    relS, relR, relI = node.S/nodeN, node.R/nodeN, node.I/nodeN
+    n_out = rand.(model[:m][node.id, :])
+    partoutS, partoutI, partoutR = (n_out*relS, n_out*relI, n_out*relR)
+    # No migrations more than population size at source
+    sumpartoutS = sum(partoutS)
+    sumpartoutR = sum(partoutR)
+    sumpartoutI = sum(partoutI)
+    sumpartoutS > node.S && (partoutS .*= node.S/sumpartoutS)
+    sumpartoutR > node.R && (partoutR .*= node.R/sumpartoutR)
+    sumpartoutI > node.I && (partoutI .*= node.I/sumpartoutI)
+    # Migrations
+    node.S -= sumpartoutS
+    node.R -= sumpartoutR
+    node.I -= sumpartoutI
+    for (nodeid2, node2) in enumerate(model[:nodes])
+      node2.S += partoutS[nodeid2]
+      node2.R += partoutR[nodeid2]
+      node2.I += partoutI[nodeid2]        
     end
   end
 end
@@ -106,8 +79,8 @@ function step!(model, nsteps = 10)
   for gen in 2:nsteps+1
     for n in 1:model[:C]
       update!(model[:nodes][n])
+      migrate!(model[:nodes][n], model)
     end
-    migrate!(model)
     cases[gen] = track_cases(model)
   end
   return model, cases
