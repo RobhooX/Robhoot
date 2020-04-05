@@ -55,7 +55,7 @@ function update!(pop::Pop, model::ABM)
   tempIncubation < 0 && (tempIncubation = 0)
   tempI < 0 && (tempI = 0)
   tempR < 0 && (tempR = 0)
-  pop.D = DS + DI + DR
+  pop.D = DS + +DLatent + DIncubation + DI + DR
   pop.S, pop.latent, pop.incubation, pop.I, pop.R = tempS, tempLatent, tempIncubation, tempI, tempR
 end
 
@@ -63,36 +63,40 @@ function population_size(pop::Pop)
   pop.S + pop.latent + pop.incubation + pop.I + pop.R
 end
 
+adjust_fractions!(MFraction, sumMFraction, available) = sumMFraction > available && (MFraction .*= available/sumMFraction)
+
 function migrate!(pop, model)
   nodeN = population_size(pop)
   if nodeN > 0
     relS, relLatent, relIncubation, relR, relI = pop.S/nodeN, pop.latent/nodeN, pop.incubation/nodeN, pop.R/nodeN, pop.I/nodeN
     n_out = rand.(model.properties[:m][pop.pos, :])
-    partoutS, partoutLatent, partoutIncubation, partoutI, partoutR = (n_out*relS, n_out*relLatent, n_out*relIncubation, n_out*relI, n_out*relR)
-    # No migrations more than population size at source
-    sumpartoutS = sum(partoutS)
-    sumpartoutLatent = sum(partoutLatent)
-    sumpartoutIncubation = sum(partoutIncubation)
-    sumpartoutR = sum(partoutR)
-    sumpartoutI = sum(partoutI)
-    sumpartoutS > pop.S && (partoutS .*= pop.S/sumpartoutS)
-    sumpartoutLatent > pop.latent && (partoutLatent .*= pop.latent/sumpartoutLatent)
-    sumpartoutIncubation > pop.incubation && (partoutIncubation .*= pop.incubation/sumpartoutIncubation)
-    sumpartoutR > pop.R && (partoutR .*= pop.R/sumpartoutR)
-    sumpartoutI > pop.I && (partoutI .*= pop.I/sumpartoutI)
-    # Migrations
-    pop.S -= sumpartoutS
-    pop.latent -= sumpartoutLatent
-    pop.incubation -= sumpartoutIncubation
-    pop.R -= sumpartoutR
-    pop.I -= sumpartoutI
+    MFractionS, MFractionLatent, MFractionIncubation, MFractionI, MFractionR = (n_out*relS, n_out*relLatent, n_out*relIncubation, n_out*relI, n_out*relR)
+    ## No migrations more than population size at source
+    # save summations
+    sumMFractionS = sum(MFractionS)
+    sumMFractionLatent = sum(MFractionLatent)
+    sumMFractionIncubation = sum(MFractionIncubation)
+    sumMFractionR = sum(MFractionR)
+    sumMFractionI = sum(MFractionI)
+    # adjust fractions
+    adjust_fractions!(MFractionS, sumMFractionS, pop.S)
+    adjust_fractions!(MFractionLatent, sumMFractionLatent, pop.latent)
+    adjust_fractions!(MFractionIncubation, sumMFractionIncubation, pop.incubation)
+    adjust_fractions!(MFractionI, sumMFractionI, pop.I)
+    adjust_fractions!(MFractionR, sumMFractionR, pop.R)
+    ## Migrate
+    pop.S -= sumMFractionS
+    pop.latent -= sumMFractionLatent
+    pop.incubation -= sumMFractionIncubation
+    pop.R -= sumMFractionR
+    pop.I -= sumMFractionI
     for nodeid2 in 1:nagents(model)
       node2 = model.agents[nodeid2]
-      node2.S += partoutS[node2.pos]
-      node2.latent += partoutLatent[node2.pos]
-      node2.incubation += partoutIncubation[node2.pos]
-      node2.R += partoutR[node2.pos]
-      node2.I += partoutI[node2.pos]        
+      node2.S += MFractionS[node2.pos]
+      node2.latent += MFractionLatent[node2.pos]
+      node2.incubation += MFractionIncubation[node2.pos]
+      node2.R += MFractionR[node2.pos]
+      node2.I += MFractionI[node2.pos]        
     end
   end
 end
