@@ -10,6 +10,7 @@ for sim in 1:nsims
   parameters = RobSIRs.load_params(
     bs=0.0:0.0001:1.0,
     ss=0.01:0.0001:1.0,
+    as=0.01:0.0001:1.0,
     dss=0.0:0.0001:1.0,
     dis=0.001:0.0001:1.0,
     drs=0.0:0.0001:1.0,
