@@ -31,15 +31,15 @@ end
 """
 function update!(pop::Pop, model::ABM)
   Splus = pop.s * pop.R
-  Splus > pop.R && (Splus = pop.R)
-  latentPlus = pop.b * pop.S
+  # Splus > pop.R && (Splus = pop.R)
+  latentPlus = pop.b * pop.I
   latentPlus > pop.S && (latentPlus = pop.S)
   incubationPlus = pop.e * pop.latent
-  incubationPlus > pop.latent && (incubationPlus = pop.latent)
+  # incubationPlus > pop.latent && (incubationPlus = pop.latent)
   Iplus = pop.i * pop.incubation
-  Iplus > pop.incubation && (Iplus = pop.incubation)
+  # Iplus > pop.incubation && (Iplus = pop.incubation)
   Rplus = pop.a * pop.I
-  Rplus > pop.I && (Rplus = pop.I)
+  # Rplus > pop.I && (Rplus = pop.I)
   DS = pop.ds * pop.S
   DLatent = pop.dlat * pop.latent
   DIncubation = pop.dinc * pop.incubation
