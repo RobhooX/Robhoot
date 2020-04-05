@@ -17,42 +17,42 @@ parameters = RobSIRs.load_params(
   datadir=datadir);
 
 model = create_model(parameters=parameters);
-data = step!(model, agent_step!, 10, [:I, :R, :D, :country]);
+data = step!(model, agent_step!, 50, [:pos, :I, :R, :D]);
 
-p = results_df |> @vlplot() +
+p = data |> @vlplot() +
 [@vlplot(
   mark = :line,
-  x = :time,
-  y = {:infected,
+  x = :step,
+  y = {:I,
     axis = {
       title = "Number of infected"
     }
   },
-  color = {:location,
+  color = {:pos,
     legend = false
   }
 );
 @vlplot(
   mark = :line,
-  x = :time,
-  y = {:dead,
+  x = :step,
+  y = {:D,
     axis = {
       title = "Number of death"
     }
   },
-  color = {:location,
+  color = {:pos,
     legend = false
   }
 );
 @vlplot(
   mark = :line,
-  x = :time,
-  y = {:recovered,
+  x = :step,
+  y = {:R,
     axis = {
       title = "Number of recovered"
     }
   },
-  color = {:location,
+  color = {:pos,
     legend = false
   }
 )]

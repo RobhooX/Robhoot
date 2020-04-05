@@ -1,88 +1,113 @@
 export create_model, agent_step!
 
-mutable struct Node <: AbstractAgent
+mutable struct Pop <: AbstractAgent
   id::Int
-  pos::Int
-  countryID::Int
-  S::Float64
-  I::Float64
-  R::Float64
-  D::Float64
-  days_infected::Int64
-  b::Float64
-  s::Float64
-  a::Float64
-  ds::Float64
-  di::Float64
-  dr::Float64
+  pos::Int  # same as countryID
+  age_group::Int
+  S::Float64  # Susceptible
+  latent::Float64
+  incubation::Float64
+  I::Float64  # Infected
+  R::Float64  # Recovered
+  D::Float64  # Dead
+  b::Float64  # S to latent rate
+  s::Float64  # R to S rate
+  a::Float64  # I to R rate
+  e::Float64  # latent to incubation rate
+  i::Float64  # incubation to infected rate
+  ds::Float64  # S death rate
+  dlat::Float64  # latent death rate
+  dinc::Float64  # incubation death rate
+  di::Float64  # I death rate
+  dr::Float64  # R death rate
 end
 
-function update!(node::Node, model::ABM)
-  I1 = node.b * node.I
-  I1 > node.S && (I1 = node.S)
-  S1 = node.s * node.R
-  S1 > node.R && (S1 = node.R)
-  R1 = node.a * node.I
-  R1 > node.I && (R1 = node.I)
-  DS = node.ds * node.S
-  DI = node.di * node.I
-  DR = node.dr * node.R
-  tempS = node.S + S1 - I1 - DS
-  tempI = node.I + I1 - R1 - DI
-  tempR = node.R + R1 - S1 - DR
+"""
+* S = S + sR - b(S) - dsS
+* latent = (latent) + b(S) - e(latent) - dlat(latent)
+* incubation = (incubation) + e(latent) - i(incubation) - dinc(incubation)
+* I = I + i(incubation) - aI - diI
+* R = R + aI - sR - drR
+"""
+function update!(pop::Pop, model::ABM)
+  Splus = pop.s * pop.R
+  # Splus > pop.R && (Splus = pop.R)
+  latentPlus = pop.b * pop.S
+  # latentPlus > pop.S && (latentPlus = pop.S)
+  incubationPlus = pop.e * pop.latent
+  # incubationPlus > pop.latent && (incubationPlus = pop.latent)
+  Iplus = pop.i * pop.incubation
+  # Iplus > pop.incubation && (Iplus = pop.incubation)
+  Rplus = pop.a * pop.I
+  # Rplus > pop.I && (Rplus = pop.I)
+  DS = pop.ds * pop.S
+  DLatent = pop.dlat * pop.latent
+  DIncubation = pop.dinc * pop.incubation
+  DI = pop.di * pop.I
+  DR = pop.dr * pop.R
+  tempS = pop.S + Splus - latentPlus - DS
+  tempLatent = pop.latent + latentPlus - incubationPlus - DLatent
+  tempIncubation = pop.incubation + incubationPlus - Iplus - DIncubation
+  tempI = pop.I + Iplus - Rplus - DI
+  tempR = pop.R + Rplus - Splus - DR
   tempS < 0 && (tempS = 0)
+  tempLatent < 0 && (tempLatent = 0)
+  tempIncubation < 0 && (tempIncubation = 0)
   tempI < 0 && (tempI = 0)
   tempR < 0 && (tempR = 0)
-  node.D = DS + DI + DR
-  node.S, node.I, node.R = tempS, tempI, tempR
+  pop.D = DS + DI + DR
+  pop.S, pop.latent, pop.incubation, pop.I, pop.R = tempS, tempLatent, tempIncubation, tempI, tempR
 end
 
-# transfer between nodes in the same location
-function update!(model)
-    
+function population_size(pop::Pop)
+  pop.S + pop.latent + pop.incubation + pop.I + pop.R
 end
 
-function population_size(node::Node)
-  node.S + node.I + node.R
-end
-
-function migrate!(node, model)
-  nodeN = population_size(node)
+function migrate!(pop, model)
+  nodeN = population_size(pop)
   if nodeN > 0
-    relS, relR, relI = node.S/nodeN, node.R/nodeN, node.I/nodeN
-    n_out = rand.(model.properties[:m][node.countryID, :])
-    partoutS, partoutI, partoutR = (n_out*relS, n_out*relI, n_out*relR)
+    relS, relLatent, relIncubation, relR, relI = pop.S/nodeN, pop.latent/nodeN, pop.incubation/nodeN, pop.R/nodeN, pop.I/nodeN
+    n_out = rand.(model.properties[:m][pop.pos, :])
+    partoutS, partoutLatent, partoutIncubation, partoutI, partoutR = (n_out*relS, n_out*relLatent, n_out*relIncubation, n_out*relI, n_out*relR)
     # No migrations more than population size at source
     sumpartoutS = sum(partoutS)
+    sumpartoutLatent = sum(partoutLatent)
+    sumpartoutIncubation = sum(partoutIncubation)
     sumpartoutR = sum(partoutR)
     sumpartoutI = sum(partoutI)
-    sumpartoutS > node.S && (partoutS .*= node.S/sumpartoutS)
-    sumpartoutR > node.R && (partoutR .*= node.R/sumpartoutR)
-    sumpartoutI > node.I && (partoutI .*= node.I/sumpartoutI)
+    sumpartoutS > pop.S && (partoutS .*= pop.S/sumpartoutS)
+    sumpartoutLatent > pop.latent && (partoutLatent .*= pop.latent/sumpartoutLatent)
+    sumpartoutIncubation > pop.incubation && (partoutIncubation .*= pop.incubation/sumpartoutIncubation)
+    sumpartoutR > pop.R && (partoutR .*= pop.R/sumpartoutR)
+    sumpartoutI > pop.I && (partoutI .*= pop.I/sumpartoutI)
     # Migrations
-    node.S -= sumpartoutS
-    node.R -= sumpartoutR
-    node.I -= sumpartoutI
+    pop.S -= sumpartoutS
+    pop.latent -= sumpartoutLatent
+    pop.incubation -= sumpartoutIncubation
+    pop.R -= sumpartoutR
+    pop.I -= sumpartoutI
     for nodeid2 in 1:nagents(model)
       node2 = model.agents[nodeid2]
-      node2.S += partoutS[node2.countryID]
-      node2.R += partoutR[node2.countryID]
-      node2.I += partoutI[node2.countryID]        
+      node2.S += partoutS[node2.pos]
+      node2.latent += partoutLatent[node2.pos]
+      node2.incubation += partoutIncubation[node2.pos]
+      node2.R += partoutR[node2.pos]
+      node2.I += partoutI[node2.pos]        
     end
   end
 end
 
-function agent_step!(node, model)
-  update!(node, model)
-  migrate!(node, model)
+function agent_step!(pop, model)
+  update!(pop, model)
+  migrate!(pop, model)
 end
 
 function create_model(;parameters)
   space = Space(complete_digraph(parameters[:C]))
-  model = ABM(Node, space, properties=parameters)
+  model = ABM(Pop, space, properties=parameters)
   for c in 1:parameters[:C]
-    node = Node(c, c, c, parameters[:Ss][c], parameters[:Is][c], parameters[:Rs][c], 0, 0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:dss][c], parameters[:dis][c], parameters[:drs][c])
-    add_agent!(node, model)
+    pop = Pop(c, c, 1, parameters[:Ss][c], parameters[:latents][c], parameters[:incubations][c], parameters[:Is][c], parameters[:Rs][c], 0.0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:es][c], parameters[:is][c], parameters[:dss][c], parameters[:dlats][c], parameters[:dincs][c], parameters[:dis][c], parameters[:drs][c])
+    add_agent!(pop, model)
   end
   return model
 end
