@@ -111,7 +111,7 @@ function create_model(;parameters)
   model = ABM(Pop, space, properties=parameters)
   for c in 1:parameters[:C]
     pop = Pop(c, c, 1, parameters[:Ss][c], parameters[:latents][c], parameters[:incubations][c], parameters[:Is][c], parameters[:Rs][c], 0.0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:es][c], parameters[:is][c], parameters[:dss][c], parameters[:dlats][c], parameters[:dincs][c], parameters[:dis][c], parameters[:drs][c])
-    add_agent!(pop, model)
+    add_agent!(pop, c, model)
   end
   return model
 end
