@@ -43,7 +43,7 @@ function migrate!(pop, model)
   nodeN = population_size(pop)
   if nodeN > 0
     relS, relR, relI = pop.S/nodeN, pop.R/nodeN, pop.I/nodeN
-    n_out = rand.(model.properties[:m][pop.id, :])
+    n_out = rand.(model.properties[:m][pop.pos, :])
     partoutS, partoutI, partoutR = (n_out*relS, n_out*relI, n_out*relR)
     # No migrations more than population size at source
     sumpartoutS = sum(partoutS)
@@ -69,7 +69,7 @@ function create_model(;parameters)
   model = ABM(Pop, space, properties=parameters)
   for c in 1:parameters[:C]
     pop = Pop(c, c, parameters[:Ss][c], parameters[:Is][c], parameters[:Rs][c], 0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:dss][c], parameters[:dis][c], parameters[:drs][c])
-    add_agent!(pop, model)
+    add_agent!(pop, c, model)
   end
   return model
 end
