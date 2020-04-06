@@ -6,16 +6,16 @@ datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 
 # Running a single simulation.
 parameters = RobSIRs.load_params(
-  bs=0.0:0.0001:0.99,  # min max of uniform distribution
-  ss=0.01:0.0001:0.99,
-  es=0.01:0.0001:0.99,
-  is=0.01:0.0001:0.99,
-  as=0.01:0.0001:0.99,
-  dss=0.0:0.0,
-  dincs=0.0:0.0,
-  dlats=0.0:0.0,
-  dis=0.001:0.0001:1.0,
-  drs=0.0:0.0,
+  bs=rand(0.0:0.0001:0.99, 196),  # min max of uniform distribution
+  ss=rand(0.01:0.0001:0.99, 196),
+  es=rand(0.01:0.0001:0.99, 196),
+  is=rand(0.01:0.0001:0.99, 196),
+  as=rand(0.01:0.0001:0.99, 196),
+  dss=rand(0.0:0.0, 196),
+  dincs=rand(0.0:0.0, 196),
+  dlats=rand(0.0:0.0, 196),
+  dis=rand(0.001:0.0001:0.99, 196),
+  drs=rand(0.0:0.0, 196),
   datadir=datadir);
 
 model = create_model(parameters=parameters);

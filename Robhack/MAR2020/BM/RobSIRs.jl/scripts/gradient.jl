@@ -1,5 +1,6 @@
 using RobSIRs
 using FiniteDifferences
+using Agents
 
 resultdir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\BM\\RobSIRs.jl\\results"
 datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
@@ -12,16 +13,20 @@ function cost(
   bs=rand(0.0:0.0001:1.0, 196),
   as=rand(0.0:0.0001:1.0, 196),
   ss=rand(0.01:0.0001:1.0, 196),
+  es=rand(0.01:0.0001:1.0, 196),
+  is=rand(0.01:0.0001:1.0, 196),
   dis=rand(0.001:0.0001:1.0, 196),
   )
 
   dss = fill(0.0, 196)
+  dlats = fill(0.0, 196)
+  dincs = fill(0.0, 196)
   drs = fill(0.0, 196)
-  parameters = RobSIRs.load_params(bs=bs, as=as, ss=ss, dss=dss, dis=dis,
-    drs=drs, datadir=datadir);
+  parameters = RobSIRs.load_params(bs=bs, as=as, es=es, is=is, ss=ss, dss=dss, dis=dis,
+    drs=drs, dincs=dincs, dlats=dlats, datadir=datadir);
 
-  model = create_model(parameters=parameters)
-  model, IRD_per_node = step!(model, timesteps);
+  model = create_model(parameters=parameters);
+  data = step!(model, agent_step!, 50, [:pos, :I, :R, :D]);
   country1I = [IRD_per_node[i][1][12] for i in 1:timesteps+1]
   diff = sqrt(sum((country1I .- traj).^2))
   return diff
