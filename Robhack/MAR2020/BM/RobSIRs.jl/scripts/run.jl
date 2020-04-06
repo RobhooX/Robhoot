@@ -5,6 +5,8 @@ using CSV
 using JLD2
 using FileIO
 
+datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
+
 # Running a single simulation.
 parameters = RobSIRs.load_params(
   bs=0.0:0.0001:1.0,  # min max of uniform distribution
@@ -13,7 +15,7 @@ parameters = RobSIRs.load_params(
   dss=0.0:0.0001:1.0,
   dis=0.001:0.0001:1.0,
   drs=0.0:0.0001:1.0,
-  datadir="../../DI/data/transformed_data");
+  datadir=datadir);
 
 model = create_model(parameters=parameters);
 data = step!(model, agent_step!, 50, [:I, :R, :D, :pos]);
