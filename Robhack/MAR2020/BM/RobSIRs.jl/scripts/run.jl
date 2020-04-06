@@ -1,9 +1,6 @@
 using RobSIRs
 using Agents
 using VegaLite
-using CSV
-using JLD2
-using FileIO
 
 datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 
