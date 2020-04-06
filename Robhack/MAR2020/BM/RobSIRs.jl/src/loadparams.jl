@@ -50,7 +50,8 @@ function random_params(;C=200)
   return parameters
 end
 
-function load_params(datadir="..\\..\\DI\\data\\transformed_data")
+function load_params(;bs=0.0:0.0001:1.0, ss=0.01:0.0001:1.0, as= 0.01:0.0001:1.0, es=0.01:0.0001:1.0, is=0.01:0.0001:1.0, dss=0.0:0.0001:1.0, dlats=0.0:0.0001:1.0, dincs=0.0:0.0001:1.0, dis=0.001:0.0001:1.0, drs=0.0:0.0001:1.0,
+  datadir="..\\..\\DI\\data\\transformed_data")
   mobility, mobnames = RobSIRs.read_mobility(joinpath(datadir, "mobility.csv"))
   pop, popnames = RobSIRs.read_population(joinpath(datadir, "population.csv"))
 
@@ -76,8 +77,10 @@ function load_params(datadir="..\\..\\DI\\data\\transformed_data")
   Ns = pop[popindices]
   C = length(Ns)
   Ss = Ns
-  chinaindex = findfirst(x->x=="CHN",  popnames)  # BUG this doesn't work correctly.
+  chinaindex = findfirst(x->x=="CHN",  popnames[popindices])
   Ss[chinaindex] -= 10
+  latents = zeros(Int, C)
+  incubations = zeros(Int, C)
   Is = zeros(Int, C)
   Is[chinaindex] += 10
   Rs = zeros(Int, C)
@@ -87,6 +90,6 @@ function load_params(datadir="..\\..\\DI\\data\\transformed_data")
       popmat[c1, c2] = round(Int, Ns[c1])
     end
   end
-  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :Is=>Is, :Rs=>Rs, :bs=>repeat([0.8], C), :ss=>repeat([0.01], C), :as=>rand(C), :dss=>repeat([0.001], C), :dis=>repeat([0.01], C), :drs =>repeat([0.001], C))
+  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :latents => latents, :incubations => incubations, :Is=>Is, :Rs=>Rs, :bs=>rand(bs, C), :ss=>rand(ss, C), :as=>rand(as, C), :es => rand(es, C), :is => rand(is, C), :dss=>rand(dss, C), :dis=>rand(dis, C), :drs =>rand(drs, C), :dlats => rand(dlats, C), :dincs => rand(dincs, C))
   return parameters
 end
