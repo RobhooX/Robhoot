@@ -49,9 +49,9 @@ function migrate!(pop, model)
     sumpartoutS = sum(partoutS)
     sumpartoutR = sum(partoutR)
     sumpartoutI = sum(partoutI)
-    sumpartoutS > pop.S && (partoutS .*= pop.S/sumpartoutS)
-    sumpartoutR > pop.R && (partoutR .*= pop.R/sumpartoutR)
-    sumpartoutI > pop.I && (partoutI .*= pop.I/sumpartoutI)
+    sumpartoutS > pop.S && (partoutS .*= pop.S/sumpartoutS; sumpartoutS = sum(partoutS))
+    sumpartoutR > pop.R && (partoutR .*= pop.R/sumpartoutR; sumpartoutR = sum(partoutR))
+    sumpartoutI > pop.I && (partoutI .*= pop.I/sumpartoutI; sumpartoutI = sum(partoutI))
     # Migrations
     pop.S -= sumpartoutS
     pop.R -= sumpartoutR
