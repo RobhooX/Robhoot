@@ -1,6 +1,7 @@
 module RobSIRs
 
 using Distributions
+using Agents
 using LinearAlgebra: diagind
 using StatsBase: weights
 using DelimitedFiles

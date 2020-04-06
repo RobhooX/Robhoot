@@ -1,7 +1,7 @@
 using RobSIRs
+using Agents
 using VegaLite
 using CSV
-using FilePathsBase
 using JLD2
 using FileIO
 
@@ -15,46 +15,44 @@ parameters = RobSIRs.load_params(
   drs=0.0:0.0001:1.0,
   datadir="../../DI/data/transformed_data");
 
-model = create_model(parameters=parameters)
-model, IRD_per_node = step!(model, 50);
+model = create_model(parameters=parameters);
+data = step!(model, agent_step!, 50, [:I, :R, :D, :pos]);
 
 # plot
-results_df = RobSIRs.cases2df(model, IRD_per_node, datadir="..\\..\\DI\\data\\transformed_data");
-
-p = results_df |> @vlplot() +
+p = data |> @vlplot() +
 [@vlplot(
   mark = :line,
-  x = :time,
-  y = {:infected,
+  x = "step:o",
+  y = {:I,
     axis = {
       title = "Number of infected"
     }
   },
-  color = {:location,
+  color = {"pos:n",
     legend = false
   }
 );
 @vlplot(
   mark = :line,
-  x = :time,
-  y = {:dead,
+  x = "step:o",
+  y = {:D,
     axis = {
       title = "Number of death"
     }
   },
-  color = {:location,
+  color = {"pos:n",
     legend = false
   }
 );
 @vlplot(
   mark = :line,
-  x = :time,
-  y = {:recovered,
+  x = "step:o",
+  y = {:R,
     axis = {
       title = "Number of recovered"
     }
   },
-  color = {:location,
+  color = {"pos:n",
     legend = false
   }
 )]
