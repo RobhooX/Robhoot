@@ -1,0 +1,146 @@
+\documentclass[border=9pt]{standalone}%{article}
+%\usepackage[margin=1cm]{geometry}
+\usepackage{pgfgantt}
+\usepackage{graphicx}
+\usepackage{xcolor}
+%\usetikzlibrary{positioning}
+
+\ganttset{group/.append style={orange},
+  milestone/.append style={green},progress label node anchor/.append style={text=green},
+  report/.append style={green},progress label node anchor/.append style={text=green}}
+
+\begin{document}
+\begin{ganttchart}[%Specs
+     y unit title=0.5cm,
+     y unit chart=0.5cm,
+     vgrid,hgrid,
+     title height=1,
+%     title/.style={fill=none},
+     title label font=\bfseries\footnotesize,
+     bar/.style={fill=blue},
+     bar height=0.75,
+%   progress label text={},
+     group right shift=0,
+     group top shift=0.7,
+     group height=.4,
+     %bar/.style={fill=green},
+     group peaks width={0.3},
+     inline]{1}{42}
+    %labels
+    \gantttitle{Years}{42}\\  % title 1
+    \gantttitle[]{2021}{12}                 % title 2
+    \gantttitle[]{2022}{12}   
+    \gantttitle[]{2023}{12}
+    \gantttitle[]{2024}{6}
+    \gantttitle[]{}{0}\\                 % title 2
+
+    \gantttitle{Q1}{3}
+    \gantttitle{Q2}{3}
+    \gantttitle{Q3}{3}
+    \gantttitle{Q4}{3}
+    
+    \gantttitle{Q1}{3} 
+    \gantttitle{Q2}{3}
+    \gantttitle{Q3}{3}                      % title 3
+    \gantttitle{Q4}{3}
+    
+    \gantttitle{Q1}{3}
+    \gantttitle{Q2}{3}
+    \gantttitle{Q3}{3}
+    \gantttitle{Q4}{3}
+    
+    \gantttitle{Q1}{3}                      % title 3
+    \gantttitle{Q2}{3}
+
+    \\
+
+    % Setting group if any
+    %logistic  
+    \ganttbar[inline=false]{Team and staff hiring}{1}{2}\\
+    \ganttmilestone[inline=false]{Synchronized teams}{2}\\
+    \ganttbar[progress=5,inline=false]{Project progress}{1}{42}\\
+
+    %obj 1
+    \ganttgroup[inline=false]{O1: \bf $\mathcal{ROBHOOT}$ v.1.0}{3}{18}\\ 
+    \ganttbar[inline=false]{{\bf WP1: APIDIS}}{3}{14} \\%\API discovery
+    %\ganttlinkedbar{Task 2}{3}{7} \ganttnewline
+    \ganttmilestone[inline=false]{{\bf WP1 deadline}}{14} \ganttnewline
+    
+     \ganttbar[inline=false]{{\bf WP2: QKGs}}{5}{16} \\%\Data knowledge graph  (contrast highly-accurate data with automated downloaded data: Covid-19 as a case study)   
+     \ganttmilestone[inline=false]{{\bf WP2 deadline}}{16} \ganttnewline
+     % \ganttbar[inline=false]{}{8}{17} \ganttnewline
+     
+     %\ganttmilestone[inline=false]{{\bf WP3: QUGs}: }{17} \\
+
+     \ganttbar[inline=false]{{\bf WP3: DKGs}}{6}{17} \\%question knowledge graph (corpus extraction algorithms)
+     \ganttmilestone[inline=false]{{\bf WP3 deadline}}{17} \ganttnewline
+
+     \ganttbar[inline=false]{{\bf WP4: Case Study}}{7}{18} \\%Case study connecting Q- and D-KGs
+     \ganttmilestone[inline=false]{{\bf WP4 deadline}}{18} \ganttnewline
+
+      \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{RP1}}}{18}{18}\\
+ 
+     \ganttbar[progress=25,inline=false]{Project progress}{1}{42}\\
+     %\ganttbar[inline=false]{\bf{RP1}}{19}{19}\\
+
+     %\ganttlink{elem5}{elem8}
+     %\ganttlink{elem7}{elem8}
+     %\ganttlink{elem9}{elem10}
+     
+     %\ganttlink{elem8}{elem9}
+     %\ganttlink{elem9}{elem10}
+     
+     
+    % obj 2
+     \ganttgroup[inline=false]{O2: \bf $\mathcal{ROBHOOT}$ v.2.0}{3}{22}\\
+
+     \ganttbar[inline=false]{{\bf WP5: BSNM}}{3}{16} \\%\Bayesian Spiking Neurons Model
+     \ganttmilestone[inline=false]{{\bf WP5 deadline}}{16} \ganttnewline
+    
+     \ganttbar[inline=false]{{\bf WP6: BSM}}{4}{17} \\%\Bayesian Space Models  
+     \ganttmilestone[inline=false]{{\bf WP6 deadline}}{17} \ganttnewline
+
+     \ganttbar[inline=false]{{\bf WP7: DEEP}}{5}{18} \\%Deep knowledge or process-based learning networks:: Exploring paths :: Reproducible-Knowledge graphs
+     \ganttmilestone[inline=false]{{\bf WP7 deadline}}{18} \ganttnewline
+
+     \ganttbar[inline=false]{{\bf WP8: Case Study}}{6}{22} \\%
+     \ganttmilestone[inline=false]{{\bf WP8 deadline}}{22} \ganttnewline
+       
+     \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{RP2}}}{22}{22}\\
+
+     \ganttbar[progress=50,inline=false]{Project progress}{1}{42}\\
+     
+    % obj 3
+     \ganttgroup[inline=false]{O2: \bf $\mathcal{ROBHOOT}$ v.3.0}{14}{32}\\
+
+     \ganttbar[inline=false]{{\bf WP9: LSFN}}{16}{29} \\%Learning small federated network
+     \ganttmilestone[inline=false]{{\bf WP9 deadline}}{29} \ganttnewline
+    
+     \ganttbar[inline=false]{{\bf WP10: LLFN}}{17}{30} \\%\Learning large federated network  
+     \ganttmilestone[inline=false]{{\bf WP10 deadline}}{30} \ganttnewline
+
+     \ganttbar[inline=false]{{\bf WP11: }}{18}{31} \\
+     \ganttmilestone[inline=false]{{\bf WP11 deadline}}{31} \ganttnewline
+
+     \ganttbar[inline=false]{{\bf WP12: Case Study}}{18}{32} \\
+     \ganttmilestone[inline=false]{{\bf WP12 deadline}}{32} \ganttnewline
+ 
+      
+     \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{RP3}}}{32}{32}\\
+     \ganttbar[progress=75,inline=false]{Project progress}{1}{42}\\
+
+     % obj 4
+    \ganttgroup[inline=false]{O4: \bf $\mathcal{ROBHOOT}$ v.4.0}{28}{42}\\ 
+    
+    \ganttbar[inline=false]{\bf WP13: RDFN Testnet}{28}{38}\\
+    \ganttmilestone[inline=false]{{\bf WP13 deadline}}{36}\\  
+
+    \ganttbar[inline=false]{\bf WP14: RDFN Mainnet}{36}{42}\\
+    \ganttmilestone[inline=false]{{\bf WP14 deadline}}{42}\\  
+
+    \ganttbar[inline=false]{\bf{RP4}}{42}{42}\\
+     \ganttbar[progress=100,inline=false]{Project progress}{1}{42}\\
+
+\end{ganttchart}
+
+\end{document}
