@@ -55,7 +55,7 @@ function update!(pop::Pop, model::ABM)
   tempIncubation < 0 && (tempIncubation = 0)
   tempI < 0 && (tempI = 0)
   tempR < 0 && (tempR = 0)
-  pop.D = DS + +DLatent + DIncubation + DI + DR
+  pop.D = DS + DLatent + DIncubation + DI + DR
   pop.S, pop.latent, pop.incubation, pop.I, pop.R = tempS, tempLatent, tempIncubation, tempI, tempR
 end
 
@@ -63,7 +63,14 @@ function population_size(pop::Pop)
   pop.S + pop.latent + pop.incubation + pop.I + pop.R
 end
 
-adjust_fractions!(MFraction, sumMFraction, available) = sumMFraction > available && (MFraction .*= available/sumMFraction)
+function adjust_fractions!(MFraction, sumMFraction, available)
+  if sumMFraction > available 
+    (MFraction .*= available/sumMFraction)
+    return sumMFraction = sum(MFraction)
+  else
+    return sumMFraction
+  end
+end
 
 function migrate!(pop, model)
   nodeN = population_size(pop)
@@ -79,11 +86,11 @@ function migrate!(pop, model)
     sumMFractionR = sum(MFractionR)
     sumMFractionI = sum(MFractionI)
     # adjust fractions
-    adjust_fractions!(MFractionS, sumMFractionS, pop.S)
-    adjust_fractions!(MFractionLatent, sumMFractionLatent, pop.latent)
-    adjust_fractions!(MFractionIncubation, sumMFractionIncubation, pop.incubation)
-    adjust_fractions!(MFractionI, sumMFractionI, pop.I)
-    adjust_fractions!(MFractionR, sumMFractionR, pop.R)
+    sumMFractionS = adjust_fractions!(MFractionS, sumMFractionS, pop.S)
+    sumMFractionLatent = adjust_fractions!(MFractionLatent, sumMFractionLatent, pop.latent)
+    sumMFractionIncubation = adjust_fractions!(MFractionIncubation, sumMFractionIncubation, pop.incubation)
+    sumMFractionI = adjust_fractions!(MFractionI, sumMFractionI, pop.I)
+    sumMFractionR = adjust_fractions!(MFractionR, sumMFractionR, pop.R)
     ## Migrate
     pop.S -= sumMFractionS
     pop.latent -= sumMFractionLatent

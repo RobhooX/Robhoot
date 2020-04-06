@@ -7,7 +7,7 @@ using JLD2
 using FileIO
 
 # Running a single simulation.
-datadir = "../../DI/data/transformed_data"
+datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 parameters = RobSIRs.load_params(
   bs=0.0:0.0001:0.99,  # min max of uniform distribution
   ss=0.01:0.0001:0.99,
@@ -27,7 +27,7 @@ data = step!(model, agent_step!, 50, [:pos, :I, :R, :D]);
 p = data |> @vlplot() +
 [@vlplot(
   mark = :line,
-  x = :step,
+  x = "step:n",
   y = {:I,
     axis = {
       title = "Number of infected"
@@ -39,7 +39,7 @@ p = data |> @vlplot() +
 );
 @vlplot(
   mark = :line,
-  x = :step,
+  x = "step:n",
   y = {:D,
     axis = {
       title = "Number of death"
@@ -51,7 +51,7 @@ p = data |> @vlplot() +
 );
 @vlplot(
   mark = :line,
-  x = :step,
+  x = "step:n",
   y = {:R,
     axis = {
       title = "Number of recovered"
