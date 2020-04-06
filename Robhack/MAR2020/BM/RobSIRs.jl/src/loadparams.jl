@@ -69,8 +69,8 @@ function load_params(;bs, ss, as, es, is, dss, dlats, dincs, dis, drs,
   # calculate rate: number of travels/pop size
   for n1 in 1:size(migration_rates, 1)
     for n2 in 1:size(migration_rates, 2)
-      migration_rates[n1, n2] /= 365
-      # migration_rates[n1, n2] > 1 && (migration_rates[n1, n2] = 0.99)
+      migration_rates[n1, n2] /= (pop[n1] * 365)
+      migration_rates[n1, n2] > 1 && (migration_rates[n1, n2] = 0.99)
     end
   end
 

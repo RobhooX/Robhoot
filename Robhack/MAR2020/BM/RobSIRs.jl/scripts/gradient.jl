@@ -1,6 +1,8 @@
 using RobSIRs
 using FiniteDifferences
 using Agents
+using CSV
+using DataFrames
 
 resultdir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\BM\\RobSIRs.jl\\results"
 datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
@@ -26,26 +28,33 @@ function cost(
     drs=drs, dincs=dincs, dlats=dlats, datadir=datadir);
 
   model = create_model(parameters=parameters);
-  data = step!(model, agent_step!, 50, [:pos, :I, :R, :D]);
-  country1I = [IRD_per_node[i][1][12] for i in 1:timesteps+1]
+  data = step!(model, agent_step!, timesteps, [:pos, :I]);
+  country1I = view(data.I, data.pos .== 12)
   diff = sqrt(sum((country1I .- traj).^2))
   return diff
 end
 
 # initialize random parameters
 bs=rand(0.0:0.0001:1.0, 196);
+es=rand(0.0:0.0001:1.0, 196);
+is=rand(0.0:0.0001:1.0, 196);
 as=rand(0.0:0.0001:1.0, 196);
 ss=rand(0.01:0.0001:1.0, 196);
 dis=rand(0.001:0.0001:1.0, 196);
-cost(bs, as, ss, dis)
+cost(bs, as, ss, es, is, dis)
 
-for iter in 1:10
+α = 0.5
+for iter in 1:100
   # Take their gradients
-  grads = grad(central_fdm(5, 1), cost, bs, as, ss, dis)
+  grads = grad(backward_fdm(2, 1), cost, bs, as, ss, es, is, dis)
   # update params
-  α = 0.5
   bs .-= α*grads[1]
   as .-= α*grads[2]
   ss .-= α*grads[3]
-  dis .-= α*grads[4]
+  es .-= α*grads[4]
+  is .-= α*grads[5]
+  dis .-= α*grads[6]
 end
+
+params = DataFrame([as,bs,ss,es,is,dis], [:as, :bs, :ss, :es, :is, :dis])
+CSV.write("fitted_params.csv", params)
