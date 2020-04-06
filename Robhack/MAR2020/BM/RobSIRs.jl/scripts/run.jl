@@ -5,7 +5,6 @@ using VegaLite
 datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 
 # Running a single simulation.
-datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 parameters = RobSIRs.load_params(
   bs=0.0:0.0001:0.99,  # min max of uniform distribution
   ss=0.01:0.0001:0.99,
