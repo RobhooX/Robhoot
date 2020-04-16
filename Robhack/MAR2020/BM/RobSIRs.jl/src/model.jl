@@ -23,45 +23,43 @@ mutable struct Pop <: AbstractAgent
 end
 
 """
-* S = S + sR - b(S) - dsS
-* latent = (latent) + b(S) - e(latent) - dlat(latent)
-* incubation = (incubation) + e(latent) - i(incubation) - dinc(incubation)
-* I = I + i(incubation) - aI - diI
-* R = R + aI - sR - drR
+* S = S + sR - b(S) - (ds)S
+* latent = (latent) + b(S) - e(latent) - (dlat)(latent)
+* incubation = (incubation) + e(latent) - i(incubation) - (dinc)(incubation)
+* I = I + i(incubation) - aI - (di)I
+* R = R + aI - sR - (dr)R
 """
 function update!(pop::Pop, model::ABM)
   Splus = pop.s * pop.R
-  # Splus > pop.R && (Splus = pop.R)
   latentPlus = pop.b * pop.I
   latentPlus > pop.S && (latentPlus = pop.S)
   incubationPlus = pop.e * pop.latent
-  # incubationPlus > pop.latent && (incubationPlus = pop.latent)
   Iplus = pop.i * pop.incubation
-  # Iplus > pop.incubation && (Iplus = pop.incubation)
   Rplus = pop.a * pop.I
-  # Rplus > pop.I && (Rplus = pop.I)
+
   DS = pop.ds * pop.S
   DLatent = pop.dlat * pop.latent
   DIncubation = pop.dinc * pop.incubation
   DI = pop.di * pop.I
   DR = pop.dr * pop.R
+  
   tempS = pop.S + Splus - latentPlus - DS
   tempLatent = pop.latent + latentPlus - incubationPlus - DLatent
   tempIncubation = pop.incubation + incubationPlus - Iplus - DIncubation
   tempI = pop.I + Iplus - Rplus - DI
   tempR = pop.R + Rplus - Splus - DR
+
   tempS < 0 && (tempS = 0)
   tempLatent < 0 && (tempLatent = 0)
   tempIncubation < 0 && (tempIncubation = 0)
   tempI < 0 && (tempI = 0)
   tempR < 0 && (tempR = 0)
+  
   pop.D = DS + DLatent + DIncubation + DI + DR
   pop.S, pop.latent, pop.incubation, pop.I, pop.R = tempS, tempLatent, tempIncubation, tempI, tempR
 end
 
-function population_size(pop::Pop)
-  pop.S + pop.latent + pop.incubation + pop.I + pop.R
-end
+population_size(pop::Pop) = pop.S + pop.latent + pop.incubation + pop.I + pop.R
 
 function adjust_fractions!(MFraction, sumMFraction, available)
   if sumMFraction > available 
