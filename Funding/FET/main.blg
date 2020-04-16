@@ -4,55 +4,53 @@ The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: Robhoot.bib.bib
 Warning--empty journal in Gunther2018
-Warning--there's a number but no volume in Golem2016
-Warning--empty journal in Durov2017
-Warning--empty journal in OceanProtocolFoundation2018
-Warning--there's a number but no volume in BigchainDBGmbH2018
-Warning--empty year in Reichstein
-Warning--empty year in Reichstein
-Warning--empty institution in Gil2019
-Warning--empty journal in Steinruecken
-Warning--empty year in Steinruecken
-Warning--empty year in Steinruecken
-You've used 16 entries,
+Warning--empty booktitle in Steinruecken
+Warning--empty publisher in Steinruecken
+Warning--empty year in Modulos
+Warning--empty year in GoogleAI
+Warning--empty year in IrisAI
+Warning--empty year in easeml
+Warning--empty year in datarobot
+Warning--empty year in aito
+You've used 14 entries,
             2481 wiz_defined-function locations,
-            686 strings with 9407 characters,
-and the built_in function-call counts, 8249 in all, are:
-= -- 589
-> -- 708
-< -- 11
-+ -- 256
-- -- 224
-* -- 800
-:= -- 1464
-add.period$ -- 74
-call.type$ -- 16
-change.case$ -- 33
-chr.to.int$ -- 16
-cite$ -- 27
-duplicate$ -- 314
-empty$ -- 556
-format.name$ -- 244
-if$ -- 1630
+            648 strings with 6911 characters,
+and the built_in function-call counts, 5259 in all, are:
+= -- 454
+> -- 254
+< -- 6
++ -- 106
+- -- 78
+* -- 449
+:= -- 799
+add.period$ -- 53
+call.type$ -- 14
+change.case$ -- 22
+chr.to.int$ -- 14
+cite$ -- 29
+duplicate$ -- 268
+empty$ -- 471
+format.name$ -- 90
+if$ -- 1113
 int.to.chr$ -- 1
-int.to.str$ -- 17
-missing$ -- 15
-newline$ -- 114
-num.names$ -- 48
-pop$ -- 112
+int.to.str$ -- 15
+missing$ -- 8
+newline$ -- 88
+num.names$ -- 24
+pop$ -- 119
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 14
 quote$ -- 0
-skip$ -- 183
+skip$ -- 160
 stack$ -- 0
-substring$ -- 291
-swap$ -- 50
-text.length$ -- 3
+substring$ -- 223
+swap$ -- 54
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
-warning$ -- 11
-while$ -- 55
+type$ -- 98
+warning$ -- 9
+while$ -- 29
 width$ -- 0
-write$ -- 258
-(There were 11 warnings)
+write$ -- 194
+(There were 9 warnings)
