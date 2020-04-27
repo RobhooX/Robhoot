@@ -22,39 +22,15 @@ model = create_model(parameters=parameters);
 data = step!(model, agent_step!, 50, [:pos, :I, :R, :D]);
 
 p = data |> @vlplot() +
-[@vlplot(
-  mark = :line,
+[@vlplot(mark = :line,
   x = "step:n",
-  y = {:I,
-    axis = {
-      title = "Number of infected"
-    }
-  },
-  color = {"pos:n",
-    legend = false
-  }
-);
-@vlplot(
-  mark = :line,
+  y = {:I,axis = {title = "Number of infected"}},
+  color = {"pos:n",legend = false});
+@vlplot(mark = :line,
   x = "step:n",
-  y = {:D,
-    axis = {
-      title = "Number of death"
-    }
-  },
-  color = {"pos:n",
-    legend = false
-  }
-);
-@vlplot(
-  mark = :line,
+  y = {:D, axis = {title = "Number of death"}},
+  color = {"pos:n", legend = false});
+@vlplot(mark = :line,
   x = "step:n",
-  y = {:R,
-    axis = {
-      title = "Number of recovered"
-    }
-  },
-  color = {"pos:n",
-    legend = false
-  }
-)]
+  y = {:R, axis = {title = "Number of recovered"}},
+  color = {"pos:n", legend = false})]
