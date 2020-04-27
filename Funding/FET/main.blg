@@ -3,7 +3,10 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: Robhoot.bib.bib
+Warning--empty journal in Dilley2016
 Warning--empty journal in Gunther2018
+Warning--empty journal in Mehrabi2019
+Warning--empty journal in Real2020
 Warning--empty booktitle in Steinruecken
 Warning--empty publisher in Steinruecken
 Warning--empty year in Modulos
@@ -12,45 +15,59 @@ Warning--empty year in IrisAI
 Warning--empty year in easeml
 Warning--empty year in datarobot
 Warning--empty year in aito
-You've used 14 entries,
+Warning--empty year in Openstreetmap
+Warning--empty year in Bluecloud
+Warning--empty year in HOT
+Warning--empty year in Elixir
+Warning--empty year in APISGURU
+Warning--empty year in OpenKnowledgeFoundation
+Warning--empty journal in Gil2019
+Warning--empty journal in Cranmer2019
+Warning--empty year in Reichstein
+Warning--empty year in Reichstein
+Warning--there's a number but no volume in Golem2016
+Warning--empty journal in Durov2017
+Warning--empty journal in OceanProtocolFoundation2018
+Warning--there's a number but no volume in BigchainDBGmbH2018
+You've used 39 entries,
             2481 wiz_defined-function locations,
-            648 strings with 6911 characters,
-and the built_in function-call counts, 5259 in all, are:
-= -- 454
-> -- 254
-< -- 6
-+ -- 106
-- -- 78
-* -- 449
-:= -- 799
-add.period$ -- 53
-call.type$ -- 14
-change.case$ -- 22
-chr.to.int$ -- 14
-cite$ -- 29
-duplicate$ -- 268
-empty$ -- 471
-format.name$ -- 90
-if$ -- 1113
-int.to.chr$ -- 1
-int.to.str$ -- 15
-missing$ -- 8
-newline$ -- 88
-num.names$ -- 24
-pop$ -- 119
+            819 strings with 12419 characters,
+and the built_in function-call counts, 15231 in all, are:
+= -- 1250
+> -- 911
+< -- 18
++ -- 361
+- -- 282
+* -- 1333
+:= -- 2447
+add.period$ -- 154
+call.type$ -- 39
+change.case$ -- 66
+chr.to.int$ -- 38
+cite$ -- 77
+duplicate$ -- 732
+empty$ -- 1271
+format.name$ -- 319
+if$ -- 3154
+int.to.chr$ -- 2
+int.to.str$ -- 40
+missing$ -- 27
+newline$ -- 239
+num.names$ -- 81
+pop$ -- 319
 preamble$ -- 1
-purify$ -- 14
+purify$ -- 39
 quote$ -- 0
-skip$ -- 160
+skip$ -- 426
 stack$ -- 0
-substring$ -- 223
-swap$ -- 54
-text.length$ -- 2
+substring$ -- 539
+swap$ -- 122
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 98
-warning$ -- 9
-while$ -- 29
+type$ -- 273
+warning$ -- 26
+while$ -- 92
 width$ -- 0
-write$ -- 194
-(There were 9 warnings)
+write$ -- 548
+(There were 26 warnings)
