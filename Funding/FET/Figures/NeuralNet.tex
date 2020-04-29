@@ -1,0 +1,86 @@
+%%http://ipfs-sec.stackexchange.cloudflare-ipfs.com/tex/A/question/40718.html
+\RequirePackage[dvipsnames]{xcolor}
+\documentclass[tikz]{standalone}
+\usetikzlibrary{calc,arrows}
+\begin{document}
+\begin{tikzpicture}
+
+%%Create a style for the arrows we are using
+\tikzset{normal arrow/.style={draw,-triangle 45}}
+
+%%Create the different coordinates to place layer 1 nodes
+\path (0,0) coordinate (l1n1) ++(0,-2) coordinate (l1n2) ++(0,-2) coordinate (l1n3) ++(0,-2) coordinate (l1n4) ++(0,-2) coordinate (l1n5) ++(0,-2) coordinate (l1n6) ++(0,-2) coordinate (l1n7) ++(0,-2) coordinate (l1n8) ++(0,-2) coordinate (l1n9);
+
+%%Create the different coordinates to place INPUT layer (xs)
+\foreach \i in {1,2,3,4,5,6,7,8,9}{ \path (l1n\i) ++(-5,1) coordinate (x\i); }
+
+%%Create the different coordinates to place Outputs
+\foreach \i in {1,2,3,4,5,6,7}{ \path (l1n\i) ++(8,-1) coordinate (o\i); }
+
+%%generate the second level top node points
+\path ($(l1n1)!.5!(l1n2)!5 cm!90:(l1n2)$) coordinate (l2n0);
+
+%%Create the different coordinates to place second layer nodes
+\path (l2n0) ++(0,-2) coordinate (l2n1) ++(0,-2) coordinate (l2n2) ++(0,-2) coordinate (l2n3) ++(0,-2) coordinate (l2n4) ++(0,-2) coordinate (l2n5) ++(0,-2) coordinate (l2n6) ++(0,-2) coordinate (l2n7);
+
+%%generate the position of last second level node point
+\path ($(l1n5)!.5!(l1n6)!3 cm!90:(l1n6)$) coordinate (l2nx);
+
+
+%%Place nodes
+\foreach \i in {0,1,2,3,4,5,6}{
+    \node[draw,circle] (cl2n\i) at (l2n\i) {\phantom{a}$\sigma_\i\phantom{a}$};
+}
+\foreach \i in {1,2,3,4,5,6,7,8}{
+    \node[draw,circle] (cl1n\i) at (l1n\i) {\phantom{a}$\sigma_{\directlua{tex.sprint(\i + 6)}}\phantom{a}$};
+}
+
+%%Label output nodes
+\node (lo1) at (o1) {build wind float};
+\node (lo2) at (o2) {build wind non-float};
+\node (lo2) at (o3) {vehic wind float};
+\node (lo3) at (o4) {vehic wind non-float};
+\node (lo4) at (o5) {containers};
+\node (lo5) at (o6) {tableware};
+\node (lo6) at (o7) {headlamps};
+
+%%Label input nodes
+\node (nx1) at (x1) {$RI$};
+\node (nx2) at (x2) {$Na$};
+\node (nx3) at (x3) {$Mg$};
+\node (nx4) at (x4) {$Al$};
+\node (nx5) at (x5) {$Si$}; 
+\node (nx6) at (x6) {$K$};
+\node (nx7) at (x7) {$Ca$};
+\node (nx8) at (x8) {$Ba$};
+\node (nx9) at (x9) {$Fe$};
+
+%%Drawing arrows 
+%%Transparent arrows between input and Layer1
+\foreach \i in {1,2,3,4,5,6,7,8,9}{
+    \foreach \j in {1,2,3,4,5,6,7,8}{
+        \path[normal arrow, Cyan, draw opacity=0.2] (nx\i) -- (cl1n\j);
+    }
+}
+
+%%Explicit arrows between Al and Layer1
+\foreach \i/\val in {1/4.8,2/-0.14,3/-6.75,4/4.07,5/-2.88,6/14.18,7/-12.79,8/-2.41}{ 
+    \newcommand\dosomecoolmath{\directlua{ x = 0.862679-(\i)*(-0.000529583) + ((-\i)^(2))*(-0.14934524) tex.sprint(x)}}
+    \path[normal arrow, draw opacity=0.5] (nx4) -- node[above=\dosomecoolmath em] {$\mathbf{w_{(x4)\directlua{tex.sprint(\i + 6)}} = \val}$} (cl1n\i);
+}
+
+%%Explicit arrows between Layer1 and Layer2
+\foreach \i/\val in {1/-0.199, 2/2.1155,3/-2.921,4/-7.29,5/-3.38,6/6.724,7/-2.56,8/4.470}{ 
+    \newcommand\dosomecoolmath{
+        \directlua{x = 8.862679-(\i)*(-0.000529583) + ((-\i)^(2))*(-0.22934524)
+        tex.sprint(x)}}
+        \path[normal arrow, draw opacity=0.7] (cl1n\i) -- node[above=\dosomecoolmath em] {$\mathbf{w_{(\directlua{tex.sprint(\i + 6)})4} = \val}$} (cl2n4);
+        \foreach \j in {0,1,2,3,5,6}{
+            \path[normal arrow, Cyan, draw opacity=0.2] (cl1n\i) -- (cl2n\j);
+        }
+}
+
+%Draw final threshold
+\path (o5) ++(0,-.5) coordinate (thres); \node (threshold) at (thres) {\fbox{$-3.617302530741029$}};
+\end{tikzpicture}
+\end{document}

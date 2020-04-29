@@ -24,7 +24,7 @@
 \usepackage[english]{babel} % English language hyphenation
 \usepackage{microtype} % Better typography
 \usepackage{amsmath,amsfonts,amsthm} % Math packages for equations
-\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
+\usepackage[svgnames]{xcolor,colortbl} % Enabling colors by their 'svgnames'
 \usepackage[hang, small, labelfont=bf, up, textfont=it]{caption} % Custom captions under/above tables and figures
 \usepackage{booktabs} % Horizontal rules in tables
 \usepackage{lastpage} % Used to determine the number of pages in the document (for "Page X of Total")
@@ -40,6 +40,16 @@
 \usepackage[sort,numbers]{natbib}
 \usepackage{fancyhdr}
 \usepackage{url}
+
+\definecolor{Gray}{gray}{0.85}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{LightPink}{rgb}{0.25,0.5,1}
+\definecolor{bubblegum}{rgb}{0.99, 0.76, 0.8}
+\definecolor{pastelpink}{rgb}{1.0, 0.82, 0.86}
+\definecolor{piggypink}{rgb}{0.99, 0.87, 0.85}
+\definecolor{pink}{rgb}{1, 0.5, 0.9}
+\definecolor{lightpink}{rgb}{1.0, 0.61, 0.76}
+
 % ----------------------------------------------------------------------------------------
 %	MARGINS AND SPACING
 %----------------------------------------------------------------------------------------
@@ -484,6 +494,48 @@ federated cooperation networks.
     section).}
 \end{itemize}
 
+Knowledge-inspired societies and governance will demand full research
+cycle transparency, reproducibility and interpretability to inform q
+complex social, environmental and technological problems. The need of
+transparency, reproducibility and interpretability brings many
+technical and functional challenges to our research proposal because
+obtaining robust knowledge from integrating many parts each containing
+its own set of methods can generate divergent, fragile and
+contradictory outcomes. {\bf $\mathcal{ROBHOOT}$} will have a modular
+and flexible structure following four main versions each divided in
+four work packages and milestones.
+
+\begin{comment}
+We will develop a flexible research method
+focusing more in the algorithmic robustness of the deep ledger
+knowledge network than in the development of robust automated
+knowledge generation. Our motivation will be to provide a first proof
+of concept of how the technology works: we will sample the KGs using
+different deep learning algorithms to estimate the uncertainty of the
+ruled-based inference obtained by fitting predictions to simulated
+data (Goal G1). Accounting for the uncertainties of each of the
+research stages when sampling the KGs comes from the many distinct
+paths within and across the layers in the research cycle (Figure
+1). We will test a variety of consensus algorithms to explore the
+degree of security, decentralization and scalability of the ledger
+knowledge network using the generated population of KGs (Goal
+G2). Despite our focus will be bias towards the side of the
+algorithmic robustness of the deep ledger knowledge network, we will
+develop a domain-specific case study, our Robhoot Open Network, to
+test the robustness of the rule-based inference obtained by fitting
+each of the generated KG to the empirical patterns (Goal G3). The high
+risk associated to robustly automate the full research cycle for
+producing immutable open knowledge is buffered to a great extend
+because the existing ecosystem of tested and reliable open-source
+tools: We will combine our own algorithms (i.e., data integration and
+deep learning algorithms for sampling and automating the KGs) with
+open-source tools like Renku, Fabric and gitchain. This open-ecosystem
+will allow us to have a flexible launching of a testnet to collect
+data to explore the security-scalability-decentralization patterns and
+the robustness of the generated KGs in the deep ledger knowledge
+network (Goal G4.)
+\end{comment}
+
 \section{Impact}
 
 \subsection{Expected impacts}
@@ -693,7 +745,7 @@ play a key role in knowledge-inspired societies. $\mathcal{ROBHOOT}$'s
 goals will be developed in four different stages with sixteen work
 packages and milestones and four main deliverables.
 
-\subsection{{\bf $\mathcal{ROBHOOT}$ v.1.0}: \\ Data Knowledge Graphs}
+\subsection{{\bf $\mathcal{ROBHOOT}$ v.1.0}: \\ Data-Knowledge Graphs}
 
 \begin{itemize}
       \item \textcolor{red}{Rapid API access to build
@@ -752,23 +804,27 @@ packages and milestones and four main deliverables.
  \begin{figure}[h!]
   %\centering
    \includegraphics[width=1\textwidth]{Figures/GanttChart.pdf} {\small
-     {\bf Figure 2: Roadmap}: {\bf $\mathcal{ROBHOOT}$ v.1.0} packages
-     and milestones one to four bring question- and data-knowledge
-     graphs into a global data-architecture map (Deliverable, {\bf
-       D1}). {\bf $\mathcal{ROBHOOT}$ v.2.0} packages and milestones
-     five to eight fussion automation and interpretable patterns into
-     causal-knowledge graphs (Deliverable, {\bf D2}). {\bf
-       $\mathcal{ROBHOOT}$ v.3.0} packages and milestones nine to
-     twelve connect shared discovery to federated networks
-     (Deliverable, {\bf D3}), and {\bf $\mathcal{ROBHOOT}$ v.4.0}
-     packages and milestones thirteen to sixteen bring automated
-     discovery-knowledge graphs in federated networks to close
-     knowledge-gaps in the rapidly emerging global sustainability
-     challenges (Deliverable, {\bf D4}).}
+     {\bf Figure 2: Roadmap}: Work package one, {\bf WP1}, introduces
+     Milestone one, {\bf $\mathcal{ROBHOOT}$ v.1.0} and deliverables
+     one to four ({\bf D1.1} to {\bf D1.4}) to bring question- and
+     data-knowledge graphs into a global data-architecture map. Work
+     package two, {\bf WP2}, introduces Milestone two, {\bf
+       $\mathcal{ROBHOOT}$ v.2.0} and deliverables five to eight ({\bf
+       D2.1} to {\bf D2.4}) to fussion automation and interpretable
+     patterns into discovery-knowledge graphs. Work package three,
+     {\bf WP3}, introduces Milestone three, {\bf $\mathcal{ROBHOOT}$
+       v.3.0} and deliverables nine to twelve ({\bf D3.1} to {\bf
+       D3.4}) to connect shared discovery-knowledge graphs to
+     federated networks. Work package four, {\bf WP4}, introduces
+     Milestone four, {\bf $\mathcal{ROBHOOT}$ v.4.0} and deliverables
+     thirteen to sixteen ({\bf D4.1} to {\bf D4.4}) to bring automated
+     discovery-knowledge graphs in federated networks to help closing
+     knowledge-gaps in rapidly emerging global sustainability
+     challenges.}
 \end{figure}
 
 
-\subsection{{\bf $\mathcal{ROBHOOT}$ v.2.0}: \\ Causal Knowledge Graphs}
+\subsection{{\bf $\mathcal{ROBHOOT}$ v.2.0}: \\ Causal-Knowledge Graphs}
 
   \begin{itemize}
   \item \textcolor{red}{Contrasting explainable biologically inspired
@@ -902,14 +958,14 @@ packages and milestone and a final deliverable for sharing discovery
 in networks: sharing question- and data-knowledge graphs, the
 data-architecture, in federated networks using reproducible-knowledge
 graphs. {\bf WP9 to WP11, Sharing data-architecture (SDN),
-  causal-knowledge graphs, and discovery-knowledge graphs in federated
-  networks (SCN), respectively}: These packages will explore
-scalability and security properties of sharing knowledge graphs using
-different topologies of federated networks. For example, there can be
-data-knowledge graphs belonging to specific categories of data but
-they might be integrated with different data types to gain global
-understanding of data-architecture (i.e., like letting people on
-different social networks follow each other). Despite the dramatic
+  causal-knowledge graphs (SCN), and discovery-knowledge graphs in
+  federated networks (SDCN), respectively}: These packages will
+explore scalability and security properties of sharing knowledge
+graphs using different topologies of federated networks. For example,
+there can be data-knowledge graphs belonging to specific categories of
+data but they might be integrated with different data types to gain
+global understanding of data-architecture (i.e., like letting people
+on different social networks follow each other). Despite the dramatic
 rise in global pandemics during the last decade (i.e., the SARS
 pandemic in 2003, to Avian Influenza in 2006, H1N1 in 2009, Ebola in
 2014, the appearance of the Zika virus in Latin America in 2015, and
@@ -920,7 +976,7 @@ of information to mitigate risks and enhance response efficiency with
 globally informed scenarios are particularly lacking
 \citep{Wilson2018}. The last work package of $\mathcal{ROBHOOT}$
 v.3.0, ({\bf WP12: Sharing discovery-knowledge graphs in federated
-  networks, COVID-19 as a case study (CODCAN)}), will deploy sharing
+  networks, COVID-19 as a case study (CODIN)}), will deploy sharing
 data-architecture and causal-knowledge graphs, the discovery-knowledge
 graphs, in federated networks for the COVID-19 case study.
 
@@ -971,9 +1027,10 @@ discovery-knowledge graphs from automatically and cooperatively
 generated knowledge graphs. The last work package of
 $\mathcal{ROBHOOT}$ v.4.0, {\bf WP16: Automated Cooperative
   Forecasting of Discovery-Knowledge Graphs for the COVID-19 case
-  study (COADIN)}, will deploy and share automatically generated
+  study (ACODIN)}, will deploy and share automatically generated
 discovery-knowledge graphs in federated networks for the COVID-19 case
-study to contrast cooperative forecasting under poulations of scenarios.
+study to contrast cooperative forecasting under poulations of
+scenarios.
 
  
 \begin{comment}
@@ -1150,6 +1207,84 @@ open, reproducible and immutable knowledge networks (Tables 1 and 2).
     layers and open-source software.}
 \end{comment}
 
+
+
+%Deliverable table  
+\begin{table}[h!]
+\begin{center}
+  \begin{tabular}{|m{2cm} || m{1.25cm} || m{1.75cm} || m{1.5cm} || m{2.4cm} || m{1.7cm} || m{1.15cm} || m{1.7cm}|}
+  \hline\hline
+  \rowcolor{lightpink!30}
+  {\bf $\mathcal{ROBHOOT}$ v.X.X} & {\bf Deliver. number} & {\bf Deliver. name} & {\bf WP number} & {\bf Name Lead} & {\bf Type} & {\bf Disem.} & {\bf Delivery date} \\
+  \hline\hline
+  \rowcolor{piggypink!20}
+  {\bf v.1.0} & {\bf D1.1} & APID & WP1 & NAME LEAD & OT & PU & 15 \\
+  \hline\hline
+  \rowcolor{piggypink!20}
+  {\bf v.1.0} & {\bf D1.2} & QKGs & WP1 & NAME LEAD & OT & PU  & 16 \\
+  \hline\hline
+   \rowcolor{piggypink!20}
+  {\bf v.1.0} & {\bf D1.3} & DKGs & WP1 & NAME LEAD & OT & PU  & 17 \\
+  \hline\hline
+  \rowcolor{piggypink!20}
+  {\bf v.1.0} & {\bf D1.4} & CODA & WP1 & NAME LEAD & R,OT,DEC & PU  & 18 \\
+    \hline\hline
+ \rowcolor{piggypink!40}
+  {\bf v.2.0} & {\bf D2.1} & CSN & WP2 & NAME LEAD & OT & PU & 17 \\
+  \hline\hline
+  \rowcolor{piggypink!40}
+  {\bf v.2.0} & {\bf D2.2} & CKGs & WP2 & NAME LEAD & OT & PU  & 19 \\
+  \hline\hline
+   \rowcolor{piggypink!40}
+  {\bf v.2.0} & {\bf D2.3} & BSM & WP2 & NAME LEAD & OT & PU  & 20 \\
+  \hline\hline
+  \rowcolor{piggypink!40}
+    {\bf v.2.0} & {\bf D2.4} & COCAU & WP2 & NAME LEAD & R,OT,DEC & PU & 22 \\
+    \hline\hline
+    \rowcolor{piggypink!60}
+  {\bf v.3.0} & {\bf D3.1} & SDN & WP3 & NAME LEAD & OT & PU  & 29 \\
+  \hline\hline
+  \rowcolor{piggypink!60}
+  {\bf v.3.0} & {\bf D3.2} & SCN & WP3 & NAME LEAD & OT & PU & 30 \\
+  \hline\hline
+   \rowcolor{piggypink!60}
+  {\bf v.3.0} & {\bf D3.3} & SDCN & WP3 & NAME LEAD & OT & PU & 32 \\
+  \hline\hline
+  \rowcolor{piggypink!60}
+  {\bf v.3.0} & {\bf D3.4} & CODIN & WP3 & NAME LEAD & R,OT,DEC & PU & 32 \\
+   \hline\hline
+    \rowcolor{piggypink!80}
+  {\bf v.4.0} & {\bf D4.1} & ADAN & WP4 & NAME LEAD & OT & PU & 35 \\
+  \hline\hline
+  \rowcolor{piggypink!80}
+  {\bf v.4.0} & {\bf D4.2} & ACAN & WP4 & NAME LEAD & OT & PU & 36 \\
+  \hline\hline
+   \rowcolor{piggypink!80}
+  {\bf v.4.0} & {\bf D4.3} & ADIN & WP4 & NAME LEAD & OT & PU & 37 \\
+  \hline\hline
+  \rowcolor{piggypink!80}
+  {\bf v.4.0} & {\bf D4.4} & ACODIN & WP4 & NAME LEAD & R,OT,DEC & PU & 42 \\
+\hline\hline
+  \end{tabular}
+\end{center} {{\bf Table 2: List of Deliverables}: {\bf
+    $\mathcal{ROBHOOT}$} contains four main work packages each
+  containing four deliverables: Milestone {\bf $\mathcal{ROBHOOT}$
+    v.1.0} span from Month 3 to 18. Deliverable {\bf D1.4 (CODA)}, the
+  global COVID-19 data-architecture depends on all the deliverables of
+  work package one ({\bf WP1}). Milestone {\bf $\mathcal{ROBHOOT}$
+    v.2.0} span from Month 3 to 22. Deliverable {\bf D2.4 (COCAU)},
+  interpretable causal-knowledge graphs at global scale for COVID-19
+  depends on all the deliverables of work package two ({\bf
+    WP2}). Milestone {\bf $\mathcal{ROBHOOT}$ v.3.0} span from Month
+  15 to 32. Deliverable {\bf D3.4 (CODIN)}, shared discovery-knowledge
+  graphs for the COVID-19 depends on all the deliverables of work
+  package three ({\bf WP3}).  Milestone {\bf $\mathcal{ROBHOOT}$
+    v.4.0} span from Month 21 to 42. Deliverable {\bf D4.4 (ACODIN)},
+  automated cooperative forecasting of discovery-knowledge graph for
+  the COVID-19 depends on all the deliverables of work package four
+  ({\bf WP4}).}
+\end{table}
+
   
 \subsection{Research methodology and work plan – Work packages,
   deliverables}
@@ -1260,8 +1395,9 @@ deliverables.
     (): The Robhoot Open Network (RON) for Biodiversity research}
 \end{comment}
   
-  \subsection{Management structure, milestones and procedures}
-  \begin{itemize}
+\subsection{Management structure, milestones and procedures}
+
+\begin{itemize}
   \item \textcolor{red}{Describe the organisational structure and the
       decision-making (including a list of milestones (table 3.2a))}
 \item \textcolor{red}{Explain why the organisational structure and
@@ -1272,10 +1408,44 @@ deliverables.
     achieved. Detail any risk mitigation measures. Please provide a
     table with critical risks identified and mitigating actions (table
     3.2b) and relate these to the milestones.}
-  \end{itemize}
+\end{itemize}
 
+%Milestone table  
+\begin{table}[h!]
+\begin{center}
+  \begin{tabular}{|m{1.75cm} || m{2.5cm} || m{2.5cm} || m{2.4cm} || m{6cm}|}
+   \hline\hline
+   \hline\hline
+  \rowcolor{lightpink!30}
+  {\bf Milestone number} & {\bf Milestone name} & {\bf Related work package(s)} & {\bf Due data (in months)} & {\bf Verification} \\
+  \hline\hline
+  \rowcolor{piggypink!20}
+  {\bf M1} & {\bf $\mathcal{ROBHOOT}$ v.1.0}  & WP1 & Months 3-18 & OS-Software,Paper/Conf. &
+  \hline\hline
+  \rowcolor{piggypink!40}
+  {\bf M2} & {\bf $\mathcal{ROBHOOT}$ v.2.0} & WP2 & Months 3-22 & OS-Software,Paper/Conf.,demo-website &
+  \hline\hline
+   \rowcolor{piggypink!60}
+  {\bf M3} & {\bf $\mathcal{ROBHOOT}$ v.3.0} & WP3 & Months 15-32 & OS-Software,Paper/Conf.,main-website &
+  \hline\hline
+  \rowcolor{piggypink!80}
+  \bf M4} & {\bf $\mathcal{ROBHOOT}$ v.4.0} & WP4 & Months 21-42 & OS-Software,Paper/Conf.,official website &
+  \hline\hline
+\hline\hline
+  \end{tabular}
+\end{center} {{\bf Table 3: List of Milestones}: {\bf
+    $\mathcal{ROBHOOT}$} contains four milestones: {\bf
+    $\mathcal{ROBHOOT}$ v.1.0} span from Month 3 to 18 to generate
+  Open-source Software and research paper and/or conference. {\bf
+    $\mathcal{ROBHOOT}$ v.2.0} span from Month 3 to 22 to generate
+  Open-source Software, research paper and/or conference and public
+  demo-website. {\bf $\mathcal{ROBHOOT}$ v.3.0} span from Month 15 to
+  32 to generate Open-source Software, research paper and/or
+  conference and main-website. {\bf $\mathcal{ROBHOOT}$ v.4.0} span
+  from Month 21 to 42 to generate Open-source Software, research paper
+  and/or conference, and official {\bf $\mathcal{ROBHOOT}$} website.}
+\end{table}
 
-  
   \subsection{Consortium as a whole}
 
   \begin{itemize}
@@ -1370,7 +1540,7 @@ deliverables.
   and XX, with expertise in protocols in decentralized algorithms,
   security in computing networks and distributed networks, automation
   algorithms and social networks
-
+  
   \subsection{Resources to be committed}
  
   \begin{itemize}
