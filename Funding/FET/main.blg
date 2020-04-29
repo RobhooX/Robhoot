@@ -29,45 +29,48 @@ Warning--there's a number but no volume in Golem2016
 Warning--empty journal in Durov2017
 Warning--empty journal in OceanProtocolFoundation2018
 Warning--there's a number but no volume in BigchainDBGmbH2018
-You've used 39 entries,
+Warning--empty author in Deloitte2020
+Warning--empty journal in Deloitte2020
+Warning--there's a number but no volume in Deloitte2020
+You've used 40 entries,
             2481 wiz_defined-function locations,
-            819 strings with 12419 characters,
-and the built_in function-call counts, 15231 in all, are:
-= -- 1250
+            822 strings with 12497 characters,
+and the built_in function-call counts, 15462 in all, are:
+= -- 1270
 > -- 911
 < -- 18
-+ -- 361
++ -- 363
 - -- 282
-* -- 1333
-:= -- 2447
-add.period$ -- 154
-call.type$ -- 39
-change.case$ -- 66
-chr.to.int$ -- 38
-cite$ -- 77
-duplicate$ -- 732
-empty$ -- 1271
+* -- 1353
+:= -- 2472
+add.period$ -- 156
+call.type$ -- 40
+change.case$ -- 68
+chr.to.int$ -- 39
+cite$ -- 82
+duplicate$ -- 750
+empty$ -- 1302
 format.name$ -- 319
-if$ -- 3154
+if$ -- 3206
 int.to.chr$ -- 2
-int.to.str$ -- 40
-missing$ -- 27
-newline$ -- 239
+int.to.str$ -- 41
+missing$ -- 28
+newline$ -- 243
 num.names$ -- 81
-pop$ -- 319
+pop$ -- 330
 preamble$ -- 1
-purify$ -- 39
+purify$ -- 40
 quote$ -- 0
-skip$ -- 426
+skip$ -- 436
 stack$ -- 0
-substring$ -- 539
-swap$ -- 122
+substring$ -- 542
+swap$ -- 123
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 273
-warning$ -- 26
+type$ -- 280
+warning$ -- 29
 while$ -- 92
 width$ -- 0
-write$ -- 548
-(There were 26 warnings)
+write$ -- 558
+(There were 29 warnings)

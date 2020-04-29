@@ -62,34 +62,25 @@
 
     %obj 1
     \ganttgroup[inline=false]{O1: \bf $\mathcal{ROBHOOT}$ v.1.0}{3}{18}\\ 
-    \ganttbar[inline=false]{{\bf WP1: APIDIS}}{3}{14} \\%\API discovery
+    \ganttbar[inline=false]{{\bf WP1: APID}}{3}{14} \\%\API discovery
     %\ganttlinkedbar{Task 2}{3}{7} \ganttnewline
     \ganttmilestone[inline=false]{{\bf M1}}{14} \ganttnewline
     
-     \ganttbar[inline=false]{{\bf WP2: QKGs}}{5}{16} \\%\Data knowledge graph (contrast highly-accurate data with automated downloaded data: Covid-19 as a case study)   
+     \ganttbar[inline=false]{{\bf WP2: QKGs}}{5}{16} \\ %question knowledge graph (corpus extraction algorithms)
      \ganttmilestone[inline=false]{{\bf M2}}{16} \ganttnewline
      % \ganttbar[inline=false]{}{8}{17} \ganttnewline
      
      %\ganttmilestone[inline=false]{{\bf WP3: QUGs}: }{17} \\
 
-     \ganttbar[inline=false]{{\bf WP3: DKGs}}{6}{17} \\%question knowledge graph (corpus extraction algorithms)
+     \ganttbar[inline=false]{{\bf WP3: DKGs}}{6}{17} \\%\Data knowledge graph (contrast highly-accurate data with automated downloaded data: Covid-19 as a case study)  
      \ganttmilestone[inline=false]{{\bf M3}}{17} \ganttnewline
 
-     \ganttbar[inline=false]{{\bf WP4: CODA}}{7}{18} \\%Case study connecting Q- and D-KGs
+     \ganttbar[inline=false]{{\bf WP4: CODA}}{7}{18} \\%COVID Data Architecture -- Case study connecting Q- and D-KGs
      \ganttmilestone[inline=false]{{\bf M4}}{18} \ganttnewline
 
       \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{D1}}}{18}{18}\\
  
      \ganttbar[progress=25,inline=false]{Project progress}{1}{42}\\
-     %\ganttbar[inline=false]{\bf{RP1}}{19}{19}\\
-
-     %\ganttlink{elem5}{elem8}
-     %\ganttlink{elem7}{elem8}
-     %\ganttlink{elem9}{elem10}
-     
-     %\ganttlink{elem8}{elem9}
-     %\ganttlink{elem9}{elem10}
-     
      
     % obj 2
      \ganttgroup[inline=false]{O2: \bf $\mathcal{ROBHOOT}$ v.2.0}{3}{22}\\
@@ -97,13 +88,13 @@
      \ganttbar[inline=false]{{\bf WP5: CSN}}{3}{16} \\%\Causal Spiking Networks :: Towards Causal-Knowledge Graphs
      \ganttmilestone[inline=false]{{\bf M5}}{16} \ganttnewline
 
-      \ganttbar[inline=false]{{\bf WP6: ACKG}}{5}{18} \\%Automated Causal-Knowledge Graphs
+      \ganttbar[inline=false]{{\bf WP6: CKG}}{5}{18} \\%Automated Causal-Knowledge Graphs
      \ganttmilestone[inline=false]{{\bf M6}}{18} \ganttnewline
     
      \ganttbar[inline=false]{{\bf WP7: BSM}}{4}{17} \\%\Automated Bayesian Space Models  
      \ganttmilestone[inline=false]{{\bf M7}}{17} \ganttnewline
     
-     \ganttbar[inline=false]{{\bf WP8: COCAUS}}{6}{22} \\%Covid Automated Causal-knowledge graphs using Spiking neural networks
+     \ganttbar[inline=false]{{\bf WP8: COCAU}}{6}{22} \\%Covid Automated Causal-knowledge graphs using Spiking neural networks
      \ganttmilestone[inline=false]{{\bf M8}}{22} \ganttnewline
        
      \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{D2}}}{22}{22}\\
@@ -113,16 +104,16 @@
     % obj 3
      \ganttgroup[inline=false]{O2: \bf $\mathcal{ROBHOOT}$ v.3.0}{14}{32}\\
 
-     \ganttbar[inline=false]{{\bf WP9: SDFN}}{16}{29} \\%sharing data-architecture in federated network (reproducible-knowledge graphs)
+     \ganttbar[inline=false]{{\bf WP9: SDN}}{16}{29} \\%sharing data-architecture in federated network (reproducible-knowledge graphs)
      \ganttmilestone[inline=false]{{\bf M9}}{29} \ganttnewline
     
-     \ganttbar[inline=false]{{\bf WP10: SCFN}}{17}{30} \\%sharing causal-knowledge graphs in federated network (reproducible-knowledge graphs)
+     \ganttbar[inline=false]{{\bf WP10: SCN}}{17}{30} \\%sharing causal-knowledge graphs in federated network (reproducible-knowledge graphs)
      \ganttmilestone[inline=false]{{\bf M10}}{30} \ganttnewline
 
-     \ganttbar[inline=false]{{\bf WP11: SDCFN}}{18}{31} \\%sharing data-architecture and causal-knowledge graphs in federated networks
+     \ganttbar[inline=false]{{\bf WP11: SDCN}}{18}{31} \\%sharing data-architecture and causal-knowledge graphs in federated networks
      \ganttmilestone[inline=false]{{\bf M11}}{31} \ganttnewline
 
-     \ganttbar[inline=false]{{\bf WP12: SDCFNCO}}{18}{32} \\%sharing data-architecture and causal-knowledge graphs in federated networks COVID-19 case study
+     \ganttbar[inline=false]{{\bf WP12: CODCAN}}{18}{32} \\%sharing data-architecture and causal-knowledge graphs in federated networks COVID-19 case study
      \ganttmilestone[inline=false]{{\bf M12}}{32} \ganttnewline
  
       
@@ -132,16 +123,16 @@
      % obj 4
     \ganttgroup[inline=false]{O4: \bf $\mathcal{ROBHOOT}$ v.4.0}{28}{42}\\ 
 
-    \ganttbar[inline=false]{\bf WP13: ADADI}{28}{38}\\%Automated data-discovery federated network
+    \ganttbar[inline=false]{\bf WP13: ADAN}{28}{38}\\%Automated data-knowledge graph federated network
     \ganttmilestone[inline=false]{{\bf M13}}{36}\\
 
-     \ganttbar[inline=false]{\bf WP14: ACADI}{28}{38}\\%Automated causal-discovery federated network
+     \ganttbar[inline=false]{\bf WP14: ACAN}{28}{38}\\%Automated causal-knowledge graph federated network
     \ganttmilestone[inline=false]{{\bf M14}}{36}\\  
     
-    \ganttbar[inline=false]{\bf WP15: ADACADI}{28}{38}\\%Automated data-causal-discovery federated network
+    \ganttbar[inline=false]{\bf WP15: ADIN}{28}{38}\\%Automated discovery-knowledge graphs in federated network
     \ganttmilestone[inline=false]{{\bf M15}}{36}\\  
 
-    \ganttbar[inline=false]{\bf WP16: ADACADICO}{36}{42}\\%Cooperative forecasting in automated-discovery-knowledge graphs for the COVID-19 case study
+    \ganttbar[inline=false]{\bf WP16: COADIN}{36}{42}\\%Automated Cooperative forecasting discovery-knowledge graphs for the COVID-19 case study
     \ganttmilestone[inline=false]{{\bf M16}}{42}\\  
 
     \ganttbar[inline=false]{\bf{D4}}{42}{42}\\

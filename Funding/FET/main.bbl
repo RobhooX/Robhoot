@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -301,5 +301,9 @@ Elli Androulaki, Artem Barger, Vita Bortnikov, Srinivasan Muralidharan,
 \newblock \doi{10.1111/j.1365-2958.2006.05434.x}.
 \newblock URL
   \url{https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf}.
+
+\bibitem[Del(2020)]{Deloitte2020}
+{Remarkable times call for remarkable collaboration .}
+\newblock \penalty0 (April), 2020.
 
 \end{thebibliography}
