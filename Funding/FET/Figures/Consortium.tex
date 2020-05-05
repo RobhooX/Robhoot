@@ -16,7 +16,7 @@
 \begin{tikzpicture}[
 std/.style={
   draw,
-  text width=2.5cm,
+  text width=4.5cm,
   align=center,
   font=\strut\sffamily
 },
@@ -52,122 +52,134 @@ node distance=0.5cm and 3cm
 
 %Robhoot v.1.0---------------------------
 % The nodes for the left
-\node[stdR,blue,above=0.75cm of va] (r1)
-{{\bf $\mathcal{ROBHOOT}$ v.1.0}};
-\\
-\\
+%\node[stdR,blue,above=0.75cm of va] (r1)
+%{{\bf $\mathcal{ROBHOOT}$ v.1.0}};
+%\\
+%\\
 \node[std,blue] (va)
-  {APID};
+  {$\mathcal{APID}$};
 \node[std,blue,below=of va] (fs)
-  {QKGs};
+  {$\mathcal{QKG}$};
 \node[std,blue,below=of fs] (vs)
-  {DKGs};
+  {$\mathcal{DKG}$};
 \node[std,blue,below=of vs] (cv)
-{CODA};
+{$\mathcal{CODA}$};
 
 %The dashed fitting node
-\node[draw,dashed,blue,inner sep=8pt,fit={(r1) (cv)}]
+\node[draw,dashed,blue,inner sep=8pt,fit={(va) (cv)}]
   (fit) {};
 % ---------------------------------------
 
 % Robhoot v.2.0--------------------------
-\node[stdR,red,below=2cm of vs] (r2)
-{{\bf $\mathcal{ROBHOOT}$ v.2.0}};
-\\
-\\
-\node[std,red,below= 2cm of cv] (fr)
-  {CSN};
+%\node[stdR,red,below=4cm of vs] (r2)
+%{{\bf $\mathcal{ROBHOOT}$ v.2.0}};
+%\\
+%\\
+\node[std,red,below= 6cm of cv] (fr)
+  {$\mathcal{EAIA}$};
 \node[std,red,below=of fr] (ac)
-  {CKGs};
+  {$\mathcal{CKG}$};
 \node[std,red,below=of ac] (op)
-{BSM};
+{$\mathcal{BSM}$};
 \node[std,red,below=of op] (cocau)
-{COCAU};
+{$\mathcal{COCAU}$};
 
 %The dashed fitting node
-\node[draw,dashed,red,inner sep=8pt,fit={(r2) (cocau)}]
+\node[draw,dashed,red,inner sep=8pt,fit={(fr) (cocau)}]
   (fit) {};
-%---------------------------------------
+%--------------------------------------
+
 
 % Robhoot v.3.0--------------------------
-\node[stdR,piggypink!600,below=2cm of op] (r3)
-{{\bf $\mathcal{ROBHOOT}$ v.3.0}};
-\\
-\\
-\node[std,piggypink!600,below= 2cm of cocau] (fr1)
-  {SDN};
+%\node[stdR,piggypink!600,below=2cm of op] (r3)
+%{{\bf $\mathcal{ROBHOOT}$ v.3.0}};
+%\\
+%\\
+\node[std,piggypink!600,below= 6cm of cocau] (fr1)
+  {$\mathcal{SDN}$};
 \node[std,piggypink!600,below=of fr1] (ac1)
-  {SCN};
+  {$\mathcal{ADIN}$};
 \node[std,piggypink!600,below=of ac1] (op1)
-{SDCN};
-\node[std,piggypink!600,below=of op1] (codin)
-{CODIN};
+{$\mathcal{ACODIN}$};
+%\node[std,piggypink!600,below=of op1] (codin)
+%{CODIN};
 
 %The dashed fitting node
-\node[draw,dashed,piggypink!600,inner sep=8pt,fit={(r3) (codin)}]
+\node[draw,dashed,piggypink!600,inner sep=8pt,fit={(fr1) (op1)}]
   (fit) {};
 %---------------------------------------
 
 % Robhoot v.4.0--------------------------
-\node[stdR,brown!100,below=2cm of op1] (r4)
-{{\bf $\mathcal{ROBHOOT}$ v.4.0}};
+%\node[stdR,brown!100,below=2cm of op1] (r4)
+%{{\bf $\mathcal{ROBHOOT}$ v.4.0}};
 \\
 \\
-\node[std,brown!100,below= 2cm of codin] (fr2)
-  {ADAN};
-\node[std,brown,below=of fr2] (ac2)
-  {ACAN};
-\node[std,brown,below=of ac2] (op2)
-{ADIN};
-\node[std,brown,below=of op2] (acodin)
-{ACODIN};
+%\node[std,brown!100,below= 2cm of codin] (fr2)
+%  {ADAN};
+%\node[std,brown,below=of fr2] (ac2)
+%  {ACAN};
+%\node[std,brown,below=of ac2] (op2)
+%{ADIN};
+%\node[std,brown,below=of op2] (acodin)
+%{ACODIN};
 
 %The dashed fitting node
-\node[draw,dashed,brown,inner sep=8pt,fit={(r4) (acodin)}]
-  (fit) {};
+%\node[draw,dashed,brown,inner sep=8pt,fit={(r4) (acodin)}]
+%  (fit) {};
 %---------------------------------------
 
 %Activities-----------------------------------------
 %The nodes for the center
 \node[rnd,right=of r1,blue,yshift=-12.5pt] (aer)
-  {API Automation};
+  {API-Knowledge Graph};
 \node[rnd,blue,below=of aer] (cdm)%rnd=myblue
-  {ETLs Database};
-\node[rnd,blue,below=of cdm] (vcm)
-{Quantitative network metrics};
+  {Global Data-Architecture Map};
+  \node[rnd,blue,below=of cdm] (vcm)
+{Network Metrics};
 \node[rnd,blue,below=of vcm] (vcm1)
-{Reproducible-Knowledge graphs};
-\node[rnd,blue,below=of vcm1] (hvac)
-{\textsc{COVID} Database};
+{Reproducible-Knowledge Graph};
+\node[rnd,blue,below=of vcm1,line width=0.15cm] (hvac)
+{\textsc{Automated COVID-19} Data-Knowledge Graph};
+%The dashed fitting node
+\node[draw,dashed,blue,inner sep=8pt,fit={(aer) (hvac)}]
+  (fit) {};
 
 \node[rnd,red,below=of hvac] (Q)
-{\textsc{Spiking} Brain neural};
+{Bayesian Machine Scientist};
 \node[rnd,red,below=of Q] (A)
-  {Automation scientist};
+  {\textsc{Evolutionary} Algorithms};
 \node[rnd,red,below=of A] (B)
   {Deep learning networks};
 \node[rnd,red,below=of B] (C)
-  {Bayesian networks};
-\node[rnd,red,below=of C] (D)
-{\textsc{COVID} Inference};
+  {ML-Algorithms};
+\node[rnd,red,below=of C,line width=0.15cm] (D)
+{\textsc{Automated COVID-19} Casual-Knowledge Graph};
+%The dashed fitting node
+\node[draw,dashed,red,inner sep=8pt,fit={(Q) (D)}]
+  (fit) {};
 
 \node[rnd,piggypink!600,below=of D] (E)
-  {P2P sharing protocols};
+  {Sharing protocols};
 \node[rnd,piggypink!600,below=of E] (F)
-  {Federated Networks};
-\node[rnd,piggypink!600,below=of F] (G)
-  {Security protocols};
-\node[rnd,piggypink!600,,below=of G] (H)
-{\textsc{COVID} Sharing Global Discovery-Knowledge Graphs};
+  {Automated discovery federated networks};
+%\node[rnd,piggypink!600,below=of F] (G)
+%  {Security protocols};
+  \node[rnd,piggypink!600,,below=of F,line width=0.15cm] (H)
+   {\textsc{Automated COVID-19} DKG in Federated Cooperation Networks};
+%The dashed fitting node
+\node[draw,dashed,red,inner sep=8pt,fit={(E) (H)}]
+  (fit) {};
 
-\node[rnd,brown,below=of H] (I)
-  {Learning cooperation networks};
-\node[rnd,brown,below=of I] (J)
-  {Automation federated networks};
-\node[rnd,brown,below=of J] (K)
-  {Automation discovery federated networks};
-\node[rnd,brown,below=of K] (L)
-{\textsc{COVID} Automated DKGs federated cooperative networks};
+%\node[rnd,brown,below=of H] (I)
+%  {Learning cooperation networks};
+%\node[rnd,brown,below=of I] (J)
+%  {Automation federated networks};
+%  \node[rnd,brown,below=of I] (K) {Automated discovery federated
+%    networks}; \node[rnd,brown,below=of K,line width=0.15cm] (L)
+%  {\textsc{Automated COVID-19} DKGs in Federated Cooperation Networks};
+%The dashed fitting node
+%\node[draw,dashed,brown,inner sep=8pt,fit={(I) (L)}]
+%  (fit) {};
 %---------------------------------------------------
 
 %Lead-----------------------------------------------
@@ -178,31 +190,50 @@ node distance=0.5cm and 3cm
   {Egu\'iluz};
 \node[vac,right=1cm of vcm1] (Christine)
 {Choirat};
+\node[vac,mygreen,right=0.75cm of hvac,line width=0.15cm] (M1)
+{{\bf $\mathcal{ROBHOOT}$ v.1.0}};
 
-\node[vac,right=1cm of A] (Marco)
-{Baity};
+%The dashed fitting node
+\node[draw,dashed,mygreen,inner sep=8pt,fit={(Miguel) (M1)}]
+  (fit) {};
+
+\node[vac,right=1cm of A] (Carlos)
+{Meli\'an};
 \node[vac,right=1cm of Q] (Roger)
 {Guimer\`a};
 \node[vac,right=1cm of B] (Raul)
 {Vicente};
-\node[vac,right=1cm of C] (NAME4)
-{LEAD};
-\node[vac,right=1cm of D] (Carlos)
-{Meli\'an};
+\node[vac,right=1cm of C] (Marco)
+{Baity};
+\node[vac,mygreen,right=0.75cm of D,line width=0.15cm] (M2)
+{{\bf $\mathcal{ROBHOOT}$ v.2.0}};
+%The dashed fitting node
+\node[draw,dashed,mygreen,inner sep=8pt,fit={(Roger) (M2)}]
+  (fit) {};
 
-\node[vac,right=1cm of E] (NAME2)
-  {LEAD};
-\node[vac,right=1cm of G] (Harald)
+\node[vac,right=1cm of E] (Harald)
   {von Waldow};
-\node[vac,right=1cm of H] (NAME3)
-{LEAD};
+\node[vac,right=1cm of F] (Wolfgang)
+  {Maass};
+%\node[vac,right=1cm of H] (NAME3)
+%{LEAD};
+\node[vac,mygreen,right=0.75cm of H,line width=0.15cm] (M3)
+{{\bf $\mathcal{ROBHOOT}$ v.3.0}};
+%The dashed fitting node
+\node[draw,dashed,mygreen,inner sep=8pt,fit={(Harald) (M3)}]
+  (fit) {};
 
-\node[vac,right=1cm of I] (NAME5)
-  {LEAD};
-\node[vac,right=1cm of K] (NAME6)
-  {LEAD};
-\node[vac,right=1cm of L] (NAME7)
-{LEAD};
+%\node[vac,right=1cm of I] (NAME5)
+%  {LEAD};
+%\node[vac,right=1cm of K] (NAME6)
+%  {LEAD};
+%\node[vac,right=1cm of L] (NAME7)
+%{LEAD};
+%\node[vac,mygreen,right=0.75cm of L] (M4)
+%{{\bf $\mathcal{ROBHOOT}$ v.4.0}};
+%The dashed fitting node
+%\node[draw,dashed,mygreen,inner sep=8pt,fit={(NAME5) (M4)}]
+%  (fit) {};
 
 %-------------------------------------------------
 
@@ -214,62 +245,70 @@ node distance=0.5cm and 3cm
 %Connections
 
 %Robhoot 1
-\draw[ar,myblue]
+\draw[ar,myblue,line width=0.075cm]
 ([yshift=5pt]va.east) -- ([yshift=5pt]aux1|-va.east) |- (aer);
-\draw[ar,blue]
+\draw[ar,blue,line width=0.075cm]
 (aer) -- (Miguel);
-\draw[ar,blue]
-(cdm) -- (Miguel);
-\draw[ar,blue]
-([yshift=5pt]va.east) -- ([yshift=5pt]aux1|-va.east) |- (cdm);
-\draw[ar,blue]
-([yshift=5pt]fs.east) -- ([yshift=5pt]aux1|-fs.east) |- (cdm);
-\draw[ar,blue]
-([yshift=5pt]vs.east) -- ([yshift=5pt]aux1|-vs.east) |- (cdm);
+%\draw[ar,blue,line width=0.075cm]
+%(cdm) -- (Miguel);
+
+\draw[ar,blue,line width=0.075cm]
+([yshift=-5pt]va.east) -- ([yshift=-5pt]aux1|-va.east) |- (cdm);
+\draw[ar,blue,line width=0.075cm]
+([yshift=-5pt]fs.east) -- ([yshift=-5pt]aux1|-fs.east) |- (cdm);
 
 \draw[ar,blue]
-([yshift=5pt]fs.east) -- ([yshift=5pt]aux1|-fs.east) |- (vcm);
+([yshift=-5pt]vs.east) -- ([yshift=-5pt]aux1|-vs.east) |- (cdm);
+
 \draw[ar,blue]
-([yshift=5pt]vs.east) -- ([yshift=5pt]aux1|-vs.east) |- (vcm);
-\draw[ar,blue]
+([yshift=-5pt]fs.east) -- ([yshift=-5pt]aux1|-fs.east) |- (vcm);
+
+\draw[ar,blue,line width=0.075cm]
+([yshift=-5pt]vs.east) -- ([yshift=-5pt]aux1|-vs.east) |- (vcm);
+\draw[ar,blue,line width=0.075cm]
 (vcm) -- (Victor);
 
-\draw[ar,blue]
-([yshift=5pt]fs.east) -- ([yshift=5pt]aux1|-fs.east) |- (vcm1);
-\draw[ar,blue]
-([yshift=5pt]vs.east) -- ([yshift=5pt]aux1|-vs.east) |- (vcm1);
-\draw[ar,blue]
+%\draw[ar,blue,line width=0.075cm]
+%([xshift=25pt,yshift=-20pt]fs.east) -- ([xshift=25pt,yshift=-20pt]aux1|-fs.east) |- (vcm1);
+
+\draw[ar,blue,line width=0.075cm]
+([yshift=-5pt]vs.east) -- ([yshift=-5pt]aux1|-vs.east) |- (vcm1);
+
+\draw[ar,blue,line width=0.075cm]
 (vcm1) -- (Christine);
 
-\draw[ar,blue]
+\draw[ar,blue,line width=0.075cm]
 ([yshift=5pt]cv.east) -- ([yshift=5pt]aux1|-cv.east) |- (cdm);
-\draw[ar,blue]
-([yshift=5pt]cv.east) -- ([yshift=5pt]aux1|-cv.east) |- (hvac);
 
-\draw[ar,blue]
-%([yshift=5pt]hvac.east) -- ([yshift=5pt]aux1|-hvac.east) |- (Miguel);
-(hvac) -- (Miguel);
-\draw[ar,blue]
-(hvac) -- (Victor);
-\draw[ar,blue]
-(hvac) -- (Christine);
+\draw[ar,blue,line width=0.075cm]
+([xshift=-5pt,yshift=-5pt]cv.east) -- ([xshift=-5pt,yshift=-5pt]aux1|-cv.east) |- (hvac);
+
+\draw[ar,blue,line width=0.15cm]
+% ([xshift=-1pt,yshift=1pt]hvac.east) -- ([xshift=-1pt,yshift=1pt]aux1|-hvac.east) |- (Miguel);
+(hvac) -- (M1);
+
+%\draw[ar,blue]
+%(hvac) -- (Victor);
+%\draw[ar,blue]
+%(hvac) -- (Christine);
 
 % Robhoot 2
 \draw[ar,red]
 ([yshift=5pt]fr.east) -- ([yshift=5pt]aux1|-fr.east) |- (Q);
 
-\draw[ar,red]
-(Q) -- (Raul);
-\draw[ar,red]
-(Q) -- (Carlos);
-\draw[ar,red]
-(Q) -- (NAME4);
+%\draw[ar,red]
+%(Q) -- (Raul);
+%\draw[ar,red]
+%(Q) -- (Carlos);
+%\draw[ar,red]
+%(Q) -- (NAME4);
 
-\draw[ar,red]
-([yshift=7pt]ac.east) -- ([yshift=7pt]aux1|-ac.east) |- (vcm1);
-\draw[ar,red]
-(vcm1) -- (Christine);
 
+%Connection to RKGs
+%\draw[ar,red]
+%([yshift=7pt]ac.east) -- ([yshift=7pt]aux1|-ac.east) |- (vcm1);
+%\draw[ar,red]
+%(vcm1) -- (Christine);
 
 \draw[ar,red]
 ([yshift=5pt]fr.east) -- ([yshift=5pt]aux1|-fr.east) |- (A);
@@ -280,27 +319,27 @@ node distance=0.5cm and 3cm
 
 % \draw[ar,red]
 %(A) -- (Marco);
-\draw[ar,red]
-(B) -- (Marco);
+%\draw[ar,red]
+%(B) -- (Marco);
 \draw[ar,red]
 (B) -- (Raul);
-\draw[ar,red]
-(A) -- (Raul);
+%\draw[ar,red]
+%(A) -- (Raul);
 
 %\draw[ar,red]
 %(B) -- (Carlos);
+%\draw[ar,red]
+%(A) -- (Roger);
 \draw[ar,red]
-(A) -- (Roger);
-\draw[ar,red]
-(C) -- (Carlos);
-\draw[ar,red]
-(D) -- (Carlos);
+(A) -- (Carlos);
+%\draw[ar,red]
+%(D) -- (Carlos);
 
-\draw[ar,red]
-([yshift=5pt]ac.east) -- ([yshift=5pt]aux1|-ac.east) |- (A);
-\draw[ar,red]
+%\draw[ar,red]
+%([yshift=5pt]ac.east) -- ([yshift=5pt]aux1|-ac.east) |- (A);
+\draw[ar,red,line width=0.075]
 ([yshift=5pt]ac.east) -- ([yshift=5pt]aux1|-ac.east) |- (B);
-\draw[ar,red]
+\draw[ar,red,line widht=0.075]
 ([yshift=5pt]ac.east) -- ([yshift=5pt]aux1|-ac.east) |- (C);
 
 \draw[ar,red]
@@ -314,21 +353,29 @@ node distance=0.5cm and 3cm
 
 
 \draw[ar,red]
-%([yshift=5pt]hvac.east) -- ([yshift=5pt]aux1|-hvac.east) |- (Miguel);
-(D) -- (Roger);
+% ([yshift=5pt]hvac.east) -- ([yshift=5pt]aux1|-hvac.east) |- (Miguel);
+(Q) -- (Roger);
 \draw[ar,red]
-(D) -- (Marco);
-\draw[ar,red]
-(D) -- (Raul);
-\draw[ar,red]
-(D) -- (NAME4);
+(C) -- (Marco);
+%\draw[ar,red]
+%(D) -- (Raul);
+%\draw[ar,red]
+%(D) -- (NAME4);
 
-\draw[ar,red]
-([yshift=-2pt]ac.east) -- ([yshift=-2pt]aux1|-ac.east) |- (vcm1);
-\draw[ar,red]
-(vcm1) -- (Christine);
+%\draw[ar,red]
+%([yshift=-2pt]ac.east) -- ([yshift=-2pt]aux1|-ac.east) |- (vcm1);
+%\draw[ar,red]
+%(vcm1) -- (Christine);
 
+\draw[->,mygreen,line width=3] (hvac) -- node[xshift=-4.25cm, yshift=-4cm,rotate=90]{{\Large Discovery-Knowledge Graph}} ++(-8,0) |- (D);
+\draw[->,mygreen,line width=3] (hvac) -- node[xshift=-2.75cm, yshift=-4cm,rotate=90]{{\Large Evolutionary Automation}} ++(-8,0) |- (D); 
+%\draw [red,dashed] (hvac) -- ++(0,5mm) -| node {} (D);
+%\draw[ar,red]
+%([yshift=-2pt]hvac.east) -- ([yshift=-2pt]aux1|-hvac.east) |- (D);
 
+\draw[ar,red,line width=0.15cm]
+% ([xshift=-1pt,yshift=1pt]hvac.east) -- ([xshift=-1pt,yshift=1pt]aux1|-hvac.east) |- (Miguel);
+(D) -- (M2);
 
 % Robhoot 3
 \draw[ar,piggypink!600]
@@ -337,12 +384,12 @@ node distance=0.5cm and 3cm
 ([yshift=5pt]ac1.east) -- ([yshift=5pt]aux1|-ac1.east) |- (E);
 \draw[ar,piggypink!600]
 ([yshift=5pt]op1.east) -- ([yshift=5pt]aux1|-op1.east) |- (E);
-\draw[ar,piggypink!600]
-([yshift=5pt]codin.east) -- ([yshift=5pt]aux1|-codin.east) |- (E);
+%\draw[ar,piggypink!600]
+%([yshift=5pt]codin.east) -- ([yshift=5pt]aux1|-codin.east) |- (E);
 
-\draw[ar,red]
-(E) -- (NAME2);
-\draw[ar,red]
+%\draw[ar,red]
+%(E) -- (NAME2);
+\draw[ar,piggypink!600]
 (E) -- (Harald);
 
 \draw[ar,piggypink!600]
@@ -351,90 +398,96 @@ node distance=0.5cm and 3cm
 ([yshift=5pt]ac1.east) -- ([yshift=5pt]aux1|-ac1.east) |- (F);
 \draw[ar,piggypink!600]
 ([yshift=5pt]op1.east) -- ([yshift=5pt]aux1|-op1.east) |- (F);
-\draw[ar,piggypink!600]
-([yshift=5pt]codin.east) -- ([yshift=5pt]aux1|-codin.east) |- (F);
+%\draw[ar,piggypink!600]
+%([yshift=5pt]codin.east) -- ([yshift=5pt]aux1|-codin.east) |- (F);
 
 \draw[ar,piggypink!600]
-(F) -- (NAME2);
-\draw[ar,piggypink!600]
-(G) -- (NAME3);
+(F) -- (Wolfgang);
+%\draw[ar,piggypink!600]
+%(G) -- (NAME3);
 
-\draw[ar,piggypink!600]
-([yshift=-2pt]op1.east) -- ([yshift=-2pt]aux1|-op1.east) |- (vcm1);
-\draw[ar,piggypink!600]
-(vcm1) -- (Christine);
+%\draw[ar,piggypink!600]
+%([yshift=-2pt]op1.east) -- ([yshift=-2pt]aux1|-op1.east) |- (vcm1);
+%\draw[ar,piggypink!600]
+%(vcm1) -- (Christine);
 
-\draw[ar,piggypink!600]
-([yshift=5pt]codin.east) -- ([yshift=5pt]aux1|-codin.east) |- (H);
-\draw[ar,piggypink!600]
-(H) -- (NAME2);
-\draw[ar,piggypink!600]
-(H) -- (Harald);
-\draw[ar,piggypink!600]
-(H) -- (NAME3);
+%\draw[ar,piggypink!600]
+%([yshift=5pt]codin.east) -- ([yshift=5pt]aux1|-codin.east) |- (H);
+%\draw[ar,piggypink!600]
+%(H) -- (NAME2);
+%\draw[ar,piggypink!600]
+%(H) -- (Harald);
+\draw[ar,piggypink!600,line width=0.15cm]
+(H) -- (M3);
 
+\draw[->,mygreen,line width=3] (D) -- node[xshift=-4.25cm, yshift=-3.5cm,rotate=90]{{\Large Cooperative Forecasting}} ++(-8,0) |- (H);
 
 %Robhoot 4
-\draw[ar,brown]
-([yshift=5pt]fr2.east) -- ([yshift=5pt]aux1|-fr2.east) |- (I);
-\draw[ar,brown]
-([yshift=5pt]ac2.east) -- ([yshift=5pt]aux1|-ac2.east) |- (I);
-\draw[ar,b]
-([yshift=5pt]op2.east) -- ([yshift=5pt]aux1|-op2.east) |- (I);
-\draw[ar,brown]
-([yshift=5pt]acodin.east) -- ([yshift=5pt]aux1|-acodin.east) |- (I);
 
-\draw[ar,brown]
-(I) -- (NAME5);
-\draw[ar,brown]
-(J) -- (NAME6);
+%\draw[ar,brown]
+%([yshift=5pt]fr2.east) -- ([yshift=5pt]aux1|-fr2.east) |- (I);
+%\draw[ar,brown]
+%([yshift=5pt]ac2.east) -- ([yshift=5pt]aux1|-ac2.east) |- (I);
+%\draw[ar,b]
+%([yshift=5pt]op2.east) -- ([yshift=5pt]aux1|-op2.east) |- (I);
+%\draw[ar,brown]
+%([yshift=5pt]acodin.east) -- ([yshift=5pt]aux1|-acodin.east) |- (I);
 
-\draw[ar,brown]
-([yshift=5pt]fr2.east) -- ([yshift=5pt]aux1|-fr2.east) |- (J);
-\draw[ar,brown]
-([yshift=5pt]ac2.east) -- ([yshift=5pt]aux1|-ac2.east) |- (J);
-\draw[ar,brown]
-([yshift=5pt]op2.east) -- ([yshift=5pt]aux1|-op2.east) |- (J);
-\draw[ar,brown]
-([yshift=5pt]acodin.east) -- ([yshift=5pt]aux1|-acodin.east) |- (J);
+%\draw[ar,brown]
+%(I) -- (NAME5);
+%\draw[ar,brown]
+%(J) -- (NAME6);
 
-\draw[ar,brown]
-(K) -- (NAME6);
+%\draw[ar,brown]
+%([yshift=5pt]fr2.east) -- ([yshift=5pt]aux1|-fr2.east) |- (J);
+%\draw[ar,brown]
+%([yshift=5pt]ac2.east) -- ([yshift=5pt]aux1|-ac2.east) |- (J);
+%\draw[ar,brown]
+%([yshift=5pt]op2.east) -- ([yshift=5pt]aux1|-op2.east) |- (J);
+%\draw[ar,brown]
+%([yshift=5pt]acodin.east) -- ([yshift=5pt]aux1|-acodin.east) |- (J);
 
-\draw[ar,brown]
-([yshift=5pt]fr2.east) -- ([yshift=5pt]aux1|-fr2.east) |- (K);
-\draw[ar,brown]
-([yshift=5pt]ac2.east) -- ([yshift=5pt]aux1|-ac2.east) |- (K);
-\draw[ar,brown]
-([yshift=5pt]op2.east) -- ([yshift=5pt]aux1|-op2.east) |- (K);
-\draw[ar,brown]
-([yshift=5pt]acodin.east) -- ([yshift=5pt]aux1|-acodin.east) |- (K);
+%\draw[ar,brown]
+%(K) -- (NAME6);
 
+%\draw[ar,brown]
+%([yshift=5pt]fr2.east) -- ([yshift=5pt]aux1|-fr2.east) |- (K);
+%\draw[ar,brown]
+%([yshift=5pt]ac2.east) -- ([yshift=5pt]aux1|-ac2.east) |- (K);
+%\draw[ar,brown]
+%([yshift=5pt]op2.east) -- ([yshift=5pt]aux1|-op2.east) |- (K);
+%\draw[ar,brown]
+%([yshift=5pt]acodin.east) -- ([yshift=5pt]aux1|-acodin.east) |- (K);
 
-\draw[ar,brown]
-([yshift=5pt]fr2.east) -- ([yshift=5pt]aux1|-fr2.east) |- (L);
-\draw[ar,brown]
-([yshift=5pt]ac2.east) -- ([yshift=5pt]aux1|-ac2.east) |- (L);
-\draw[ar,brown]
-([yshift=5pt]op2.east) -- ([yshift=5pt]aux1|-op2.east) |- (L);
-\draw[ar,brown]
-([yshift=5pt]acodin.east) -- ([yshift=5pt]aux1|-acodin.east) |- (L);
+%\draw[ar,brown,line width=0.15cm]
+%(L) -- (M4);
 
+%\draw[->,mygreen,line width=3] (H) -- node[xshift=-1.25cm, yshift=-8cm,rotate=90]{} ++(-3,0) |- (L);
 
-\draw[ar,brown]
-(L) -- (NAME5);
-
-\draw[ar,brown]
-(L) -- (NAME6);
-
-\draw[ar,brown]
-(L) -- (NAME7);
+%\draw[ar,brown]
+%([yshift=5pt]fr2.east) -- ([yshift=5pt]aux1|-fr2.east) |- (L);
+%\draw[ar,brown]
+%([yshift=5pt]ac2.east) -- ([yshift=5pt]aux1|-ac2.east) |- (L);
+%\draw[ar,brown]
+%([yshift=5pt]op2.east) -- ([yshift=5pt]aux1|-op2.east) |- (L);
+%\draw[ar,brown]
+%([yshift=5pt]acodin.east) -- ([yshift=5pt]aux1|-acodin.east) |- (L);
 
 
-\draw[ar,brown]
-([yshift=-2pt]op2.east) -- ([yshift=-2pt]aux1|-op2.east) |- (vcm1);
-\draw[ar,brown]
-(vcm1) -- (Christine);
+%\draw[ar,brown]
+%(L) -- (NAME5);
+
+%\draw[ar,brown]
+%(L) -- (NAME6);
+
+%\draw[ar,brown]
+%(L) -- (M4);
+
+
+%\draw[ar,brown]
+%([yshift=-2pt]op2.east) -- ([yshift=-2pt]aux1|-op2.east) |- (vcm1);
+%\draw[ar,brown]
+%(vcm1) -- (Christine);
 
 
 %\draw[dashed,ar]

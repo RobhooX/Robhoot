@@ -1,8 +1,9 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
-Database file #1: Robhoot.bib.bib
+Database file #1: Robhoot.bib
+Warning--I didn't find a database entry for "Deloitte2020"
 Warning--empty journal in Dilley2016
 Warning--empty journal in Gunther2018
 Warning--empty journal in Mehrabi2019
@@ -29,48 +30,46 @@ Warning--there's a number but no volume in Golem2016
 Warning--empty journal in Durov2017
 Warning--empty journal in OceanProtocolFoundation2018
 Warning--there's a number but no volume in BigchainDBGmbH2018
-Warning--empty author in Deloitte2020
-Warning--empty journal in Deloitte2020
-Warning--there's a number but no volume in Deloitte2020
+Warning--empty year in KGcovid19
 You've used 40 entries,
             2481 wiz_defined-function locations,
-            822 strings with 12497 characters,
-and the built_in function-call counts, 15462 in all, are:
-= -- 1270
+            825 strings with 12554 characters,
+and the built_in function-call counts, 15431 in all, are:
+= -- 1269
 > -- 911
 < -- 18
 + -- 363
 - -- 282
-* -- 1353
-:= -- 2472
+* -- 1347
+:= -- 2468
 add.period$ -- 156
 call.type$ -- 40
-change.case$ -- 68
+change.case$ -- 67
 chr.to.int$ -- 39
-cite$ -- 82
-duplicate$ -- 750
-empty$ -- 1302
+cite$ -- 80
+duplicate$ -- 748
+empty$ -- 1297
 format.name$ -- 319
-if$ -- 3206
+if$ -- 3199
 int.to.chr$ -- 2
 int.to.str$ -- 41
-missing$ -- 28
+missing$ -- 27
 newline$ -- 243
 num.names$ -- 81
 pop$ -- 330
 preamble$ -- 1
 purify$ -- 40
 quote$ -- 0
-skip$ -- 436
+skip$ -- 435
 stack$ -- 0
 substring$ -- 542
-swap$ -- 123
+swap$ -- 125
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 280
-warning$ -- 29
+warning$ -- 27
 while$ -- 92
 width$ -- 0
-write$ -- 558
-(There were 29 warnings)
+write$ -- 557
+(There were 28 warnings)

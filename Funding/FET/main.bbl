@@ -302,8 +302,9 @@ Elli Androulaki, Artem Barger, Vita Bortnikov, Srinivasan Muralidharan,
 \newblock URL
   \url{https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf}.
 
-\bibitem[Del(2020)]{Deloitte2020}
-{Remarkable times call for remarkable collaboration .}
-\newblock \penalty0 (April), 2020.
+\bibitem[KGc()]{KGcovid19}
+\emph{{Knowledge Graph COVID-19}}.
+\newblock URL
+  \url{ttp://www.odbms.org/2020/03/we-build-a-knowledge-graph-on-covid-19/}.
 
 \end{thebibliography}
