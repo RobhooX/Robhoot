@@ -2,7 +2,7 @@ export create_model, agent_step!
 
 mutable struct Pop <: AbstractAgent
   id::Int
-  pos::Int  # same as countryID
+  pos::Tuple{Int, Int}  # same as countryID
   age_group::Int
   S::Float64  # Susceptible
   latent::Float64
@@ -74,7 +74,7 @@ function migrate!(pop, model)
   nodeN = population_size(pop)
   if nodeN > 0
     relS, relLatent, relIncubation, relR, relI = pop.S/nodeN, pop.latent/nodeN, pop.incubation/nodeN, pop.R/nodeN, pop.I/nodeN
-    n_out = rand.(model.properties[:m][pop.pos, :])
+    n_out = rand.(model.m[pop.pos[1], :])
     MFractionS, MFractionLatent, MFractionIncubation, MFractionI, MFractionR = (n_out*relS, n_out*relLatent, n_out*relIncubation, n_out*relI, n_out*relR)
     ## No migrations more than population size at source
     # save summations
@@ -96,12 +96,12 @@ function migrate!(pop, model)
     pop.R -= sumMFractionR
     pop.I -= sumMFractionI
     for nodeid2 in 1:nagents(model)
-      node2 = model.agents[nodeid2]
-      node2.S += MFractionS[node2.pos]
-      node2.latent += MFractionLatent[node2.pos]
-      node2.incubation += MFractionIncubation[node2.pos]
-      node2.R += MFractionR[node2.pos]
-      node2.I += MFractionI[node2.pos]        
+      node2 = model[nodeid2]
+      node2.S += MFractionS[node2.pos[1]]
+      node2.latent += MFractionLatent[node2.pos[1]]
+      node2.incubation += MFractionIncubation[node2.pos[1]]
+      node2.R += MFractionR[node2.pos[1]]
+      node2.I += MFractionI[node2.pos[1]]        
     end
   end
 end
@@ -112,24 +112,11 @@ function agent_step!(pop, model)
 end
 
 function create_model(;parameters)
-  space = Space((parameters[:C], 1))
+  space = GridSpace((parameters[:C], 1))
   model = ABM(Pop, space, properties=parameters)
   for c in 1:parameters[:C]
-    pop = Pop(c, c, 1, parameters[:Ss][c], parameters[:latents][c], parameters[:incubations][c], parameters[:Is][c], parameters[:Rs][c], 0.0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:es][c], parameters[:is][c], parameters[:dss][c], parameters[:dlats][c], parameters[:dincs][c], parameters[:dis][c], parameters[:drs][c])
+    pop = Pop(c, (c, 1), 1, parameters[:Ss][c], parameters[:latents][c], parameters[:incubations][c], parameters[:Is][c], parameters[:Rs][c], 0.0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:es][c], parameters[:is][c], parameters[:dss][c], parameters[:dlats][c], parameters[:dincs][c], parameters[:dis][c], parameters[:drs][c])
     add_agent!(pop, c, model)
   end
   return model
-end
-
-function cases2df(model, cases; datadir="..\\..\\DI\\data\\transformed_data")
-  ccodes, ccols = read_countryCodes(joinpath(datadir, "countrycodes.csv"))
-  ccode_dict = Dict(ccodes[r, 3]=> ccodes[r, 1] for r in 1:size(ccodes, 1))
-  countries = [ccode_dict[i] for i in model[:countries]]
-  nnodes = length(cases[1][1])
-  df = DataFrame(Dict(:location => countries , :infected => cases[1][1], :dead => cases[1][3], :recovered=>cases[1][2], :time => repeat([0], nnodes)))
-  for step in 2:length(cases)
-    dft = DataFrame(Dict(:location => countries , :infected => cases[step][1], :dead => cases[step][3], :recovered=>cases[step][2], :time => repeat([step-1], nnodes)))
-    df = vcat(df, dft)
-  end
-  return df
 end

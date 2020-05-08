@@ -19,9 +19,9 @@ parameters = RobSIRs.load_params(
   datadir=datadir);
 
 model = create_model(parameters=parameters);
-data = step!(model, agent_step!, 50, [:pos, :I, :R, :D]);
+agentdata, modeldata = run!(model, agent_step!, 50, adata=[:pos, :I, :R, :D]);
 
-p = data |> @vlplot() +
+p = agentdata |> @vlplot() +
 [@vlplot(mark = :line,
   x = "step:n",
   y = {:I,axis = {title = "Number of infected"}},

@@ -50,8 +50,7 @@ function random_params(;C=200)
   return parameters
 end
 
-function load_params(;bs=0.0:0.0001:1.0, ss=0.01:0.0001:1.0, as= 0.01:0.0001:1.0, es=0.01:0.0001:1.0, is=0.01:0.0001:1.0, dss=0.0:0.0001:1.0, dlats=0.0:0.0001:1.0, dincs=0.0:0.0001:1.0, dis=0.001:0.0001:1.0, drs=0.0:0.0001:1.0,
-  datadir="..\\..\\DI\\data\\transformed_data")
+function load_data(datadir)
   mobility, mobnames = RobSIRs.read_mobility(joinpath(datadir, "mobility.csv"))
   pop, popnames = RobSIRs.read_population(joinpath(datadir, "population.csv"))
 
@@ -73,7 +72,13 @@ function load_params(;bs=0.0:0.0001:1.0, ss=0.01:0.0001:1.0, as= 0.01:0.0001:1.0
       migration_rates[n1, n2] > 1 && (migration_rates[n1, n2] = 0.99)
     end
   end
+  return pop, popnames, mobindices, popindices, migration_rates
+end
 
+function load_params(;bs=0.0:0.0001:1.0, ss=0.01:0.0001:1.0, as= 0.01:0.0001:1.0, es=0.01:0.0001:1.0, is=0.01:0.0001:1.0, dss=0.0:0.0001:1.0, dlats=0.0:0.0001:1.0, dincs=0.0:0.0001:1.0, dis=0.001:0.0001:1.0, drs=0.0:0.0001:1.0,
+  datadir="..\\..\\DI\\data\\transformed_data")
+
+  pop, popnames, mobindices, popindices, migration_rates = load_data(datadir)
   Ns = pop[popindices]
   C = length(Ns)
   Ss = Ns
