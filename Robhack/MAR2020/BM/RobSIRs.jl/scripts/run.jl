@@ -1,13 +1,10 @@
 using RobSIRs
 using Agents
 using VegaLite
-using CSV
-using FilePathsBase
-using JLD2
-using FileIO
+
+datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 
 # Running a single simulation.
-datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 parameters = RobSIRs.load_params(
   bs=0.0:0.0001:0.99,  # min max of uniform distribution
   ss=0.01:0.0001:0.99,
@@ -25,39 +22,15 @@ model = create_model(parameters=parameters);
 data = step!(model, agent_step!, 50, [:pos, :I, :R, :D]);
 
 p = data |> @vlplot() +
-[@vlplot(
-  mark = :line,
+[@vlplot(mark = :line,
   x = "step:n",
-  y = {:I,
-    axis = {
-      title = "Number of infected"
-    }
-  },
-  color = {"pos:n",
-    legend = false
-  }
-);
-@vlplot(
-  mark = :line,
+  y = {:I,axis = {title = "Number of infected"}},
+  color = {"pos:n",legend = false});
+@vlplot(mark = :line,
   x = "step:n",
-  y = {:D,
-    axis = {
-      title = "Number of death"
-    }
-  },
-  color = {"pos:n",
-    legend = false
-  }
-);
-@vlplot(
-  mark = :line,
+  y = {:D, axis = {title = "Number of death"}},
+  color = {"pos:n", legend = false});
+@vlplot(mark = :line,
   x = "step:n",
-  y = {:R,
-    axis = {
-      title = "Number of recovered"
-    }
-  },
-  color = {"pos:n",
-    legend = false
-  }
-)]
+  y = {:R, axis = {title = "Number of recovered"}},
+  color = {"pos:n", legend = false})]

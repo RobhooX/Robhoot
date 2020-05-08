@@ -1,58 +1,75 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
-Database file #1: Robhoot.bib.bib
+Database file #1: Robhoot.bib
+Warning--I didn't find a database entry for "Deloitte2020"
+Warning--empty journal in Dilley2016
 Warning--empty journal in Gunther2018
+Warning--empty journal in Mehrabi2019
+Warning--empty journal in Real2020
+Warning--empty booktitle in Steinruecken
+Warning--empty publisher in Steinruecken
+Warning--empty year in Modulos
+Warning--empty year in GoogleAI
+Warning--empty year in IrisAI
+Warning--empty year in easeml
+Warning--empty year in datarobot
+Warning--empty year in aito
+Warning--empty year in Openstreetmap
+Warning--empty year in Bluecloud
+Warning--empty year in HOT
+Warning--empty year in Elixir
+Warning--empty year in APISGURU
+Warning--empty year in OpenKnowledgeFoundation
+Warning--empty journal in Gil2019
+Warning--empty journal in Cranmer2019
+Warning--empty year in Reichstein
+Warning--empty year in Reichstein
 Warning--there's a number but no volume in Golem2016
 Warning--empty journal in Durov2017
 Warning--empty journal in OceanProtocolFoundation2018
 Warning--there's a number but no volume in BigchainDBGmbH2018
-Warning--empty year in Reichstein
-Warning--empty year in Reichstein
-Warning--empty institution in Gil2019
-Warning--empty journal in Steinruecken
-Warning--empty year in Steinruecken
-Warning--empty year in Steinruecken
-You've used 16 entries,
+Warning--empty year in KGcovid19
+You've used 40 entries,
             2481 wiz_defined-function locations,
-            686 strings with 9407 characters,
-and the built_in function-call counts, 8249 in all, are:
-= -- 589
-> -- 708
-< -- 11
-+ -- 256
-- -- 224
-* -- 800
-:= -- 1464
-add.period$ -- 74
-call.type$ -- 16
-change.case$ -- 33
-chr.to.int$ -- 16
-cite$ -- 27
-duplicate$ -- 314
-empty$ -- 556
-format.name$ -- 244
-if$ -- 1630
-int.to.chr$ -- 1
-int.to.str$ -- 17
-missing$ -- 15
-newline$ -- 114
-num.names$ -- 48
-pop$ -- 112
+            825 strings with 12554 characters,
+and the built_in function-call counts, 15431 in all, are:
+= -- 1269
+> -- 911
+< -- 18
++ -- 363
+- -- 282
+* -- 1347
+:= -- 2468
+add.period$ -- 156
+call.type$ -- 40
+change.case$ -- 67
+chr.to.int$ -- 39
+cite$ -- 80
+duplicate$ -- 748
+empty$ -- 1297
+format.name$ -- 319
+if$ -- 3199
+int.to.chr$ -- 2
+int.to.str$ -- 41
+missing$ -- 27
+newline$ -- 243
+num.names$ -- 81
+pop$ -- 330
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 40
 quote$ -- 0
-skip$ -- 183
+skip$ -- 435
 stack$ -- 0
-substring$ -- 291
-swap$ -- 50
-text.length$ -- 3
+substring$ -- 542
+swap$ -- 125
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
-warning$ -- 11
-while$ -- 55
+type$ -- 280
+warning$ -- 27
+while$ -- 92
 width$ -- 0
-write$ -- 258
-(There were 11 warnings)
+write$ -- 557
+(There were 28 warnings)

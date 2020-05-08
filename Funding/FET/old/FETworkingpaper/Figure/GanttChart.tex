@@ -28,14 +28,11 @@
      inline]{1}{42}
     %labels
     \gantttitle{Years}{42}\\  % title 1
-    \gantttitle[]{2020}{6}                 % title 2
-    \gantttitle[]{2021}{12}   
-    \gantttitle[]{2022}{12}
+    \gantttitle[]{2021}{12}                 % title 2
+    \gantttitle[]{2022}{12}   
     \gantttitle[]{2023}{12}
+    \gantttitle[]{2024}{6}
     \gantttitle[]{}{0}\\                 % title 2
-
-\gantttitle{Q3}{3}                      % title 3
-\gantttitle{Q4}{3}
 
     \gantttitle{Q1}{3}
     \gantttitle{Q2}{3}
@@ -51,43 +48,46 @@
     \gantttitle{Q2}{3}
     \gantttitle{Q3}{3}
     \gantttitle{Q4}{3}
+    
+    \gantttitle{Q1}{3}                      % title 3
+    \gantttitle{Q2}{3}
+
     \\
 
     % Setting group if any
     %logistic  
-    \ganttbar[inline=false]{Team and staff hiring}{1}{3}\\
-    \ganttmilestone[inline=false]{Synchronized teams}{3}\\
+    \ganttbar[inline=false]{Team and staff hiring}{1}{2}\\
+    \ganttmilestone[inline=false]{Synchronized teams}{2}\\
     \ganttbar[progress=5,inline=false]{Project progress}{1}{42}\\
 
     %obj 1
-    \ganttgroup[inline=false]{O1: Multilayer}{3}{19}\\ 
-    \ganttbar[inline=false]{{\bf WP1 (DIVAL)}}{3}{14} \\%\ganttnewline
-    
+    \ganttgroup[inline=false]{O1: \bf $\mathcal{ROBHOOT}$ v.1.0}{3}{18}\\ 
+    \ganttbar[inline=false]{{\bf WP1: APIDIS}}{3}{14} \\%\API discovery
     %\ganttlinkedbar{Task 2}{3}{7} \ganttnewline
-     \ganttmilestone[inline=false]{{\bf WP1 deadline}}{14} \ganttnewline
-     \ganttbar[inline=false]{{\bf WP2 (VISUR)}}{5}{16} \\%\ganttnewline
-     \ganttmilestone[inline=false]{{\bf WP2 deadline}}{16} \ganttnewline
-
+    \ganttmilestone[inline=false]{{\bf WP1 deadline}}{14} \ganttnewline
     
-     \ganttbar[inline=false]{Intra-Inter-layer Automation}{8}{17} \ganttnewline
-     \ganttmilestone[inline=false]{{\bf WP3}: Running prototype}{17} \\
-     \ganttbar[inline=false]{Multilayer and KG integration: deep learning}{12}{18} \ganttnewline
-     \ganttmilestone[inline=false]{{\bf WP4}: Automated KGs}{18} \\
-
+     \ganttbar[inline=false]{{\bf WP2: DKGs}}{5}{16} \\%\Data knowledge graph  (contrast highly-accurate data with automated downloaded data: Covid-19 as a case study)   
+     \ganttmilestone[inline=false]{{\bf WP2 deadline}}{16} \ganttnewline
+     % \ganttbar[inline=false]{}{8}{17} \ganttnewline
      
+     %\ganttmilestone[inline=false]{{\bf WP3: QUGs}: }{17} \\
+
+     \ganttbar[inline=false]{{\bf WP3: QKGs}}{12}{18} \\%question knowledge graph (corpus extraction algorithms)
+     \ganttmilestone[inline=false]{{\bf WP3 deadline}}{18} \ganttnewline
+
      \ganttbar[progress=25,inline=false]{Project progress}{1}{42}\\
      %\ganttbar[inline=false]{\bf{RP1}}{19}{19}\\
 
-     \ganttlink{elem5}{elem8}
-     \ganttlink{elem7}{elem8}
-     \ganttlink{elem9}{elem10}
+     %\ganttlink{elem5}{elem8}
+     %\ganttlink{elem7}{elem8}
+     %\ganttlink{elem9}{elem10}
      
      %\ganttlink{elem8}{elem9}
      %\ganttlink{elem9}{elem10}
      
      
     % obj 2
-    \ganttgroup[inline=false]{O2: Ledger}{2}{19}\\ 
+    \ganttgroup[inline=false]{O2: \bf $\mathcal{ROBHOOT}$ v.2.0}{2}{19}\\ 
     \ganttbar[inline=false]{Ledger implementation}{2}{12}\\
     \ganttmilestone[inline=false]{{\bf WP5}: Running prototype}{12} \\
     \ganttbar[inline=false]{Minimizing scalability-security-decentralization trade-offs}{4}{14}\\
@@ -100,25 +100,25 @@
     
     \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{RP1}}}{19}{19}\\
  
-      \ganttlink{elem15}{elem17}
-      \ganttlink{elem17}{elem19}
+      %\ganttlink{elem15}{elem17}
+      %\ganttlink{elem17}{elem19}
     
      % obj 3
-    \ganttgroup[inline=false]{O3: DeepKlen}{18}{31}\\ 
+    \ganttgroup[inline=false]{O3: \bf $\mathcal{ROBHOOT}$ v.3.0}{18}{31}\\ 
     \ganttbar[inline=false]{Launch testnet: Deep Knowledge Ledger Network}{18}{26}\\
     \ganttmilestone[inline=false]{{\bf WP8}: Running prototype}{26} \\
     \ganttbar[inline=false]{Launch testnet: Deep Knowledge Ledger Network}{22}{30}\\
     \ganttmilestone[inline=false]{{\bf WP9}: Running prototype}{30} \\
     \ganttbar[progress=70,inline=false]{Project progress}{1}{42}\\
 
-      \ganttlink{elem19}{elem21}
-      \ganttlink{elem11}{elem21}
-      \ganttlink{elem24}{elem25}
+      %\ganttlink{elem19}{elem21}
+      %\ganttlink{elem11}{elem21}
+      %\ganttlink{elem24}{elem25}
 
       \ganttbar[inline=false]{\textcolor{PineGreen}{\bf{RP2}}}{31}{31}\\
 
      % obj 4
-    \ganttgroup[inline=false]{O4: Robhoot}{30}{42}\\ 
+    \ganttgroup[inline=false]{O4: \bf $\mathcal{ROBHOOT}$ v.4.0}{30}{42}\\ 
     \ganttbar[inline=false]{Launch testnet: Robhoot Open Network}{30}{36}\\
     \ganttmilestone[inline=false]{{\bf WP10}: Running prototype}{36} \\
     \ganttbar[inline=false]{Launch testnet: RON in Biodiversity Research}{35}{41}\\
@@ -126,9 +126,9 @@
     \ganttbar[progress=100,inline=false]{Project progress}{1}{42}\\
     \ganttbar[inline=false]{\bf{RP3}}{42}{42}\\
 
-    \ganttlink{elem26}{elem28}
-    \ganttlink{elem31}{elem32}
-    \ganttlink{elem33}{elem35}
+    %\ganttlink{elem26}{elem28}
+    %\ganttlink{elem31}{elem32}
+    %\ganttlink{elem33}{elem35}
     
 \end{ganttchart}
 
