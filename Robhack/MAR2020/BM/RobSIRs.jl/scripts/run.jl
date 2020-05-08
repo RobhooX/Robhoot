@@ -6,6 +6,7 @@ datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 
 # Running a single simulation.
 parameters = RobSIRs.load_params(
+  age_groups = 10,
   bs=0.0:0.0001:0.99,  # min max of uniform distribution
   ss=0.01:0.0001:0.99,
   es=0.01:0.0001:0.99,

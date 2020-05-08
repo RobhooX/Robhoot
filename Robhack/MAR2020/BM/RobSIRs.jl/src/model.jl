@@ -22,6 +22,7 @@ mutable struct Pop <: AbstractAgent
   dr::Float64  # R death rate
 end
 
+# TODO: `latentPlus` should include all age groups
 """
 * S = S + sR - b(S) - (ds)S
 * latent = (latent) + b(S) - e(latent) - (dlat)(latent)
@@ -106,7 +107,7 @@ function migrate!(pop, model)
   end
 end
 
-function agent_step!(pop, model)
+function agent_step!(pop, model)  # TODO: change to model_step!
   update!(pop, model)
   migrate!(pop, model)
 end
