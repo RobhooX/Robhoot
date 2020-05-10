@@ -81,21 +81,35 @@ function load_params(;age_groups=10, bs=0.0:0.0001:1.0, ss=0.01:0.0001:1.0, as= 
   pop, popnames, mobindices, popindices, migration_rates = load_data(datadir)
   Ns = pop[popindices]
   C = length(Ns)
-  Ss = Ns
+  age_fractions = [rand(age_groups) for i in 1:C]
+  for af in 1:C
+    age_fractions[af] = age_fractions[af] ./ sum(age_fractions[af])
+  end
+  Ss = Ns .* age_fractions
   chinaindex = findfirst(x->x=="CHN",  popnames[popindices])
-  Ss[chinaindex] -= 10
-  latents = zeros(Int, C)
-  incubations = zeros(Int, C)
-  Is = zeros(Int, C)
-  Is[chinaindex] += 10
-  Rs = zeros(Int, C)
+  Ss[chinaindex][1] -= 10.0
+  latents = zeros(Float64, C, age_groups)
+  incubations = zeros(Float64, C, age_groups)
+  Is = zeros(Float64, C, age_groups)
+  Is[chinaindex, 1] += 10.0
+  Rs = zeros(Float64, C, age_groups)
   popmat = zeros(Int64, C, C)
   for c1 in 1:C
     for c2 in 1:C
       popmat[c1, c2] = round(Int, Ns[c1])
     end
   end
-  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :latents => latents, :incubations => incubations, :Is=>Is, :Rs=>Rs, :bs=>rand(bs, C), :ss=>rand(ss, C), :as=>rand(as, C), :es => rand(es, C), :is => rand(is, C), :dss=>rand(dss, C), :dis=>rand(dis, C), :drs =>rand(drs, C), :dlats => rand(dlats, C), :dincs => rand(dincs, C), :age_groups => age_groups)
-  # TODO: add parameters for infected to exposed between age groups
+  parameters = Dict(:C=>C, :countries => popnames[popindices], :m => Binomial.(popmat, migration_rates), :Ns => Ns, :Ss=>Ss, :latents => latents, :incubations => incubations, :Is=>Is, :Rs=>Rs,
+  :bs=>rand(bs, C, age_groups, age_groups),  # bs_{hij} means b parameter of age group i on age group j in region h. 
+  :ss=>rand(ss, C, age_groups),
+  :as=>rand(as, C, age_groups),
+  :es => rand(es, C, age_groups),
+  :is => rand(is, C, age_groups),
+  :dss=>rand(dss, C, age_groups),
+  :dis=>rand(dis, C, age_groups),
+  :drs =>rand(drs, C, age_groups),
+  :dlats => rand(dlats, C, age_groups),
+  :dincs => rand(dincs, C, age_groups),
+  :age_groups => age_groups)
   return parameters
 end

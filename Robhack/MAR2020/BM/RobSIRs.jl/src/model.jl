@@ -1,4 +1,4 @@
-export create_model, agent_step!
+export create_model, model_step!
 
 mutable struct Pop <: AbstractAgent
   id::Int
@@ -10,7 +10,7 @@ mutable struct Pop <: AbstractAgent
   I::Float64  # Infected
   R::Float64  # Recovered
   D::Float64  # Dead
-  b::Float64  # S to latent rate
+  # b::Float64  # S to latent rate
   s::Float64  # R to S rate
   a::Float64  # I to R rate
   e::Float64  # latent to incubation rate
@@ -22,17 +22,20 @@ mutable struct Pop <: AbstractAgent
   dr::Float64  # R death rate
 end
 
-# TODO: `latentPlus` should include all age groups
 """
+`latentPlus` is how many new individuals get the virus as a function of all age groups.
+
+# Equations:
+
 * S = S + sR - b(S) - (ds)S
-* latent = (latent) + b(S) - e(latent) - (dlat)(latent)
+* latent = (latent) + latentPlus - e(latent) - (dlat)(latent)
 * incubation = (incubation) + e(latent) - i(incubation) - (dinc)(incubation)
 * I = I + i(incubation) - aI - (di)I
 * R = R + aI - sR - (dr)R
 """
-function update!(pop::Pop, model::ABM)
+function update!(pop::Pop, model::ABM, latentPlus)
   Splus = pop.s * pop.R
-  latentPlus = pop.b * pop.I
+  # latentPlus = pop.b * pop.I
   latentPlus > pop.S && (latentPlus = pop.S)
   incubationPlus = pop.e * pop.latent
   Iplus = pop.i * pop.incubation
@@ -58,6 +61,21 @@ function update!(pop::Pop, model::ABM)
   
   pop.D = DS + DLatent + DIncubation + DI + DR
   pop.S, pop.latent, pop.incubation, pop.I, pop.R = tempS, tempLatent, tempIncubation, tempI, tempR
+end
+
+"Update each population by including the number of new infections in each age group as a function of all age groups"
+function update!(model::ABM)
+  for (id, pop) in model.agents
+    region = pop.pos
+    bs = model.bs[region[1], :, :]
+    other_ages = get_node_contents(region, model)
+    popindex = findfirst(x-> x==pop.id, other_ages)
+    latentPlus = 0.0
+    for (index, agid) in enumerate(other_ages)
+      latentPlus +=  bs[index, popindex] * model.agents[agid].I
+    end
+    update!(pop, model, latentPlus)
+  end
 end
 
 population_size(pop::Pop) = pop.S + pop.latent + pop.incubation + pop.I + pop.R
@@ -107,17 +125,23 @@ function migrate!(pop, model)
   end
 end
 
-function agent_step!(pop, model)  # TODO: change to model_step!
-  update!(pop, model)
-  migrate!(pop, model)
+function model_step!(model)
+  update!(model)
+  for pop in values(model.agents)
+    migrate!(pop, model)
+  end
 end
 
 function create_model(;parameters)
   space = GridSpace((parameters[:C], 1))
   model = ABM(Pop, space, properties=parameters)
+  id = 1
   for c in 1:parameters[:C]
-    pop = Pop(c, (c, 1), 1, parameters[:Ss][c], parameters[:latents][c], parameters[:incubations][c], parameters[:Is][c], parameters[:Rs][c], 0.0, parameters[:bs][c], parameters[:ss][c], parameters[:as][c], parameters[:es][c], parameters[:is][c], parameters[:dss][c], parameters[:dlats][c], parameters[:dincs][c], parameters[:dis][c], parameters[:drs][c])
-    add_agent!(pop, c, model)
+    for age_group in 1:parameters[:age_groups]
+      pop = Pop(id, (c, 1), age_group, parameters[:Ss][c][age_group], parameters[:latents][c, age_group], parameters[:incubations][c, age_group], parameters[:Is][c, age_group], parameters[:Rs][c, age_group], 0.0, parameters[:ss][c, age_group], parameters[:as][c, age_group], parameters[:es][c, age_group], parameters[:is][c, age_group], parameters[:dss][c, age_group], parameters[:dlats][c, age_group], parameters[:dincs][c, age_group], parameters[:dis][c, age_group], parameters[:drs][c, age_group])
+      add_agent!(pop, c, model)
+      id += 1
+    end
   end
   return model
 end

@@ -6,7 +6,7 @@ datadir = "D:\\projects\\Robhoot\\Robhack\\MAR2020\\DI\\data\\transformed_data"
 
 # Running a single simulation.
 parameters = RobSIRs.load_params(
-  age_groups = 10,
+  age_groups = 5,
   bs=0.0:0.0001:0.99,  # min max of uniform distribution
   ss=0.01:0.0001:0.99,
   es=0.01:0.0001:0.99,
@@ -20,7 +20,7 @@ parameters = RobSIRs.load_params(
   datadir=datadir);
 
 model = create_model(parameters=parameters);
-agentdata, modeldata = run!(model, agent_step!, 50, adata=[:pos, :I, :R, :D]);
+agentdata, _ = run!(model, dummystep, model_step!, 20, adata=[:pos, :age_group, :I, :R, :D]);
 
 p = agentdata |> @vlplot() +
 [@vlplot(mark = :line,
