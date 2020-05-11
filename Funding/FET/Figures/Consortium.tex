@@ -46,8 +46,19 @@ rnd/.style={
 ar/.style={
   ->,
   >=latex
+},
+four/.style={
+    draw,
+    rounded corners=6pt,
+  text width=2.5cm,
+  align=center,
+  font=\strut\sffamily
   },
-node distance=0.5cm and 3cm    
+ar/.style={
+  ->,
+  >=latex
+},
+node distance=0.5cm and 5cm    
 ]
 
 %Robhoot v.1.0---------------------------
@@ -59,11 +70,11 @@ node distance=0.5cm and 3cm
 \node[std,blue] (va)
   {$\mathcal{APID}$};
 \node[std,blue,below=of va] (fs)
-  {$\mathcal{QKG}$};
-\node[std,blue,below=of fs] (vs)
-  {$\mathcal{DKG}$};
-\node[std,blue,below=of vs] (cv)
-{$\mathcal{CODA}$};
+  {$\mathcal{DATAK}$};
+%\node[std,blue,below=of fs] (vs)
+%  {$\mathcal{DKG}$};
+\node[std,blue,below=of fs] (cv)
+{$\mathcal{DATAX}$};
 
 %The dashed fitting node
 \node[draw,dashed,blue,inner sep=8pt,fit={(va) (cv)}]
@@ -78,11 +89,11 @@ node distance=0.5cm and 3cm
 \node[std,red,below= 6cm of cv] (fr)
   {$\mathcal{EAIA}$};
 \node[std,red,below=of fr] (ac)
-  {$\mathcal{CKG}$};
+  {$\mathcal{DIK}$};
 \node[std,red,below=of ac] (op)
 {$\mathcal{BSM}$};
 \node[std,red,below=of op] (cocau)
-{$\mathcal{COCAU}$};
+{$\mathcal{DIX}$};
 
 %The dashed fitting node
 \node[draw,dashed,red,inner sep=8pt,fit={(fr) (cocau)}]
@@ -96,11 +107,11 @@ node distance=0.5cm and 3cm
 %\\
 %\\
 \node[std,piggypink!600,below= 6cm of cocau] (fr1)
-  {$\mathcal{SDN}$};
+  {$\mathcal{SFN}$};
 \node[std,piggypink!600,below=of fr1] (ac1)
-  {$\mathcal{ADIN}$};
+  {$\mathcal{DIF}$};
 \node[std,piggypink!600,below=of ac1] (op1)
-{$\mathcal{ACODIN}$};
+{$\mathcal{DIFX}$};
 %\node[std,piggypink!600,below=of op1] (codin)
 %{CODIN};
 
@@ -131,15 +142,15 @@ node distance=0.5cm and 3cm
 %Activities-----------------------------------------
 %The nodes for the center
 \node[rnd,right=of r1,blue,yshift=-12.5pt] (aer)
-  {API-Knowledge Graph};
+  {API Discovery};
 \node[rnd,blue,below=of aer] (cdm)%rnd=myblue
-  {Global Data-Architecture Map};
+  {Heterogeneous Semantic Algorithms};
   \node[rnd,blue,below=of cdm] (vcm)
 {Network Metrics};
 \node[rnd,blue,below=of vcm] (vcm1)
 {Reproducible-Knowledge Graph};
 \node[rnd,blue,below=of vcm1,line width=0.15cm] (hvac)
-{\textsc{Automated COVID-19} Data-Knowledge Graph};
+{\textsc{Data Knowledge Graph Exploration Seas}};
 %The dashed fitting node
 \node[draw,dashed,blue,inner sep=8pt,fit={(aer) (hvac)}]
   (fit) {};
@@ -153,7 +164,7 @@ node distance=0.5cm and 3cm
 \node[rnd,red,below=of B] (C)
   {ML-Algorithms};
 \node[rnd,red,below=of C,line width=0.15cm] (D)
-{\textsc{Automated COVID-19} Casual-Knowledge Graph};
+{\textsc{Discovery Knowledge Graph Exploration Seas}};
 %The dashed fitting node
 \node[draw,dashed,red,inner sep=8pt,fit={(Q) (D)}]
   (fit) {};
@@ -165,7 +176,7 @@ node distance=0.5cm and 3cm
 %\node[rnd,piggypink!600,below=of F] (G)
 %  {Security protocols};
   \node[rnd,piggypink!600,,below=of F,line width=0.15cm] (H)
-   {\textsc{Automated COVID-19} DKG in Federated Cooperation Networks};
+   {\textsc{Discovery Federated Networks Exploration Seas}};
 %The dashed fitting node
 \node[draw,dashed,red,inner sep=8pt,fit={(E) (H)}]
   (fit) {};
@@ -188,8 +199,8 @@ node distance=0.5cm and 3cm
   {Fortuna};
 \node[vac,right=1cm of vcm] (Victor)
   {Egu\'iluz};
-\node[vac,right=1cm of vcm1] (Christine)
-{Choirat};
+%\node[vac,right=1cm of vcm1] (Christine)
+%{Choirat};
 \node[vac,mygreen,right=0.75cm of hvac,line width=0.15cm] (M1)
 {{\bf $\mathcal{ROBHOOT}$ v.1.0}};
 
@@ -199,8 +210,8 @@ node distance=0.5cm and 3cm
 
 \node[vac,right=1cm of A] (Carlos)
 {Meli\'an};
-\node[vac,right=1cm of Q] (Roger)
-{Guimer\`a};
+%\node[vac,right=1cm of Q] (Roger)
+%{Guimer\`a};
 \node[vac,right=1cm of B] (Raul)
 {Vicente};
 \node[vac,right=1cm of C] (Marco)
@@ -208,7 +219,7 @@ node distance=0.5cm and 3cm
 \node[vac,mygreen,right=0.75cm of D,line width=0.15cm] (M2)
 {{\bf $\mathcal{ROBHOOT}$ v.2.0}};
 %The dashed fitting node
-\node[draw,dashed,mygreen,inner sep=8pt,fit={(Roger) (M2)}]
+\node[draw,dashed,mygreen,inner sep=8pt,fit={(Carlos) (M2)}]
   (fit) {};
 
 \node[vac,right=1cm of E] (Harald)
@@ -223,7 +234,26 @@ node distance=0.5cm and 3cm
 \node[draw,dashed,mygreen,inner sep=8pt,fit={(Harald) (M3)}]
   (fit) {};
 
-%\node[vac,right=1cm of I] (NAME5)
+%Nodes 4 column -- partners
+%Robhoot 1
+  \node[four,right=5cm of vcm1] (Christine)
+{Choirat}; 
+
+%The dashed fitting node
+\node[draw,dashed,mygreen,inner sep=8pt,fit={(Christine) (Christine)}]
+  (fit) {};
+
+%Robhoot 2
+ \node[four,right=5cm of Q] (Roger)
+{Guimer\`a};
+
+%The dashed fitting node
+\node[draw,dashed,red,inner sep=8pt,fit={(Roger) (Roger)}]
+  (fit) {};
+
+
+  
+% \node[vac,right=1cm of I] (NAME5)
 %  {LEAD};
 %\node[vac,right=1cm of K] (NAME6)
 %  {LEAD};
@@ -247,6 +277,7 @@ node distance=0.5cm and 3cm
 %Robhoot 1
 \draw[ar,myblue,line width=0.075cm]
 ([yshift=5pt]va.east) -- ([yshift=5pt]aux1|-va.east) |- (aer);
+
 \draw[ar,blue,line width=0.075cm]
 (aer) -- (Miguel);
 %\draw[ar,blue,line width=0.075cm]
@@ -254,25 +285,27 @@ node distance=0.5cm and 3cm
 
 \draw[ar,blue,line width=0.075cm]
 ([yshift=-5pt]va.east) -- ([yshift=-5pt]aux1|-va.east) |- (cdm);
+
 \draw[ar,blue,line width=0.075cm]
 ([yshift=-5pt]fs.east) -- ([yshift=-5pt]aux1|-fs.east) |- (cdm);
 
-\draw[ar,blue]
-([yshift=-5pt]vs.east) -- ([yshift=-5pt]aux1|-vs.east) |- (cdm);
+%\draw[ar,blue]
+%([yshift=-5pt]vs.east) -- ([yshift=-5pt]aux1|-vs.east) |- (cdm);
 
 \draw[ar,blue]
 ([yshift=-5pt]fs.east) -- ([yshift=-5pt]aux1|-fs.east) |- (vcm);
 
-\draw[ar,blue,line width=0.075cm]
-([yshift=-5pt]vs.east) -- ([yshift=-5pt]aux1|-vs.east) |- (vcm);
+%\draw[ar,blue,line width=0.075cm]
+%([yshift=-5pt]vs.east) -- ([yshift=-5pt]aux1|-vs.east) |- (vcm);
+
 \draw[ar,blue,line width=0.075cm]
 (vcm) -- (Victor);
 
 %\draw[ar,blue,line width=0.075cm]
 %([xshift=25pt,yshift=-20pt]fs.east) -- ([xshift=25pt,yshift=-20pt]aux1|-fs.east) |- (vcm1);
 
-\draw[ar,blue,line width=0.075cm]
-([yshift=-5pt]vs.east) -- ([yshift=-5pt]aux1|-vs.east) |- (vcm1);
+%\draw[ar,blue,line width=0.075cm]
+%([yshift=-5pt]vs.east) -- ([yshift=-5pt]aux1|-vs.east) |- (vcm1);
 
 \draw[ar,blue,line width=0.075cm]
 (vcm1) -- (Christine);
@@ -357,7 +390,8 @@ node distance=0.5cm and 3cm
 (Q) -- (Roger);
 \draw[ar,red]
 (C) -- (Marco);
-%\draw[ar,red]
+
+% \draw[ar,red]
 %(D) -- (Raul);
 %\draw[ar,red]
 %(D) -- (NAME4);
@@ -367,8 +401,8 @@ node distance=0.5cm and 3cm
 %\draw[ar,red]
 %(vcm1) -- (Christine);
 
-\draw[->,mygreen,line width=3] (hvac) -- node[xshift=-4.25cm, yshift=-4cm,rotate=90]{{\Large Discovery-Knowledge Graph}} ++(-8,0) |- (D);
-\draw[->,mygreen,line width=3] (hvac) -- node[xshift=-2.75cm, yshift=-4cm,rotate=90]{{\Large Evolutionary Automation}} ++(-8,0) |- (D); 
+\draw[->,mygreen,line width=3] (hvac) -- node[xshift=-6.25cm, yshift=-4cm,rotate=90]{{\Large Discovery Knowledge Graph}} ++(-12,0) |- (D);
+\draw[->,mygreen,line width=3] (hvac) -- node[xshift=-4.75cm, yshift=-4cm,rotate=90]{{\Large Evolutionary AI Automation}} ++(-12,0) |- (D); 
 %\draw [red,dashed] (hvac) -- ++(0,5mm) -| node {} (D);
 %\draw[ar,red]
 %([yshift=-2pt]hvac.east) -- ([yshift=-2pt]aux1|-hvac.east) |- (D);
@@ -420,7 +454,7 @@ node distance=0.5cm and 3cm
 \draw[ar,piggypink!600,line width=0.15cm]
 (H) -- (M3);
 
-\draw[->,mygreen,line width=3] (D) -- node[xshift=-4.25cm, yshift=-3.5cm,rotate=90]{{\Large Cooperative Forecasting}} ++(-8,0) |- (H);
+\draw[->,mygreen,line width=3] (D) -- node[xshift=-4.25cm, yshift=-3.5cm,rotate=90]{{\Large Cooperative Forecasting}} ++(-12,0) |- (H);
 
 %Robhoot 4
 

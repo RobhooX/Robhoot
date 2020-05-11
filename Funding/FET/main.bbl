@@ -1,31 +1,9 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Mastr{\'{a}}ngelo et~al.(2019)Mastr{\'{a}}ngelo,
-  P{\'{e}}rez-Harguindeguy, Enrico, Bennett, Lavorel, Cumming, Abeygunawardane,
-  Amarilla, Burkhard, Egoh, Frishkoff, Galetto, Huber, Karp, Ke, Kowaljow,
-  Kronenburg-Garc{\'{i}}a, Locatelli, Mart{\'{i}}n-L{\'{o}}pez, Meyfroidt,
-  Mwampamba, Nel, Nicholas, Nicholson, Oteros-Rozas, Rahlao, Raudsepp-Hearne,
-  Ricketts, Shrestha, Torres, Winkler, and Zoeller]{Mastrangelo2019}
-Mat{\'{i}}as~E Mastr{\'{a}}ngelo, Natalia P{\'{e}}rez-Harguindeguy, Lucas
-  Enrico, Elena Bennett, Sandra Lavorel, Graeme~S Cumming, Dilini
-  Abeygunawardane, Leonardo~D Amarilla, Benjamin Burkhard, Benis~N Egoh, Luke
-  Frishkoff, Leonardo Galetto, Sibyl Huber, Daniel~S Karp, Alison Ke, Esteban
-  Kowaljow, Angela Kronenburg-Garc{\'{i}}a, Bruno Locatelli, Berta
-  Mart{\'{i}}n-L{\'{o}}pez, Patrick Meyfroidt, Tuyeni~H Mwampamba, Jeanne Nel,
-  Kimberly~A Nicholas, Charles Nicholson, Elisa Oteros-Rozas, Sebataolo~J
-  Rahlao, Ciara Raudsepp-Hearne, Taylor Ricketts, Uttam~B Shrestha, Carolina
-  Torres, Klara~J Winkler, and Kim Zoeller.
-\newblock {Key knowledge gaps to achieve global sustainability goals}.
-\newblock \emph{Nature Sustainability}, 2\penalty0 (12):\penalty0 1115--1121,
-  2019.
-\newblock ISSN 2398-9629.
-\newblock \doi{10.1038/s41893-019-0412-1}.
-\newblock URL \url{https://doi.org/10.1038/s41893-019-0412-1}.
 
 \bibitem[Wilson and Jumbert(2018)]{Wilson2018}
 Christopher Wilson and Maria~Gabrielsen Jumbert.
@@ -36,14 +14,26 @@ Christopher Wilson and Maria~Gabrielsen Jumbert.
 \newblock ISSN 2364-3412.
 \newblock \doi{10.1186/s41018-018-0036-5}.
 
-\bibitem[Dilley et~al.(2016)Dilley, Poelstra, Wilkins, Piekarska, Gorlick, and
-  Friedenbach]{Dilley2016}
-Johnny Dilley, Andrew Poelstra, Jonathan Wilkins, Marta Piekarska, Ben Gorlick,
-  and Mark Friedenbach.
-\newblock {Strong Federations: An Interoperable Blockchain Solution to
-  Centralized Third-Party Risks}.
-\newblock 2016.
-\newblock URL \url{http://arxiv.org/abs/1612.05491}.
+\bibitem[Schmidhuber(2015)]{Schmidhuber:2015}
+J{\"{u}}rgen Schmidhuber.
+\newblock {Deep learning in neural networks: An overview}.
+\newblock \emph{Neural Networks}, 61:\penalty0 85--117, jan 2015.
+\newblock ISSN 08936080.
+\newblock \doi{10.1016/j.neunet.2014.09.003}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0893608014002135}.
+
+\bibitem[Maisonobe et~al.(2016)Maisonobe, Eckert, Grossetti, Jégou, and
+  Milard]{RePEc}
+Marion Maisonobe, Denis Eckert, Michel Grossetti, Laurent Jégou, and Béatrice
+  Milard.
+\newblock {The world network of scientific collaborations between cities:
+  domestic or international dynamics?}
+\newblock \emph{Journal of Informetrics}, 10\penalty0 (4):\penalty0 1025--1036,
+  2016.
+\newblock \doi{10.1016/j.joi.2016.06.002}.
+\newblock URL
+  \url{https://ideas.repec.org/a/eee/infome/v10y2016i4p1025-1036.html}.
 
 \bibitem[Inhaber(1977)]{Inhaber1977}
 H.~Inhaber.
@@ -106,6 +96,37 @@ Esteban Real, Chen Liang, David~R. So, and Quoc~V. Le.
 \newblock 2020.
 \newblock URL \url{http://arxiv.org/abs/2003.03384}.
 
+\bibitem[Mastr{\'{a}}ngelo et~al.(2019)Mastr{\'{a}}ngelo,
+  P{\'{e}}rez-Harguindeguy, Enrico, Bennett, Lavorel, Cumming, Abeygunawardane,
+  Amarilla, Burkhard, Egoh, Frishkoff, Galetto, Huber, Karp, Ke, Kowaljow,
+  Kronenburg-Garc{\'{i}}a, Locatelli, Mart{\'{i}}n-L{\'{o}}pez, Meyfroidt,
+  Mwampamba, Nel, Nicholas, Nicholson, Oteros-Rozas, Rahlao, Raudsepp-Hearne,
+  Ricketts, Shrestha, Torres, Winkler, and Zoeller]{Mastrangelo2019}
+Mat{\'{i}}as~E Mastr{\'{a}}ngelo, Natalia P{\'{e}}rez-Harguindeguy, Lucas
+  Enrico, Elena Bennett, Sandra Lavorel, Graeme~S Cumming, Dilini
+  Abeygunawardane, Leonardo~D Amarilla, Benjamin Burkhard, Benis~N Egoh, Luke
+  Frishkoff, Leonardo Galetto, Sibyl Huber, Daniel~S Karp, Alison Ke, Esteban
+  Kowaljow, Angela Kronenburg-Garc{\'{i}}a, Bruno Locatelli, Berta
+  Mart{\'{i}}n-L{\'{o}}pez, Patrick Meyfroidt, Tuyeni~H Mwampamba, Jeanne Nel,
+  Kimberly~A Nicholas, Charles Nicholson, Elisa Oteros-Rozas, Sebataolo~J
+  Rahlao, Ciara Raudsepp-Hearne, Taylor Ricketts, Uttam~B Shrestha, Carolina
+  Torres, Klara~J Winkler, and Kim Zoeller.
+\newblock {Key knowledge gaps to achieve global sustainability goals}.
+\newblock \emph{Nature Sustainability}, 2\penalty0 (12):\penalty0 1115--1121,
+  2019.
+\newblock ISSN 2398-9629.
+\newblock \doi{10.1038/s41893-019-0412-1}.
+\newblock URL \url{https://doi.org/10.1038/s41893-019-0412-1}.
+
+\bibitem[Dilley et~al.(2016)Dilley, Poelstra, Wilkins, Piekarska, Gorlick, and
+  Friedenbach]{Dilley2016}
+Johnny Dilley, Andrew Poelstra, Jonathan Wilkins, Marta Piekarska, Ben Gorlick,
+  and Mark Friedenbach.
+\newblock {Strong Federations: An Interoperable Blockchain Solution to
+  Centralized Third-Party Risks}.
+\newblock 2016.
+\newblock URL \url{http://arxiv.org/abs/1612.05491}.
+
 \bibitem[{Melnik S.} et~al.(2010){Melnik S.}, {Gubarev A.}, {Long J. J.},
   {Romer G.}, {Shivakumar S.}, {Tolton M.}, and Vassilakis]{Melniketal:2010}
 {Melnik S.}, {Gubarev A.}, {Long J. J.}, {Romer G.}, {Shivakumar S.}, {Tolton
@@ -167,6 +188,33 @@ Cesar Soto-Valero, Amine Benelallam, Nicolas Harrand, Olivier Barais, and
 \newblock ISSN 21601860.
 \newblock \doi{10.1109/MSR.2019.00059}.
 
+\bibitem[Fan et~al.(2012)Fan, Kalyanpur, Gondek, and Ferrucci]{Fan2012}
+J.~Fan, A.~Kalyanpur, D.~C. Gondek, and D.~A. Ferrucci.
+\newblock {Automatic knowledge extraction from documents}.
+\newblock \emph{IBM Journal of Research and Development}, 56\penalty0
+  (3.4):\penalty0 5:1--5:10, may 2012.
+\newblock ISSN 0018-8646.
+\newblock \doi{10.1147/JRD.2012.2186519}.
+\newblock URL \url{http://ieeexplore.ieee.org/document/6177723/}.
+
+\bibitem[Staar et~al.(2018)Staar, Dolfi, Auer, and Bekas]{Staar2018}
+Peter W~J Staar, Michele Dolfi, Christoph Auer, and Costas Bekas.
+\newblock {Corpus Conversion Service}.
+\newblock In \emph{Proceedings of the 24th ACM SIGKDD International Conference
+  on Knowledge Discovery {\&} Data Mining}, pages 774--782, New York, NY, USA,
+  jul 2018. ACM.
+\newblock ISBN 9781450355520.
+\newblock \doi{10.1145/3219819.3219834}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/3219819.3219834}.
+
+\bibitem[Futia and Vetr{\`{o}}(2020)]{Futia2020}
+Giuseppe Futia and Antonio Vetr{\`{o}}.
+\newblock {On the integration of knowledge graphs into deep learning models for
+  a more comprehensible AI-Three challenges for future research}.
+\newblock \emph{Information (Switzerland)}, 11\penalty0 (2), 2020.
+\newblock ISSN 20782489.
+\newblock \doi{10.3390/info11020122}.
+
 \bibitem[Ope({\natexlab{a}})]{Openstreetmap}
 \emph{{Openstreet}}, {\natexlab{a}}.
 \newblock URL \url{https://www.openstreetmap.org/{\#}map=5/51.509/-0.110}.
@@ -183,15 +231,6 @@ Cesar Soto-Valero, Amine Benelallam, Nicolas Harrand, Olivier Barais, and
 \emph{{Elixir open data}}.
 \newblock URL \url{https://elixir-europe.org/}.
 
-\bibitem[Fan et~al.(2012)Fan, Kalyanpur, Gondek, and Ferrucci]{Fan2012}
-J.~Fan, A.~Kalyanpur, D.~C. Gondek, and D.~A. Ferrucci.
-\newblock {Automatic knowledge extraction from documents}.
-\newblock \emph{IBM Journal of Research and Development}, 56\penalty0
-  (3.4):\penalty0 5:1--5:10, may 2012.
-\newblock ISSN 0018-8646.
-\newblock \doi{10.1147/JRD.2012.2186519}.
-\newblock URL \url{http://ieeexplore.ieee.org/document/6177723/}.
-
 \bibitem[API()]{APISGURU}
 \emph{{APIs}}.
 \newblock URL \url{https://apis.guru/openapi-directory/}.
@@ -200,37 +239,17 @@ J.~Fan, A.~Kalyanpur, D.~C. Gondek, and D.~A. Ferrucci.
 \emph{{Open Knowledge Foundation}}, {\natexlab{b}}.
 \newblock URL \url{https://discuss.okfn.org/}.
 
+\bibitem[KGc()]{KGcovid19}
+\emph{{Knowledge Graph COVID-19}}.
+\newblock URL
+  \url{ttp://www.odbms.org/2020/03/we-build-a-knowledge-graph-on-covid-19/}.
+
 \bibitem[Gil and Selman(2019)]{Gil2019}
 Yolanda Gil and Bart Selman.
 \newblock {A 20-Year Community Roadmap for Artificial Intelligence Research in
   the US}.
 \newblock aug 2019.
 \newblock URL \url{https://bit.ly/2ZNVBVb http://arxiv.org/abs/1908.02624}.
-
-\bibitem[Futia and Vetr{\`{o}}(2020)]{Futia2020}
-Giuseppe Futia and Antonio Vetr{\`{o}}.
-\newblock {On the integration of knowledge graphs into deep learning models for
-  a more comprehensible AI-Three challenges for future research}.
-\newblock \emph{Information (Switzerland)}, 11\penalty0 (2), 2020.
-\newblock ISSN 20782489.
-\newblock \doi{10.3390/info11020122}.
-
-\bibitem[Maass(2014)]{Maass2014}
-Wolfgang Maass.
-\newblock {Noise as a resource for computation and learning in networks of
-  spiking neurons}.
-\newblock \emph{Proceedings of the IEEE}, 102\penalty0 (5):\penalty0 860--880,
-  2014.
-\newblock ISSN 00189219.
-\newblock \doi{10.1109/JPROC.2014.2310593}.
-
-\bibitem[Maass(2015)]{Maass2015}
-Wolfgang Maass.
-\newblock {To Spike or Not to Spike: That Is the Question}.
-\newblock \emph{Proceedings of the IEEE}, 103\penalty0 (12):\penalty0
-  2219--2224, 2015.
-\newblock ISSN 00189219.
-\newblock \doi{10.1109/JPROC.2015.2496679}.
 
 \bibitem[O'Hare(2015)]{OHare2015}
 Anthony O'Hare.
@@ -257,6 +276,27 @@ Markus Reichstein, Gustau Camps-Valls, Bjorn Stevens, Martin Jung, Joachim
 \newblock ISSN 0028-0836.
 \newblock \doi{10.1038/s41586-019-0912-1}.
 \newblock URL \url{www.nature.com/nature}.
+
+\bibitem[ice(2019)]{ices}
+International bottom trawl survey working group (ibtswg).
+\newblock \emph{ICES Scientific Reports}, 2019.
+
+\bibitem[Maass(2014)]{Maass2014}
+Wolfgang Maass.
+\newblock {Noise as a resource for computation and learning in networks of
+  spiking neurons}.
+\newblock \emph{Proceedings of the IEEE}, 102\penalty0 (5):\penalty0 860--880,
+  2014.
+\newblock ISSN 00189219.
+\newblock \doi{10.1109/JPROC.2014.2310593}.
+
+\bibitem[Maass(2015)]{Maass2015}
+Wolfgang Maass.
+\newblock {To Spike or Not to Spike: That Is the Question}.
+\newblock \emph{Proceedings of the IEEE}, 103\penalty0 (12):\penalty0
+  2219--2224, 2015.
+\newblock ISSN 00189219.
+\newblock \doi{10.1109/JPROC.2015.2496679}.
 
 \bibitem[Golem(2016)]{Golem2016}
 Golem.
@@ -301,10 +341,5 @@ Elli Androulaki, Artem Barger, Vita Bortnikov, Srinivasan Muralidharan,
 \newblock \doi{10.1111/j.1365-2958.2006.05434.x}.
 \newblock URL
   \url{https://www.bigchaindb.com/whitepaper/bigchaindb-whitepaper.pdf}.
-
-\bibitem[KGc()]{KGcovid19}
-\emph{{Knowledge Graph COVID-19}}.
-\newblock URL
-  \url{ttp://www.odbms.org/2020/03/we-build-a-knowledge-graph-on-covid-19/}.
 
 \end{thebibliography}
