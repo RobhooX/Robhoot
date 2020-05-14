@@ -2,24 +2,24 @@
 \contentsline {section}{\numberline {1}Excellence}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Radical vision of a science-enabled technology}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Science-to-technology breakthrough that addresses this vision}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Interdisciplinarity and non-incrementality of the research proposed}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Interdisciplinarity and non-incrementality of the research proposed}{5}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}High risk, plausibility and flexibility of the research approach}{6}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Impact}{6}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Expected impact}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Measures to maximize impact}{7}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Dissemination and exploitation of results}{7}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Communication activities}{9}{subsubsection.2.2.2}%
-\contentsline {section}{\numberline {3}Implementation}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Research methodology and work plan , work packages, deliverables}{9}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}{\bf WP1: $\mathcal {ROBHOOT}$ v.1.0}: \\ Data Knowledge Graphs}{9}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}{\bf WP2: $\mathcal {ROBHOOT}$ v.2.0}: \\ Causal Knowledge Graphs}{10}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}{\bf WP3: $\mathcal {ROBHOOT}$ v.3.0}: \\ Discovery Knowledge Graphs in Biology-Inspired Federated Networks}{12}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}Management structure, milestones and procedures}{14}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Consortium as a whole}{14}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Resources to be committed}{16}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Members of the consortium}{18}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Participants (applicants)}{18}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Third parties involved in the project (including use of third party resources)}{18}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Ethics and Security}{19}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Ethics}{19}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Security}{19}{subsection.5.2}%
+\contentsline {subsection}{\numberline {2.2}Measures to maximize impact}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Dissemination and exploitation of results}{8}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Communication activities}{10}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}Implementation}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Research methodology and work plan , work packages, deliverables}{11}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}{\bf WP1: $\mathcal {ROBHOOT}$ v.1.0}: \\ Data Knowledge Graphs}{11}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}{\bf WP2: $\mathcal {ROBHOOT}$ v.2.0}: \\ Causal Knowledge Graphs}{12}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}{\bf WP3: $\mathcal {ROBHOOT}$ v.3.0}: \\ Discovery Knowledge Graphs in Biology-Inspired Federated Networks}{15}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Management structure, milestones and procedures}{16}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Consortium as a whole}{17}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Resources to be committed}{18}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Members of the consortium}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Participants (applicants)}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Third parties involved in the project (including use of third party resources)}{20}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Ethics and Security}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Ethics}{21}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Security}{21}{subsection.5.2}%

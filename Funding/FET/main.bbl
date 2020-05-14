@@ -127,6 +127,10 @@ Johnny Dilley, Andrew Poelstra, Jonathan Wilkins, Marta Piekarska, Ben Gorlick,
 \newblock 2016.
 \newblock URL \url{http://arxiv.org/abs/1612.05491}.
 
+\bibitem[ice(2019)]{ices}
+International bottom trawl survey working group (ibtswg).
+\newblock \emph{ICES Scientific Reports}, 2019.
+
 \bibitem[{Melnik S.} et~al.(2010){Melnik S.}, {Gubarev A.}, {Long J. J.},
   {Romer G.}, {Shivakumar S.}, {Tolton M.}, and Vassilakis]{Melniketal:2010}
 {Melnik S.}, {Gubarev A.}, {Long J. J.}, {Romer G.}, {Shivakumar S.}, {Tolton
@@ -244,13 +248,6 @@ Giuseppe Futia and Antonio Vetr{\`{o}}.
 \newblock URL
   \url{ttp://www.odbms.org/2020/03/we-build-a-knowledge-graph-on-covid-19/}.
 
-\bibitem[Gil and Selman(2019)]{Gil2019}
-Yolanda Gil and Bart Selman.
-\newblock {A 20-Year Community Roadmap for Artificial Intelligence Research in
-  the US}.
-\newblock aug 2019.
-\newblock URL \url{https://bit.ly/2ZNVBVb http://arxiv.org/abs/1908.02624}.
-
 \bibitem[O'Hare(2015)]{OHare2015}
 Anthony O'Hare.
 \newblock {Inference in High-Dimensional Parameter Space}.
@@ -259,6 +256,13 @@ Anthony O'Hare.
 \newblock ISSN 1066-5277.
 \newblock \doi{10.1089/cmb.2015.0086}.
 \newblock URL \url{http://online.liebertpub.com/doi/10.1089/cmb.2015.0086}.
+
+\bibitem[Gil and Selman(2019)]{Gil2019}
+Yolanda Gil and Bart Selman.
+\newblock {A 20-Year Community Roadmap for Artificial Intelligence Research in
+  the US}.
+\newblock aug 2019.
+\newblock URL \url{https://bit.ly/2ZNVBVb http://arxiv.org/abs/1908.02624}.
 
 \bibitem[Cranmer et~al.(2019)Cranmer, Brehmer, and Louppe]{Cranmer2019}
 Kyle Cranmer, Johann Brehmer, and Gilles Louppe.
@@ -276,10 +280,6 @@ Markus Reichstein, Gustau Camps-Valls, Bjorn Stevens, Martin Jung, Joachim
 \newblock ISSN 0028-0836.
 \newblock \doi{10.1038/s41586-019-0912-1}.
 \newblock URL \url{www.nature.com/nature}.
-
-\bibitem[ice(2019)]{ices}
-International bottom trawl survey working group (ibtswg).
-\newblock \emph{ICES Scientific Reports}, 2019.
 
 \bibitem[Maass(2014)]{Maass2014}
 Wolfgang Maass.

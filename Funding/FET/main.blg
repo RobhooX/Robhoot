@@ -1,10 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-White space in argument---line 59 of file main.aux
- : \citation{Guimera2020,++
- :                          refs}
-I'm skipping whatever remains of this command
 The style file: unsrtnat.bst
 Database file #1: Robhoot.bib
 Warning--string name "ices" is undefined
@@ -17,6 +13,7 @@ Warning--empty journal in Gunther2018
 Warning--empty journal in Mehrabi2019
 Warning--empty journal in Real2020
 Warning--empty journal in Dilley2016
+Warning--empty author in ices
 Warning--empty booktitle in Steinruecken
 Warning--empty publisher in Steinruecken
 Warning--empty year in Modulos
@@ -36,7 +33,6 @@ Warning--empty journal in Gil2019
 Warning--empty journal in Cranmer2019
 Warning--empty year in Reichstein
 Warning--empty year in Reichstein
-Warning--empty author in ices
 Warning--there's a number but no volume in Golem2016
 Warning--empty journal in Durov2017
 Warning--empty journal in OceanProtocolFoundation2018
@@ -82,4 +78,4 @@ warning$ -- 28
 while$ -- 104
 width$ -- 0
 write$ -- 624
-(There were 2 error messages)
+(There was 1 error message)
