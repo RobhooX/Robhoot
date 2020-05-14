@@ -129,16 +129,23 @@
 %----------------------------------------------------------------------------------------
 \section*{{\bf Summary}} Global sustainability is a major goal of
 humanity. Many studies have shown global sustainability could be
-achieved by strengthening transparency, feedbacks and rapid access to
+achieved by strengthening transparency, 
+%%%mfortunaBEGIN
+communication
+%feedbacks
+%%%mfortunaEND
+and rapid access to
 reproducible information among social, ecological, economical,
-technological and governance systems. Sustainability goals, however,
-strongly depend on global access to evidence-, and discovery-based
-knowledge gaps. Yet, science-enabled technologies targeting global
-knowledge gaps to reach sustainability and biodiversity conservation
-goals are at a very incipient stage of development. We fussion data to
-causal knowledge graph, the discovery knowledge graph, in evolutionary
-biology-inspired federated networks for a sustainable- and
-knowledge-inspired society. Discovery knowledge graphs running on a
+technological and governance systems.
+%%%mfortunaBEGIN
+Yet, we are far from reaching those sustainability requirements.
+%Sustainability goals, however, strongly depend on global access to evidence-, and discovery-based knowledge gaps. Yet, science-enabled technologies targeting global knowledge gaps to reach sustainability and biodiversity conservation goals are at a very incipient stage of development.
+%%%mfortunaEND
+%%%mfortunaBEGIN
+Here, we propose to semantically annotate large-scale data sets from many databases, build a knowledge graph database from the resulting information by using Semantic Web technologies, translate a specific sustainability challenge into SPARQL queries to be run on the graph database, and get an up-to-date report on the current situation of the problem and its potential solutions.
+%%% We fussion data to causal knowledge graph, the discovery knowledge graph, in evolutionary biology-inspired federated networks for a sustainable- and knowledge-inspired society.
+%%%mfortunaEND
+Discovery knowledge graphs running on a
 federated network encompass a hybrid-technology to lay out the
 foundation of an open- and cooperative-science ecosystem to automate
 discovery in global emergency and sustainability challenges. The
@@ -961,7 +968,15 @@ developed in three main milestones and ten deliverables (Tables
 
 \subsubsection{{\bf WP1: $\mathcal{ROBHOOT}$ v.1.0}: \\ Data Knowledge
   Graphs}
+  %%%mfortunaBEGIN
+We have failed to store and organize much of the rapidly accumulating scientific information in rigorous, principled ways, so that finding what we want and understanding what is already known become exhausting, frustating, stressful and increasingly costly experiences. For information to be usable, it must be stored and organized in ways that allow us to access it, to analyze it, to annotate it and to relate it to other information. Only then can we begin to understand what it means. Only with the adquisition of meaning we adquire knowledge. Data is just a collection of facts that require interpretation in order to be converted into knowledge. 
 
+The first step is, therefore, to translate the scientific knowledge stored in existing databases to machine-readable format. Only a few databases are semantically anotated (e.g., gene ontology database). This is so because ontology development is time-consuming, requires expert knowledge and community buy-in, and is ideally paired with data-driven research that iteratively checks the soundness of the ontology as it simultaneously seeks discovery. Software tools for mapping and linking the terms between different ontologies are still to be developed, although Semantic Web technologies are included in programs such as the U.S. National Science Foundation's proposed CyberInfrastructure.
+
+The approach that we are adopting, therefore, begins with the raw data, ontologically interprets and transforms the data in order to extract its semantics and express such semantics in ontologies. These ontologies are then mapped to a graph-based data architecture. Neo4j is the implementation technology that we have currently chosen to adopt. The main reasons for adopting a graph database to persist the ontological models are: (1) the flexibility that a graph structure provides in implementing any modelling paradigm and (2) the scalability it provides in terms of organizing and accessing massive amounts of data.
+
+Next, we need to integrate the diverse and heterogeneous large-scale data sets that we have semantically annotated previously since they originate from distinct communities of scientists in separate subfields. This will be achieved in large part through the adoption of novel technologies. The few technologies and available tools are still quite esoteric for many scientists and only a few research groups have tried to apply it on real data. It is rather difficult to ask simple questions like, for example, which human diabetes-related proteins are located in the nucleus of the cell and are interacting with proteins related to pancreatic cancer. Such question requires the integration of data from multiple sources. New approaches are needed to make progress in this direction.
+%%%mfortunaEND
 
 \textcolor{blue}{API discovery technologies to build robust and
   scalable automated data-driven discovery is an existing need
