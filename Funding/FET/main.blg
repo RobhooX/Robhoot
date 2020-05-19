@@ -3,9 +3,15 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: Robhoot.bib
-Warning--string name "ices" is undefined
+Warning--string name "european" is undefined
 --line 1197 of file Robhoot.bib
-You're missing a field part---line 1201 of file Robhoot.bib
+I was expecting a `,' or a `}'---line 1197 of file Robhoot.bib
+ : author=european 
+ :                 Commission,
+I'm skipping whatever remains of this entry
+Warning--string name "ices" is undefined
+--line 1208 of file Robhoot.bib
+You're missing a field part---line 1212 of file Robhoot.bib
  : volume=
  :        ,
 I'm skipping whatever remains of this entry
@@ -22,6 +28,11 @@ Warning--empty year in IrisAI
 Warning--empty year in easeml
 Warning--empty year in datarobot
 Warning--empty year in aito
+Warning--empty author in EUcommission
+Warning--empty title in EUcommission
+Warning--empty journal in EUcommission
+Warning--empty year in EUcommission
+Warning--empty year in EUcommission
 Warning--empty year in Openstreetmap
 Warning--empty year in Bluecloud
 Warning--empty year in HOT
@@ -37,45 +48,45 @@ Warning--there's a number but no volume in Golem2016
 Warning--empty journal in Durov2017
 Warning--empty journal in OceanProtocolFoundation2018
 Warning--there's a number but no volume in BigchainDBGmbH2018
-You've used 44 entries,
+You've used 45 entries,
             2481 wiz_defined-function locations,
-            855 strings with 13494 characters,
-and the built_in function-call counts, 17142 in all, are:
-= -- 1435
+            857 strings with 13518 characters,
+and the built_in function-call counts, 17357 in all, are:
+= -- 1449
 > -- 978
 < -- 20
-+ -- 391
++ -- 393
 - -- 302
-* -- 1488
-:= -- 2728
-add.period$ -- 176
-call.type$ -- 44
-change.case$ -- 75
-chr.to.int$ -- 43
-cite$ -- 86
-duplicate$ -- 835
-empty$ -- 1452
+* -- 1510
+:= -- 2746
+add.period$ -- 177
+call.type$ -- 45
+change.case$ -- 76
+chr.to.int$ -- 44
+cite$ -- 93
+duplicate$ -- 853
+empty$ -- 1482
 format.name$ -- 342
-if$ -- 3575
+if$ -- 3620
 int.to.chr$ -- 2
-int.to.str$ -- 45
-missing$ -- 31
-newline$ -- 270
+int.to.str$ -- 46
+missing$ -- 32
+newline$ -- 273
 num.names$ -- 90
-pop$ -- 357
+pop$ -- 373
 preamble$ -- 1
-purify$ -- 44
+purify$ -- 45
 quote$ -- 0
-skip$ -- 486
+skip$ -- 497
 stack$ -- 0
-substring$ -- 632
-swap$ -- 144
+substring$ -- 635
+swap$ -- 145
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 308
-warning$ -- 28
+type$ -- 315
+warning$ -- 33
 while$ -- 104
 width$ -- 0
-write$ -- 624
-(There was 1 error message)
+write$ -- 630
+(There were 2 error messages)
