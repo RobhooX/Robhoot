@@ -1,4 +1,3 @@
----
-title: technical
----
+{% include header.html %}
+
 # Technical details
