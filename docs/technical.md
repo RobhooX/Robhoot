@@ -1,1 +1,4 @@
+---
+title: technical
+---
 # Technical details
