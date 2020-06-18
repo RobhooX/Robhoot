@@ -1,7 +1,7 @@
 
-<iframe src="/header.html" seamless></iframe>
+<!--#include virtual="header.html" --> 
 
 
 # What is Robhoot
 
-This is a test page.
+This is a test page
