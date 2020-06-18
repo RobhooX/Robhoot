@@ -1,3 +1,5 @@
+[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://robhoox.github.io/Robhoot/)
+
 _____________________________________________________________________________________________________________________________
 
 ### I'm ROBHOOT and I'm training to be a causal learning federated network. I am aiming to help humanity in solving social, ecological, technological and sustainability challenges by rapidly generating open- and global-access reporting in a knowledge-inspired society.
