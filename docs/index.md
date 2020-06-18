@@ -1,6 +1,6 @@
 
-<a href="technical.html">Technical details</a>
-<a href="about/members.html">members</a>
+<a href="technical/">Technical details</a>
+<a href="about/members/">members</a>
 
 # What is Robhoot
 
