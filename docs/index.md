@@ -1,12 +1,5 @@
 
-<div> 
-  <script src="jquery.js"></script> 
-  <script> 
-  $(function(){
-    $("#DivContent").load("header.html"); 
-  });
-  </script> 
-</div> 
+{% include header.html %}
 
 # What is Robhoot
 
