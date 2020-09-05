@@ -2,77 +2,28 @@
 
 _____________________________________________________________________________________________________________________________
 
-### I'm ROBHOOT and I'm training to be a causal learning federated network. I am aiming to help humanity in solving social, ecological, technological and sustainability challenges by rapidly generating open- and global-access reporting in a knowledge-inspired society.
+### I'm ROBHOOT. I'm training to be a set of interacting algorithms to infer patterns, processes and novel discovery paths from the data in federated networks. What are federated networks? Many heterogeneous groups of species, humans, and technologies coexist exploiting resources in complex ecosystems. This can be an operative definition of federated networks in the context of sustainability. Therefore solving interdependent federated networks can be put as a computational sustainability problem. This is challenging but needed to develop further how the intricate connections among humans, social systems, technology and economics shape Earth funcions for biodiversity maintenance and feedbacks. I am aiming to provide reproducible and (mostly automated) clues about how social, ecological, technological and sustainability challenges can be put together by rapidly generating open- and global-access reporting in a knowledge-inspired society.
 
-Global sustainability is a major goal of humanity. Many studies have shown global sustainability could be achieved by strengthening feedbacks between social, ecological and governance systems. Sustainability goals, however, strongly depend on rapidly responding to the many pressures global society is facing. Global cooperative effort in the digital ecosystem is one of the solutions to rapidly respond to build open- and global-access reports aiming to fill question-, evidence-, and research-based knowledge gaps at the global scale. Yet, despite rapid advances in the technology of cooperating agents along a network of nodes (i.e., federated networks), the science and digital ecosystem still lack integrated and functional technologies to narrow down knowledge gaps in a reproducible and open discovery ecosystem. In this regard, I  aim being trained to generate reproducible science fully accounting for the research cycle along a federated network. I also am being trained to target the reduction of knowledge gaps by generating open-access reproducible global science reports. NGOs and GOs can have access without depending of third parties to have transparent and reproducible information when taking decisions about complex social, ecological and governance problems. I'm a hybrid-neutral-technology to lay out the foundation of an open-science ecosytem strengthening the robustness, decentralization and reproducibility of science. Guys, I'm not set out to deliver a finished open discovery network in the science ecosystem yet, but I'm looking forward to provide a science-enabled technology in establishing a prototype proof-of-principle to connect automated, decentralized and neutral-knowledge generation with knowledge-inspired societies.
+Global sustainability is a major goal of humanity. Many studies have shown global sustainability could be achieved by strengthening feedbacks between social, ecological and governance systems. Sustainability goals, however, strongly depend on rapidly responding to the many pressures global society is facing. Global cooperative effort in the digital ecosystem is one of the solutions to rapidly respond to build open- and global-access reports aiming to fill question-, evidence-, and research-based knowledge gaps at the local and global scale. Yet, despite rapid advances in the technology of cooperating agents along a network of nodes (i.e., federated networks in computer science), the science and digital ecosystem still lack integrated and functional technologies to narrow down knowledge gaps in a reproducible and open discovery ecosystem. In nature, biological interactions and traits diversify across multiple scales of organization, from neurons to populations and spatio-temporal scales maintaining a complex ecological balance. This never-ending eco-evolutionary diversification of traits and
+interactions might inspires new computational approaches for a global-sustainable knowledge-based society. I am aiming to run into evolutionary diversification-inspired and artificial intelligence solutions for sustainability in natural ecosystems. I am validating evolutionary diversification-inspired and AI solutions for case studies focusing on the sustainability of the oceans in federated networks, where many heterogeneous groups of species, humans, and technologies coexist exploiting resources in complex ecosystems. 
 
-I'm being developed in four stages. The most advanced version, Robhoot v.4.0 will provide real-time open-access global science reporting in a decentralized neutral-knowledge network. Automating fully the research cycle in a open decentralized learning network ultimately aims to integrate human-expertise generated science with machine-generated science to enrich human-knowledge in a neutral-knowledge-inspired society. The following readme is a brief description of each of the Robhoot versions. Please take a look at the open issues for contributing to Robhoot development:
-_____________________________________________________________________________________________________________________________
+Computational sustainability running on a federated network encompasses a hybrid-technology to lay out the foundation of an open- and cooperative-science ecosystem for sustainability discovery in the face of global challenges. All the info summarized here not only sets out to deliver novel computational sustainability approaches but also to provide fully reproducible open-source software solutions of a science-enabled technology to connect knowledge-inspired societies to global sustainability challenges. I'm being developed in three stages 
 
-
-_________________________________________________________________________________________________________________________
-
-### ROBHOOT v.1.0: OPEN AUTOMATED DISCOVERY 
-
-#### DATA INTEGRATION: DETLs
-
-Extraction, Transformation and Load, the ETLs, are being extended with automated API discovery and automated question- and data structure-discovery algorithms. DETLs are being developed in open-source languages to automate API exploration to extract, transform and load data with different properties into a set of databases (i.e., formats, historical-real time, storage, dimensions, size, sampling bias and spatiotemporal resolution). Three main technological gaps remain open for automated data integration: 
-
-* Question-based knowledge graph from existing literature via corpus conversion algorithms
-* Automated API discovery
-* Server-based knowledge graph connecting servers by data-structure similarity
-
-#### BAYESIAN SPACE MODELS
-
-Bayesian models are being extended to populations of open-ended causal knowledge graph models to causal discover of the underlying processes predicting the empirical patterns. The Bayesian space models module will search, evaluate models trading-off complexity, fit to multidimensional data and quantify resource usage to extract properties like inference, causality, robustness and validation. One main technological gap remain open for automated Bayesian space models:
-
-* Causal-based knowledge graph integrating agent- and process-based modeling to deep learning networks
+### ROBHOOT v.1.0: DATA KNOWLEDGE DISCOVERY
+### ROBHOOT v.2.0: CAUSAL KNOWLEDGE DISCOVERY
+### ROBHOOT v.3.0: DISCOVERY IN FEDERATED NETWORKS 
  
-#### ANIMATION SPACE
+The main impact of ROBHOOT is to provide a new technology to improve ecosystem sustainability relevant to community-rich digital and natural ecosystems. To support this notion, we will perform eco-evolutionary diversification-inspired simulations along the whole life cycle of the project. The central goals of ROBHOOT are:
 
-Visualization schemes are generating animations of the Data Integration and Bayesian Space Models to make the whole discovery cycle transparent, highly visual and reproducible. 
+###(G1) To extend existing theories of eco-evolutionary diversification and AI-inspired solutions to decipher the factors driving sustainability discovery in federated networks. This will allow us to identify novel solutions for ecosystem sustainability.
 
-#### REPORTING
+###(G2) To investigate how spatiotemporal evolutionary diversification and AI-inspired networks mimic the empirical patterns of natural and socio-technological ecosystems when heterogeneous human groups, technologies, and species coexist.
 
-Natural language processing algorithms are being extended to automate report generation and plotting of the Data Integration and the Bayesian space modeling modules. Robhoot will report summaries of the animation patterns and the procedures along the many Data Integation and Bayesian space models explored along the federated network.
+###(G3) To develop fast, reproducible and automated eco-evolutionary diversification-inspired sustainability discovery prototypes for real-time information processing tasks.
 
-#### ROBHOOT v.1.0 TESTNET COVID-19 Case Study
+###(G4) To obtain principles of sustainability discovery for prediction in federated networks when diversification in interactions and traits occurs in a large and heterogeneous set of species, technologies and human groups.
 
-ROBHOOT v.1.0 TESTNET is exploring the "Covid-19 Pandemia" as a case study to explore the robustness of the automated discovery cycle to generate open global science reports. ROBHOOT is contrasting "Eco-evo dynamics of hot- and cold- urban spots in the global human-Covid-19 interaction" exploring three scenarios. Please take a look at the Robhack folder for further details.
-
-#### ROBHOOT v.1.0 aims to discover new patterns in the following fields:
-
-* Developing the science of science to infer paths responding robustly to empirically-driven questions.
-* Identifying the strength of bias and uncertainty in multidimensional inference.
-* Exploring predictions-explanatory gradients to gain understanding in causal knowledge graphs.
-* Identifying gaps in patterns not explored consequence of lack of integration within and between disciplines (i.e., research knowledge gap), and
-* Facilitating the 4R in open science: reusability, repeatability, replicability, and reproducibility.
-
+The most advanced version, Robhoot v.3.0, will provide real-time open-access global science reportings facilitating discovery paths. 
 _____________________________________________________________________________________________________________________________
 
 
-_____________________________________________________________________________________________________________________________
-
-### ROBHOOT v.2.0: KNOWLEDGE GRAPHS
-
-ROBHOOT v.2.0 is being developed to track all paths of the discovery cycle in ROBHOOT v.1.0. ROBHOOT v.2.0 is working with Knowledge Graphs (KGs) exploring a suite of open-source lineage client-tracker algorithms (i.e., Renku and others) to analyzed the distribution of discovery paths along a federated network.
-
-_____________________________________________________________________________________________________________________________
-
-
-_____________________________________________________________________________________________________________________________
-
-### ROBHOOT v.3.0: DEEP LEARNING NETWORK
-
-ROBHOOT v.3.0 is deploying automated deep learning algorithms to sample paths of the research cycle to produce populations of Knowledge Graphs (KGs). ROBHOOT v.3.0 is helping to quantify the robustness of the population of KGs along Bayesian space models and optimization algorithms. 
-
-____________________________________________________________________________________________________________________________
-
-
-_____________________________________________________________________________________________________________________________
-
-### ROBHOOT v.4.0: FEDERATED NETWORK
-
-ROBHOOT v.4.0 is being developed in a permissioned-permissionless distributed network to guarantee cooperation, decentralization, and open-access in a neutral-knowledge-based network. The network is accounting for prior confidenciality/posterior reproducibility of the KGs populations. ROBHOOT v.4.0 is exploring a suite of consensus algorithms among trusted-untrusted peer-to-peer interactions scenarios to facilitate open- and global-reporting generation within a discovery federated network. ROBHOOT v.4.0 is aiming to generate a mainnet Open Discovery Federated Network to link each population of KGs to the previous KGs-ledger to create an historical open KGs-ledger chain that goes back to the genesis ledger in the Open Discovery Network. ROBHOOT v.4.0 mainnet aims to functionally work in the digital ecosystem connecting data integration, Bayesian Space modeling, visualization and open- and global-reporting to knowledge-inspired societies.
-
-_____________________________________________________________________________________________________________________________
