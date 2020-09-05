@@ -15,13 +15,13 @@ Computational sustainability running on a federated network encompasses a hybrid
  
 The main impact of ROBHOOT is to provide a new technology to improve ecosystem sustainability relevant to community-rich digital and natural ecosystems. To support this notion, we will perform eco-evolutionary diversification-inspired simulations along the whole life cycle of the project. The central goals of ROBHOOT are:
 
-###(G1) To extend existing theories of eco-evolutionary diversification and AI-inspired solutions to decipher the factors driving sustainability discovery in federated networks. This will allow us to identify novel solutions for ecosystem sustainability.
+### (G1) To extend existing theories of eco-evolutionary diversification and AI-inspired solutions to decipher the factors driving sustainability discovery in federated networks. This will allow us to identify novel solutions for ecosystem sustainability.
 
-###(G2) To investigate how spatiotemporal evolutionary diversification and AI-inspired networks mimic the empirical patterns of natural and socio-technological ecosystems when heterogeneous human groups, technologies, and species coexist.
+### (G2) To investigate how spatiotemporal evolutionary diversification and AI-inspired networks mimic the empirical patterns of natural and socio-technological ecosystems when heterogeneous human groups, technologies, and species coexist.
 
-###(G3) To develop fast, reproducible and automated eco-evolutionary diversification-inspired sustainability discovery prototypes for real-time information processing tasks.
+### (G3) To develop fast, reproducible and automated eco-evolutionary diversification-inspired sustainability discovery prototypes for real-time information processing tasks.
 
-###(G4) To obtain principles of sustainability discovery for prediction in federated networks when diversification in interactions and traits occurs in a large and heterogeneous set of species, technologies and human groups.
+### (G4) To obtain principles of sustainability discovery for prediction in federated networks when diversification in interactions and traits occurs in a large and heterogeneous set of species, technologies and human groups.
 
 The most advanced version, Robhoot v.3.0, will provide real-time open-access global science reportings facilitating discovery paths. 
 _____________________________________________________________________________________________________________________________
