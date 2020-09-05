@@ -23,7 +23,7 @@ The main impact of ROBHOOT is to provide a new technology to improve ecosystem s
 
 ### (G4) To obtain principles of sustainability discovery for prediction in federated networks when diversification in interactions and traits occurs in a large and heterogeneous set of species, technologies and human groups.
 
-The most advanced version, Robhoot v.3.0, will provide real-time open-access global science reportings facilitating discovery paths. 
+The most advanced version, Robhoot v.3.0, will provide real-time open-access global science reportings facilitating discovery paths to advance computational sustainability tools in the open digital ecosystems.
 _____________________________________________________________________________________________________________________________
 
 
