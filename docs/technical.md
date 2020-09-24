@@ -1,3 +1,9 @@
 {% include header.html %}
 
-# Technical details
+# Tutorial
+
+This is how to run the package
+
+```julia
+using Robhoot
+```
