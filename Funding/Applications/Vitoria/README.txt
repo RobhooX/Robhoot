@@ -26,6 +26,16 @@ Should we focus on one sector or the interactions (transversal) among sectors?
 
 ------------------------------------------------------------------------------------
 
+#Eduardo Carlos Octubre 2 2020
+
+Symbiosis along circular economy clusters 
+
+Raw goods == distrubution == circulating across SME == network approaches 
+INPUTS == raw materials, energy, information
+DEEP LEARNING NETWORKS == metrics circulating inputs minimizing outputs
+OUTPUTS == total amount of waste from materials, energy and information
+SOCIAL CLUSTERS == where can they bee added to maximize circulating loops and minimazing outputs  
+
 
 
 
