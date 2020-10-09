@@ -36,8 +36,13 @@ DEEP LEARNING NETWORKS == metrics circulating inputs minimizing outputs
 OUTPUTS == total amount of waste from materials, energy and information
 SOCIAL CLUSTERS == where can they bee added to maximize circulating loops and minimazing outputs  
 
+-----------------------------------------------------
+#Eduardo Carlos Octubre 9 2020 
+
+2pp summary Symbiosis along circular socio-economic networks
+Intersectorial -- Economia Social -- Bioeconomia -- 
 
 
-
+-----------------------------------------------------
 
 
