@@ -28,7 +28,7 @@ Should we focus on one sector or the interactions (transversal) among sectors?
 
 #Eduardo Carlos Octubre 2 2020
 
-Symbiosis along circular economy clusters 
+Symbiosis along networks of circular economy clusters 
 
 Raw goods == distrubution == circulating across SME == network approaches 
 INPUTS == raw materials, energy, information
@@ -44,5 +44,43 @@ Intersectorial -- Economia Social -- Bioeconomia --
 
 
 -----------------------------------------------------
+
+
+-------------------------------------
+# Eduardo Carlos Octubre 23 2020
+
+
+
+Green deal January 21, 2021
+https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/lc-gd-3-2-2020;freeTextSearchKeyword=circular;typeCodes=1;statusCodes=31094501,31094502;programCode=H2020;programDivisionCode=null;focusAreaCode=null;crossCuttingPriorityCode=null;callCode=Default;sortQuery=openingDate;orderBy=asc;onlyTenders=false;topicListKey=topicSearchTablePageState
+
+Two big components
+1. Clusters with applied cases: Vitoria, Valladolid
+Which sectors? 
+2. Science-enabled technology applied to quantify 
+Symbiosis in networks 
+
+Vision and key questions:
+Where are the key symbiosis interactions within and across sectors? 
+Years and max $
+Proposal Template
+
+Questions NCP:
+Do we need 3 cluster in different EU geographic areas?
+Which clusters, for example, are spain, switzerland and sweden ok?
+Do you know any case with 3 clusters implementing interdisciplinarity sectors at once?
+[8:23 PM]
+Se necesitarian 3 clusters en areas geograficas de la ue diferentes?
+[8:23 PM]
+Valdria por ejemplo España, Suiza y Suecia?
+[8:25 PM]
+Seria necesario integrar 3 case study usando diferentes sectores al mismo tiempo?
+[8:26 PM]
+Que estado de infraestructura de datos seria necesario tener en cada uno de los case study?
+
+-------------------------------------
+
+
+
 
 
