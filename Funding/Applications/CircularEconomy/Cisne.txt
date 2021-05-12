@@ -1,0 +1,42 @@
+
+
+NAME:
+Circular Sustainability in Social and Ecological Networks: Acronym: CISNE
+
+ALTERNATIVES:
+Circular Economy in Ecological Networks: Acronym: CIRNEXT
+Circular Economy for sustainable society and ecosystems: Acronym: CIRES
+
+GENERAL TITLE: Symbiosis along networks of circular economy clusters 
+
+QUESTIONS:
+What we wanna build?
+How we wanna build it?
+Why?
+Where are the key symbiosis of what we wanna build? 
+Are there symbiosis within and between sectors at the local and regional scale?
+Can we draw a symbiosis network at the local and regional scale? 
+Can we draw a flow-material symbiosis network with all the inputs-process-outputs?
+
+EXAMPLES
+https://cireco.fi/en/home/
+https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en
+https://ec.europa.eu/info/strategy/international-strategies/sustainable-development-goals_en
+
+FEATURES
+Life cycle: Energy, material and information 
+Reproducible digital repository 
+Decentralized public blockchain tracking production life cycle
+
+GOALS
+Aim:SDGs
+Innovation:Min-max goals
+Origin:Clean materials
+Resource conservation:Min raw and max recycled material
+Design:Long term vision 
+Geography:Promote Local-Regional sustainable development
+Emisions: Zero-gases-emissions
+
+ABSTRACT:
+Circular economy is currently the main response to min raw material, GHG emissions, pollution, waste generation, natural capital and biodiversity loss. Circularity is, however, embedded in symbiosis interactions among many local and regional partners, like bacterial consortia, i.e., a network of interacting bacteria with functional properties like nutrient recycling. Yet, there is a gap in sustainability when connecting circular economy to industrial symbiosis networks to reach the min-max sustainability development goals. To build long term innovation following circular economy principles we also would need to identify key symbiosis partners at the local and regional scales to maximize the recovery and recycling of energy, material and information for any product and technology being envisioned. In this project we aim to further develop the connection between circular economy and industrial symbiosis networks to gain traction on transparent life cycle production (i.e., bicycles, cargos, and beyond), social justice ensuring environmental sustainability and decentralized public reproducible digital repository aiming to track the min-max sustainability development goals in a general and reproducible framework. 
+
