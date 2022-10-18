@@ -7,6 +7,8 @@
 
 ![My animated logo](logo.svg)
 
+![Data](Figure1_data.png)
+
 ### Deciphering the mechanisms driving the empirical patterns with causal knowledge discovery graphs
 
 ![Screenshot](plots/Figure2_causal.pdf)
