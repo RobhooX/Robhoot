@@ -4,7 +4,8 @@
 
 ### Making sense of fine-grained data integration throughout data knowledge discovery graphs
 
-![Screenshot](plots/Figure1_data.png)
+%![Screenshot](plots/Figure1_data.png)
+![My animated logo](plots/logo.svg)
 
 ### Deciphering the mechanisms driving the empirical patterns with causal knowledge discovery graphs
 

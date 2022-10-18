@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280" height="260" version="1.1" viewBox="0 0 280 260" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="grad" x1="140" x2="140" y1="260" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#ffa00f" offset="0"/>
+    <stop stop-color="#ffbe0f" offset="1"/>
+  </linearGradient>
+  <path d="m15 150c6.3913 2.885 20.753 8.8719 30 25 20 35 25 70-5 70s-25-35-5-70l60-90c20-35 25-70-5-70s-25 35-5 70l60 90c20 35 25 70-5 70s-25-35-5-70l60-90c20-35 25-70-5-70s-25 35-5 70l60 90c20 35 25 70-5 70s-25-35-5-70c9.2467-16.128 23.609-22.115 30-25" fill="none" stroke="#aaa" stroke-linecap="round" stroke-width="30"/>
+  <path d="m15 150c6.3913 2.885 20.753 8.8719 30 25 20 35 25 70-5 70s-25-35-5-70l60-90c20-35 25-70-5-70s-25 35-5 70l60 90c20 35 25 70-5 70s-25-35-5-70l60-90c20-35 25-70-5-70s-25 35-5 70l60 90c20 35 25 70-5 70s-25-35-5-70c9.2467-16.128 23.609-22.115 30-25" fill="none" stroke="url(#grad)" stroke-linecap="round" stroke-width="30" stroke-dashoffset="1374" stroke-dasharray="1374">
+    <animate id="anim1" attributeName="stroke-dashoffset" from="1374" to="0" dur="4s" fill="freeze" calcMode="spline" keyTimes="0; 1" keySplines=".42,0,.58,1" begin="0s; anim2.end"/>
+    <animate id="anim2" attributeName="stroke-dashoffset" from="2748" to="1374" dur="4s" fill="freeze" calcMode="spline" keyTimes="0; 1" keySplines=".42,0,.58,1" begin="anim1.end + 8s"/>
+  </path>
+</svg>
