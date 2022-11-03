@@ -2,14 +2,19 @@
 
 # Technical details
 
-#### Making sense of fine-grained data integration throughout data knowledge discovery graphs
+### Data Knowledge Discovery
+#### Making sense of fine-grained data integration throughout data knowledge graphs
 
 ![Data](Figure1_data.png)
 
-#### Deciphering the mechanisms driving the empirical patterns with causal knowledge discovery graphs
+
+### Causal Knowledge Discovery
+#### Deciphering the mechanisms driving the empirical patterns with causal graphs
+
 
 ![Causal](Figure2_causal.png)
 
+### Discovery in Federated Networks
 #### Finding novel paths, the discovery side of sustainability
 
 ![Discovery](logo.svg)
