@@ -128,8 +128,8 @@ plot(bn_iamb)
 bn_interiamb = inter.iamb(df)
 plot(bn_interiamb)
 # IAMB-FDR algorithm
-bn_iambfdr = iamb.fdr(df)
-plot(bn_iambfdr)
+# bn_iambfdr = iamb.fdr(df)
+# plot(bn_iambfdr)
 # MMPC algorithm
 bn_mmpc = mmpc(df)
 plot(bn_mmpc)
