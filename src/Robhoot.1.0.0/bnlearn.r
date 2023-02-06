@@ -45,8 +45,8 @@ plot(bn_iamb)
 bn_interiamb = inter.iamb(df, whitelist=wl, blacklist=bl)
 plot(bn_interiamb)
 # IAMB-FDR algorithm: Error in if (a <= alpha) { : missing value where TRUE/FALSE needed
-bn_iambfdr = iamb.FDR(df, whitelist=wl, blacklist=bl)
-plot(bn_iambfdr)
+# bn_iambfdr = iamb.FDR(df, whitelist=wl, blacklist=bl)
+# plot(bn_iambfdr)
 # MMPC algorithm
 bn_mmpc = mmpc(df, whitelist=wl, blacklist=bl)
 plot(bn_mmpc)
